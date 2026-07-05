@@ -10,6 +10,8 @@ Files in `docs/` are governed Knowledge Assets — containers for meaning, not c
 
 For capture routing and promotion discipline, see `docs/operations/OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW.md` (Draft / Advisory). Do not over-promote observations into formal assets.
 
+For decision promotion and approval, see `docs/operations/OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW.md` (Draft / Advisory).
+
 ## Placement
 
 Place new assets in the appropriate `docs/` subfolder per `docs/README.md`.
@@ -46,6 +48,7 @@ Seed assets may lack full metadata; add it on the next substantive edit.
 - Do not set **Approved** or **Canonical** without explicit Founder approval
 - **Curator** may recommend; only **Founder** approves during foundation phase
 - Backlog questions are not decisions; lessons and research notes are evidence, not decisions
+- **Proposed is not Approved**; do not use **Exploratory** status on Decision Records
 - When superseding an asset, update its status and link the replacement
 - Keep exploratory content clearly labeled until promoted
 

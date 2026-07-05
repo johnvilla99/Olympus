@@ -24,11 +24,16 @@ alwaysApply: true
 - Existing IDs remain valid; IDs are stable once assigned; do not reuse IDs.
 - Convention is **Draft / Advisory** until formal promotion.
 
+For decision promotion and approval routing, see `docs/operations/OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW.md` (Draft / Advisory).
+
 ## Status rules
 
 **Knowledge Assets:** Exploratory, Draft, Proposed, Approved, Canonical, Superseded, Retired.
 
 **Decision Records:** Draft, Proposed, Approved, Superseded, Retired — **not Exploratory**.
+
+- **Proposed is not Approved.**
+- **Approved** requires explicit John approval — commit or push alone is not approval unless John explicitly says so.
 
 ## Authority rules
 

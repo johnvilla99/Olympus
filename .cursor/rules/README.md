@@ -17,4 +17,6 @@ Agent roles and operating model: `docs/operations/OPM-001_OLYMPUS_AGENT_OPERATIN
 
 Knowledge capture workflow: `docs/operations/OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW.md` (Draft / Advisory).
 
+Decision promotion / approval workflow: `docs/operations/OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW.md` (Draft / Advisory).
+
 Governance standards: OLY-GOV-001 through OLY-GOV-004 in `docs/governance/`.

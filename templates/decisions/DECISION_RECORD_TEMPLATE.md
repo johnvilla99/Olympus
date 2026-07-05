@@ -2,6 +2,8 @@
 
 > **Status:** Starter template — copy and customize. Do not treat this file as an approved decision.
 
+**Approval note:** **Proposed is not Approved.** Setting status to **Approved** requires explicit approval from **John S. Villasenor**. Commit or push alone does not approve a decision unless John explicitly says so. See `docs/operations/OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW.md`.
+
 ## Metadata
 
 | Field | Value |

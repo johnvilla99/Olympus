@@ -26,6 +26,8 @@ Operating model: `docs/operations/OPM-001_OLYMPUS_AGENT_OPERATING_MODEL.md` (Dra
 
 Capture workflow: `docs/operations/OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW.md` (Draft / Advisory).
 
+Decision promotion: `docs/operations/OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW.md` (Draft / Advisory).
+
 ## Session handoff
 
 At end of work, report:
@@ -35,7 +37,7 @@ At end of work, report:
 - **Decisions made** vs **observations** (handoffs are not formal decisions)
 - Commands run, validation/evidence
 - Open questions, risks/watch items, recommended next steps
-- **Capture Review** when session produced candidate decisions, lessons, research, or operating-model changes (see OPM-002)
+- **Capture Review** when session produced candidate decisions, lessons, research, or operating-model changes (see OPM-002; route decision candidates per OPM-003)
 
 Prompt template: `docs/operations/session_handoff_prompt.md`.
 

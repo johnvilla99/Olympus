@@ -77,8 +77,8 @@ _Evidence packet section — what changed and how it was verified. Do not invent
 
 ## Capture Review
 
-_Route session outputs per OPM-002. Skip or state "none" if no durable captures._
+_Route session outputs per OPM-002 and OPM-003. Skip or state "none" if no durable captures._
 
 | Capture Candidate | Route | Notes |
 |---|---|---|
-| _Decision candidate / backlog question / lesson / research note / operating-model update_ | _None / Log / Handoff / Backlog / Knowledge Asset / LLR / RNO / Decision Record / OPM_ | _Reasoning or follow-up_ |
+| _Decision candidate / backlog question / lesson / research note / operating-model update_ | _No decision / Backlog / Draft Decision Record / Proposed Decision Record / Log / Handoff / Knowledge Asset / LLR / RNO / OPM_ | _Reasoning or follow-up per OPM-002 and OPM-003_ |

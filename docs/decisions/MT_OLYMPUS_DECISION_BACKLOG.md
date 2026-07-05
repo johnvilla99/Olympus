@@ -28,6 +28,7 @@ Founder-aligned working direction captured in governance standards (2026-07-05).
 | Named agent roles | **John** (Founder), **Hermes** (Director), **Hephaestus** (Coder / Cursor) — Draft / Advisory | `docs/operations/OPM-001_OLYMPUS_AGENT_OPERATING_MODEL.md`; `AGENT_ROLES.md` (short reference) |
 | Olympus Agent Operating Model | Draft / Advisory working answer in OPM-001 — **not** Approved or Canonical | OPM-001 |
 | Knowledge Capture Workflow | Draft / Advisory triage and routing workflow in OPM-002 — **not** Approved or Canonical | OPM-002 |
+| Decision Promotion / Approval Workflow | Draft / Advisory promotion workflow in OPM-003 — **not** Approved or Canonical | OPM-003 |
 
 ---
 
@@ -39,7 +40,7 @@ Founder-aligned working direction captured in governance standards (2026-07-05).
 | OLY-DB-002 | What is the official relationship between Olympus, Mnemosyne, Metis, and the Muses? | Conceptual Model | Open | Current model is promising but exploratory. |
 | OLY-DB-005 | What is Curator? | Operating Model | Open | Proposed AI owner; may recommend promotion but cannot approve during foundation phase. OPM-001 does not define Curator as an active agent role. |
 | OLY-DB-007 | Which project participates first? | Strategy | Open | Hobby Brain is origin, but portfolio-wide intent is explicit. |
-| OLY-DB-009 | How should agents discover authoritative knowledge? | Operating Model | Open | Partially addressed by OLY-GOV-002/003/004, OPM-001, OPM-002, and Cursor rules; formal decision still open. |
+| OLY-DB-009 | How should agents discover authoritative knowledge? | Operating Model | Open | Partially addressed by OLY-GOV-002/003/004, OPM-001, OPM-002, OPM-003, and Cursor rules; formal decision still open. |
 | OLY-DB-010 | How should institutional knowledge be audited? | Governance | Open | Future concern after initial foundation. |
 
 ---

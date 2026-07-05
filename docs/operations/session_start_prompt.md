@@ -97,3 +97,4 @@ Before first edit:
 | ACR-002 | `docs/concepts/ACR-002_FROM_MYTH_TO_PLUMBING.md` |
 | Muse Catalog Starter | `docs/muses/MUSE_CATALOG_STARTER.md` |
 | Knowledge Capture Workflow | `docs/operations/OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW.md` |
+| Decision Promotion / Approval Workflow | `docs/operations/OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW.md` |
