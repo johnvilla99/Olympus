@@ -35,7 +35,9 @@ Never treat **Exploratory** or **Draft** assets as final decisions.
 | Mnemosyne | Memory — durable accumulated knowledge |
 | Metis | Judgment — reasoning over memory |
 | Muses | Durable expertise domains (not agents) |
-| Agents | Temporary session helpers serving Muses |
+| Agents | Temporary assistants serving Muses — e.g. **Hephaestus** (Coder) in Olympus Cursor sessions |
+
+Named operating roles (Draft / Advisory): **Zeus** (Founder), **Hermes** (Director), **Hephaestus** (Coder). See `docs/operations/AGENT_ROLES.md`.
 
 ## Layer discipline
 

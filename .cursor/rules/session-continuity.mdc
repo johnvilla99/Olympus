@@ -11,7 +11,7 @@ Align with **OLY-GOV-004** (`docs/governance/SESSION_CONTINUITY_STANDARD.md`).
 
 Before editing, establish (or confirm):
 
-- Date, agent/role, repository path, branch
+- Date, agent/role (default: **Hephaestus / Coder**), repository path, branch
 - Uncommitted work (`git status --short`)
 - Active workstream and scope boundaries
 - Required reading complete or explicitly waived by Founder

@@ -8,7 +8,7 @@ _YYYY-MM-DD_
 
 ## Agent / Role
 
-_Agent name, model, or human role — e.g. Cursor Agent, Governance Muse assistant_
+_Agent name, model, or human role — default Olympus Cursor persona: **Hephaestus / Coder** (see `docs/operations/AGENT_ROLES.md`)_
 
 ## Repository State
 

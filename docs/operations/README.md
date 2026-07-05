@@ -28,6 +28,7 @@ Starter directory — proposed organization.
 
 | Asset | File | Purpose |
 |---|---|---|
+| Agent Roles | `AGENT_ROLES.md` | Zeus / Hermes / Hephaestus operating model |
 | Session Start Prompt | `session_start_prompt.md` | Paste-ready Cursor session opening |
 | Session Handoff Prompt | `session_handoff_prompt.md` | Paste-ready Cursor session closing |
 

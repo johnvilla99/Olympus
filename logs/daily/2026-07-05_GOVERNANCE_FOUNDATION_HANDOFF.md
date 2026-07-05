@@ -154,6 +154,22 @@ Deferred until product / architecture phase or later operating-model work (see b
 6. Confirm **active workstream** with John before editing.
 7. Do **not** reopen settled working answers unless new evidence or Founder direction exists.
 
+## Follow-up (2026-07-05): Hephaestus agent naming
+
+Founder direction (Zeus): the Olympus **Coder** agent persona is **Hephaestus** — the default Cursor implementation assistant.
+
+| Role | Name |
+|---|---|
+| Founder | Zeus (John S. Villasenor) |
+| Director | Hermes |
+| Coder | Hephaestus (Cursor) |
+
+Documented in `docs/operations/AGENT_ROLES.md`. Session prompts, Cursor rules, and templates updated accordingly. Status remains **Draft / Advisory** — not an approved GDR or OPM asset.
+
+**Uncommitted at follow-up:** this handoff update, `AGENT_ROLES.md`, and related Hephaestus alignment edits.
+
+---
+
 ## Change / Commit Status
 
 - Prior governance foundation work appears **committed** on `main` (through `1ec7487`).

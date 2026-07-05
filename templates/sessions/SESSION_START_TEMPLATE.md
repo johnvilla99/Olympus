@@ -8,7 +8,7 @@ _YYYY-MM-DD_
 
 ## Agent / Role
 
-_Agent name, model, or human role_
+_Agent name, model, or human role — default Olympus Cursor persona: **Hephaestus / Coder**_
 
 ## Required Reading
 

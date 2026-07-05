@@ -13,4 +13,6 @@ Persistent AI guidance for working in the Olympus repository. All rules support 
 
 Operational prompts (paste into Cursor): `docs/operations/session_start_prompt.md`, `docs/operations/session_handoff_prompt.md`.
 
+Agent roles (Zeus / Hermes / Hephaestus): `docs/operations/AGENT_ROLES.md`.
+
 Governance standards: OLY-GOV-001 through OLY-GOV-004 in `docs/governance/`.

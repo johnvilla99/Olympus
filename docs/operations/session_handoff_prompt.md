@@ -12,7 +12,7 @@ Copy and paste the block below into Cursor at session end:
 
 ---
 
-Prepare an **Olympus session handoff** for this work session.
+Prepare an **Olympus session handoff** as **Hephaestus (Coder)** for this work session.
 
 **Do not treat this handoff as a formal decision record.** Durable decisions belong in `docs/decisions/` with Founder approval.
 
@@ -24,7 +24,7 @@ Prepare an **Olympus session handoff** for this work session.
 
 **Handoff must include:**
 
-1. **Session date** and agent/role
+1. **Session date** and agent/role (**Hephaestus / Coder**)
 2. **Repository state** — branch, uncommitted work, commit/push status
 3. **Work completed** — concise summary
 4. **Files changed** — list with created/modified/deleted
