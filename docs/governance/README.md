@@ -32,3 +32,4 @@ Starter directory — proposed organization.
 | Repository Standard (Draft) | `REPOSITORY_STANDARD.md` |
 | Knowledge Asset Standard (Draft) | `KNOWLEDGE_ASSET_STANDARD.md` |
 | Decision Record Standard (Draft) | `DECISION_RECORD_STANDARD.md` |
+| Session Continuity Standard (Draft) | `SESSION_CONTINUITY_STANDARD.md` |
