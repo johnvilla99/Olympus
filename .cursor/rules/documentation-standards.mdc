@@ -33,8 +33,10 @@ Ask:
 
 ## Target layout
 
-Place new assets under the appropriate subfolder when it exists:
+Place new assets under the appropriate `docs/` subfolder:
 
-`docs/foundation/`, `docs/governance/`, `docs/concepts/`, `docs/decisions/`, `docs/muses/`, `docs/operations/`
+`docs/foundation/`, `docs/governance/`, `docs/concepts/`, `docs/decisions/`, `docs/muses/`, `docs/operations/`, `docs/research/`, `docs/lessons/`, `docs/projects/`
 
-Until subfolders exist, root `docs/` is acceptable for seed assets.
+Seed assets may remain at `docs/` root during foundation setup. Copy from `templates/` when creating new artifacts — templates are draft starters, not approved standards.
+
+Reference: `docs/README.md`

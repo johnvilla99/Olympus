@@ -45,7 +45,7 @@ coverage/
 
 # Logs and temporary files
 *.log
-logs/
+logs/**/*.log
 tmp/
 temp/
 *.tmp

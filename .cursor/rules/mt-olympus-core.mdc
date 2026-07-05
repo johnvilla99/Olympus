@@ -5,7 +5,15 @@ alwaysApply: true
 
 # Mt. Olympus
 
-Portfolio-wide knowledge ecosystem for preserving memory, context, decisions, and judgment — not a document dump.
+Portfolio-wide, **documentation-first**, proprietary knowledge ecosystem for preserving memory, context, decisions, and judgment — not a document dump.
+
+## Repository status
+
+**Foundation setup — exploratory.** Starter assets, templates, and directory scaffolding are draft unless explicitly promoted and approved by the Founder. ACR-001 and other seed documents are informational, not canonical.
+
+## Proprietary
+
+Repository contents are proprietary and confidential per `LICENSE`. Do not assume external redistribution or publication rights.
 
 ## Authority (highest first)
 
@@ -52,4 +60,4 @@ Application UI, database design, graph implementation, automation pipelines, API
 - Do not promote exploratory ideas prematurely
 - Do not design implementation before product and governance are clear
 
-Reference: `README.md`, `docs/MT_OLYMPUS_PROJECT_INSTRUCTIONS.md`, `docs/OLYMPUS_GOVERNANCE_STARTER.md`
+Reference: `README.md`, `LICENSE`, `docs/README.md`, `docs/MT_OLYMPUS_PROJECT_INSTRUCTIONS.md`, `docs/OLYMPUS_GOVERNANCE_STARTER.md`

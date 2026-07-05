@@ -6,7 +6,11 @@ alwaysApply: false
 
 # Knowledge Assets
 
-Files in `docs/` are governed Knowledge Assets — containers for meaning, not casual notes.
+Files in `docs/` are governed Knowledge Assets — containers for meaning, not casual notes. Use `templates/knowledge-assets/KNOWLEDGE_ASSET_TEMPLATE.md` as a starter structure; templates are draft, not governed assets.
+
+## Placement
+
+Place new assets in the appropriate `docs/` subfolder per `docs/README.md`. Seed assets may remain at `docs/` root during foundation setup.
 
 ## Required metadata
 

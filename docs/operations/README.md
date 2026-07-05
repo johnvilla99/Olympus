@@ -1,0 +1,25 @@
+# docs/operations/
+
+Operating models, workflows, and stewardship practices for Mt. Olympus.
+
+## Purpose
+
+Describe how the knowledge ecosystem is maintained, curated, reviewed, and consumed day to day.
+
+## What belongs here
+
+- Curator and stewardship role definitions
+- Review cadences and maintenance workflows
+- Agent operating models and consumption patterns
+- Handoff and continuity process guidance (as governed assets)
+
+## What does not belong here
+
+- Raw session logs (use `logs/daily/`)
+- Governance authority standards (use `docs/governance/`)
+- Application deployment or CI/CD documentation
+- One-off chat summaries without asset metadata
+
+## Status
+
+Starter directory — proposed organization.
