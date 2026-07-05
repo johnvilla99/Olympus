@@ -1,6 +1,6 @@
 # Olympus Babble Fish
 
-> **Status:** Draft / Advisory reference note. Not Approved, Canonical, or Governing.
+> **Status:** Approved / Advisory living reference. This document is approved as the Olympus abbreviation and terminology decoder, but it is not Canonical or Governing. It should be updated as new terms are discovered.
 
 ## Metadata
 
@@ -10,7 +10,7 @@
 | Title | Olympus Babble Fish |
 | Classification | Reference Note |
 | Category | Foundation / Knowledge Stewardship |
-| Status | Draft |
+| Status | Approved |
 | Authority Level | Advisory |
 | Canonical Source | No |
 | Owner | John S. Villasenor |
@@ -33,10 +33,10 @@ It is a **reference glossary**, not a decision record or governing standard.
 
 ## How to Use This Document
 
-- Use as a **quick decoder** when encountering unfamiliar Olympus shorthand.
-- Do **not** treat this document as authority over standards or decision records.
+- Use as the **approved quick decoder** for Olympus abbreviations, prefixes, role names, and shorthand.
+- **Update** when new prefixes, roles, workflows, or shorthand are introduced.
+- Do **not** treat as authority over governance standards or decision records.
 - If this document conflicts with **OLY-GOV**, **OPM**, or **decision records**, defer to the higher-authority source.
-- Update when new prefixes, roles, workflows, or shorthand are introduced.
 
 ## Asset Prefixes
 
@@ -143,3 +143,4 @@ Additional notes:
 | Date | Author | Summary |
 |---|---|---|
 | 2026-07-05 | John S. Villasenor | Initial Draft / Advisory abbreviation and terminology reference |
+| 2026-07-05 | John S. Villasenor | Approved Babble Fish as the living Olympus abbreviation and terminology reference; renamed file with `RNO-001` prefix |

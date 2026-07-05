@@ -29,7 +29,7 @@ Founder-aligned working direction captured in governance standards (2026-07-05).
 | Olympus Agent Operating Model | Draft / Advisory working answer in OPM-001 — **not** Approved or Canonical | OPM-001 |
 | Knowledge Capture Workflow | Draft / Advisory triage and routing workflow in OPM-002 — **not** Approved or Canonical | OPM-002 |
 | Decision Promotion / Approval Workflow | Draft / Advisory promotion workflow in OPM-003 — **not** Approved or Canonical | OPM-003 |
-| Olympus Babble Fish | Draft / Advisory abbreviation and terminology reference (RNO-001) | `docs/foundation/OLYMPUS_BABBLE_FISH.md` |
+| RNO-001 Olympus Babble Fish | Approved / Advisory living abbreviation and terminology reference | `docs/foundation/RNO-001_OLYMPUS_BABBLE_FISH.md` |
 
 ---
 

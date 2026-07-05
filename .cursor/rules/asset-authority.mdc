@@ -24,6 +24,7 @@ alwaysApply: true
 - Existing IDs remain valid; IDs are stable once assigned; do not reuse IDs.
 - Convention is **Draft / Advisory** until formal promotion.
 - **GDR-001** (`docs/decisions/GDR-001_OLYMPUS_ID_CONVENTION.md`) is a **Proposed** decision candidate — **not Approved**; do not treat as governing authority.
+- **RNO-001** (`docs/foundation/RNO-001_OLYMPUS_BABBLE_FISH.md`) is **Approved / Advisory** — living terminology reference; not Canonical or Governing.
 
 For decision promotion and approval routing, see `docs/operations/OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW.md` (Draft / Advisory).
 

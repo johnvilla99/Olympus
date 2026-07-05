@@ -31,4 +31,4 @@ Starter directory — proposed organization.
 | Knowledge Asset Model | `KNOWLEDGE_ASSET_MODEL.md` |
 | Foundation Brief | `MT_OLYMPUS_FOUNDATION_BRIEF.md` |
 | Project Instructions | `MT_OLYMPUS_PROJECT_INSTRUCTIONS.md` |
-| Olympus Babble Fish | `OLYMPUS_BABBLE_FISH.md` |
+| RNO-001 Olympus Babble Fish | `RNO-001_OLYMPUS_BABBLE_FISH.md` |
