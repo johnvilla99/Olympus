@@ -14,7 +14,7 @@ Copy and paste the block below into Cursor at session end:
 
 Prepare an **Olympus session handoff** as **Hephaestus (Coder)** for this work session.
 
-Follow OPM-001 and OLY-GOV-004 for role boundaries and continuity expectations.
+Follow OPM-001, OPM-002, and OLY-GOV-004 for role boundaries, capture routing, and continuity expectations.
 
 **Do not treat this handoff as a formal decision record.** Durable decisions belong in `docs/decisions/` with Founder approval.
 
@@ -38,6 +38,7 @@ Follow OPM-001 and OLY-GOV-004 for role boundaries and continuity expectations.
 10. **Open questions** and **risks / watch items**
 11. **Recommended next steps**
 12. **Commit status** — committed or not; do not commit unless John asked
+13. **Capture Review** — when the session produced candidate decisions, backlog questions, lessons, research, operating-model changes, or asset conflicts; route per OPM-002 (see `templates/sessions/SESSION_HANDOFF_TEMPLATE.md`). If none, state explicitly.
 
 **Tier 3 items:** List any product/architecture questions encountered but **do not resolve** them — mark as deferred.
 

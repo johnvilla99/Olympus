@@ -15,4 +15,6 @@ Operational prompts (paste into Cursor): `docs/operations/session_start_prompt.m
 
 Agent roles and operating model: `docs/operations/OPM-001_OLYMPUS_AGENT_OPERATING_MODEL.md` (Draft / Advisory); short reference: `docs/operations/AGENT_ROLES.md`.
 
+Knowledge capture workflow: `docs/operations/OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW.md` (Draft / Advisory).
+
 Governance standards: OLY-GOV-001 through OLY-GOV-004 in `docs/governance/`.

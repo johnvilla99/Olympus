@@ -96,3 +96,4 @@ Before first edit:
 | ACR-001 | `docs/concepts/ACR-001_MNEMOSYNE_METIS_AND_THE_MUSES.md` |
 | ACR-002 | `docs/concepts/ACR-002_FROM_MYTH_TO_PLUMBING.md` |
 | Muse Catalog Starter | `docs/muses/MUSE_CATALOG_STARTER.md` |
+| Knowledge Capture Workflow | `docs/operations/OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW.md` |

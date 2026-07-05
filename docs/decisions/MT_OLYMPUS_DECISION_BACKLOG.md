@@ -27,6 +27,7 @@ Founder-aligned working direction captured in governance standards (2026-07-05).
 | Filled handoff location | Olympus handoffs in `logs/daily/`; project handoffs in project repos | OLY-GOV-004, OLY-GOV-001 |
 | Named agent roles | **John** (Founder), **Hermes** (Director), **Hephaestus** (Coder / Cursor) — Draft / Advisory | `docs/operations/OPM-001_OLYMPUS_AGENT_OPERATING_MODEL.md`; `AGENT_ROLES.md` (short reference) |
 | Olympus Agent Operating Model | Draft / Advisory working answer in OPM-001 — **not** Approved or Canonical | OPM-001 |
+| Knowledge Capture Workflow | Draft / Advisory triage and routing workflow in OPM-002 — **not** Approved or Canonical | OPM-002 |
 
 ---
 
@@ -38,7 +39,7 @@ Founder-aligned working direction captured in governance standards (2026-07-05).
 | OLY-DB-002 | What is the official relationship between Olympus, Mnemosyne, Metis, and the Muses? | Conceptual Model | Open | Current model is promising but exploratory. |
 | OLY-DB-005 | What is Curator? | Operating Model | Open | Proposed AI owner; may recommend promotion but cannot approve during foundation phase. OPM-001 does not define Curator as an active agent role. |
 | OLY-DB-007 | Which project participates first? | Strategy | Open | Hobby Brain is origin, but portfolio-wide intent is explicit. |
-| OLY-DB-009 | How should agents discover authoritative knowledge? | Operating Model | Open | Partially addressed by OLY-GOV-002/003/004, OPM-001, and Cursor rules; formal decision still open. |
+| OLY-DB-009 | How should agents discover authoritative knowledge? | Operating Model | Open | Partially addressed by OLY-GOV-002/003/004, OPM-001, OPM-002, and Cursor rules; formal decision still open. |
 | OLY-DB-010 | How should institutional knowledge be audited? | Governance | Open | Future concern after initial foundation. |
 
 ---
@@ -64,7 +65,7 @@ Deferred until product / architecture phase unless noted.
 | OLY-DB-012 | Should decisions be a separate database table or specialized Knowledge Asset type? | Architecture | Deferred until product / architecture phase. |
 | OLY-DB-013 | How much of Metis is deterministic policy versus LLM reasoning? | Product / Architecture | Deferred until product / architecture phase. |
 | OLY-DB-014 | Portfolio-wide versus project-specific asset scope rules | Governance | Deferred until product / architecture phase. |
-| OLY-DB-015 | Experience Note interim artifact type | Operations | Deferred — revisit at Knowledge Capture Workflow or product MVP design. Continue using handoffs, logs, lessons, candidate assets. |
+| OLY-DB-015 | Experience Note interim artifact type | Operations | Deferred | OPM-002 defers formal Experience Note type; continue using handoffs, logs, lessons, candidate assets. Revisit at product MVP design if needed. |
 | OLY-DB-016 | Standalone evidence packet template | Operations | Deferred — revisit if repeated workflows require it. Handoff section sufficient for now. |
 | OLY-DB-017 | Formal promotion of ID convention to Canonical/Governing | Governance | Working answer in OLY-GOV-002/003; formal GDR deferred. |
 

@@ -29,11 +29,12 @@ Starter directory — proposed organization.
 | Asset | File | Purpose |
 |---|---|---|
 | Agent Operating Model | `OPM-001_OLYMPUS_AGENT_OPERATING_MODEL.md` | Draft / Advisory operating model for John / Hermes / Hephaestus coordination |
+| Knowledge Capture Workflow | `OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW.md` | Draft / Advisory workflow for triaging and routing captured knowledge |
 | Agent Roles (short reference) | `AGENT_ROLES.md` | Quick role-name reference — supporting note, not the full operating model |
 | Session Start Prompt | `session_start_prompt.md` | Paste-ready Cursor session opening |
 | Session Handoff Prompt | `session_handoff_prompt.md` | Paste-ready Cursor session closing |
 
-**OPM-001** is Draft / Advisory — not Approved, Canonical, or Governing.
+**OPM-001** and **OPM-002** are Draft / Advisory — not Approved, Canonical, or Governing.
 
 **AGENT_ROLES.md** is a supporting short reference. Use **OPM-001** for full role boundaries, routing, and authority rules.
 

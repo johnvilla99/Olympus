@@ -29,6 +29,8 @@
 
 _Why this asset exists and what future decision or continuity gap it addresses._
 
+Before creating a formal asset, triage per `docs/operations/OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW.md` — most observations belong in logs, handoffs, or backlog first.
+
 ## Context
 
 _Background, trigger, and situational context a future reader would lack without this asset._

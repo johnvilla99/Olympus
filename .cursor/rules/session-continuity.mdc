@@ -16,13 +16,15 @@ Before editing, establish (or confirm):
 - Active workstream and scope boundaries
 - Required reading complete or explicitly waived by Founder
 - Whether work is exploratory, draft, proposed, or approved
-- Do-not-do items (no app architecture, no promotion, no Tier 3 resolution)
+- Do-not-do items (no app architecture, no promotion, no Tier 3 resolution, no over-capture)
 
 Do **not** begin editing until required reading is complete or John explicitly waives it.
 
 Prompt templates: `docs/operations/session_start_prompt.md`, `docs/operations/session_handoff_prompt.md`.
 
 Operating model: `docs/operations/OPM-001_OLYMPUS_AGENT_OPERATING_MODEL.md` (Draft / Advisory).
+
+Capture workflow: `docs/operations/OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW.md` (Draft / Advisory).
 
 ## Session handoff
 
@@ -33,6 +35,7 @@ At end of work, report:
 - **Decisions made** vs **observations** (handoffs are not formal decisions)
 - Commands run, validation/evidence
 - Open questions, risks/watch items, recommended next steps
+- **Capture Review** when session produced candidate decisions, lessons, research, or operating-model changes (see OPM-002)
 
 Prompt template: `docs/operations/session_handoff_prompt.md`.
 
