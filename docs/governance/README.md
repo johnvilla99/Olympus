@@ -30,3 +30,4 @@ Starter directory — proposed organization.
 |---|---|
 | Governance Starter | `OLYMPUS_GOVERNANCE_STARTER.md` |
 | Repository Standard (Draft) | `REPOSITORY_STANDARD.md` |
+| Knowledge Asset Standard (Draft) | `KNOWLEDGE_ASSET_STANDARD.md` |
