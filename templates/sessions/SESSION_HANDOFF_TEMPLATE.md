@@ -1,6 +1,6 @@
 # Session Handoff Template
 
-> **Status:** Starter template — copy per session. Promote durable decisions to `docs/decisions/` when appropriate.
+> **Status:** Starter template — copy per session. File filled copies in `logs/daily/`. Promote durable decisions to `docs/decisions/`. Evidence packet is a section below, not a standalone template.
 
 ## Session Date
 
@@ -12,7 +12,7 @@ _Agent name, model, or human role — e.g. Cursor Agent, Governance Muse assista
 
 ## Repository State
 
-_Branch, commit, or general state of the repo at handoff time._
+_Branch, commit, uncommitted work, and push status at handoff time._
 
 ## Work Completed
 
@@ -21,9 +21,27 @@ _Branch, commit, or general state of the repo at handoff time._
 
 ## Decisions Made
 
+_Session observations only — formal Decision Records live in `docs/decisions/` and do not use Exploratory status._
+
 | Decision | Status | Notes |
 |---|---|---|
-| _Decision summary_ | _Draft / Proposed / Approved (session observation)_ | _Promote to decision record? Y/N — Decision Records do not use Exploratory_ |
+| _Decision summary_ | _Draft / Proposed / Approved (session observation)_ | _Promote to decision record? Y/N_ |
+
+## Candidate Decisions
+
+_Open questions or proposed decisions for the backlog — not approved decisions._
+
+| Question | Suggested backlog ID | Notes |
+|---|---|---|
+| _Summary_ | _OLY-DB-xxx or new_ | _Add to `MT_OLYMPUS_DECISION_BACKLOG.md`_ |
+
+## Candidate Knowledge Assets
+
+_Session-generated knowledge that may deserve promotion to `docs/`._
+
+| Topic | Suggested type / ID | Notes |
+|---|---|---|
+| _Summary_ | _e.g. LLR-001, RNO-001_ | _Promote when future decision value exists_ |
 
 ## Files Changed
 
@@ -55,4 +73,4 @@ git status
 
 ## Evidence / Validation
 
-_How work was verified — reviews, checks, manual confirmation._
+_Evidence packet section — what changed and how it was verified. Do not invent evidence. If validation was not possible or agent lacks capability (e.g. browser QA), state why and provide human QA instructions._

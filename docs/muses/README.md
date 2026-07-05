@@ -14,6 +14,7 @@ Muses represent enduring disciplinary structure — not agents, personas, or tem
 
 ## What does not belong here
 
+- Research notes (use `docs/research/` — cross-cutting activity, not a Muse)
 - AI agent session instructions (those are temporary; see project instructions)
 - Agent personas named after Muses
 - Project-specific implementation work

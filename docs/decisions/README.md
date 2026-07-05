@@ -8,15 +8,15 @@ Preserve what was decided, why, by whom, and with what consequences — not mere
 
 ## What belongs here
 
-- Approved, proposed, and superseded decision records
-- Decision backlog entries ready for promotion
+- Formal decision records (ADR, PDR, GDR, ODR) — statuses: Draft, Proposed, Approved, Superseded, Retired only
+- Decision backlog (`MT_OLYMPUS_DECISION_BACKLOG.md`) — open questions, not decisions
 - Rationale, options considered, and follow-up actions
 
 ## What does not belong here
 
 - Exploratory ideas without a decision frame (use `docs/concepts/`)
 - General governance standards (use `docs/governance/`)
-- Session handoffs or daily work logs (use `templates/sessions/` and `logs/`)
+- Session handoffs or daily work logs (use `logs/daily/` for filled handoffs; templates in `templates/sessions/`)
 - Decisions recorded only in chat without a durable asset
 
 ## Status

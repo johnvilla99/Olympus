@@ -1,6 +1,6 @@
 # Session Start Template
 
-> **Status:** Starter template — copy at the beginning of a session to establish context and constraints.
+> **Status:** Starter template — copy at the beginning of a session. File filled copies in `logs/daily/` when useful. See OLY-GOV-004.
 
 ## Session Date
 

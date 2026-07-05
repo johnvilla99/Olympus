@@ -115,9 +115,18 @@ Olympus/
 │   ├── concepts/
 │   ├── decisions/
 │   ├── muses/
-│   └── operations/
-└── templates/
+│   ├── operations/
+│   ├── research/
+│   ├── lessons/
+│   └── projects/
+├── templates/
+├── logs/
+│   └── daily/
+└── .cursor/
+    └── rules/
 ```
+
+Governance standards OLY-GOV-001 through OLY-GOV-004 live in `docs/governance/` (Draft / Advisory).
 
 ## Initial Seed Assets
 

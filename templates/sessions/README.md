@@ -22,6 +22,8 @@ Reduce context loss between sessions by standardizing how work starts and hands 
 - `SESSION_START_TEMPLATE.md` — begin a session with required reading and constraints
 - `SESSION_HANDOFF_TEMPLATE.md` — end a session with state, decisions, and next steps
 
+Filled copies for Olympus work belong in `logs/daily/`. Evidence packets are a section within handoffs (no standalone template). See OLY-GOV-004.
+
 ## Status
 
 Starter — draft templates.

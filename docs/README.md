@@ -50,6 +50,15 @@ Starter assets organized by subdirectory:
 | Muse Catalog Starter | `docs/muses/MUSE_CATALOG_STARTER.md` |
 | Decision Backlog | `docs/decisions/MT_OLYMPUS_DECISION_BACKLOG.md` |
 
+## Governance standards (Draft / Advisory)
+
+| Standard | File |
+|---|---|
+| OLY-GOV-001 Repository Standard | `docs/governance/REPOSITORY_STANDARD.md` |
+| OLY-GOV-002 Knowledge Asset Standard | `docs/governance/KNOWLEDGE_ASSET_STANDARD.md` |
+| OLY-GOV-003 Decision Record Standard | `docs/governance/DECISION_RECORD_STANDARD.md` |
+| OLY-GOV-004 Session Continuity Standard | `docs/governance/SESSION_CONTINUITY_STANDARD.md` |
+
 ## Status
 
 Starter scaffolding — draft organization, not yet canonical.

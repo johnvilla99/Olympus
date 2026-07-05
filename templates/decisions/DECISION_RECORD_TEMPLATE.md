@@ -6,13 +6,20 @@
 
 | Field | Value |
 |---|---|
-| Decision ID | _e.g. ODR-001_ |
+| Decision ID | _e.g. ADR-001, GDR-001 — see OLY-GOV-003_ |
 | Title | _Short decision title_ |
+| Classification | Decision Record |
+| Decision Category | _Architecture \| Product \| Governance \| Operating_ |
 | Status | _Draft \| Proposed \| Approved \| Superseded \| Retired_ |
-| Authority Level | _Informational \| Advisory \| Canonical \| Governing_ |
+| Authority Level | _Advisory \| Canonical \| Governing_ |
 | Owner | _Accountable decision owner_ |
-| Date | _YYYY-MM-DD_ |
+| Decider / Approver | _Founder or delegated authority — explicit approval required for Approved_ |
+| Created On | _YYYY-MM-DD_ |
+| Decided On | _YYYY-MM-DD, if approved_ |
+| Last Updated | _YYYY-MM-DD_ |
+| Review Cadence | _As Needed, Quarterly, etc._ |
 | Related Assets | _Concept records, standards, or assets that informed this decision_ |
+| AI Consumption | _Required \| Recommended \| Optional \| Restricted_ |
 | Change Impact | _Low \| Medium \| High_ |
 
 ---
@@ -57,3 +64,9 @@ _Known risks, mitigations, and what to watch._
 |---|---|---|
 | Supersedes | _ID or N/A_ | |
 | Superseded By | _ID or N/A_ | |
+
+## Change History
+
+| Date | Author | Summary |
+|---|---|---|
+| _YYYY-MM-DD_ | _Name_ | _Initial draft_ |

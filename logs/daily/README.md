@@ -8,9 +8,9 @@ Record day-to-day activity, session summaries, and operational notes with a date
 
 ## What belongs here
 
-- Daily markdown or text logs (e.g. `YYYY-MM-DD.md`)
-- Session activity summaries not yet promoted to handoff assets
-- Maintenance and curation activity notes
+- Daily markdown logs (e.g. `YYYY-MM-DD.md`)
+- Filled Olympus session handoffs (from `templates/sessions/`)
+- Session activity summaries not yet promoted to governed assets
 
 ## What does not belong here
 

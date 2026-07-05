@@ -50,7 +50,7 @@ Research — market, technical, competitive, user, historical, and analytical in
 
 ## Open Questions
 
-- Should Research remain cross-cutting or become a formal tenth Muse discipline?
+- ~~Should Research remain cross-cutting or become a formal tenth Muse discipline?~~ **Working answer captured (Draft / Advisory):** cross-cutting — see OLY-GOV-002.
 - Should Product and Strategy be separate Muses?
 - Should Personal Knowledge and Organizational Knowledge be separate domains?
 - Should each participating project declare which Muses it uses?

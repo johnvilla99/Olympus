@@ -6,15 +6,19 @@
 
 | Field | Value |
 |---|---|
-| Standard ID | _e.g. GDS-001_ |
+| Standard ID | _e.g. OLY-GOV-005_ |
 | Title | _Human-readable standard name_ |
-| Status | _Exploratory \| Draft \| Proposed \| Approved \| Superseded \| Retired_ |
+| Status | _Draft \| Proposed \| Approved \| Superseded \| Retired_ |
 | Authority Level | _Advisory \| Canonical \| Governing_ |
 | Owner | _Accountable human owner_ |
 | Created On | _YYYY-MM-DD_ |
 | Last Updated | _YYYY-MM-DD_ |
 | Review Cadence | _e.g. Quarterly, Annually, As needed_ |
 | Related Assets | _Linked governance, concept, or decision records_ |
+| AI Consumption | _Required \| Recommended \| Optional \| Restricted_ |
+| Change Impact | _Low \| Medium \| High_ |
+
+> New governance standards begin as **Draft / Advisory** unless Founder directs otherwise.
 
 ---
 

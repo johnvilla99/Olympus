@@ -95,8 +95,8 @@ AI agents should:
 
 ## Open Questions
 
-- What ID convention should Mt. Olympus use?
-- Should asset relationships eventually become graph-based?
-- Who approves promotion from exploratory to approved?
-- Which assets are portfolio-wide versus project-specific?
-- What does archival integrity require?
+- ~~What ID convention should Mt. Olympus use?~~ **Working answer captured** — see OLY-GOV-002 (Draft / Advisory).
+- Should asset relationships eventually become graph-based? **Deferred** — see Decision Backlog OLY-DB-006.
+- ~~Who approves promotion from exploratory to approved?~~ **Working answer captured** — Founder only during foundation phase; see OLY-GOV-002 and Governance Starter.
+- Which assets are portfolio-wide versus project-specific? **Open / deferred** — see Decision Backlog OLY-DB-014.
+- What does archival integrity require? **Open** — future concern.

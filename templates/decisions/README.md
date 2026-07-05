@@ -20,6 +20,8 @@ Ensure decisions capture context, options, rationale, and consequences — not j
 
 - `DECISION_RECORD_TEMPLATE.md`
 
+Decision Records use **Draft, Proposed, Approved, Superseded, Retired** only — not Exploratory. Prefixes: ADR, PDR, GDR, ODR per OLY-GOV-003.
+
 ## Status
 
 Starter — draft template.

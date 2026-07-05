@@ -26,10 +26,12 @@ Starter directory — proposed organization.
 
 ## Current assets
 
-| Asset | File |
-|---|---|
-| Governance Starter | `OLYMPUS_GOVERNANCE_STARTER.md` |
-| Repository Standard (Draft) | `REPOSITORY_STANDARD.md` |
-| Knowledge Asset Standard (Draft) | `KNOWLEDGE_ASSET_STANDARD.md` |
-| Decision Record Standard (Draft) | `DECISION_RECORD_STANDARD.md` |
-| Session Continuity Standard (Draft) | `SESSION_CONTINUITY_STANDARD.md` |
+All listed standards are **Draft / Advisory** unless explicitly promoted by Founder decision.
+
+| Asset | File | Notes |
+|---|---|---|
+| Governance Starter | `OLYMPUS_GOVERNANCE_STARTER.md` | Seed authority and maturity model |
+| Repository Standard | `REPOSITORY_STANDARD.md` | OLY-GOV-001 — layout, placement, naming |
+| Knowledge Asset Standard | `KNOWLEDGE_ASSET_STANDARD.md` | OLY-GOV-002 — metadata, categories, promotion |
+| Decision Record Standard | `DECISION_RECORD_STANDARD.md` | OLY-GOV-003 — decision lifecycle and backlog |
+| Session Continuity Standard | `SESSION_CONTINUITY_STANDARD.md` | OLY-GOV-004 — session start, handoff, logs |
