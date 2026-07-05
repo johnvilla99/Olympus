@@ -22,3 +22,9 @@ Preserve what was decided, why, by whom, and with what consequences — not mere
 ## Status
 
 Starter directory — proposed organization.
+
+## Current assets
+
+| Asset | File |
+|---|---|
+| Decision Backlog | `MT_OLYMPUS_DECISION_BACKLOG.md` |

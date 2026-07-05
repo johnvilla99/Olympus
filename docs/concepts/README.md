@@ -23,3 +23,9 @@ Capture exploratory thinking with clear non-binding status so future agents dist
 ## Status
 
 Starter directory — proposed organization.
+
+## Current assets
+
+| Asset | File |
+|---|---|
+| ACR-001: Mnemosyne, Metis, and The Muses | `ACR-001_MNEMOSYNE_METIS_AND_THE_MUSES.md` |

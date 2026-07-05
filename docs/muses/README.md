@@ -22,3 +22,9 @@ Muses represent enduring disciplinary structure — not agents, personas, or tem
 ## Status
 
 Starter directory — proposed organization.
+
+## Current assets
+
+| Asset | File |
+|---|---|
+| Muse Catalog Starter | `MUSE_CATALOG_STARTER.md` |

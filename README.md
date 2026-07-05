@@ -121,14 +121,17 @@ Olympus/
 
 ## Initial Seed Assets
 
-The first foundation documents should include:
+The first foundation documents:
 
-- ACR-001: Mnemosyne, Metis, and The Muses
-- Foundation Brief
-- Knowledge Asset Model
-- Governance Starter
-- Muse Catalog Starter
-- Decision Backlog
+| Asset | Path |
+|---|---|
+| ACR-001: Mnemosyne, Metis, and The Muses | `docs/concepts/ACR-001_MNEMOSYNE_METIS_AND_THE_MUSES.md` |
+| Foundation Brief | `docs/foundation/MT_OLYMPUS_FOUNDATION_BRIEF.md` |
+| Knowledge Asset Model | `docs/foundation/KNOWLEDGE_ASSET_MODEL.md` |
+| Project Instructions | `docs/foundation/MT_OLYMPUS_PROJECT_INSTRUCTIONS.md` |
+| Governance Starter | `docs/governance/OLYMPUS_GOVERNANCE_STARTER.md` |
+| Muse Catalog Starter | `docs/muses/MUSE_CATALOG_STARTER.md` |
+| Decision Backlog | `docs/decisions/MT_OLYMPUS_DECISION_BACKLOG.md` |
 
 ## Product Guardrail
 

@@ -16,7 +16,7 @@ _Check these before acting. Prefer canonical and governing assets over explorato
 
 | Asset | Path or ID | Why |
 |---|---|---|
-| _e.g. Project Instructions_ | `docs/MT_OLYMPUS_PROJECT_INSTRUCTIONS.md` | _Operating context_ |
+| _e.g. Project Instructions_ | `docs/foundation/MT_OLYMPUS_PROJECT_INSTRUCTIONS.md` | _Operating context_ |
 | | | |
 
 ## Current Repository State

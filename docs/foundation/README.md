@@ -23,3 +23,11 @@ Preserve the ecosystem's strategic foundation: problem statement, scope, concept
 ## Status
 
 Starter directory — proposed organization.
+
+## Current assets
+
+| Asset | File |
+|---|---|
+| Knowledge Asset Model | `KNOWLEDGE_ASSET_MODEL.md` |
+| Foundation Brief | `MT_OLYMPUS_FOUNDATION_BRIEF.md` |
+| Project Instructions | `MT_OLYMPUS_PROJECT_INSTRUCTIONS.md` |

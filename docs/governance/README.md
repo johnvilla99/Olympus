@@ -23,3 +23,9 @@ Define how knowledge becomes trustworthy, how assets mature, and who has authori
 ## Status
 
 Starter directory — proposed organization.
+
+## Current assets
+
+| Asset | File |
+|---|---|
+| Governance Starter | `OLYMPUS_GOVERNANCE_STARTER.md` |

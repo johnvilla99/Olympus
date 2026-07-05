@@ -36,9 +36,19 @@ This directory is the primary home for durable, Markdown-based Knowledge Assets 
 | `lessons/` | Lessons learned and retrospective knowledge |
 | `projects/` | Project participation and cross-project context |
 
-## Seed assets (foundation phase)
+## Seed assets
 
-Several starter assets currently live at this level from initial repository setup. They may be relocated into subdirectories as the structure matures.
+Starter assets organized by subdirectory:
+
+| Asset | Path |
+|---|---|
+| ACR-001: Mnemosyne, Metis, and The Muses | `docs/concepts/ACR-001_MNEMOSYNE_METIS_AND_THE_MUSES.md` |
+| Knowledge Asset Model | `docs/foundation/KNOWLEDGE_ASSET_MODEL.md` |
+| Foundation Brief | `docs/foundation/MT_OLYMPUS_FOUNDATION_BRIEF.md` |
+| Project Instructions | `docs/foundation/MT_OLYMPUS_PROJECT_INSTRUCTIONS.md` |
+| Governance Starter | `docs/governance/OLYMPUS_GOVERNANCE_STARTER.md` |
+| Muse Catalog Starter | `docs/muses/MUSE_CATALOG_STARTER.md` |
+| Decision Backlog | `docs/decisions/MT_OLYMPUS_DECISION_BACKLOG.md` |
 
 ## Status
 

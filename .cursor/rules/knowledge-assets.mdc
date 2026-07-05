@@ -10,7 +10,7 @@ Files in `docs/` are governed Knowledge Assets — containers for meaning, not c
 
 ## Placement
 
-Place new assets in the appropriate `docs/` subfolder per `docs/README.md`. Seed assets may remain at `docs/` root during foundation setup.
+Place new assets in the appropriate `docs/` subfolder per `docs/README.md`.
 
 ## Required metadata
 
@@ -50,4 +50,4 @@ Seed assets may lack full metadata; add it on the next substantive edit.
 - `ACR-*` — Architecture/Concept Record
 - Match existing prefix patterns in `docs/` for new asset types
 
-Reference: `docs/KNOWLEDGE_ASSET_MODEL.md`
+Reference: `docs/foundation/KNOWLEDGE_ASSET_MODEL.md`

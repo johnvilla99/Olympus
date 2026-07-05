@@ -37,6 +37,6 @@ Place new assets under the appropriate `docs/` subfolder:
 
 `docs/foundation/`, `docs/governance/`, `docs/concepts/`, `docs/decisions/`, `docs/muses/`, `docs/operations/`, `docs/research/`, `docs/lessons/`, `docs/projects/`
 
-Seed assets may remain at `docs/` root during foundation setup. Copy from `templates/` when creating new artifacts — templates are draft starters, not approved standards.
+Copy from `templates/` when creating new artifacts — templates are draft starters, not approved standards.
 
 Reference: `docs/README.md`
