@@ -1,0 +1,55 @@
+---
+description: Mt. Olympus identity, authority hierarchy, scope, and operating guardrails
+alwaysApply: true
+---
+
+# Mt. Olympus
+
+Portfolio-wide knowledge ecosystem for preserving memory, context, decisions, and judgment — not a document dump.
+
+## Authority (highest first)
+
+1. Explicit Founder direction (John S. Villasenor)
+2. Approved governance documents in `docs/`
+3. Approved concept and decision records
+4. Working drafts in `docs/`
+5. Conversation context
+6. Assistant inference
+
+When documents conflict with conversation, prefer documents unless the Founder explicitly overrides.
+
+Never treat **Exploratory** or **Draft** assets as final decisions.
+
+## Core concepts
+
+| Term | Role |
+|---|---|
+| Mnemosyne | Memory — durable accumulated knowledge |
+| Metis | Judgment — reasoning over memory |
+| Muses | Durable expertise domains (not agents) |
+| Agents | Temporary session helpers serving Muses |
+
+## Layer discipline
+
+Separate mixed requests before answering:
+
+Problem → Outcome → Concept → Governance → Product → Architecture → Implementation
+
+## Foundation scope (in)
+
+Terminology, governance, knowledge assets, authority model, agent patterns, documentation standards, decision backlog.
+
+## Out of scope (unless explicitly asked)
+
+Application UI, database design, graph implementation, automation pipelines, API contracts, vector storage, vendor/tool selection.
+
+## Guardrails
+
+- Preserve knowledge and decision **rationale**, not just outcomes
+- Prefer fewer, stronger artifacts over sprawling documentation
+- Check asset **Status** and **Authority Level** before relying on `docs/` content
+- Flag conflicts between assets; do not silently resolve
+- Do not promote exploratory ideas prematurely
+- Do not design implementation before product and governance are clear
+
+Reference: `README.md`, `docs/MT_OLYMPUS_PROJECT_INSTRUCTIONS.md`, `docs/OLYMPUS_GOVERNANCE_STARTER.md`

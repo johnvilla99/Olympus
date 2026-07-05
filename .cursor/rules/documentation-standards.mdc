@@ -1,0 +1,40 @@
+---
+description: Markdown style and artifact quality bar for Mt. Olympus
+globs: "**/*.md"
+alwaysApply: false
+---
+
+# Documentation Standards
+
+## Style
+
+Direct, structured, coherence-first. Use tables for comparisons. Lead with an executive summary when a decision is needed.
+
+## Structure
+
+- `# Title` with a **Purpose** section near the top
+- Scannable headings over long prose blocks
+- One artifact = one primary concern; link related assets instead of duplicating
+
+## Before adding or expanding a document
+
+Ask:
+
+- Does this preserve knowledge, or merely store files?
+- Will a future human or agent make a better decision because this exists?
+- Is this memory, judgment, domain expertise, agent behavior, or project execution?
+- Can this be simpler?
+
+## Do not
+
+- Duplicate content across assets
+- Embed secrets, credentials, or environment values
+- Drift core terminology (Mnemosyne, Metis, Muses) into vague metaphor
+
+## Target layout
+
+Place new assets under the appropriate subfolder when it exists:
+
+`docs/foundation/`, `docs/governance/`, `docs/concepts/`, `docs/decisions/`, `docs/muses/`, `docs/operations/`
+
+Until subfolders exist, root `docs/` is acceptable for seed assets.

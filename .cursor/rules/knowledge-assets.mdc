@@ -1,0 +1,49 @@
+---
+description: Knowledge Asset metadata, status model, and drafting rules for docs/
+globs: docs/**/*.md
+alwaysApply: false
+---
+
+# Knowledge Assets
+
+Files in `docs/` are governed Knowledge Assets — containers for meaning, not casual notes.
+
+## Required metadata
+
+Add or update YAML front matter when creating or substantially revising formal assets:
+
+```yaml
+---
+knowledge_asset_id: ACR-001
+title: Human-readable title
+classification: Concept Record  # Concept, Decision, Governance, Product, etc.
+status: Exploratory             # Exploratory | Draft | Proposed | Approved | Canonical | Superseded | Retired
+authority_level: Informational  # Informational | Advisory | Canonical | Governing
+owner: John S. Villasenor
+last_updated: 2026-07-05
+---
+```
+
+Seed assets may lack full metadata; add it on the next substantive edit.
+
+## Every asset must answer
+
+- Why it matters
+- Who owns it
+- Whether it is authoritative
+- What decisions it informs
+- What context would be lost without it
+- How future agents should use it
+
+## Status and promotion
+
+- Do not set **Approved** or **Canonical** without explicit Founder approval
+- When superseding an asset, update its status and link the replacement
+- Keep exploratory content clearly labeled until promoted
+
+## ID conventions
+
+- `ACR-*` — Architecture/Concept Record
+- Match existing prefix patterns in `docs/` for new asset types
+
+Reference: `docs/KNOWLEDGE_ASSET_MODEL.md`
