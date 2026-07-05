@@ -14,6 +14,8 @@ Copy and paste the block below into Cursor at session end:
 
 Prepare an **Olympus session handoff** as **Hephaestus (Coder)** for this work session.
 
+Follow OPM-001 and OLY-GOV-004 for role boundaries and continuity expectations.
+
 **Do not treat this handoff as a formal decision record.** Durable decisions belong in `docs/decisions/` with Founder approval.
 
 **Required checks — run or report:**

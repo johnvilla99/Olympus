@@ -25,7 +25,8 @@ Founder-aligned working direction captured in governance standards (2026-07-05).
 | Daily log AI Consumption | Handoff Required when resuming; logs Recommended (Required if no handoff) | OLY-GOV-004 |
 | Evidence packet template | Remains handoff section; no standalone template yet | OLY-GOV-004 |
 | Filled handoff location | Olympus handoffs in `logs/daily/`; project handoffs in project repos | OLY-GOV-004, OLY-GOV-001 |
-| Named agent roles | **Zeus** (Founder), **Hermes** (Director), **Hephaestus** (Coder / Cursor) — Draft / Advisory operating model | `docs/operations/AGENT_ROLES.md` |
+| Named agent roles | **John** (Founder), **Hermes** (Director), **Hephaestus** (Coder / Cursor) — Draft / Advisory | `docs/operations/OPM-001_OLYMPUS_AGENT_OPERATING_MODEL.md`; `AGENT_ROLES.md` (short reference) |
+| Olympus Agent Operating Model | Draft / Advisory working answer in OPM-001 — **not** Approved or Canonical | OPM-001 |
 
 ---
 
@@ -35,9 +36,9 @@ Founder-aligned working direction captured in governance standards (2026-07-05).
 |---|---|---|---|---|
 | OLY-DB-001 | Is Mt. Olympus the official ecosystem name? | Vision | Open | ACR-001 lists Olympus/Mount Olympus as naming possibilities, not final decisions. |
 | OLY-DB-002 | What is the official relationship between Olympus, Mnemosyne, Metis, and the Muses? | Conceptual Model | Open | Current model is promising but exploratory. |
-| OLY-DB-005 | What is Curator? | Operating Model | Open | Proposed AI owner; may recommend promotion but cannot approve during foundation phase. |
+| OLY-DB-005 | What is Curator? | Operating Model | Open | Proposed AI owner; may recommend promotion but cannot approve during foundation phase. OPM-001 does not define Curator as an active agent role. |
 | OLY-DB-007 | Which project participates first? | Strategy | Open | Hobby Brain is origin, but portfolio-wide intent is explicit. |
-| OLY-DB-009 | How should agents discover authoritative knowledge? | Operating Model | Open | Partially addressed by OLY-GOV-002/003/004 and `docs/operations/AGENT_ROLES.md`; formal decision still open. |
+| OLY-DB-009 | How should agents discover authoritative knowledge? | Operating Model | Open | Partially addressed by OLY-GOV-002/003/004, OPM-001, and Cursor rules; formal decision still open. |
 | OLY-DB-010 | How should institutional knowledge be audited? | Governance | Open | Future concern after initial foundation. |
 
 ---

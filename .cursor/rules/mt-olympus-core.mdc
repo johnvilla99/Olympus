@@ -37,7 +37,7 @@ Never treat **Exploratory** or **Draft** assets as final decisions.
 | Muses | Durable expertise domains (not agents) |
 | Agents | Temporary assistants serving Muses — e.g. **Hephaestus** (Coder) in Olympus Cursor sessions |
 
-Named operating roles (Draft / Advisory): **Zeus** (Founder), **Hermes** (Director), **Hephaestus** (Coder). See `docs/operations/AGENT_ROLES.md`.
+Named operating roles (Draft / Advisory): **John** (Founder), **Hermes** (Director), **Hephaestus** (Coder). See `docs/operations/OPM-001_OLYMPUS_AGENT_OPERATING_MODEL.md` and `docs/operations/AGENT_ROLES.md`.
 
 ## Layer discipline
 

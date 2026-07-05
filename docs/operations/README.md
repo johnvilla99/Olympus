@@ -28,8 +28,13 @@ Starter directory — proposed organization.
 
 | Asset | File | Purpose |
 |---|---|---|
-| Agent Roles | `AGENT_ROLES.md` | Zeus / Hermes / Hephaestus operating model |
+| Agent Operating Model | `OPM-001_OLYMPUS_AGENT_OPERATING_MODEL.md` | Draft / Advisory operating model for John / Hermes / Hephaestus coordination |
+| Agent Roles (short reference) | `AGENT_ROLES.md` | Quick role-name reference — supporting note, not the full operating model |
 | Session Start Prompt | `session_start_prompt.md` | Paste-ready Cursor session opening |
 | Session Handoff Prompt | `session_handoff_prompt.md` | Paste-ready Cursor session closing |
 
-These are operating prompts, not approved Knowledge Assets. See OLY-GOV-004 and `.cursor/rules/session-continuity.mdc`.
+**OPM-001** is Draft / Advisory — not Approved, Canonical, or Governing.
+
+**AGENT_ROLES.md** is a supporting short reference. Use **OPM-001** for full role boundaries, routing, and authority rules.
+
+Session prompts are operating prompts, not approved Knowledge Assets. See OLY-GOV-004 and `.cursor/rules/session-continuity.mdc`.
