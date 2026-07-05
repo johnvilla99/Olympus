@@ -26,6 +26,7 @@ Starter directory — proposed organization.
 
 ## Current assets
 
-| Asset | File |
-|---|---|
-| ACR-001: Mnemosyne, Metis, and The Muses | `ACR-001_MNEMOSYNE_METIS_AND_THE_MUSES.md` |
+| ID | Title | Description |
+|---|---|---|
+| ACR-001 | Mnemosyne, Metis, and The Muses | Exploratory architectural concept for Mnemosyne, Metis, and The Muses (`ACR-001_MNEMOSYNE_METIS_AND_THE_MUSES.md`). |
+| ACR-002 | From Myth to Plumbing | Exploratory backend and product architecture model translating Mnemosyne, Metis, the Muses, agents, and projects into tangible system concepts. |
