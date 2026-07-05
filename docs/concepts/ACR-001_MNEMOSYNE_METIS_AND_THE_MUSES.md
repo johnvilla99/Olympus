@@ -21,7 +21,7 @@ Although this record originated during the Hobby Brain project, the concepts des
 | **Owner**              | John S. Villasenor                                        |
 | **Primary AI Owner**   | Curator (Proposed)                                        |
 | **Created On**         | 2026-07-04                                                |
-| **Last Updated**       | 2026-07-04                                                |
+| **Last Updated**       | 2026-07-05                                                |
 | **Review Cadence**     | As Needed                                                 |
 | **Next Review Due**    | TBD                                                       |
 | **Date Retired**       |                                                           |
@@ -184,19 +184,19 @@ The Muses represent enduring domains of expertise.
 
 Examples might include:
 
-| Classical Muse                       | Mt. Olympus Discipline                                        | Domain                                    | Responsibility                                                                                                            |
-| ------------------------------------ | ------------------------------------------------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| **Urania**                           | **Architecture**                                              | System structure and technical coherence  | Architecture principles, constraints, system models, technical tradeoffs, and long-range structural integrity             |
-| **Calliope**                         | **Product**                                                   | Product vision and definition             | User value, product narrative, scope, MVP framing, roadmap direction, and product decisions                               |
-| **Polyhymnia**                       | **Governance**                                                | Authority and process                     | Standards, decision hierarchy, review workflows, operating rules, and formal stewardship practices                        |
-| **Clio**                             | **Knowledge Stewardship**                                     | Memory quality and historical truth       | Asset curation, provenance, taxonomy, source-of-truth hygiene, archival integrity, and continuity of institutional memory |
-| **Urania** or **Clio** conflict note | **Research**                                                  | Evidence and discovery                    | Market, technical, competitive, user, historical, and analytical research used to inform decisions                        |
-| **Erato**                            | **User Experience**                                           | Human interaction and emotional resonance | Usability, workflows, clarity, accessibility, trust, decision fatigue, and user comprehension                             |
-| **Euterpe**                          | **Engineering**                                               | Delivery quality and implementation craft | Implementation practices, testing expectations, maintainability, code quality, and technical execution discipline         |
-| **Terpsichore**                      | **Operations**                                                | Execution continuity and choreography     | Handoffs, runbooks, session starts, release readiness, coordination, cadence, and operational flow                        |
-| **Thalia**                           | **Marketing**                                                 | Positioning and audience communication    | Messaging, differentiation, narrative, tone, audience fit, and public-facing clarity                                      |
-| **Melpomene**                        | **Risk / Lessons Learned** or possible **Governance adjunct** | Consequence, failure, cautionary memory   | Postmortems, retrospectives, risks, failure analysis, and preserving hard-won lessons                                     |
+| Classical Muse | Mt. Olympus Discipline | Domain | Responsibility |
+|---|---|---|---|
+| **Urania** | **Architecture** | System structure and technical coherence | Architecture principles, constraints, system models, technical tradeoffs, and long-range structural integrity |
+| **Calliope** | **Product** | Product vision and definition | User value, product narrative, scope, MVP framing, roadmap direction, and product decisions |
+| **Polyhymnia** | **Governance** | Authority and process | Standards, decision hierarchy, review workflows, operating rules, and formal stewardship practices |
+| **Clio** | **Knowledge Stewardship** | Memory quality and historical truth | Asset curation, provenance, taxonomy, source-of-truth hygiene, archival integrity, and continuity of institutional memory |
+| **Melpomene** | **Lessons Learned / Risk** | Consequence, failure, and cautionary memory | Postmortems, retrospectives, risks, failure analysis, and preserving hard-won lessons |
+| **Erato** | **User Experience** | Human interaction and emotional resonance | Usability, workflows, clarity, accessibility, trust, decision fatigue, and user comprehension |
+| **Euterpe** | **Engineering** | Delivery quality and implementation craft | Implementation practices, testing expectations, maintainability, code quality, and technical execution discipline |
+| **Terpsichore** | **Operations** | Execution continuity and choreography | Handoffs, runbooks, session starts, release readiness, coordination, cadence, and operational flow |
+| **Thalia** | **Marketing** | Positioning and audience communication | Messaging, differentiation, narrative, tone, audience fit, and public-facing clarity |
 
+> **Working note (exploratory, not approved):** This nine-Muse model is a draft alignment between classical names and Mt. Olympus disciplines. **Research is currently treated as a cross-cutting activity**, not a dedicated Muse. Research notes and evidence may be produced under any relevant Muse lens or filed in `docs/research/` until a formal decision promotes Research to a Muse discipline.
 
 AI agents may change over time.
 

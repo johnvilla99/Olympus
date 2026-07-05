@@ -8,27 +8,37 @@ They are not AI agents. They are not personalities. They are not temporary proje
 
 A Muse represents an enduring body of expertise that agents may serve over time.
 
+## Status
+
+**Draft starter catalog — exploratory, not canonical or approved.** Aligns with the working nine-Muse model in `ACR-001_MNEMOSYNE_METIS_AND_THE_MUSES.md` as of 2026-07-05.
+
 ## Why This Distinction Matters
 
 AI agents change. Names, tools, models, and capabilities will shift.
 
 The domain remains.
 
-For example, a project may use Atlas today and another architecture assistant later. The Architecture Muse persists across both.
+For example, a project may use one architecture assistant today and another later. The Architecture Muse persists across both.
 
 ## Starter Muse Catalog
 
-| Muse | Domain | Responsibility |
-|---|---|---|
-| Architecture | System structure and technical coherence | Architecture principles, constraints, decisions, tradeoffs |
-| Product | Product vision and definition | User value, scope, MVP, roadmap, product decisions |
-| Governance | Authority and process | Standards, decision hierarchy, review workflows |
-| Research | Evidence and discovery | Market, technical, competitive, and user research |
-| User Experience | Human interaction | Usability, workflows, clarity, accessibility, decision fatigue |
-| Engineering | Delivery quality | Implementation practices, testing expectations, maintainability |
-| Operations | Execution continuity | Handoffs, runbooks, session starts, release readiness |
-| Marketing | Positioning and communication | Messaging, differentiation, narrative, audience fit |
-| Knowledge Stewardship | Memory quality | Asset curation, taxonomy, source-of-truth hygiene, archival integrity |
+| Classical Muse | Muse | Domain | Responsibility |
+|---|---|---|---|
+| Urania | Architecture | System structure and technical coherence | Architecture principles, constraints, system models, technical tradeoffs, and long-range structural integrity |
+| Calliope | Product | Product vision and definition | User value, product narrative, scope, MVP framing, roadmap direction, and product decisions |
+| Polyhymnia | Governance | Authority and process | Standards, decision hierarchy, review workflows, operating rules, and formal stewardship practices |
+| Clio | Knowledge Stewardship | Memory quality and historical truth | Asset curation, provenance, taxonomy, source-of-truth hygiene, archival integrity, and continuity of institutional memory |
+| Melpomene | Lessons Learned / Risk | Consequence, failure, and cautionary memory | Postmortems, retrospectives, risks, failure analysis, and preserving hard-won lessons |
+| Erato | User Experience | Human interaction and emotional resonance | Usability, workflows, clarity, accessibility, trust, decision fatigue, and user comprehension |
+| Euterpe | Engineering | Delivery quality and implementation craft | Implementation practices, testing expectations, maintainability, code quality, and technical execution discipline |
+| Terpsichore | Operations | Execution continuity and choreography | Handoffs, runbooks, session starts, release readiness, coordination, cadence, and operational flow |
+| Thalia | Marketing | Positioning and audience communication | Messaging, differentiation, narrative, tone, audience fit, and public-facing clarity |
+
+## Research (Cross-Cutting Activity)
+
+**Research is not currently a dedicated Muse.**
+
+Research — market, technical, competitive, user, historical, and analytical investigation — is treated as a **cross-cutting activity** that may inform any Muse domain. Research notes belong in `docs/research/` unless promoted through a formal decision to establish Research as a Muse discipline.
 
 ## Muse Rules
 
@@ -36,11 +46,11 @@ For example, a project may use Atlas today and another architecture assistant la
 - An agent may serve one Muse or multiple Muses.
 - A project may define specialized agents, but those agents should map back to durable Muse domains.
 - Muse definitions should be stable and slow-changing.
-- New Muses should be rare.
+- New Muses should be rare and require formal decision before adoption.
 
 ## Open Questions
 
-- Should Knowledge Stewardship be a Muse or a governance function?
+- Should Research remain cross-cutting or become a formal tenth Muse discipline?
 - Should Product and Strategy be separate Muses?
 - Should Personal Knowledge and Organizational Knowledge be separate domains?
 - Should each participating project declare which Muses it uses?

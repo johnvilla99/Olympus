@@ -29,3 +29,4 @@ Starter directory — proposed organization.
 | Asset | File |
 |---|---|
 | Governance Starter | `OLYMPUS_GOVERNANCE_STARTER.md` |
+| Repository Standard (Draft) | `REPOSITORY_STANDARD.md` |
