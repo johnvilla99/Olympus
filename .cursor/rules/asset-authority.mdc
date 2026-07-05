@@ -1,0 +1,59 @@
+---
+description: Knowledge Asset IDs, statuses, authority levels, and source consumption rules
+alwaysApply: true
+---
+
+# Asset Authority
+
+## ID conventions (Draft / Advisory)
+
+| Prefix | Asset Type |
+|---|---|
+| `ACR` | Architectural Concept Record |
+| `OLY-GOV` | Olympus Governance Standard |
+| `ADR` | Architecture Decision Record |
+| `PDR` | Product Decision Record |
+| `GDR` | Governance Decision Record |
+| `ODR` | Operating Decision Record |
+| `LLR` | Lesson Learned Record |
+| `RNO` | Research Note |
+| `OPM` | Operating Model |
+| `HND` | Handoff / Continuity Artifact |
+
+- Three-digit sequential numbering (`ACR-001`, `OLY-GOV-002`).
+- Existing IDs remain valid; IDs are stable once assigned; do not reuse IDs.
+- Convention is **Draft / Advisory** until formal promotion.
+
+## Status rules
+
+**Knowledge Assets:** Exploratory, Draft, Proposed, Approved, Canonical, Superseded, Retired.
+
+**Decision Records:** Draft, Proposed, Approved, Superseded, Retired — **not Exploratory**.
+
+## Authority rules
+
+Levels: Informational, Advisory, Canonical, Governing.
+
+- **Founder direction** outranks all repository documents.
+- **Approved decisions** outrank exploratory concepts.
+- **Canonical** and **Governing** require explicit Founder approval.
+- Current **OLY-GOV** standards are Draft / Advisory unless promoted.
+- **Curator** is proposed — may recommend, not approve.
+- Cursor may draft, recommend, and flag — **may not approve**.
+
+## Source consumption
+
+Before relying on content:
+
+1. Check **status** and **authority level**.
+2. Prefer higher-authority assets when conflicts exist.
+3. Cite source assets in summaries when relevant.
+4. **Flag conflicts** — do not resolve silently.
+
+**Defaults:**
+
+- **ACR-001**, **ACR-002** — Exploratory / Informational; not implementation authority.
+- **`MT_OLYMPUS_DECISION_BACKLOG.md`** — question management, not decisions.
+- **Research** — cross-cutting; not a tenth Muse; `RNO-*` in `docs/research/`.
+
+For metadata when editing `docs/**/*.md`, see `knowledge-assets.mdc` and OLY-GOV-002.

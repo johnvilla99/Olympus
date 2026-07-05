@@ -23,3 +23,12 @@ Describe how the knowledge ecosystem is maintained, curated, reviewed, and consu
 ## Status
 
 Starter directory — proposed organization.
+
+## Current assets (Draft / Advisory)
+
+| Asset | File | Purpose |
+|---|---|---|
+| Session Start Prompt | `session_start_prompt.md` | Paste-ready Cursor session opening |
+| Session Handoff Prompt | `session_handoff_prompt.md` | Paste-ready Cursor session closing |
+
+These are operating prompts, not approved Knowledge Assets. See OLY-GOV-004 and `.cursor/rules/session-continuity.mdc`.

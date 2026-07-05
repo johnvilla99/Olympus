@@ -42,16 +42,8 @@ Seed assets may lack full metadata; add it on the next substantive edit.
 ## Status and promotion
 
 - Do not set **Approved** or **Canonical** without explicit Founder approval
+- **Curator** may recommend; only **Founder** approves during foundation phase
 - When superseding an asset, update its status and link the replacement
 - Keep exploratory content clearly labeled until promoted
 
-## ID conventions
-
-Draft / Advisory prefix convention (see `docs/governance/KNOWLEDGE_ASSET_STANDARD.md` OLY-GOV-002):
-
-- `ACR-*` — Architectural Concept Record
-- `OLY-GOV-*` — Olympus Governance Standard
-- `ADR-*`, `PDR-*`, `GDR-*`, `ODR-*` — Decision Records
-- `LLR-*`, `RNO-*`, `OPM-*`, `HND-*` — Lesson Learned, Research Note, Operating Model, Handoff
-
-Reference: `docs/governance/KNOWLEDGE_ASSET_STANDARD.md`
+For ID prefixes, status models, and authority hierarchy, see `asset-authority.mdc` and OLY-GOV-002.
