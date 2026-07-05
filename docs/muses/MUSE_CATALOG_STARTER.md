@@ -38,7 +38,7 @@ For example, a project may use one architecture assistant today and another late
 
 **Research is not currently a dedicated Muse.**
 
-Research — market, technical, competitive, user, historical, and analytical investigation — is treated as a **cross-cutting activity** that may inform any Muse domain. Research notes belong in `docs/research/` unless promoted through a formal decision to establish Research as a Muse discipline.
+Research — market, technical, competitive, user, historical, and analytical investigation — is treated as a **cross-cutting activity** that may inform any Muse domain. Research notes belong in `docs/research/` with prefix `RNO-*`. When applicable, research notes should identify one or more **Muse lenses** (multiple allowed; use `General Research` or `TBD` if none applies). Promotion of Research to a tenth Muse requires a formal decision.
 
 ## Muse Rules
 

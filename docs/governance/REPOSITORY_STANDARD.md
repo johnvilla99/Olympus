@@ -96,10 +96,22 @@ Each directory should include a `README.md` explaining purpose, what belongs, an
 ## File Naming Rules
 
 - Use **UPPER_SNAKE_CASE** for formal Knowledge Asset filenames (e.g. `KNOWLEDGE_ASSET_MODEL.md`, `REPOSITORY_STANDARD.md`).
-- Use stable **ID prefixes** where applicable:
-  - `ACR-*` — Architecture/Concept Records
-  - `OLY-GOV-*` — Olympus governance standards
-  - Decision ID conventions to be defined in a future standard
+- Use stable **ID prefixes** per `KNOWLEDGE_ASSET_STANDARD.md` (OLY-GOV-002):
+
+  | Prefix | Asset Type |
+  |---|---|
+  | `ACR` | Architectural Concept Record |
+  | `OLY-GOV` | Olympus Governance Standard |
+  | `ADR` | Architecture Decision Record |
+  | `PDR` | Product Decision Record |
+  | `GDR` | Governance Decision Record |
+  | `ODR` | Operating Decision Record |
+  | `LLR` | Lesson Learned Record |
+  | `RNO` | Research Note |
+  | `OPM` | Operating Model |
+  | `HND` | Handoff / Continuity Artifact |
+
+  Use sequential three-digit numbering (e.g. `ACR-001`, `OLY-GOV-001`). Draft / Advisory until formally promoted.
 - Prefer descriptive suffixes over opaque abbreviations.
 - Do not rename assets casually; record supersession when replacing an asset.
 - `README.md` is reserved for directory index files.
@@ -137,8 +149,11 @@ Each directory should include a `README.md` explaining purpose, what belongs, an
 
 - Operational logs and daily session activity belong under `logs/` — primarily `logs/daily/`.
 - Use date-oriented filenames where practical (e.g. `YYYY-MM-DD.md`).
-- Individual `*.log` files under `logs/` are gitignored; directory structure and README files are tracked.
-- Session handoff and session start artifacts may begin from `templates/sessions/`; promote durable decisions to `docs/decisions/` when appropriate.
+- Individual `*.log` files under `logs/` are gitignored; markdown logs and README files are tracked.
+- Session handoff and session start artifacts begin from `templates/sessions/`.
+- **Olympus-specific filled handoffs** belong in `logs/daily/` unless promoted to a governed asset under `docs/`.
+- **Project-specific handoffs** belong in the relevant project repository — do not centralize all project handoffs in Olympus unless a future participating-repository standard says otherwise.
+- Promote durable decisions to `docs/decisions/`; durable lessons or standards to appropriate `docs/` folders.
 - Logs are continuity aids, not substitutes for governed Knowledge Assets.
 
 ## Cursor Rules
@@ -181,3 +196,4 @@ Temporary exceptions (e.g. seed assets at `docs/` root during migration) should 
 | Date | Author | Summary |
 |---|---|---|
 | 2026-07-05 | John S. Villasenor | Initial draft (OLY-GOV-001) |
+| 2026-07-05 | John S. Villasenor | Tier 1/2 working answers: full ID convention, filled handoff location |

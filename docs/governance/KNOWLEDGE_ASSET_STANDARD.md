@@ -113,7 +113,34 @@ Examples of content that does **not** qualify as a formal Knowledge Asset:
 | Operating Model | Define roles, responsibilities, and workflows | `docs/operations/` |
 | Handoff / Continuity Artifact | Preserve current project state for session continuity | `logs/` for operational continuity; promote durable artifacts to `docs/operations/` or the relevant `docs/` folder |
 
-Future directories (`docs/product/`, `docs/architecture/`) are **candidates only** — do not create them in this pass unless explicitly directed.
+Future directories (`docs/product/`, `docs/architecture/`) are **future candidates only** — do not create them until formal product or architecture definition work begins (see Asset Placement Rules below).
+
+## Knowledge Asset ID Convention
+
+**Draft / Advisory working convention** (Founder-aligned, 2026-07-05 — not Canonical or Governing):
+
+| Prefix | Asset Type |
+|---|---|
+| `ACR` | Architectural Concept Record |
+| `OLY-GOV` | Olympus Governance Standard |
+| `ADR` | Architecture Decision Record |
+| `PDR` | Product Decision Record |
+| `GDR` | Governance Decision Record |
+| `ODR` | Operating Decision Record |
+| `LLR` | Lesson Learned Record |
+| `RNO` | Research Note |
+| `OPM` | Operating Model |
+| `HND` | Handoff / Continuity Artifact |
+
+**Rules:**
+
+- Use sequential **three-digit numbering** (e.g. `ACR-001`, `OLY-GOV-002`, `RNO-001`).
+- IDs are **stable once assigned**.
+- Do **not reuse** retired or superseded IDs.
+- **Existing IDs remain valid.**
+- This convention remains **Draft / Advisory** until formally promoted by a future decision record.
+
+Decision Records use ADR/PDR/GDR/ODR only — see `DECISION_RECORD_STANDARD.md` (OLY-GOV-003). Decision Records do **not** use Exploratory status.
 
 ## Required Metadata
 
@@ -121,7 +148,7 @@ Every formal Knowledge Asset should include the following metadata fields. Use t
 
 | Field | Meaning |
 |---|---|
-| **Knowledge Asset ID** | Stable identifier (e.g. ACR-001, OLY-GOV-002). Enables linking, supersession, and citation. |
+| **Knowledge Asset ID** | Stable identifier per ID Convention (e.g. ACR-001, OLY-GOV-002, RNO-001). |
 | **Title** | Human-readable name describing the asset's subject. |
 | **Classification** | Asset type (Concept Record, Decision Record, Governance Standard, etc.). |
 | **Category** | Knowledge domain (Foundation, Governance, Architecture, Product, etc.). |
@@ -140,6 +167,8 @@ Every formal Knowledge Asset should include the following metadata fields. Use t
 **Seed assets** may lack full metadata until their next substantive edit. Add missing fields when revising; do not backfill speculatively.
 
 Recommended content sections (from `templates/knowledge-assets/KNOWLEDGE_ASSET_TEMPLATE.md`): Purpose, Context, Content, Authority Notes, AI Usage Guidance, Related Decisions, Open Questions, Change History.
+
+**Research Note additional guidance:** Research notes (`RNO-*`) should identify one or more relevant **Muse lenses** when applicable. Multiple lenses are allowed. If none applies, use `General Research` or `TBD`. Keep capture lightweight — do not block quick research for metadata perfection.
 
 ## Status Model
 
@@ -202,7 +231,7 @@ AI agents working in or with this repository **must**:
 ## Asset Creation Rules
 
 - **Start from the appropriate template** in `templates/` when possible.
-- **Assign a stable ID** using established prefix conventions (ACR-*, OLY-GOV-*, decision IDs TBD).
+- **Assign a stable ID** using the Knowledge Asset ID Convention (ACR, OLY-GOV, LLR, RNO, OPM, HND, etc.).
 - **Complete metadata** before treating the document as a formal Knowledge Asset.
 - **Set initial status honestly** — default to Exploratory or Draft for new concepts and standards.
 - **Include** purpose, context, authority notes, AI usage guidance, related decisions, open questions, and change history where applicable.
@@ -217,7 +246,35 @@ Align with `docs/governance/REPOSITORY_STANDARD.md` (OLY-GOV-001):
 - **Templates** stay under `templates/` (copy before filling in).
 - **Operational logs** stay under `logs/` until promoted.
 - Match category to directory per the Asset Categories table above.
+
+**Future directory creation (do not create now):**
+
+- Create `docs/product/` when Olympus begins **formal product definition work**.
+- Create `docs/architecture/` when Olympus begins **formal architecture definition work**.
+- Until then: Product Definition → `docs/foundation/` or `docs/projects/` by scope; Architecture Definition → `docs/concepts/` until promoted beyond concept status.
+
 - Use directory `README.md` files for navigation; governed content lives in named asset files.
+
+## Minimum Bar for Proposed Status
+
+A Knowledge Asset may move from **Exploratory** or **Draft** to **Proposed** only when:
+
+- Required metadata is complete or explicitly marked **TBD with reason**
+- **Purpose** is clear
+- **Context** is clear enough for a future human or AI agent
+- **Owner** is known
+- **Status** and **Authority Level** are explicitly set
+- **Related Assets** are listed or explicitly marked None/TBD
+- **AI Consumption** guidance is set
+- **Open questions** are captured
+- **Change History** exists
+- The asset has future reasoning, decision-making, continuity, or execution value
+
+**Clarifications:**
+
+- **Proposed** means ready for review — **not Approved**.
+- High-impact assets require extra scrutiny before and after Proposed status.
+- Promotion to Proposed should update related README files and decision backlog items when applicable.
 
 ## Asset Promotion Rules
 
@@ -231,7 +288,11 @@ Exploratory idea → Concept Record → Proposed Decision or Standard → Approv
 
 - Not every concept should be promoted. Many should remain preserved but non-binding.
 - Promotion requires: clear problem, known owner, downstream value, and maintenance responsibility.
-- **Founder approval is required** for **Approved**, **Canonical**, or **Governing** status.
+- Meet the **Minimum Bar for Proposed Status** before moving to Proposed.
+- **Founder approval authority (foundation phase):** Only **John S. Villasenor / Founder** may approve **Approved**, **Canonical**, or **Governing** status.
+- **Curator** remains proposed — may recommend promotion but **cannot approve** during foundation phase.
+- **AI agents** may recommend, draft, or flag promotion candidates but **cannot approve**.
+- Founder approval must be **explicit** — do not infer from silence or repeated discussion.
 - Promotion should update **Related Assets** on affected documents and the **Decision Backlog** (`docs/decisions/MT_OLYMPUS_DECISION_BACKLOG.md`) when applicable.
 - Do not promote assets silently — record the promotion in Change History and, for significant promotions, in a decision record.
 
@@ -277,16 +338,12 @@ Drawing on exploratory concepts in ACR-002 — **not approved architecture**:
 
 - Experience is often captured first as **lessons, observations, failures, surprises, tradeoffs, or patterns** — not as polished documents.
 - **Not every experience event** is a formal Knowledge Asset. Session handoffs and daily logs may hold raw capture under `logs/`.
-- Experience should be **promoted** to a Lesson Learned or related asset when it has **future decision value**.
-- When promoting captured experience, include:
-  - **What happened**
-  - **Why it mattered**
-  - **Lesson learned**
-  - **Future use** — what decision or work this should inform
-  - **Related assets**
-  - **Confidence** — how strongly the lesson should be weighed (exploratory framing)
+- Experience should be **promoted** to a Lesson Learned (`LLR-*`) or related asset when it has **future decision value**.
+- When promoting captured experience, include: what happened, why it mattered, lesson learned, future use, related assets, and confidence (exploratory framing).
 
-Do **not** implement `experience_events` schema, database tables, or application design in this pass. ACR-002's capture structures remain conceptual exploration only.
+**Interim Experience Note (deferred):** An interim `Experience Note` artifact type is **likely needed** but **not formalized in this pass**. Continue using session handoffs, daily logs, lessons learned, operations notes, and candidate Knowledge Assets. Revisit when designing the Knowledge Capture Workflow or product MVP.
+
+Do **not** implement `experience_events` schema, database tables, or application design. ACR-002's capture structures remain conceptual exploration only.
 
 ## Prohibited Practices
 
@@ -311,3 +368,4 @@ Do **not** implement `experience_events` schema, database tables, or application
 | Date | Author | Summary |
 |---|---|---|
 | 2026-07-05 | John S. Villasenor | Initial draft (OLY-GOV-002) |
+| 2026-07-05 | John S. Villasenor | Tier 1/2 working answers: ID convention, Research cross-cutting, promotion authority, Proposed minimum bar, product/architecture timing, experience note deferred |

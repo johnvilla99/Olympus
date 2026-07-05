@@ -8,7 +8,7 @@
 |---|---|
 | Decision ID | _e.g. ODR-001_ |
 | Title | _Short decision title_ |
-| Status | _Exploratory \| Draft \| Proposed \| Approved \| Superseded \| Retired_ |
+| Status | _Draft \| Proposed \| Approved \| Superseded \| Retired_ |
 | Authority Level | _Informational \| Advisory \| Canonical \| Governing_ |
 | Owner | _Accountable decision owner_ |
 | Date | _YYYY-MM-DD_ |

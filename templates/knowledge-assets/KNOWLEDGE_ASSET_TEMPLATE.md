@@ -6,7 +6,7 @@
 
 | Field | Value |
 |---|---|
-| Knowledge Asset ID | _e.g. ACR-002_ |
+| Knowledge Asset ID | _e.g. ACR-002, OLY-GOV-002, RNO-001, LLR-001 — see OLY-GOV-002 ID convention_ |
 | Title | _Human-readable title_ |
 | Classification | _Concept Record, Decision Record, Governance Standard, Product Definition, Architecture Definition, Lesson Learned, Research Note, Operating Model, Handoff / Continuity Artifact_ |
 | Category | _Knowledge domain — e.g. Foundation, Governance, Architecture_ |
@@ -19,6 +19,7 @@
 | Last Updated | _YYYY-MM-DD_ |
 | Review Cadence | _e.g. As needed, Quarterly, Annually_ |
 | Related Assets | _Links or IDs — e.g. ACR-001, MT_OLYMPUS_FOUNDATION_BRIEF_ |
+| Muse Lenses | _For Research Notes (RNO): one or more Muse domains, or General Research / TBD_ |
 | AI Consumption | _Required \| Recommended \| Optional \| Restricted_ |
 | Change Impact | _Low \| Medium \| High_ |
 

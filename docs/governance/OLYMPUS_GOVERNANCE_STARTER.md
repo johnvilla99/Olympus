@@ -47,6 +47,18 @@ A concept may be promoted only when:
 - downstream users will benefit
 - maintenance responsibility is clear
 
+## Promotion Approval (Foundation Phase)
+
+**Founder-aligned working direction (Draft / Advisory, 2026-07-05):**
+
+Only **John S. Villasenor / Founder** may approve:
+
+- **Approved** status
+- **Canonical** authority level
+- **Governing** authority level
+
+**Curator** remains proposed — may recommend promotion but cannot approve during foundation phase. AI agents may recommend or draft but cannot approve. Founder approval must be explicit.
+
 ## Documentation Principle
 
 Prefer the fewest durable artifacts necessary to preserve future decision quality.

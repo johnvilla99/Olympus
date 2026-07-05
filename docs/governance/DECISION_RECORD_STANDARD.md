@@ -112,11 +112,11 @@ Examples of content that is **not** a decision record:
 
 - **ACR** means **Architectural Concept Record** — lives in `docs/concepts/`, exploratory by default, **not** a decision record.
 - ACRs may inform decisions but do not become decisions unless promoted through Draft → Proposed → Approved.
-- Final prefix convention remains **subject to future approval** — Decision Backlog item OLY-DB-001 and related ID questions may still be open.
+- ADR/PDR/GDR/ODR prefix convention is **Draft / Advisory working guidance** (Founder-aligned, 2026-07-05) — not Canonical or Governing until formally promoted.
 
 ## Decision ID Rules
 
-Formal ID convention is **still open** in the decision backlog. Until approved, use this **draft advisory** convention:
+**Draft / Advisory decision prefix convention** (Founder-aligned, 2026-07-05):
 
 ```text
 ADR-001
@@ -133,7 +133,19 @@ ODR-001
 - Do **not rename** decision files casually — record supersession instead.
 - If a decision is superseded, **create a new record** and link both records.
 - Filename should match Decision ID where practical (e.g. `GDR-001_OFFICIAL_ID_CONVENTION.md`).
-- This draft convention remains **advisory** until formally approved via decision record.
+- This convention aligns with the Knowledge Asset ID Convention in OLY-GOV-002. Remains **Draft / Advisory** until formally promoted via decision record.
+
+**Decision Record status values (only these):**
+
+```text
+Draft
+Proposed
+Approved
+Superseded
+Retired
+```
+
+Decision Records do **not** use `Exploratory`. Exploratory belongs to concept records, research notes, early knowledge assets, or backlog items — not decision records.
 
 ## Required Decision Metadata
 
@@ -173,6 +185,8 @@ ODR-001
 
 - A **decision backlog item** is a **question**, not a decision.
 - **Exploratory concept records (ACRs)** are **not** decisions.
+- **Assistant suggestions** are **not** decisions unless accepted by Founder and recorded.
+- Decision Records use **Draft, Proposed, Approved, Superseded, Retired only** — never Exploratory.
 - **Approved** decisions may carry **Advisory**, **Canonical**, or **Governing** authority depending on subject — Approved status and authority level are related but distinct.
 - **Canonical** or **Governing** authority level requires explicit **Founder approval**, even when status is Approved.
 
@@ -225,7 +239,9 @@ Draft → Proposed → Approved
 
 **Approval rules (foundation phase):**
 
-- **Founder (John S. Villasenor) approval is required** for **Approved** status.
+- **Only John S. Villasenor / Founder** may approve **Approved** status (and **Canonical** or **Governing** authority levels).
+- **Curator** remains proposed — may recommend promotion but **cannot approve** during foundation phase.
+- **AI agents** may recommend or draft but **cannot approve**.
 - Approval must be **explicit** — not inferred from silence, repeated discussion, or assistant assertion.
 - If approval is given in conversation, capture **date**, **source/context**, and **Decider / Approver** in the decision record.
 - **Governance decisions** may require updating related standards or README files as follow-up actions.
@@ -312,6 +328,7 @@ AI agents **must**:
 - **Promoting decisions** to Approved without Founder approval
 - Creating **decision bureaucracy** for trivial matters with no future impact
 - Assigning **Approved** status to exploratory concept records without the decision process
+- Assigning **Exploratory** status to a Decision Record
 
 ## Exceptions
 
@@ -323,3 +340,4 @@ AI agents **must**:
 | Date | Author | Summary |
 |---|---|---|
 | 2026-07-05 | John S. Villasenor | Initial draft (OLY-GOV-003) |
+| 2026-07-05 | John S. Villasenor | Tier 1/2 working answers: ADR/PDR/GDR/ODR prefixes, decision-only status model, Founder-only approval |

@@ -23,7 +23,7 @@ _Branch, commit, or general state of the repo at handoff time._
 
 | Decision | Status | Notes |
 |---|---|---|
-| _Decision summary_ | _Exploratory / Proposed / Approved_ | _Promote to decision record? Y/N_ |
+| _Decision summary_ | _Draft / Proposed / Approved (session observation)_ | _Promote to decision record? Y/N — Decision Records do not use Exploratory_ |
 
 ## Files Changed
 

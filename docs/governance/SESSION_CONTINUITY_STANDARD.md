@@ -76,10 +76,10 @@ The governed practice of preserving enough context, evidence, decisions, open qu
 
 | Artifact Type | Purpose | Typical Location |
 |---|---|---|
-| **Session Start** | Orients an agent at the beginning of work | `templates/sessions/SESSION_START_TEMPLATE.md`; filled copies in `logs/daily/` or project-specific location (TBD) |
-| **Session Handoff** | Preserves end-of-session state and next actions | `templates/sessions/SESSION_HANDOFF_TEMPLATE.md`; `logs/daily/` or project handoff location (TBD) |
+| **Session Start** | Orients an agent at the beginning of work | `templates/sessions/SESSION_START_TEMPLATE.md`; filled copies in `logs/daily/` |
+| **Session Handoff** | Preserves end-of-session state and next actions | `templates/sessions/SESSION_HANDOFF_TEMPLATE.md`; Olympus filled handoffs in `logs/daily/` |
 | **Daily Log** | Chronological operational record | `logs/daily/YYYY-MM-DD.md` |
-| **Evidence Packet** | Structured proof of what changed and how it was validated | Session handoff section, PR description, or project docs |
+| **Evidence Packet** | Structured proof of what changed and how it was validated | **Section within session handoff** (no standalone template yet) |
 | **Candidate Knowledge Asset** | Session-generated knowledge that may deserve promotion | Captured in handoff or daily log; promoted to appropriate `docs/` folder |
 | **Candidate Decision** | Open question or proposed decision discovered during work | `docs/decisions/MT_OLYMPUS_DECISION_BACKLOG.md` or formal decision record in `docs/decisions/` |
 
@@ -147,9 +147,18 @@ Use `templates/sessions/SESSION_HANDOFF_TEMPLATE.md` as the starting structure.
 - Logs should remain **concise enough to be useful** — avoid bloated narrative nobody will read.
 - Individual `*.log` files under `logs/` are gitignored; markdown daily logs are tracked.
 
+**Daily log AI Consumption (working guidance):**
+
+| Artifact | AI Consumption when resuming |
+|---|---|
+| Latest session handoff | **Required** when resuming the same workstream |
+| Daily logs | **Recommended** when a handoff exists |
+| Daily logs (no handoff) | **Required** — relevant daily logs become primary continuity source |
+| Formal decisions & governance standards | Outrank logs and handoffs for authority |
+
 ## Evidence Packet Rules
 
-Evidence packets document **what changed and how it was validated**. They may live inside a session handoff or as a separate section linked from handoff, PR, or project docs.
+Evidence packets document **what changed and how it was validated**. For now they remain a **section within session handoffs** — do not create a standalone evidence packet template until repeated workflows require it.
 
 **Should include when applicable:**
 
@@ -178,7 +187,7 @@ Evidence packets document **what changed and how it was validated**. They may li
 - **Not every session observation is a decision.**
 - Decisions **discovered during a session** should be added to the **decision backlog** (`docs/decisions/MT_OLYMPUS_DECISION_BACKLOG.md`) unless explicitly approved in the same session.
 - **Approved durable decisions** should become Decision Records under `docs/decisions/` per `DECISION_RECORD_STANDARD.md` (OLY-GOV-003).
-- **Founder approval must be explicit** for **Approved** status — see Decision Record Standard.
+- **Founder approval must be explicit** for **Approved** status — only Founder may approve (Curator and agents may recommend, not approve).
 - Session handoffs **may mention** decisions, but the **formal decision source** for durable guidance is a decision record, not the handoff alone.
 
 ## Experience Capture Rules
@@ -251,6 +260,7 @@ A future session should be able to resume from:
 - **Do not assume** uncommitted work exists unless shown in handoff or git status.
 - **Confirm** current branch and repository status before editing when applicable.
 - Treat handoff claims as **continuity hints** — verify against repository state and formal assets.
+- **Formal decisions and governance standards outrank** handoffs and daily logs.
 
 ## Promotion Rules
 
@@ -277,6 +287,8 @@ Align with `REPOSITORY_STANDARD.md` (OLY-GOV-001):
 | Content | Location |
 |---|---|
 | Session templates | `templates/sessions/` |
+| Filled Olympus handoffs | `logs/daily/` (unless promoted to `docs/`) |
+| Project-specific handoffs | Relevant **project repository** — not centralized in Olympus by default |
 | Daily logs | `logs/daily/` (`YYYY-MM-DD.md`) |
 | Durable operating models | `docs/operations/` |
 | Decision records | `docs/decisions/` |
@@ -286,7 +298,8 @@ Align with `REPOSITORY_STANDARD.md` (OLY-GOV-001):
 
 - Use **date-oriented names** for logs.
 - Use **stable IDs** for formal Knowledge Assets and decision records.
-- Filled session starts/handoffs may live in `logs/daily/` until a project-specific convention is adopted.
+- Filled session starts and handoffs for **Olympus work** belong in `logs/daily/` unless promoted.
+- Durable cross-project lessons or standards discovered in handoffs should be promoted into Olympus `docs/`.
 
 ## AI Consumption Rules
 
@@ -299,6 +312,13 @@ AI agents **must**:
 - **Identify candidate knowledge** from sessions worth promotion review
 - **Respect status and authority metadata** on all source documents
 - **Avoid re-litigating settled decisions** unless new evidence or Founder direction requires it
+
+**Continuity artifact consumption priority when resuming:**
+
+1. Relevant **governance standards** and **approved decision records**
+2. Latest **session handoff** for the workstream (**Required** AI Consumption)
+3. Relevant **daily logs** (**Recommended** if handoff exists; **Required** if no handoff)
+4. Current **git state**
 
 **AI Consumption values** (when assigned to continuity-related assets):
 
@@ -333,3 +353,4 @@ AI agents **must**:
 | Date | Author | Summary |
 |---|---|---|
 | 2026-07-05 | John S. Villasenor | Initial draft (OLY-GOV-004) |
+| 2026-07-05 | John S. Villasenor | Tier 1/2 working answers: handoff location, daily log AI Consumption, evidence packet as handoff section |
