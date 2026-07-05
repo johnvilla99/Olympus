@@ -28,6 +28,7 @@ Starter directory — proposed organization.
 | Asset | File |
 |---|---|
 | Decision Backlog | `MT_OLYMPUS_DECISION_BACKLOG.md` |
+| GDR-001: Olympus ID Convention | `GDR-001_OLYMPUS_ID_CONVENTION.md` — **Proposed**, not Approved |
 
 ## Decision promotion workflow
 

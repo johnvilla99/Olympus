@@ -44,6 +44,7 @@ Starter assets organized by subdirectory:
 |---|---|
 | ACR-001: Mnemosyne, Metis, and The Muses | `docs/concepts/ACR-001_MNEMOSYNE_METIS_AND_THE_MUSES.md` |
 | Knowledge Asset Model | `docs/foundation/KNOWLEDGE_ASSET_MODEL.md` |
+| Olympus Babble Fish | `docs/foundation/OLYMPUS_BABBLE_FISH.md` |
 | Foundation Brief | `docs/foundation/MT_OLYMPUS_FOUNDATION_BRIEF.md` |
 | Project Instructions | `docs/foundation/MT_OLYMPUS_PROJECT_INSTRUCTIONS.md` |
 | Governance Starter | `docs/governance/OLYMPUS_GOVERNANCE_STARTER.md` |

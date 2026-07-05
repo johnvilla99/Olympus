@@ -29,6 +29,7 @@ Founder-aligned working direction captured in governance standards (2026-07-05).
 | Olympus Agent Operating Model | Draft / Advisory working answer in OPM-001 — **not** Approved or Canonical | OPM-001 |
 | Knowledge Capture Workflow | Draft / Advisory triage and routing workflow in OPM-002 — **not** Approved or Canonical | OPM-002 |
 | Decision Promotion / Approval Workflow | Draft / Advisory promotion workflow in OPM-003 — **not** Approved or Canonical | OPM-003 |
+| Olympus Babble Fish | Draft / Advisory abbreviation and terminology reference (RNO-001) | `docs/foundation/OLYMPUS_BABBLE_FISH.md` |
 
 ---
 
@@ -68,7 +69,7 @@ Deferred until product / architecture phase unless noted.
 | OLY-DB-014 | Portfolio-wide versus project-specific asset scope rules | Governance | Deferred until product / architecture phase. |
 | OLY-DB-015 | Experience Note interim artifact type | Operations | Deferred | OPM-002 defers formal Experience Note type; continue using handoffs, logs, lessons, candidate assets. Revisit at product MVP design if needed. |
 | OLY-DB-016 | Standalone evidence packet template | Operations | Deferred — revisit if repeated workflows require it. Handoff section sufficient for now. |
-| OLY-DB-017 | Formal promotion of ID convention to Canonical/Governing | Governance | Working answer in OLY-GOV-002/003; formal GDR deferred. |
+| OLY-DB-017 | Formal promotion of ID convention to Canonical/Governing | Governance | **GDR-001** promoted to Proposed for John review — not Approved. Formal approval remains open. Working answer remains in OLY-GOV-002/003. |
 
 ---
 
