@@ -50,10 +50,10 @@ Read before editing:
 | Document | Path |
 |---|---|
 | Repository front door | `README.md` |
-| Repository Standard | `docs/governance/REPOSITORY_STANDARD.md` |
-| Knowledge Asset Standard | `docs/governance/KNOWLEDGE_ASSET_STANDARD.md` |
-| Decision Record Standard | `docs/governance/DECISION_RECORD_STANDARD.md` |
-| Session Continuity Standard | `docs/governance/SESSION_CONTINUITY_STANDARD.md` |
+| Repository Standard | `docs/governance/OLY-GOV-001_REPOSITORY_STANDARD.md` |
+| Knowledge Asset Standard | `docs/governance/OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD.md` |
+| Decision Record Standard | `docs/governance/OLY-GOV-003_DECISION_RECORD_STANDARD.md` |
+| Session Continuity Standard | `docs/governance/OLY-GOV-004_SESSION_CONTINUITY_STANDARD.md` |
 | Agent Operating Model | `docs/operations/OPM-001_OLYMPUS_AGENT_OPERATING_MODEL.md` |
 | Agent Roles (short reference) | `docs/operations/AGENT_ROLES.md` |
 | Decision Backlog | `docs/decisions/MT_OLYMPUS_DECISION_BACKLOG.md` |

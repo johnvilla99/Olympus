@@ -55,10 +55,10 @@ Starter assets organized by subdirectory:
 
 | Standard | File |
 |---|---|
-| OLY-GOV-001 Repository Standard | `docs/governance/REPOSITORY_STANDARD.md` |
-| OLY-GOV-002 Knowledge Asset Standard | `docs/governance/KNOWLEDGE_ASSET_STANDARD.md` |
-| OLY-GOV-003 Decision Record Standard | `docs/governance/DECISION_RECORD_STANDARD.md` |
-| OLY-GOV-004 Session Continuity Standard | `docs/governance/SESSION_CONTINUITY_STANDARD.md` |
+| OLY-GOV-001 Repository Standard | `docs/governance/OLY-GOV-001_REPOSITORY_STANDARD.md` |
+| OLY-GOV-002 Knowledge Asset Standard | `docs/governance/OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD.md` |
+| OLY-GOV-003 Decision Record Standard | `docs/governance/OLY-GOV-003_DECISION_RECORD_STANDARD.md` |
+| OLY-GOV-004 Session Continuity Standard | `docs/governance/OLY-GOV-004_SESSION_CONTINUITY_STANDARD.md` |
 
 ## Status
 

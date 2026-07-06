@@ -186,7 +186,7 @@ Evidence packets document **what changed and how it was validated**. For now the
 
 - **Not every session observation is a decision.**
 - Decisions **discovered during a session** should be added to the **decision backlog** (`docs/decisions/MT_OLYMPUS_DECISION_BACKLOG.md`) unless explicitly approved in the same session.
-- **Approved durable decisions** should become Decision Records under `docs/decisions/` per `DECISION_RECORD_STANDARD.md` (OLY-GOV-003).
+- **Approved durable decisions** should become Decision Records under `docs/decisions/` per `OLY-GOV-003_DECISION_RECORD_STANDARD.md` (OLY-GOV-003).
 - **Founder approval must be explicit** for **Approved** status — only Founder may approve (Curator and agents may recommend, not approve).
 - Session handoffs **may mention** decisions, but the **formal decision source** for durable guidance is a decision record, not the handoff alone.
 
@@ -210,7 +210,7 @@ When capturing experience (in handoff, log, or promoted asset), include:
 **Rules:**
 
 - **Not every experience note** becomes a Knowledge Asset.
-- **Durable experience** should be promoted to `docs/lessons/`, `docs/operations/`, or another relevant `docs/` folder per `KNOWLEDGE_ASSET_STANDARD.md` (OLY-GOV-002).
+- **Durable experience** should be promoted to `docs/lessons/`, `docs/operations/`, or another relevant `docs/` folder per `OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD.md` (OLY-GOV-002).
 - Do **not** implement `experience_events` schema or application capture pipelines in this pass.
 
 ## Agent Capability and Limitation Rules
@@ -278,11 +278,11 @@ Continuity artifacts may produce:
 - **Do not promote** raw logs wholesale.
 - **Preserve links** from promoted assets back to session source (handoff date, log path) when useful.
 - **Update** related README files, backlog items, and Related Assets when promotion occurs.
-- Follow promotion paths in `KNOWLEDGE_ASSET_STANDARD.md` and `DECISION_RECORD_STANDARD.md`.
+- Follow promotion paths in `OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD.md` and `OLY-GOV-003_DECISION_RECORD_STANDARD.md`.
 
 ## Placement and Naming Rules
 
-Align with `REPOSITORY_STANDARD.md` (OLY-GOV-001):
+Align with `OLY-GOV-001_REPOSITORY_STANDARD.md` (OLY-GOV-001):
 
 | Content | Location |
 |---|---|

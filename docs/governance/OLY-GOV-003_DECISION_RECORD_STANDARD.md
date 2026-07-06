@@ -68,7 +68,7 @@ A decision record should answer:
 - **What assets or projects** are affected?
 - **What would cause** this decision to be revisited?
 
-Decision records belong in `docs/decisions/` and should align with `docs/governance/KNOWLEDGE_ASSET_STANDARD.md` (OLY-GOV-002).
+Decision records belong in `docs/decisions/` and should align with `docs/governance/OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD.md` (OLY-GOV-002).
 
 ## What Qualifies as a Decision
 

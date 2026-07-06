@@ -160,7 +160,7 @@ Expected routing:
 Reference:
 
 - `docs/operations/session_start_prompt.md`
-- OLY-GOV-004 (`docs/governance/SESSION_CONTINUITY_STANDARD.md`)
+- OLY-GOV-004 (`docs/governance/OLY-GOV-004_SESSION_CONTINUITY_STANDARD.md`)
 - `.cursor/rules/session-continuity.mdc`
 
 New sessions should:

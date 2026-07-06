@@ -140,7 +140,7 @@ Future directories (`docs/product/`, `docs/architecture/`) are **future candidat
 - **Existing IDs remain valid.**
 - This convention remains **Draft / Advisory** until formally promoted by a future decision record.
 
-Decision Records use ADR/PDR/GDR/ODR only — see `DECISION_RECORD_STANDARD.md` (OLY-GOV-003). Decision Records do **not** use Exploratory status.
+Decision Records use ADR/PDR/GDR/ODR only — see `OLY-GOV-003_DECISION_RECORD_STANDARD.md` (OLY-GOV-003). Decision Records do **not** use Exploratory status.
 
 ## Required Metadata
 
@@ -240,7 +240,7 @@ AI agents working in or with this repository **must**:
 
 ## Asset Placement Rules
 
-Align with `docs/governance/REPOSITORY_STANDARD.md` (OLY-GOV-001):
+Align with `docs/governance/OLY-GOV-001_REPOSITORY_STANDARD.md` (OLY-GOV-001):
 
 - Formal Knowledge Assets belong under **`docs/`** in the appropriate subdirectory — not repository root.
 - **Templates** stay under `templates/` (copy before filling in).

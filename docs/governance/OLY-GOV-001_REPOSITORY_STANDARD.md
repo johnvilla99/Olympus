@@ -95,8 +95,8 @@ Each directory should include a `README.md` explaining purpose, what belongs, an
 
 ## File Naming Rules
 
-- Use **UPPER_SNAKE_CASE** for formal Knowledge Asset filenames (e.g. `KNOWLEDGE_ASSET_MODEL.md`, `REPOSITORY_STANDARD.md`).
-- Use stable **ID prefixes** per `KNOWLEDGE_ASSET_STANDARD.md` (OLY-GOV-002):
+- Use **UPPER_SNAKE_CASE** for formal Knowledge Asset filenames (e.g. `OLY-GOV-001_REPOSITORY_STANDARD.md`, `GDR-001_OLYMPUS_ID_CONVENTION.md`).
+- Use stable **ID prefixes** per `OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD.md` (OLY-GOV-002):
 
   | Prefix | Asset Type |
   |---|---|
