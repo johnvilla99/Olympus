@@ -17,11 +17,11 @@ Although this record originated during the Hobby Brain project, the concepts des
 | **Status**             | Exploratory                                               |
 | **Authority Level**    | Informational                                             |
 | **Canonical Source**   | No                                                        |
-| **Version**            | 0.1.0                                                     |
+| **Version**            | 0.1.1                                                     |
 | **Owner**              | John S. Villasenor                                        |
 | **Primary AI Owner**   | Curator (Proposed)                                        |
 | **Created On**         | 2026-07-04                                                |
-| **Last Updated**       | 2026-07-05                                                |
+| **Last Updated**       | 2026-07-22                                                |
 | **Review Cadence**     | As Needed                                                 |
 | **Next Review Due**    | TBD                                                       |
 | **Date Retired**       |                                                           |
@@ -249,13 +249,22 @@ This separation preserves continuity even as technology evolves.
 
 7. AI should augment human judgment, not replace it.
 
+8. Collective knowledge should remain usable — future humans and agents should be able to retrieve and apply it to real work, not merely archive it.
+
 ---
 
 # Long-Term Vision
 
 The ultimate aspiration is not to build another documentation system.
 
-The aspiration is to build a digital ecosystem capable of preserving the accumulated engineering knowledge of individuals, teams, and organizations.
+The aspiration is to build a digital ecosystem capable of preserving the accumulated engineering knowledge of individuals, teams, and organizations — and of making that knowledge available so future humans and AI agents can retrieve it, reason over it, and apply it to real work.
+
+Olympus is therefore not only about governing artifacts. Over the long term it should support:
+
+* Retention of collective knowledge with context and authority
+* Retrieval of the right memory for a given question or engagement
+* Synthesis of that memory into judgment
+* Generation of useful work products grounded in what the organization already knows
 
 Knowledge may include:
 
@@ -271,7 +280,9 @@ Knowledge may include:
 
 The objective is not to recreate a person.
 
-The objective is to preserve the knowledge, experience, and judgment that would otherwise disappear.
+The objective is to preserve the knowledge, experience, and judgment that would otherwise disappear — and to keep that inheritance usable when future work needs it.
+
+This remains a philosophical and conceptual aspiration. It is not an implementation plan, product specification, or approval of any particular retrieval or generation approach.
 
 ---
 
@@ -306,6 +317,8 @@ This remains an open design question.
 * How should institutional knowledge be audited?
 * What responsibilities belong to the Librarian?
 * Should every repository become a participant in this ecosystem?
+* How should preserved knowledge remain activatable for future work without collapsing Olympus into a generic document chatbot?
+* What kinds of work products should Olympus someday help generate from governed memory and judgment?
 
 ---
 

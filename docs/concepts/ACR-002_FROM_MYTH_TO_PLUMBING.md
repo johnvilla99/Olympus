@@ -13,11 +13,11 @@
 | **Status** | Exploratory |
 | **Authority Level** | Informational |
 | **Canonical Source** | No |
-| **Version** | 0.1.0 |
+| **Version** | 0.1.1 |
 | **Owner** | John S. Villasenor |
 | **Primary AI Owner** | Hermes |
 | **Created On** | 2026-07-05 |
-| **Last Updated** | 2026-07-05 |
+| **Last Updated** | 2026-07-22 |
 | **Review Cadence** | As Needed |
 | **Next Review Due** | TBD |
 | **Date Retired** |  |
@@ -51,6 +51,7 @@ This record translates that concept into something more concrete:
 - where knowledge might live
 - how experience might be captured
 - how judgment might be produced
+- how governed memory might be activated into work products
 - how the system might avoid becoming just another document repository or RAG chatbot
 
 This document exists to support the "landing approach" from 10,000-foot concept toward buildable product architecture.
@@ -1096,6 +1097,138 @@ Olympus produces governed, domain-aware judgment.
 
 ---
 
+# Knowledge Activation and Work Product Generation
+
+Olympus should not stop at storing documents, tagging them with governance metadata, or answering questions about what was once written.
+
+Olympus should support **knowledge activation**: taking governed memory, captured experience, Muse/domain lenses, authority metadata, project context, and Metis synthesis — and turning them into useful **work products**.
+
+## What Knowledge Activation Means
+
+Artifact governance is necessary. It is not the product by itself.
+
+Governance metadata — status, authority level, ownership, provenance, AI consumption guidance, relationships — exists so that humans and agents can:
+
+- find the right memory
+- trust or discount it appropriately
+- synthesize without treating exploratory drafts as governing truth
+- generate outputs that remain grounded in what the organization actually knows
+
+In other words:
+
+```text
+Governed retention
+        │
+        ▼
+Trustworthy retrieval
+        │
+        ▼
+Domain-aware Metis synthesis
+        │
+        ▼
+Work product generation
+```
+
+Olympus is a **governed knowledge retention, retrieval, synthesis, and work-product generation system**.
+
+It is not:
+
+```text
+a SharePoint / Confluence replacement alone
+a generic RAG chatbot
+a dump of Markdown with mythology labels
+a metadata catalog that never produces client or project work
+```
+
+## Work Products Olympus Should Eventually Support
+
+Illustrative outputs — conceptual, not a product backlog commitment:
+
+| Work Product Class | Examples |
+|---|---|
+| Engagement / commercial | Statements of Work (SOWs), proposals, scope outlines, pricing narratives grounded in known capability |
+| Delivery planning | Project plans, workstream breakdowns, milestone framing, staffing / role guidance |
+| Implementation guidance | Approach recommendations, architecture or process guidance *as advisory synthesis*, checkout / delivery checklists |
+| Risk and judgment | Risk analysis, tradeoff summaries, lessons applied to a new context |
+| Client-specific recommendations | Tailored recommendations for a named client or engagement, combining portfolio memory with project context |
+
+These outputs should be produced from:
+
+1. **Governed Knowledge Assets** — decisions, standards, concept records, lessons, research, operating models
+2. **Captured experience** — handoffs, experience events, retrospectives, prior engagement outcomes
+3. **Domain / Muse lenses** — Product, Governance, Architecture, Operations, and related disciplines that shape what “good” looks like
+4. **Authority metadata** — Approved vs Exploratory; Founder direction vs assistant inference; conflict flags
+5. **Project / client context** — constraints, industry, prior work with that client or similar engagements
+6. **Metis synthesis** — reasoning over the above rather than inventing unsupported claims
+
+## Illustrative Scenario: E7CORE Professional Services SOW
+
+Consider a professional services Statement of Work for **E7CORE**.
+
+A generic document repository might let someone search “SOW template” and paste sections into a draft.
+
+A generic RAG chatbot might retrieve nearby chunks and invent a polished-looking SOW that mixes firm language, guesswork, and outdated assumptions — without distinguishing Approved standards from exploratory notes.
+
+Olympus should aim for a different path:
+
+```text
+Engagement request: draft an E7CORE professional services SOW
+        │
+        ▼
+Agent + relevant Muse lenses
+  (Product / Calliope, Governance / Polyhymnia,
+   Operations / Terpsichore, Engineering / Euterpe as needed)
+        │
+        ▼
+Metis retrieves from Mnemosyne
+  - prior SOWs and commercial patterns with known status
+  - capability / service descriptions that are current and owned
+  - decisions about scope language, exclusions, SLAs, assumptions
+  - lessons from similar engagements (what went wrong, what worked)
+  - E7CORE-specific or adjacent client context, if governed memory exists
+        │
+        ▼
+Authority-aware synthesis
+  - prefer Approved / Canonical guidance over Exploratory drafts
+  - flag gaps where memory is thin or conflicting
+  - cite sources so a human can verify
+        │
+        ▼
+Draft SOW work product
+  - scope narrative grounded in known offerings
+  - assumptions and exclusions tied to prior decisions / lessons
+  - risks and dependencies surfaced from experience memory
+  - explicit notes where invention would be required (human fills gap)
+```
+
+The point of the E7CORE example is not to prescribe SOW fields, pricing models, or implementation.
+
+The point is to show the intended value: **portfolio knowledge becomes activatable for real client work**.
+
+## Grounded Synthesis vs Unsupported Invention
+
+Olympus should distinguish:
+
+| Mode | Behavior |
+|---|---|
+| **Grounded synthesis** | Combines retrieved governed assets, experience, and Muse lenses; cites sources; states confidence and authority of inputs |
+| **Gap acknowledgment** | When memory is missing or conflicted, surfaces the gap rather than silently inventing |
+| **Unsupported invention** | Fluent generation that looks authoritative but is not tied to governed memory — this should be avoided or clearly labeled as speculation for human review |
+
+Governance metadata enables this distinction. Without it, retrieval treats all text as equal, and synthesis collapses into generic chatbot invention.
+
+## Conceptual Link to the Rest of This Record
+
+- **Mnemosyne** retains activatable memory, not only files.
+- **Metis** synthesizes judgment into recommendations *and* into work-product drafts.
+- **Muses** constrain tone, criteria, and disciplinary quality for the output class.
+- **Agents** produce the draft and present sources, risks, and gaps to humans.
+- **Projects / clients** supply context and later contribute new experience back into Mnemosyne.
+
+This section remains exploratory and informational. It does not approve schemas, UI, automations, or vendor choices for generation.
+
+---
+
 # Candidate Data Model Summary
 
 ```text
@@ -1159,8 +1292,11 @@ chat with documents
 The first real Olympus product is:
 
 ```text
-a governed knowledge capture and judgment system
+a governed knowledge retention, retrieval, synthesis,
+and work-product generation system
 ```
+
+Knowledge that cannot be retrieved with authority, synthesized into judgment, and applied to real work remains a filing cabinet — even if well-governed.
 
 ---
 
@@ -1176,6 +1312,9 @@ a governed knowledge capture and judgment system
 - How should Olympus handle conflicts between canonical assets?
 - How should project-specific knowledge be separated from portfolio-wide knowledge?
 - When, if ever, does the relationship layer require a true graph database?
+- What retrieval and synthesis patterns are required for generated work products (SOWs, proposals, plans, risk analyses, client recommendations)?
+- What source citation requirements should apply to generated work products?
+- How should Olympus separate grounded synthesis from unsupported invention in generated outputs?
 
 ---
 
@@ -1202,3 +1341,5 @@ If Olympus cannot capture knowledge, classify it, retrieve it, and apply authori
 | Version | Date | Change |
 |---|---|---|
 | 0.1.0 | 2026-07-05 | Initial exploratory record created from discussion on translating Olympus from conceptual model into tangible backend and product architecture. |
+| 0.1.1 | 2026-07-08 | Added Knowledge Activation and Work Product Generation section (E7CORE SOW illustration); clarified Olympus as retention, retrieval, synthesis, and work-product generation — not metadata alone or generic RAG; added related open questions. Remains Exploratory / Informational. |
+| 0.1.1 | 2026-07-22 | Confirmed under Founder direction: knowledge activation framing, E7CORE SOW illustration, RAG/repository distinction, and open questions on retrieval/synthesis patterns, citation, and grounded vs unsupported invention. Status and authority unchanged (Exploratory / Informational). |
