@@ -1,7 +1,7 @@
 # Hermes E7CORE Account Transition Handoff
 
 > **Continuity artifact — not an approved decision record, governance standard, or Canonical source.**  
-> **Status:** Current · **Authority Level:** Informational · **Canonical Source:** No  
+> **Continuity State:** Active until transition acceptance · **Authority Level:** Informational · **Canonical Source:** No  
 > Aligns with **OLY-GOV-004** (`docs/governance/OLY-GOV-004_SESSION_CONTINUITY_STANDARD.md`).  
 > Commit or push of related work does **not** constitute Founder approval.
 
@@ -12,7 +12,7 @@
 | Title | Hermes E7CORE Account Transition Handoff |
 | Classification | Handoff / Continuity Artifact |
 | Category | Knowledge Stewardship / Session Continuity |
-| Status | Current |
+| Continuity State | Active until transition acceptance |
 | Authority Level | Informational |
 | Canonical Source | No |
 | Owner | John S. Villasenor |
@@ -20,7 +20,7 @@
 | Created On | 2026-07-22 |
 | Last Updated | 2026-07-22 |
 | Review Cadence | Until transition is accepted |
-| Related Assets | OLY-GOV-001–005; OPM-001–003; ACR-001; ACR-002; RNO-001; GDR-001; Decision Backlog; OLY-GOV-004 |
+| Related Assets | OLY-GOV-001–005; OPM-001–003; ACR-001; ACR-002; RNO-001; GDR-001; Decision Backlog |
 | AI Consumption | Required for E7CORE Hermes onboarding |
 | Change Impact | High |
 | Knowledge Asset ID | _(continuity artifact — not a formal governed ID assignment)_ |
@@ -106,7 +106,8 @@ Do not invent new authority rules in this handoff.
 ```text
 Repository: johnvilla99/Olympus
 Primary branch: main
-Remote HEAD at handoff creation: 813a811 (docs: add draft agent knowledge discovery standard)
+OLY-GOV-005 baseline commit: 813a811 (docs: add draft agent knowledge discovery standard)
+Current repository HEAD: verify at orientation time
 ```
 
 E7CORE Hermes must connect to GitHub and treat the repository as the durable source of truth.
@@ -128,7 +129,7 @@ E7CORE Hermes must connect to GitHub and treat the repository as the durable sou
 
 ### Observable repository state (verified 2026-07-22)
 
-**Branch:** `main` (tracking `origin/main` at `813a811` after push of OLY-GOV-005)
+**Branch at handoff creation:** `main` (tracking `origin/main` at `813a811` after push of OLY-GOV-005). Verify current HEAD and repository state at orientation time.
 
 **`git status --short` at handoff creation:**
 
@@ -138,9 +139,9 @@ E7CORE Hermes must connect to GitHub and treat the repository as the durable sou
 ?? logs/daily/2026-07-09_ACR_UPDATES_EXPORTS_AND_LEADERSHIP_REPORT_HANDOFF.md
 ```
 
-Working tree is **not** fully clean: untracked exports, a prior uncommitted handoff, and `.obsidian/` are present. Do not treat untracked files as approved or Canonical.
+Working tree was **not** fully clean at handoff creation: untracked exports, a prior uncommitted handoff, and `.obsidian/` were present. Do not treat untracked files as approved or Canonical.
 
-**Recent commits:**
+**Recent commits at handoff creation:**
 
 ```text
 813a811 docs: add draft agent knowledge discovery standard
@@ -194,8 +195,10 @@ Inspect these **first**, using actual repository paths. Verify Status, Authority
 | GDR-001 (Proposed) | `docs/decisions/GDR-001_OLYMPUS_ID_CONVENTION.md` |
 | Decision Backlog | `docs/decisions/MT_OLYMPUS_DECISION_BACKLOG.md` |
 | This handoff | `logs/daily/2026-07-22_HERMES_E7CORE_ACCOUNT_TRANSITION_HANDOFF.md` |
-| Recent continuity | `logs/daily/2026-07-09_ACR_UPDATES_EXPORTS_AND_LEADERSHIP_REPORT_HANDOFF.md` (untracked at creation); earlier `2026-07-05_*` handoffs |
+| Recent committed continuity | Earlier committed `2026-07-05_*` handoffs under `logs/daily/` |
 | Git history / status | `git log`, `git status` on `main` |
+
+The untracked `logs/daily/2026-07-09_ACR_UPDATES_EXPORTS_AND_LEADERSHIP_REPORT_HANDOFF.md` is a known local continuity risk, not a required GitHub orientation source.
 
 Also useful: root `README.md` (front door — not Canonical for all content), Muse Catalog `docs/muses/MUSE_CATALOG_STARTER.md`.
 
@@ -410,3 +413,4 @@ E7CORE Hermes must **not** assume:
 | Date | Author | Summary |
 |---|---|---|
 | 2026-07-22 | Hephaestus (under John / Hermes direction) | Created E7CORE Hermes account-transition handoff for continuity without chat-history import. Informational / non-Canonical. |
+| 2026-07-22 | Hermes (under John direction) | Corrected continuity metadata, distinguished the OLY-GOV-005 baseline commit from current repository HEAD, removed an untracked handoff from required GitHub orientation sources, and removed duplicate Related Assets entry. No approval or promotion. |
