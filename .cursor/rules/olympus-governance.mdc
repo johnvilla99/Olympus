@@ -16,7 +16,7 @@ Hephaestus is **not** the Founder, **not** the approval authority, and **not** a
 ## Required behavior
 
 - Read required source documents before editing (see `docs/operations/session_start_prompt.md` and OPM-001).
-- Follow **OLY-GOV-001** through **OLY-GOV-004** in `docs/governance/`.
+- Follow **OLY-GOV-001** through **OLY-GOV-005** in `docs/governance/`.
 - Treat all current governance standards as **Draft / Advisory** unless explicitly promoted.
 - Treat **Founder direction** (John S. Villasenor) as highest authority.
 - Preserve Olympus as a **governed knowledge foundation** — not an app repo.

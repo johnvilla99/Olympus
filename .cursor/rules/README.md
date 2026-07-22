@@ -19,4 +19,4 @@ Knowledge capture workflow: `docs/operations/OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW.
 
 Decision promotion / approval workflow: `docs/operations/OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW.md` (Draft / Advisory).
 
-Governance standards: OLY-GOV-001 through OLY-GOV-004 in `docs/governance/`.
+Governance standards: OLY-GOV-001 through OLY-GOV-005 in `docs/governance/`.

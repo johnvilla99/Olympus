@@ -16,9 +16,9 @@
 | Owner | John S. Villasenor |
 | Primary AI Owner | Hermes |
 | Created On | 2026-07-05 |
-| Last Updated | 2026-07-05 |
+| Last Updated | 2026-07-22 |
 | Review Cadence | As Needed |
-| Related Assets | AGENT_ROLES.md; OLY-GOV-001; OLY-GOV-002; OLY-GOV-003; OLY-GOV-004; Muse Catalog; Decision Backlog |
+| Related Assets | AGENT_ROLES.md; OLY-GOV-001; OLY-GOV-002; OLY-GOV-003; OLY-GOV-004; OLY-GOV-005; Muse Catalog; Decision Backlog |
 | AI Consumption | Recommended |
 | Change Impact | Medium |
 
@@ -222,10 +222,11 @@ Escalate to **John** when:
 - Should `AGENT_ROLES.md` be retired, superseded, or kept as a short reference after OPM-001 matures?
 - Should every participating project define its local Hephaestus-like implementation role?
 - Should **Curator** become a separate agent role or remain proposed? (See OLY-DB-005 — still open.)
-- How should **OLY-DB-009** be resolved once agent discovery behavior stabilizes?
+- How should **OLY-DB-009** be resolved once agent discovery behavior stabilizes? (Working answer captured in Draft / Advisory **OLY-GOV-005** — remains open pending review and practical validation; not Approved.)
 
 ## Change History
 
 | Date | Author | Summary |
 |---|---|---|
 | 2026-07-05 | John S. Villasenor | Initial Draft / Advisory operating model for Olympus agent roles |
+| 2026-07-22 | Hephaestus (under John direction) | Linked OLY-GOV-005 as Draft / Advisory working answer for OLY-DB-009; open question updated — not Approved |

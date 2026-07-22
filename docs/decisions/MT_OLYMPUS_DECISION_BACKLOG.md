@@ -30,6 +30,7 @@ Founder-aligned working direction captured in governance standards (2026-07-05).
 | Knowledge Capture Workflow | Draft / Advisory triage and routing workflow in OPM-002 — **not** Approved or Canonical | OPM-002 |
 | Decision Promotion / Approval Workflow | Draft / Advisory promotion workflow in OPM-003 — **not** Approved or Canonical | OPM-003 |
 | RNO-001 Olympus Babble Fish | Approved / Advisory living abbreviation and terminology reference | `docs/foundation/RNO-001_OLYMPUS_BABBLE_FISH.md` |
+| Agent discovery of authoritative knowledge | Draft / Advisory discovery standard in OLY-GOV-005 — **not** Approved or Canonical; remains open pending review and practical validation | OLY-GOV-005 |
 
 ---
 
@@ -41,7 +42,6 @@ Founder-aligned working direction captured in governance standards (2026-07-05).
 | OLY-DB-002 | What is the official relationship between Olympus, Mnemosyne, Metis, and the Muses? | Conceptual Model | Open | Current model is promising but exploratory. |
 | OLY-DB-005 | What is Curator? | Operating Model | Open | Proposed AI owner; may recommend promotion but cannot approve during foundation phase. OPM-001 does not define Curator as an active agent role. |
 | OLY-DB-007 | Which project participates first? | Strategy | Open | Hobby Brain is origin, but portfolio-wide intent is explicit. |
-| OLY-DB-009 | How should agents discover authoritative knowledge? | Operating Model | Open | Partially addressed by OLY-GOV-002/003/004, OPM-001, OPM-002, OPM-003, and Cursor rules; formal decision still open. |
 | OLY-DB-010 | How should institutional knowledge be audited? | Governance | Open | Future concern after initial foundation. |
 
 ---
@@ -53,6 +53,7 @@ Founder-aligned working direction captured in governance standards (2026-07-05).
 | OLY-DB-003 | What constitutes a Knowledge Asset? | Governance | Working answer captured | See OLY-GOV-002 and Knowledge Asset Model. Formal GDR promotion deferred. |
 | OLY-DB-004 | What statuses and authority levels should Knowledge Assets use? | Governance | Working answer captured | See OLY-GOV-002. Formal GDR promotion deferred. |
 | OLY-DB-008 | What must every participating repository expose? | Governance | Open | Candidate: governance, decisions, architecture, handoff, source map. Handoff rules partially in OLY-GOV-004. |
+| OLY-DB-009 | How should agents discover authoritative knowledge? | Operating Model | Working answer captured | Working answer captured in Draft / Advisory **OLY-GOV-005**. Remains open pending review and practical validation. Also informed by OLY-GOV-002/003/004, OPM-001/002/003, and Cursor rules. |
 
 ---
 

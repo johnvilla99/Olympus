@@ -62,4 +62,4 @@ Application UI, database design, graph implementation, automation pipelines, API
 - Do not promote exploratory ideas prematurely
 - Do not design implementation before product and governance are clear
 
-Reference: `README.md`, `LICENSE`, `docs/README.md`, `docs/governance/` (OLY-GOV-001–004), `docs/foundation/MT_OLYMPUS_PROJECT_INSTRUCTIONS.md`, `docs/governance/OLYMPUS_GOVERNANCE_STARTER.md`, `.cursor/rules/README.md`
+Reference: `README.md`, `LICENSE`, `docs/README.md`, `docs/governance/` (OLY-GOV-001–005), `docs/foundation/MT_OLYMPUS_PROJECT_INSTRUCTIONS.md`, `docs/governance/OLYMPUS_GOVERNANCE_STARTER.md`, `.cursor/rules/README.md`

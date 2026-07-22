@@ -35,3 +35,4 @@ All listed standards are **Draft / Advisory** unless explicitly promoted by Foun
 | Knowledge Asset Standard | `OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD.md` | OLY-GOV-002 — metadata, categories, promotion |
 | Decision Record Standard | `OLY-GOV-003_DECISION_RECORD_STANDARD.md` | OLY-GOV-003 — decision lifecycle and backlog |
 | Session Continuity Standard | `OLY-GOV-004_SESSION_CONTINUITY_STANDARD.md` | OLY-GOV-004 — session start, handoff, logs |
+| Agent Knowledge Discovery Standard | `OLY-GOV-005_AGENT_KNOWLEDGE_DISCOVERY_STANDARD.md` | OLY-GOV-005 — how agents discover, evaluate, cite, and activate knowledge (Draft / Advisory working answer for OLY-DB-009) |

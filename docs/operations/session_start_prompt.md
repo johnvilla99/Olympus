@@ -54,6 +54,7 @@ Read before editing:
 | Knowledge Asset Standard | `docs/governance/OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD.md` |
 | Decision Record Standard | `docs/governance/OLY-GOV-003_DECISION_RECORD_STANDARD.md` |
 | Session Continuity Standard | `docs/governance/OLY-GOV-004_SESSION_CONTINUITY_STANDARD.md` |
+| Agent Knowledge Discovery Standard | `docs/governance/OLY-GOV-005_AGENT_KNOWLEDGE_DISCOVERY_STANDARD.md` |
 | Agent Operating Model | `docs/operations/OPM-001_OLYMPUS_AGENT_OPERATING_MODEL.md` |
 | Agent Roles (short reference) | `docs/operations/AGENT_ROLES.md` |
 | Decision Backlog | `docs/decisions/MT_OLYMPUS_DECISION_BACKLOG.md` |

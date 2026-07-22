@@ -59,6 +59,7 @@ Starter assets organized by subdirectory:
 | OLY-GOV-002 Knowledge Asset Standard | `docs/governance/OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD.md` |
 | OLY-GOV-003 Decision Record Standard | `docs/governance/OLY-GOV-003_DECISION_RECORD_STANDARD.md` |
 | OLY-GOV-004 Session Continuity Standard | `docs/governance/OLY-GOV-004_SESSION_CONTINUITY_STANDARD.md` |
+| OLY-GOV-005 Agent Knowledge Discovery Standard | `docs/governance/OLY-GOV-005_AGENT_KNOWLEDGE_DISCOVERY_STANDARD.md` |
 
 ## Status
 
