@@ -8,29 +8,29 @@ It prevents exploratory questions from becoming accidental architecture.
 
 ---
 
-## Working Answers Captured (Draft / Advisory — not Approved)
+## Established Foundation Guidance
 
-Founder-aligned working direction captured in governance standards (2026-07-05). These are **not** Approved or Canonical decisions.
+The following guidance has been reviewed and accepted for current Olympus use. Status and Authority Level remain distinct: Approved / Advisory artifacts are active guidance but are not Canonical or Governing unless explicitly stated.
 
-| Topic | Working Answer | Reference |
+| Topic | Current Guidance | Authority Source |
 |---|---|---|
-| Formal Knowledge Asset ID convention | Prefixes: ACR, OLY-GOV, ADR, PDR, GDR, ODR, LLR, RNO, OPM, HND; three-digit sequential numbering | OLY-GOV-002 |
-| ADR/PDR/GDR/ODR decision prefixes | Approved as draft decision prefix convention | OLY-GOV-003 |
-| Valid Decision Record statuses | Draft, Proposed, Approved, Superseded, Retired only — not Exploratory | OLY-GOV-003 |
-| Research as tenth Muse | **No** — Research remains cross-cutting; notes in `docs/research/` with Muse lens metadata when applicable | OLY-GOV-002, Muse Catalog |
-| Promotion approval authority | Only Founder approves Approved / Canonical / Governing; Curator and agents may recommend only | OLY-GOV-002, OLY-GOV-003, Governance Starter |
-| Minimum metadata bar for Proposed | Defined checklist in Knowledge Asset Standard | OLY-GOV-002 |
-| When to create `docs/product/` / `docs/architecture/` | Do not create now; future candidates when formal product/architecture work begins | OLY-GOV-002 |
-| Research notes Muse lens metadata | Yes when applicable; General Research or TBD if none | OLY-GOV-002, `docs/research/README.md` |
-| Daily log AI Consumption | Handoff Required when resuming; logs Recommended (Required if no handoff) | OLY-GOV-004 |
-| Evidence packet template | Remains handoff section; no standalone template yet | OLY-GOV-004 |
-| Filled handoff location | Olympus handoffs in `logs/daily/`; project handoffs in project repos | OLY-GOV-004, OLY-GOV-001 |
-| Named agent roles | **John** (Founder), **Hermes** (Director), **Hephaestus** (Coder / Cursor) — Draft / Advisory | `docs/operations/OPM-001_OLYMPUS_AGENT_OPERATING_MODEL.md`; `AGENT_ROLES.md` (short reference) |
-| Olympus Agent Operating Model | Draft / Advisory working answer in OPM-001 — **not** Approved or Canonical | OPM-001 |
-| Knowledge Capture Workflow | Draft / Advisory triage and routing workflow in OPM-002 — **not** Approved or Canonical | OPM-002 |
-| Decision Promotion / Approval Workflow | Draft / Advisory promotion workflow in OPM-003 — **not** Approved or Canonical | OPM-003 |
-| RNO-001 Olympus Babble Fish | Approved / Advisory living abbreviation and terminology reference | `docs/foundation/RNO-001_OLYMPUS_BABBLE_FISH.md` |
-| Agent discovery of authoritative knowledge | Draft / Advisory discovery standard in OLY-GOV-005 — **not** Approved or Canonical; remains open pending review and practical validation | OLY-GOV-005 |
+| Formal Knowledge Asset ID convention | Prefix-based, three-digit stable identifiers | **GDR-001 — Approved / Canonical** |
+| ADR/PDR/GDR/ODR decision prefixes | Official decision-record prefixes | **GDR-001**; applied by OLY-GOV-003 |
+| Valid Decision Record statuses | Draft, Proposed, Approved, Superseded, Retired only | OLY-GOV-003 — Approved / Advisory |
+| Research as a Muse | **No. Research is a cross-cutting activity, not a tenth Muse.** | OLY-GOV-002; Muse Catalog; OPM-001 |
+| Promotion approval authority | Only Founder approves Approved / Canonical / Governing; agents may recommend only | OLY-GOV-002; OLY-GOV-003 |
+| Minimum metadata bar for Proposed | Defined in Knowledge Asset Standard | OLY-GOV-002 |
+| Product / architecture directories | Create when formal product or architecture definition begins | OLY-GOV-002 |
+| Research-note Muse metadata | Include relevant Muse lenses when applicable | OLY-GOV-002; `docs/research/README.md` |
+| Daily log AI Consumption | Latest handoff Required when resuming; logs Recommended, Required if no handoff | OLY-GOV-004 |
+| Evidence packet | Section within handoff; no standalone template required yet | OLY-GOV-004 |
+| Filled handoff location | Olympus handoffs in `logs/daily/`; project handoffs in project repositories | OLY-GOV-001; OLY-GOV-004 |
+| Named agent roles | John, Hermes, Hephaestus | OPM-001 — Approved / Advisory |
+| Olympus Agent Operating Model | Current operating guidance | OPM-001 — Approved / Advisory |
+| Knowledge Capture Workflow | Current capture and routing guidance | OPM-002 — Approved / Advisory |
+| Decision Promotion / Approval Workflow | Current promotion and approval workflow | OPM-003 — Approved / Advisory |
+| RNO-001 Olympus Babble Fish | Approved / Advisory terminology reference | RNO-001 |
+| Agent discovery of authoritative knowledge | Current discovery and safe-consumption guidance; practical validation continues | OLY-GOV-005 — Approved / Advisory |
 
 ---
 
@@ -46,14 +46,22 @@ Founder-aligned working direction captured in governance standards (2026-07-05).
 
 ---
 
-## Partially Addressed (standards exist; formal decision still open)
+## Partially Addressed
 
 | ID | Question | Layer | Status | Notes |
 |---|---|---|---|---|
-| OLY-DB-003 | What constitutes a Knowledge Asset? | Governance | Working answer captured | See OLY-GOV-002 and Knowledge Asset Model. Formal GDR promotion deferred. |
-| OLY-DB-004 | What statuses and authority levels should Knowledge Assets use? | Governance | Working answer captured | See OLY-GOV-002. Formal GDR promotion deferred. |
-| OLY-DB-008 | What must every participating repository expose? | Governance | Open | Candidate: governance, decisions, architecture, handoff, source map. Handoff rules partially in OLY-GOV-004. |
-| OLY-DB-009 | How should agents discover authoritative knowledge? | Operating Model | Working answer captured | Working answer captured in Draft / Advisory **OLY-GOV-005**. Remains open pending review and practical validation. Also informed by OLY-GOV-002/003/004, OPM-001/002/003, and Cursor rules. |
+| OLY-DB-003 | What constitutes a Knowledge Asset? | Governance | Working answer captured | See Approved / Advisory OLY-GOV-002 and Knowledge Asset Model. Formal stronger-authority promotion remains optional. |
+| OLY-DB-004 | What statuses and Authority Levels should Knowledge Assets use? | Governance | Working answer captured | See Approved / Advisory OLY-GOV-002. |
+| OLY-DB-008 | What must every participating repository expose? | Governance | Open | Candidate: governance, decisions, architecture, handoff, source map. Handoff rules are partially covered by OLY-GOV-004. |
+| OLY-DB-009 | How should agents discover authoritative knowledge? | Operating Model | Partially Addressed | OLY-GOV-005 is Approved / Advisory and accepted for current use. The item remains open for practical validation and any future stronger-authority promotion. |
+
+---
+
+## Resolved / Promoted
+
+| ID | Question | Resolution | Source |
+|---|---|---|---|
+| OLY-DB-017 | Formal promotion of ID convention | Resolved on 2026-07-25. Prefix-based, three-digit stable IDs are official Olympus practice. | **GDR-001 — Approved / Canonical** |
 
 ---
 
@@ -68,16 +76,14 @@ Deferred until product / architecture phase unless noted.
 | OLY-DB-012 | Should decisions be a separate database table or specialized Knowledge Asset type? | Architecture | Deferred until product / architecture phase. |
 | OLY-DB-013 | How much of Metis is deterministic policy versus LLM reasoning? | Product / Architecture | Deferred until product / architecture phase. |
 | OLY-DB-014 | Portfolio-wide versus project-specific asset scope rules | Governance | Deferred until product / architecture phase. |
-| OLY-DB-015 | Experience Note interim artifact type | Operations | Deferred | OPM-002 defers formal Experience Note type; continue using handoffs, logs, lessons, candidate assets. Revisit at product MVP design if needed. |
-| OLY-DB-016 | Standalone evidence packet template | Operations | Deferred — revisit if repeated workflows require it. Handoff section sufficient for now. |
-| OLY-DB-017 | Formal promotion of ID convention to Canonical/Governing | Governance | **GDR-001** promoted to Proposed for John review — not Approved. Formal approval remains open. Working answer remains in OLY-GOV-002/003. |
+| OLY-DB-015 | Experience Note interim artifact type | Operations | OPM-002 defers formal Experience Note type; continue using handoffs, logs, lessons, and candidate assets. |
+| OLY-DB-016 | Standalone evidence packet template | Operations | Deferred; handoff section is sufficient unless repeated workflows justify a standalone artifact. |
 
 ---
 
 ## Decision Discipline
 
-Do not answer open or deferred items prematurely.
-
-Promote a decision only when the decision will unblock meaningful work and the consequences are understood.
-
-Working answers in governance standards are **Draft / Advisory** until promoted through the decision process.
+- Do not answer open or deferred items prematurely.
+- Promote a decision only when it will unblock meaningful work and consequences are understood.
+- Approved / Advisory guidance is active but does not become Canonical or Governing by implication.
+- Backlog status must reflect formal decisions when promotion occurs.
