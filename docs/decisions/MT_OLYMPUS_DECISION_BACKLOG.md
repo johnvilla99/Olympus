@@ -33,6 +33,8 @@ The following guidance has been reviewed and accepted for current Olympus use. S
 | Olympus Agent Operating Model | Current operating guidance | OPM-001 — Approved / Advisory |
 | Knowledge Capture Workflow | Current capture and routing guidance | OPM-002 — Approved / Advisory |
 | Decision Promotion / Approval Workflow | Current promotion and approval workflow | OPM-003 — Approved / Advisory |
+| Product-to-Architecture sequencing | Foundation closure precedes product definition; application governance precedes Architect agent construction; alternatives and validation precede technical-stack selection | **OPM-004 — Approved / Advisory** |
+| Current roadmap position | Olympus is in **Phase 1: Foundation Closure**. Later phases require explicit Founder gate approval. | **OPM-004** |
 | RNO-001 Olympus Babble Fish | Approved / Advisory terminology reference | RNO-001 |
 | Agent discovery of authoritative knowledge | Current discovery and safe-consumption guidance; practical validation continues | OLY-GOV-005 — Approved / Advisory |
 
@@ -42,7 +44,7 @@ The following guidance has been reviewed and accepted for current Olympus use. S
 
 | ID | Question | Layer | Status | Notes |
 |---|---|---|---|---|
-| OLY-DB-010 | How should institutional knowledge be audited? | Governance | Open | Future concern after initial foundation. |
+| OLY-DB-010 | How should institutional knowledge be audited? | Governance | Open | Evaluate during OPM-004 Phase 1 Foundation Closure. The answer may become part of the Foundation Closure Assessment or a separate governance decision. |
 
 ---
 
@@ -50,10 +52,10 @@ The following guidance has been reviewed and accepted for current Olympus use. S
 
 | ID | Question | Layer | Status | Notes |
 |---|---|---|---|---|
-| OLY-DB-003 | What constitutes a Knowledge Asset? | Governance | Working answer captured | See Approved / Advisory OLY-GOV-002 and Knowledge Asset Model. Formal stronger-authority promotion remains optional. |
-| OLY-DB-004 | What statuses and Authority Levels should Knowledge Assets use? | Governance | Working answer captured | See Approved / Advisory OLY-GOV-002. |
-| OLY-DB-008 | What must every participating repository expose? | Governance | Open | Candidate: governance, decisions, architecture, handoff, source map. Handoff rules are partially covered by OLY-GOV-004. |
-| OLY-DB-009 | How should agents discover authoritative knowledge? | Operating Model | Partially Addressed | OLY-GOV-005 is Approved / Advisory and accepted for current use. Practical validation is deferred until an Olympus agent or knowledge-discovery implementation exists. |
+| OLY-DB-003 | What constitutes a Knowledge Asset? | Governance | Working answer captured | See Approved / Advisory OLY-GOV-002 and Knowledge Asset Model. Formal stronger-authority promotion remains optional. Assess sufficiency during OPM-004 Phase 1. |
+| OLY-DB-004 | What statuses and Authority Levels should Knowledge Assets use? | Governance | Working answer captured | See Approved / Advisory OLY-GOV-002. Assess whether stronger authority is required during OPM-004 Phase 1. |
+| OLY-DB-008 | What must every participating repository expose? | Governance | Open | Candidate: governance, decisions, architecture, handoff, source map. Handoff rules are partially covered by OLY-GOV-004. Must be resolved no later than OPM-004 Phase 3 if participating-project onboarding is in MVP scope. |
+| OLY-DB-009 | How should agents discover authoritative knowledge? | Operating Model | Partially Addressed | OLY-GOV-005 is Approved / Advisory and accepted for current use. Practical validation is deferred to OPM-004 Phases 5 and 6, when architecture and discovery behavior can be tested. |
 
 ---
 
@@ -69,25 +71,27 @@ The following guidance has been reviewed and accepted for current Olympus use. S
 
 ---
 
-## Deferred (Tier 3 — do not decide now)
+## Deferred and Roadmap-Routed
 
-Deferred until product / architecture phase unless noted.
+Questions below remain undecided. OPM-004 identifies the earliest phase in which each may be considered. Placement here does not authorize resolution.
 
-| ID | Question | Layer | Notes |
-|---|---|---|---|
-| OLY-DB-006 | Should knowledge relationships become graph-based? | Architecture | Deferred until product / architecture phase. |
-| OLY-DB-011 | Should formal Knowledge Assets remain GitHub-first or app-first later? | Architecture | Deferred until product / architecture phase. |
-| OLY-DB-012 | Should decisions be a separate database table or specialized Knowledge Asset type? | Architecture | Deferred until product / architecture phase. |
-| OLY-DB-013 | How much of Metis is deterministic policy versus LLM reasoning? | Product / Architecture | Deferred until product / architecture phase. |
-| OLY-DB-014 | Portfolio-wide versus project-specific asset scope rules | Governance | Deferred until product / architecture phase. |
-| OLY-DB-015 | Experience Note interim artifact type | Operations | OPM-002 defers formal Experience Note type; continue using handoffs, logs, lessons, and candidate assets. |
-| OLY-DB-016 | Standalone evidence packet template | Operations | Deferred; handoff section is sufficient unless repeated workflows justify a standalone artifact. |
+| ID | Question | Layer | Earliest Roadmap Phase | Notes |
+|---|---|---|---|---|
+| OLY-DB-006 | Should knowledge relationships become graph-based? | Architecture | Phase 5 | Compare relational, graph-augmented, and other viable relationship models before selection. |
+| OLY-DB-011 | Should formal Knowledge Assets remain GitHub-first or app-first later? | Product / Architecture | Phase 2 for product need; Phase 5 for architecture | Product requirements must precede storage and synchronization decisions. |
+| OLY-DB-012 | Should decisions be a separate database table or specialized Knowledge Asset type? | Architecture | Phase 5 | Requires approved product and application-governance inputs. |
+| OLY-DB-013 | How much of Metis is deterministic policy versus LLM reasoning? | Product / Architecture | Phase 3 for governance boundary; Phase 5 for architecture | Runtime authority and human-control rules must be defined before technical allocation. |
+| OLY-DB-014 | Portfolio-wide versus project-specific asset scope rules | Governance | Phase 3 | Required when application governance defines participating-project boundaries. |
+| OLY-DB-015 | Experience Note interim artifact type | Operations | After Phase 1 unless evidence demands earlier action | Continue using handoffs, logs, lessons, and candidate assets. |
+| OLY-DB-016 | Standalone evidence packet template | Operations | After repeated gate reviews demonstrate need | Handoff and gate-review sections remain sufficient for now. |
 
 ---
 
 ## Decision Discipline
 
-- Do not answer open or deferred items prematurely.
+- Do not answer open or roadmap-routed items prematurely.
+- Use OPM-004 to determine sequencing, prerequisites, and gate ownership.
 - Promote a decision only when it will unblock meaningful work and consequences are understood.
 - Approved / Advisory guidance is active but does not become Canonical or Governing by implication.
 - Backlog status must reflect formal decisions when promotion occurs.
+- Completion of a phase artifact does not authorize progression without explicit Founder gate approval.
