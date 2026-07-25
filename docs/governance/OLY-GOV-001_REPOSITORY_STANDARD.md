@@ -1,6 +1,6 @@
 # Repository Standard
 
-> **Status:** Approved / Advisory. Accepted for current Olympus use; not Canonical or Governing unless explicitly stated.
+> **Status:** Approved / Governing. This standard controls Olympus repository structure, placement, and maintenance rules.
 
 ## Metadata
 
@@ -9,7 +9,7 @@
 | Standard ID | OLY-GOV-001 |
 | Title | Repository Standard |
 | Status | Approved |
-| Authority Level | Advisory |
+| Authority Level | Governing |
 | Owner | John S. Villasenor |
 | Created On | 2026-07-05 |
 | Last Updated | 2026-07-25 |
@@ -172,3 +172,4 @@ Exceptions require explicit Founder approval and should be recorded in the affec
 |---|---|---|
 | 2026-07-05 | John S. Villasenor | Initial draft |
 | 2026-07-25 | John S. Villasenor | Approved as current Advisory guidance; aligned naming authority to GDR-001 and Research placement to the cross-cutting model |
+| 2026-07-25 | John S. Villasenor | Promoted to Governing authority as the controlling repository structure and placement standard |
