@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This governance starter defines how Mt. Olympus should mature from exploratory concept into a reliable knowledge ecosystem without prematurely over-engineering itself.
+This governance starter defines how Olympus should mature from exploratory concept into a reliable knowledge ecosystem without prematurely over-engineering itself.
 
 ## Governance Goal
 
@@ -16,24 +16,19 @@ Governance should prevent three failures:
 
 ## Authority Model
 
-| Authority | Responsibility |
+| Authority / Role | Responsibility |
 |---|---|
 | Founder | Owns vision, final decisions, and approval of governing artifacts |
-| Curator | Proposed AI/human stewardship role for knowledge organization |
-| Muses | Durable expertise domains; not agents |
-| Agents | Temporary helpers that operate under project instructions and source documents |
-| Projects | Consumers and contributors of Knowledge Assets |
+| Eunomia | Defined ecosystem librarian and collection-stewardship role; not yet instantiated as an active agent or application component |
+| Muses | Durable expertise domains and domain-stewardship capabilities; not agents |
+| Agents | Instantiated helpers that operate under project instructions and source documents |
+| Projects | Consumers and contributors of Knowledge Assets only where participation is explicitly established |
+
+**Authority note:** GDR-004 is the Canonical source for Eunomia. OLY-GOV-003 is the Governing source for decision authority, approval, hierarchy, and conflict treatment.
 
 ## Decision Hierarchy
 
-1. Founder direction
-2. Governance charter and standards
-3. Canonical knowledge assets
-4. Approved decision records
-5. Product or architecture definitions
-6. Exploratory concept records
-7. Conversation context
-8. Assistant inference
+Use OLY-GOV-003 as the authoritative source for decision hierarchy. This starter does not restate or redefine that hierarchy.
 
 ## Maturity Control
 
@@ -41,23 +36,23 @@ Exploratory content must remain clearly labeled until approved.
 
 A concept may be promoted only when:
 
-- the problem is clear
-- the decision or standard is needed
-- the authority owner is known
-- downstream users will benefit
-- maintenance responsibility is clear
+- the problem is clear;
+- the decision or standard is needed;
+- the authority owner is known;
+- downstream users will benefit;
+- maintenance responsibility is clear.
 
-## Promotion Approval (Foundation Phase)
+## Promotion Approval
 
-**Founder-aligned working direction (Draft / Advisory, 2026-07-05):**
+Only John S. Villasenor / Founder may approve:
 
-Only **John S. Villasenor / Founder** may approve:
+- Approved status;
+- Canonical authority;
+- Governing authority.
 
-- **Approved** status
-- **Canonical** authority level
-- **Governing** authority level
+Eunomia may assess, recommend, draft, initiate authorized low-risk maintenance, and route stewardship work under GDR-004. Eunomia may not approve promotion, status, authority, ownership, supersession, retirement, or governance changes.
 
-**Curator** remains proposed — may recommend promotion but cannot approve during foundation phase. AI agents may recommend or draft but cannot approve. Founder approval must be explicit.
+AI agents may recommend or draft but cannot approve. Founder approval must be explicit.
 
 ## Documentation Principle
 
@@ -70,21 +65,21 @@ A document earns its place only if it helps a future human or AI agent make a be
 | Artifact | Purpose |
 |---|---|
 | ACR-001 | Seed concept and origin story |
-| Foundation Brief | Explains what Mt. Olympus is trying to accomplish |
+| Foundation Brief | Explains what Olympus is trying to accomplish |
 | Knowledge Asset Model | Defines the basic unit of preserved knowledge |
-| Governance Starter | Defines authority and maturity rules |
+| Governance Starter | Defines early authority and maturity guidance |
 | Muse Catalog | Defines durable domains of expertise |
 | Decision Backlog | Captures open questions before they become decisions |
 
 ## Guardrails
 
-Mt. Olympus should not become:
+Olympus should not become:
 
-- a dumping ground for every note
-- a replacement for project-specific governance
-- a premature software architecture
-- an AI persona zoo
-- a mythology-themed naming exercise with no operating value
+- a dumping ground for every note;
+- a replacement for project-specific governance;
+- a premature software architecture;
+- an AI persona zoo;
+- a mythology-themed naming exercise with no operating value.
 
 ## Review Cadence
 
@@ -92,12 +87,14 @@ During exploration, review foundational artifacts as needed.
 
 Once approved, governing artifacts should have a defined review cadence and owner.
 
-## Immediate Next Decisions
+## Resolved Foundation Decisions
 
-1. Is Mt. Olympus the ecosystem name?
-2. Is Mnemosyne definitely the memory layer?
-3. Is Metis definitely the judgment layer?
-4. What is the first formal Knowledge Asset ID convention?
-5. Who or what is Curator?
-6. Which projects participate first?
-7. What artifacts must every participating repository expose?
+- Olympus is the official ecosystem name: GDR-002.
+- Olympus, Mnemosyne, Metis, and the Muses have the conceptual relationship defined in GDR-003.
+- Eunomia is the ecosystem librarian and collection-stewardship role: GDR-004.
+- The Olympus ID convention is defined in GDR-001.
+- Olympus and Hobby Brain are separate projects: GDR-002.
+
+## Remaining Questions
+
+Use `docs/decisions/MT_OLYMPUS_DECISION_BACKLOG.md` for current open, partially addressed, resolved, and deferred questions.
