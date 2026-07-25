@@ -1,6 +1,6 @@
 # Knowledge Capture Workflow
 
-> **Status:** Draft / Advisory operating workflow. Not Approved, Canonical, or Governing.
+> **Status:** Approved / Advisory operating workflow. Accepted for current Olympus use; not Canonical or Governing.
 
 ## Metadata
 
@@ -10,15 +10,15 @@
 | Title | Knowledge Capture Workflow |
 | Classification | Operating Model |
 | Category | Operations / Knowledge Stewardship |
-| Status | Draft |
+| Status | Approved |
 | Authority Level | Advisory |
 | Canonical Source | No |
 | Owner | John S. Villasenor |
 | Primary AI Owner | Hermes |
 | Created On | 2026-07-05 |
-| Last Updated | 2026-07-05 |
+| Last Updated | 2026-07-25 |
 | Review Cadence | As Needed |
-| Related Assets | OPM-001; OLY-GOV-001; OLY-GOV-002; OLY-GOV-003; OLY-GOV-004; ACR-002; Decision Backlog; Session Handoff Template |
+| Related Assets | OPM-001; OLY-GOV-001; OLY-GOV-002; OLY-GOV-003; OLY-GOV-004; OLY-GOV-005; ACR-002; Decision Backlog; Session Handoff Template |
 | AI Consumption | Recommended |
 | Change Impact | Medium |
 
@@ -26,7 +26,7 @@
 
 ## Purpose
 
-OPM-002 defines how Olympus **captures, triages, preserves, promotes, or discards** knowledge from ongoing work — sessions, conversations, project events, decisions, failures, surprises, and research.
+OPM-002 defines how Olympus **captures, triages, preserves, promotes, or discards** knowledge from ongoing work: sessions, conversations, project events, decisions, failures, surprises, and research.
 
 This workflow prevents:
 
@@ -96,19 +96,19 @@ The default outcome for most raw observations is **not** a formal Knowledge Asse
 
 ## Triage Decision Tree
 
-Use in order — stop at the first fit unless multiple routes apply:
+Use in order. Stop at the first fit unless multiple routes apply.
 
-1. **Is it ephemeral with no future value?** → No Capture.
-2. **Is it only useful for chronological continuity?** → Daily Log Note.
-3. **Is it needed to resume the next session?** → Handoff Item.
-4. **Is it an unresolved question that could affect future work?** → Backlog Question.
-5. **Is it Founder direction with durable impact?** → Candidate Decision, Operating Model update, or Knowledge Asset depending on scope.
-6. **Is it an approved durable choice with rationale?** → Decision Record.
-7. **Is it evidence or analysis?** → Research Note.
-8. **Is it a failure, surprise, repeated friction, warning, or hard-won experience?** → Lesson Learned candidate.
-9. **Is it a repeatable role, workflow, or stewardship pattern?** → Operating Model update or OPM candidate.
-10. **Does it help future reasoning, decision-making, continuity, or execution?** → Knowledge Asset candidate.
-11. **If uncertain:** → Capture lightly in handoff or backlog. Do not over-promote.
+1. Is it ephemeral with no future value? → No Capture.
+2. Is it only useful for chronological continuity? → Daily Log Note.
+3. Is it needed to resume the next session? → Handoff Item.
+4. Is it an unresolved question that could affect future work? → Backlog Question.
+5. Is it Founder direction with durable impact? → Candidate Decision, Operating Model update, or Knowledge Asset depending on scope.
+6. Is it an approved durable choice with rationale? → Decision Record.
+7. Is it evidence or analysis? → Research Note.
+8. Is it a failure, surprise, repeated friction, warning, or hard-won experience? → Lesson Learned candidate.
+9. Is it a repeatable role, workflow, or stewardship pattern? → Operating Model update or OPM candidate.
+10. Does it help future reasoning, decision-making, continuity, or execution? → Knowledge Asset candidate.
+11. If uncertain, capture lightly in a handoff or backlog. Do not over-promote.
 
 ## Capture Criteria
 
@@ -118,17 +118,13 @@ A formal asset candidate should usually have:
 - Owner or likely owner
 - Context
 - Status
-- Authority level
+- Authority Level
 - Related assets
 - Open questions
 - Expected consumer
 - Consequence of losing the knowledge
 
-Additional guidance:
-
-- If the consequence of **losing** it is low, prefer log, handoff, or no capture.
-- If the consequence of **misusing** it is high, add explicit authority warnings.
-- If it is **unresolved**, use backlog or Open Questions — not a decision record.
+If the consequence of losing it is low, prefer a log, handoff, or no capture. If the consequence of misusing it is high, add explicit authority warnings. If it is unresolved, use the backlog or Open Questions rather than a decision record.
 
 ## Artifact Routing Rules
 
@@ -147,19 +143,19 @@ Additional guidance:
 
 ## Decision Capture Rules
 
-Align with **OLY-GOV-003**:
+Apply **OLY-GOV-003**, the authoritative Olympus source for decision authority, status, approval, and hierarchy.
 
-- Backlog items are **questions**, not decisions.
-- Decision Records do **not** use Exploratory status.
-- **John approval** is required for Approved status.
-- **Proposed** means ready for review — not accepted.
-- Assistant recommendations are **not** decisions.
+- Backlog items are questions, not decisions.
+- Decision Records do not use Exploratory status.
+- John approval is required for Approved status.
+- Proposed means ready for review, not accepted.
+- Assistant recommendations are not decisions.
 - Durable Founder direction may become a decision record when it affects future work.
-- Do **not** create decision records for tiny tactical choices with no future consequence.
+- Do not create decision records for tiny tactical choices with no future consequence.
 
 ## Lesson Capture Rules
 
-Create a **Lesson Learned candidate** when:
+Create a Lesson Learned candidate when:
 
 - Something failed in a meaningful way
 - A repeated friction pattern appears
@@ -168,97 +164,53 @@ Create a **Lesson Learned candidate** when:
 - Future agents would likely repeat the mistake
 - A warning should travel across projects
 
-Typical contents:
-
-- What happened
-- Why it mattered
-- Root cause or contributing factors
-- Lesson
-- Future guidance
-- Related assets and projects
-- Confidence level
-
-Route to `docs/lessons/` with **`LLR-*`** when promoted.
+Include what happened, why it mattered, root cause or contributing factors, the lesson, future guidance, related assets and projects, and confidence where useful.
 
 ## Research Capture Rules
 
-- **Research** remains cross-cutting — not a tenth Muse.
-- Use **`RNO-*`** for research notes.
+- **Research is a cross-cutting activity, not a tenth Muse.**
+- Use `RNO-*` for research notes under GDR-001.
 - Include source, provenance, and confidence.
-- Include one or more **Muse lenses** when applicable.
-- Research findings are **evidence**, not decisions.
+- Include relevant Muse lenses when applicable.
+- Research findings are evidence, not decisions.
 - Tool, vendor, or product choices still require decision records when selected.
 
 ## Experience Capture Rules
 
-Use ACR-002 language carefully:
-
-- Experience may start as observation, scar, surprise, intuition, or repeated pattern.
+- Experience may start as an observation, scar, surprise, intuition, or repeated pattern.
 - Capture lightly first unless future value is clear.
-- Do **not** implement `experience_events` schema or storage design in this workflow.
-- An **Experience Note** artifact type remains **deferred** (see OLY-DB-015).
+- Do not implement the conceptual `experience_events` schema in this workflow.
+- An Experience Note artifact type remains deferred under OLY-DB-015.
 - For now, use handoffs, logs, lessons, operating notes, and candidate Knowledge Assets.
 
 ## Session Handoff Capture Rules
 
-Handoffs should include a **Capture Review** when the session produced candidate knowledge.
+Handoffs should include a Capture Review when the session produced candidate knowledge. The review asks whether the session produced candidate decisions, backlog questions, lesson candidates, research findings, operating-model changes, asset conflicts, or material requiring promotion.
 
-The Capture Review asks:
-
-- Did this session produce any candidate decisions?
-- Did this session produce any backlog questions?
-- Did this session produce any lesson candidates?
-- Did this session produce any research findings?
-- Did this session produce any operating-model changes?
-- Did this session produce any asset conflicts?
-- What should be promoted now vs deferred?
-
-See `templates/sessions/SESSION_HANDOFF_TEMPLATE.md` for the Capture Review section.
-
-If nothing durable was produced, state that explicitly — do not invent candidates.
+If nothing durable was produced, state that explicitly.
 
 ## Promotion Rules
 
-- **Start light:** handoff, log, or backlog before formal asset unless clearly durable.
+- Start light with a handoff, log, or backlog unless the knowledge is clearly durable.
 - Promote only when future value justifies maintenance cost.
-- Do **not** promote raw chat transcripts wholesale.
-- Formal assets need metadata per **OLY-GOV-002**.
-- Decision records follow **OLY-GOV-003**.
-- Session continuity follows **OLY-GOV-004**.
-- Promotion to Approved, Canonical, or Governing requires explicit **John approval**.
-- Update READMEs and related assets when promoting.
+- Do not promote raw chat transcripts wholesale.
+- Formal assets require metadata under OLY-GOV-002.
+- Decisions follow OLY-GOV-003.
+- Continuity follows OLY-GOV-004.
+- Promotion to Approved, Canonical, or Governing requires explicit John approval.
+- Update indexes and related assets when promoting.
 
 ## AI Agent Responsibilities
 
-**Hermes** should:
+**Hermes** should identify capture candidates, route them correctly, flag over-capture and under-capture, and preserve continuity.
 
-- Identify candidate captures
-- Route them to the right artifact type
-- Prepare prompts for Hephaestus
-- Flag over-capture and under-capture risks
-- Preserve continuity
+**Hephaestus** should implement scoped capture edits, update templates and indexes when asked, report changed files and evidence, and never approve or promote assets.
 
-**Hephaestus** should:
-
-- Implement scoped capture edits
-- Update templates and indexes when asked
-- Report changed files
-- Report evidence honestly
-- **Not** promote or approve assets
-
-**All AI agents** must:
-
-- Distinguish observation from decision
-- Distinguish evidence from recommendation
-- Distinguish unresolved question from approved direction
-- Flag conflicts and missing authority
-- Avoid creating paperwork without future value
-
-See **OPM-001** for role boundaries.
+All agents must distinguish observation from decision, evidence from recommendation, and unresolved questions from approved direction.
 
 ## Founder Review Points
 
-Ask **John** before:
+Ask John before:
 
 - Promoting to Approved, Canonical, or Governing
 - Creating a new formal asset category
@@ -273,8 +225,7 @@ Ask **John** before:
 
 - Capturing every comment as a Knowledge Asset
 - Treating chat history as governed knowledge
-- Treating backlog items as decisions
-- Treating Research Notes as decisions
+- Treating backlog items or Research Notes as decisions
 - Creating lessons without context
 - Promoting assets without metadata
 - Closing open questions without John approval
@@ -282,19 +233,20 @@ Ask **John** before:
 - Centralizing project-specific handoffs in Olympus by default
 - Silently discarding high-value lessons
 - Silently promoting exploratory content
+- Duplicating governance rules that are already owned by an OLY-GOV artifact
 
 ## Open Questions
 
-- Should Olympus later define a formal **Experience Note** artifact type?
-- Should **Capture Review** become required in every handoff?
+- Should Olympus later define a formal Experience Note artifact type?
+- Should Capture Review become required in every handoff?
 - Should OPM-002 later become Canonical?
 - Should participating projects adopt the same capture workflow?
 - Should a future product implement capture queues or review inboxes?
-- What is the threshold for creating **`LLR-*`** vs keeping a lesson in handoff?
-- Should Knowledge Capture Workflow resolve part of **OLY-DB-009**?
+- What is the threshold for creating `LLR-*` versus keeping a lesson in a handoff?
 
 ## Change History
 
 | Date | Author | Summary |
 |---|---|---|
 | 2026-07-05 | John S. Villasenor | Initial Draft / Advisory Knowledge Capture Workflow |
+| 2026-07-25 | John S. Villasenor | Approved as current Advisory operating guidance; aligned decision authority to OLY-GOV-003 and Research to the cross-cutting model |
