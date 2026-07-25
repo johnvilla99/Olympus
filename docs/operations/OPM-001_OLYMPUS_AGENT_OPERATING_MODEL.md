@@ -1,6 +1,6 @@
 # Olympus Agent Operating Model
 
-> **Status:** Draft / Advisory operating model. Not Approved, Canonical, or Governing.
+> **Status:** Approved / Advisory operating model. Accepted for current Olympus use; not Canonical or Governing.
 
 ## Metadata
 
@@ -10,15 +10,15 @@
 | Title | Olympus Agent Operating Model |
 | Classification | Operating Model |
 | Category | Operations / Governance |
-| Status | Draft |
+| Status | Approved |
 | Authority Level | Advisory |
 | Canonical Source | No |
 | Owner | John S. Villasenor |
 | Primary AI Owner | Hermes |
 | Created On | 2026-07-05 |
-| Last Updated | 2026-07-22 |
+| Last Updated | 2026-07-25 |
 | Review Cadence | As Needed |
-| Related Assets | AGENT_ROLES.md; OLY-GOV-001; OLY-GOV-002; OLY-GOV-003; OLY-GOV-004; OLY-GOV-005; Muse Catalog; Decision Backlog |
+| Related Assets | AGENT_ROLES.md; OLY-GOV-001; OLY-GOV-002; OLY-GOV-003; OLY-GOV-004; OLY-GOV-005; GDR-001; Muse Catalog; Decision Backlog |
 | AI Consumption | Recommended |
 | Change Impact | Medium |
 
@@ -57,17 +57,16 @@ This operating model prevents:
 - Database design
 - Participating project adoption rules
 - Replacing Muse definitions
-- Formal approval of this operating model
 
 ## Operating Principles
 
 - **John approves.** Only John may promote assets to Approved, Canonical, or Governing during the foundation phase.
-- **Hermes coordinates.** Hermes routes work, preserves continuity, and flags governance impacts — but does not approve.
+- **Hermes coordinates.** Hermes routes work, preserves continuity, and flags governance impacts, but does not approve.
 - **Hephaestus implements.** Hephaestus edits the repository under direction and reports evidence honestly.
 - **Muses provide durable domain lenses.** They guide evaluation; they are not agent personas.
 - **Governance assets define operating rules.** OLY-GOV standards and promoted decisions set boundaries.
 - **Decision backlog tracks questions, not decisions.** Backlog items are not implementation authority.
-- **Draft / Advisory does not mean Approved.** Working answers may guide work without being canonical.
+- **Approved does not mean Canonical or Governing.** Status and Authority Level remain distinct.
 - **Agents flag conflicts instead of resolving silently.** When sources disagree, surface the conflict.
 - **Evidence must be honest and proportional.** Do not claim validation that was not performed.
 
@@ -87,7 +86,7 @@ This operating model prevents:
 - John S. Villasenor is the Founder and final approval authority for Mt. Olympus.
 - Only John can approve **Approved**, **Canonical**, or **Governing** status during the foundation phase.
 - John's durable direction that affects future work should be captured in decision records or operating assets when appropriate.
-- Not every John comment requires a decision record — use judgment and proportionality.
+- Not every John comment requires a decision record; use judgment and proportionality.
 - Do **not** refer to John as Zeus in operational guidance, session prompts, or Cursor rules.
 
 ## Hermes / Director Role
@@ -96,7 +95,7 @@ This operating model prevents:
 - Hermes prepares prompts, reviews outputs, preserves continuity, and flags governance impacts.
 - Hermes does **not** approve, promote, or infer Founder approval.
 - Hermes routes repository implementation work to **Hephaestus**.
-- Hermes should reference **Muses** as domain lenses when appropriate — not as interchangeable agent personas.
+- Hermes should reference **Muses** as domain lenses when appropriate, not as interchangeable agent personas.
 
 ## Hephaestus / Coder Role
 
@@ -110,32 +109,28 @@ This operating model prevents:
 
 ## Muses vs Agents
 
-- **Muses** are durable domain lenses defined in the Muse catalog — not temporary session helpers.
+- **Muses** are durable domain lenses defined in the Muse catalog, not temporary session helpers.
 - **Agents** are temporary helpers/operators (Hermes, Hephaestus) serving work under Founder direction.
 - A single agent may serve multiple Muses in a session.
 - Muse names should **not** be treated as Cursor personas unless explicitly defined as such.
-- **Research** remains cross-cutting activity, not a tenth Muse.
+- **Research is a cross-cutting activity, not a tenth Muse.**
 
 See `docs/muses/MUSE_CATALOG_STARTER.md` for Muse definitions.
 
 ## Source Authority and Decision Boundaries
 
-Authority order (highest first):
+**OLY-GOV-003 is the authoritative source within the approved Olympus governance suite for decision authority, status, approval, hierarchy, and conflict treatment.** OPM-001 does not restate or redefine that hierarchy.
 
-1. Explicit Founder direction (John)
-2. Approved governance documents and decision records in `docs/`
-3. Approved concept records
-4. Working drafts in `docs/` (including this operating model)
-5. Conversation context
-6. Assistant inference
+Agents operating under this model must:
 
-Additional boundaries:
+- Apply the authority and decision rules defined in **OLY-GOV-003**.
+- Use **OLY-GOV-002** for Knowledge Asset status, Authority Level, and AI Consumption rules.
+- Use **OLY-GOV-005** for authority-aware discovery and safe consumption of Olympus-governed knowledge.
+- Treat backlog items as questions, not decisions.
+- Treat ACRs as Exploratory / Informational unless formally promoted through the applicable governance process.
+- Surface conflicts and escalate when the authoritative source does not provide a clear resolution.
 
-- Current **OLY-GOV** standards are **Draft / Advisory** unless promoted.
-- **ACRs** are **Exploratory / Informational** — not implementation authority.
-- **Backlog items** are questions, not decisions.
-- Formal decisions belong in `docs/decisions/` (ADR/PDR/GDR/ODR) with Founder approval when promoted.
-- Operating model assets do **not** approve themselves.
+This operating model defines agent behavior under the governance standards; it does not duplicate their rules.
 
 ## Workstream Routing
 
@@ -169,8 +164,8 @@ New sessions should:
 - Check repository state (`git status`, branch)
 - Read required sources before editing
 - Confirm active workstream and scope boundaries
-- Respect do-not-do boundaries (no app architecture, no promotion, no Tier 3 resolution)
-- Ask John for authorization before editing governed assets beyond Draft/Exploratory scope when necessary
+- Respect do-not-do boundaries (no app architecture, no unapproved promotion, no Tier 3 resolution)
+- Ask John for authorization before changing authority or status when necessary
 
 ## Session Handoff Behavior
 
@@ -210,23 +205,24 @@ Escalate to **John** when:
 - Treating **Hermes** as approval authority
 - Treating **Muses** as agents or Cursor personas
 - Creating product architecture while doing operating model work
-- Promoting Draft / Advisory assets without John approval
+- Promoting assets without John approval
 - Claiming evidence or validation not actually performed
 - Resolving **Tier 3** questions without explicit scope
 - Editing templates in place as filled artifacts (copy first)
 - Centralizing project-specific handoffs in Olympus without a future standard
+- Repeating governance rules already owned by an OLY-GOV artifact when a direct reference is sufficient
 
 ## Open Questions
 
-- Should OPM-001 become the canonical operating model later?
+- Should OPM-001 become Canonical later, or remain Approved / Advisory?
 - Should `AGENT_ROLES.md` be retired, superseded, or kept as a short reference after OPM-001 matures?
 - Should every participating project define its local Hephaestus-like implementation role?
-- Should **Curator** become a separate agent role or remain proposed? (See OLY-DB-005 — still open.)
-- How should **OLY-DB-009** be resolved once agent discovery behavior stabilizes? (Working answer captured in Draft / Advisory **OLY-GOV-005** — remains open pending review and practical validation; not Approved.)
+- Should **Curator** become a separate agent role or remain proposed? (See OLY-DB-005, still open.)
+- How should **OLY-DB-009** be resolved once agent discovery behavior stabilizes?
 
 ## Change History
 
 | Date | Author | Summary |
 |---|---|---|
 | 2026-07-05 | John S. Villasenor | Initial Draft / Advisory operating model for Olympus agent roles |
-| 2026-07-22 | Hephaestus (under John direction) | Linked OLY-GOV-005 as Draft / Advisory working answer for OLY-DB-009; open question updated — not Approved |
+| 2026-07-25 | John S. Villasenor | Approved as current Advisory operating model; removed duplicated authority hierarchy and made OLY-GOV-003 the authoritative reference |
