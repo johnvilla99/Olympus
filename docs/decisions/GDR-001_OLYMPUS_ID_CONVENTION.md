@@ -1,6 +1,6 @@
 # Olympus ID Convention
 
-> **Status:** Proposed Decision Record. This document is ready for John review but does not approve the ID convention. Approval requires explicit John approval per OPM-003.
+> **Status:** Approved / Canonical. This decision is the source of truth for Olympus Knowledge Asset and decision-record identifiers.
 
 ## Metadata
 
@@ -10,27 +10,28 @@
 | Title | Olympus ID Convention |
 | Classification | Decision Record |
 | Decision Category | Governance |
-| Status | Proposed |
-| Authority Level | Advisory |
+| Status | Approved |
+| Authority Level | Canonical |
+| Canonical Source | Yes |
 | Owner | John S. Villasenor |
-| Decider / Approver | TBD — requires explicit John approval |
+| Decider / Approver | John S. Villasenor |
 | Created On | 2026-07-05 |
-| Decided On | TBD |
-| Last Updated | 2026-07-05 |
+| Decided On | 2026-07-25 |
+| Last Updated | 2026-07-25 |
 | Review Cadence | As Needed |
 | Related Assets | OLY-GOV-001; OLY-GOV-002; OLY-GOV-003; OPM-003; OLY-DB-017; Decision Backlog; RNO-001 Olympus Babble Fish |
 | Supersedes | N/A |
 | Superseded By | N/A |
-| AI Consumption | Recommended |
+| AI Consumption | Required |
 | Change Impact | Medium |
 
 ---
 
 ## Decision
 
-**Proposed decision statement:** Olympus should use stable, prefix-based, three-digit identifiers for formal Knowledge Assets and decision records.
+Olympus uses stable, prefix-based, three-digit identifiers for formal Knowledge Assets and decision records.
 
-### Proposed prefix convention
+### Approved prefix convention
 
 | Prefix | Asset Type |
 |---|---|
@@ -45,92 +46,86 @@
 | OPM | Operating Model |
 | HND | Handoff / Continuity Artifact |
 
-### Proposed rules
+### Approved rules
 
-- Sequential **three-digit** numbering within each prefix (e.g. `GDR-001`, `OPM-003`).
+- Use sequential **three-digit** numbering within each prefix (for example, `GDR-001`, `OPM-003`).
 - IDs are **stable once assigned**.
 - **Retired** or **superseded** IDs are **not reused**.
 - **Existing IDs** remain valid.
-- **New prefixes** require future governance review or decision.
+- **New prefixes** require governance review and explicit Founder approval.
+- Status and Authority Level determine how an asset may be used; an ID prefix does not confer authority by itself.
 
 ## Context
 
-The ID convention was previously captured as **Draft / Advisory working guidance** in OLY-GOV-002 and related standards.
+The ID convention was initially captured as Draft / Advisory working guidance in OLY-GOV-002 and related standards. It has since been used consistently across Olympus governance standards, operating models, decisions, concepts, research, continuity practices, templates, and repository navigation.
 
-**OLY-DB-017** (`docs/decisions/MT_OLYMPUS_DECISION_BACKLOG.md`) tracks formal promotion of the ID convention to Canonical or Governing authority. **GDR-001** responds to OLY-DB-017 but does not close it until explicit approval is captured.
+**OLY-DB-017** tracked formal promotion of the convention. John explicitly approved the convention as official and Canonical on 2026-07-25. This decision resolves OLY-DB-017.
 
-A formal **GDR** is needed because IDs affect all future Knowledge Assets, decisions, handoffs, and agent workflows — citation, supersession, discovery, and AI consumption all depend on stable identifiers.
-
-This record is the **first formal decision record candidate** in Olympus. It is now **Proposed** for John review — not Approved.
+A formal **GDR** is required because identifiers affect citation, supersession, discovery, continuity, and AI consumption across all future Olympus Knowledge Assets and decisions.
 
 ## Options Considered
 
 | Option | Summary | Pros | Cons |
 |---|---|---|---|
-| Option A | Prefix-based IDs by asset type | Clear, scalable, human-readable, aligns with existing docs | Requires maintaining prefix discipline |
+| Option A | Prefix-based IDs by asset type | Clear, scalable, human-readable, aligns with existing assets | Requires maintaining prefix discipline |
 | Option B | Single global OLY-* sequence | Simple global numbering | Harder to identify asset type quickly |
 | Option C | Directory-based filenames without stable IDs | Easy at first | Weak for citations, supersession, and AI consumption |
 | Option D | Defer formal ID convention | Avoids premature governance | Increases drift as assets grow |
 
 ## Rationale
 
-**Option A** is currently preferred because:
+**Option A** is approved because it:
 
-- Already used throughout the repository
+- Is already used throughout the repository
 - Supports AI consumption and safe source evaluation
 - Supports citation and handoff continuity
-- Helps distinguish decisions from concepts, standards, operations, lessons, and research
+- Distinguishes decisions from concepts, standards, operations, lessons, and research
 - Aligns with OLY-GOV-001, OLY-GOV-002, and OLY-GOV-003
-- Reduces accidental authority confusion when status is checked alongside ID type
+- Reduces accidental authority confusion when status and authority are evaluated alongside asset type
 
 ## Consequences
 
-If this decision is eventually approved:
-
-- Future formal assets should use the prefix convention.
-- Templates and Cursor rules should align with the approved convention.
-- Existing Draft / Advisory documents and IDs remain valid.
-- The convention creates some governance overhead for ID assignment and maintenance.
-- New prefixes should be rare and reviewed before adoption.
+- Future formal assets must use the approved prefix convention.
+- Templates, repository indexes, Cursor rules, and related standards must reference GDR-001 as the Canonical source rather than restating the convention as provisional guidance.
+- Existing IDs remain valid.
+- The convention creates modest governance overhead for ID assignment and maintenance.
+- New prefixes should be rare and require explicit review.
 
 ## Risks
 
 - Too many prefixes could create confusion.
-- **RNO** may not perfectly fit Babble Fish and other reference documents (see RNO-001).
-- **HND** may need future clarification for promoted vs operational handoffs.
-- Prefixes could imply authority if **status** and **authority level** are ignored.
+- **RNO** may not perfectly fit Babble Fish and other reference documents; that question remains open and does not invalidate the convention.
+- **HND** may need future clarification for promoted versus operational handoffs.
+- Prefixes could imply authority if Status and Authority Level are ignored.
 - Agents may over-focus on IDs instead of content value and rationale.
 
-## Approval Requirements
+## Approval Record
 
-- Moving this GDR to **Approved** requires **explicit John approval**.
-- **Commit/push does not equal approval.**
-- **Proposed** means ready for John review; it is **not** approved guidance.
-- If approved, update: status, Decider / Approver, Decided On, authority level if needed, backlog **OLY-DB-017**, and related standards if needed.
-- **Approved** does not automatically mean **Canonical** or **Governing** unless John explicitly assigns that authority.
+- **Approver:** John S. Villasenor
+- **Approval date:** 2026-07-25
+- **Approval context:** Founder review confirmed that the convention is official, reflects established repository practice, and should be promoted.
+- **Approved authority:** Canonical
+- **Commit/push distinction:** Repository persistence alone does not constitute approval; this record captures explicit Founder approval.
 
 ## Follow-up Actions
 
-| Action | Owner | Target |
+| Action | Owner | Status |
 |---|---|---|
-| Review Proposed GDR-001 with John | Hermes / John | Current decision review |
-| Decide whether to approve, revise, or return to Draft | John | TBD |
-| If approved, update OLY-DB-017 | Hephaestus | After approval |
-| Consider whether Babble Fish needs a better prefix than RNO | Hermes / John | Later |
-| Keep templates and Cursor rules aligned | Hephaestus | Ongoing |
+| Update OLY-DB-017 as resolved through GDR-001 | Hermes / repository steward | Required |
+| Replace provisional ID-convention language in related standards with references to GDR-001 | Hermes / repository steward | Required |
+| Keep templates, indexes, and Cursor rules aligned | Repository steward | Ongoing |
+| Consider whether Babble Fish needs a future `REF-*` prefix | Hermes / John | Deferred |
 
 ## Supersedes / Superseded By
 
 | Relationship | Asset ID | Notes |
 |---|---|---|
-| Supersedes | N/A | First formal ID convention decision candidate |
+| Supersedes | N/A | First formal ID convention decision |
 | Superseded By | N/A | N/A |
 
 ## Open Questions
 
-- Should this GDR be **approved** after John review?
-- Should the ID convention become **Canonical** or remain **Advisory**?
-- Should Olympus create a **`REF-*`** prefix for reference notes?
+- Should Olympus later create a **`REF-*`** prefix for reference notes and glossaries?
 - Should **`HND-*`** be used for every handoff or only promoted continuity artifacts?
 - Should participating project repositories adopt the same prefix convention?
 
@@ -140,3 +135,4 @@ If this decision is eventually approved:
 |---|---|---|
 | 2026-07-05 | John S. Villasenor | Initial Draft GDR for Olympus ID convention |
 | 2026-07-05 | John S. Villasenor | Promoted GDR-001 from Draft to Proposed for John review; not Approved |
+| 2026-07-25 | John S. Villasenor | Approved GDR-001 as the Canonical Olympus ID convention; resolved OLY-DB-017 |
