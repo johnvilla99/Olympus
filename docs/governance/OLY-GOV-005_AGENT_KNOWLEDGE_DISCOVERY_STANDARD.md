@@ -1,6 +1,6 @@
 # Agent Knowledge Discovery Standard
 
-> **Status:** Draft — advisory guidance, not approved or governing policy.
+> **Status:** Approved / Advisory. Accepted for current Olympus use; not Canonical or Governing.
 
 ## Metadata
 
@@ -10,27 +10,27 @@
 | Title | Agent Knowledge Discovery Standard |
 | Classification | Governance Standard |
 | Category | Governance / Knowledge Stewardship |
-| Status | Draft |
+| Status | Approved |
 | Authority Level | Advisory |
 | Canonical Source | No |
 | Owner | John S. Villasenor |
 | Primary AI Owner | Hermes |
 | Created On | 2026-07-22 |
-| Last Updated | 2026-07-22 |
+| Last Updated | 2026-07-25 |
 | Review Cadence | As Needed |
-| Related Assets | OLY-GOV-001; OLY-GOV-002; OLY-GOV-003; OLY-GOV-004; OPM-001; OPM-002; OPM-003; ACR-001; ACR-002; Decision Backlog (OLY-DB-009); GDR-001 (Proposed); RNO-001 |
-| AI Consumption | Recommended |
+| Related Assets | OLY-GOV-001; OLY-GOV-002; OLY-GOV-003; OLY-GOV-004; OPM-001; OPM-002; OPM-003; GDR-001; ACR-001; ACR-002; Decision Backlog (OLY-DB-009); RNO-001 |
+| AI Consumption | Required |
 | Change Impact | High |
 
 ---
 
 ## Purpose
 
-OLY-GOV-005 defines the **minimum rules** an AI agent must follow when relying on Olympus-governed knowledge to answer questions, make recommendations, or produce work.
+OLY-GOV-005 defines the minimum rules an AI agent must follow when relying on Olympus-governed knowledge to answer questions, make recommendations, or produce work.
 
-Its purpose is to ensure that **relevant** knowledge is not mistaken for **authoritative** knowledge, and that agents preserve status, authority, provenance, scope, relationships, conflicts, assumptions, and approval boundaries when using Olympus sources.
+Its purpose is to ensure that **relevant** knowledge is not mistaken for **authoritative** knowledge, and that agents preserve Status, Authority Level, provenance, scope, relationships, conflicts, assumptions, and approval boundaries when using Olympus sources.
 
-This standard governs the **safe consumption** of Olympus-governed knowledge. It does **not** define agent roles, repository maintenance, project participation, runtime architecture, or knowledge-system implementation.
+This standard governs the **safe consumption** of Olympus-governed knowledge. It does not define agent roles, repository maintenance, project participation, runtime architecture, or knowledge-system implementation.
 
 Discovery is not retrieval alone. Discovery is authority-aware selection and use of knowledge.
 
@@ -61,145 +61,136 @@ Discovery is not retrieval alone. Discovery is authority-aware selection and use
 - Asset creation, placement, promotion, or approval
 - Repository editing and continuity procedures
 - Application code, schemas, APIs, UI, vector search, vendors, or technical architecture
-- Formal approval of this standard, **GDR-001**, or closure of **OLY-DB-009** / **OLY-DB-017**
+- Closure of OLY-DB-009, which remains open for practical validation
 
 ## Applicability
 
-This standard applies whenever an AI agent is **authorized** to consume Olympus-governed knowledge.
+This standard applies whenever an AI agent is authorized to consume Olympus-governed knowledge.
 
-Authorization determines whether an agent may **access and use** the knowledge. It does **not** determine the authority of the knowledge itself.
+Authorization determines whether an agent may access and use knowledge. It does not determine the authority of that knowledge.
 
-The agent’s role, project, organization, or operating environment may vary. Authorization to access Olympus knowledge does **not** confer authority to approve, modify, promote, generalize, or redistribute that knowledge.
+An agent’s role, project, organization, or operating environment may vary. Authorization to access Olympus knowledge does not confer authority to approve, modify, promote, generalize, or redistribute it.
 
-Agent roles and stewardship responsibilities remain governed by **OPM-001** and related operating models.
+Agent roles and stewardship responsibilities are defined by OPM-001 and related operating models. Project participation and adoption rules require separate governance. Future runtime behavior remains a product and architecture concern.
 
-Project participation and adoption rules require separate governance and are **not** defined by this standard.
+Mnemosyne, Metis, and the Muses remain conceptual context in ACR-001 and ACR-002 unless later promoted. Research is a cross-cutting activity, not a tenth Muse.
 
-Future Olympus runtime behavior remains a product and architecture concern, not a rule established here.
+## Governing References
 
-Olympus may eventually use Metis and Muse concepts to support reasoning and domain evaluation, but this standard does **not** define their implementation. See ACR-001 and ACR-002 for exploratory conceptual context only.
+OLY-GOV-005 does not define its own authority hierarchy.
+
+- **OLY-GOV-003** is the authoritative source for decision authority, status, approval, hierarchy, and conflict treatment.
+- **OLY-GOV-002** defines Knowledge Asset metadata, Status, Authority Level, Canonical Source, AI Consumption, and lifecycle rules.
+- **OLY-GOV-004** defines continuity-source and session-resume behavior.
+- **OPM-001** defines agent roles and operating boundaries.
+- **GDR-001** defines the Canonical Olympus identifier convention.
+
+This standard applies those rules to discovery and consumption.
 
 ## Core Consumption Rules
 
 | Rule | Meaning |
 |---|---|
-| Relevant ≠ authoritative | A matching passage is not binding without Status and Authority Level evaluation |
-| Status and Authority Level together | Neither field alone is sufficient |
-| John is final Olympus authority | Explicit Founder direction has highest authority for Olympus governance and Olympus-owned knowledge. Project- or client-specific authority remains subject to the applicable local governance. |
-| Agents do not approve | Agents discover and recommend; they do not promote assets or close decisions |
-| Proposed ≠ Approved | Proposed and Draft sources guide review; they are not binding |
-| ACRs are exploratory | Concept records inform context; they are not implementation authority |
-| Handoffs and logs are continuity aids | They do not override formal assets |
-| Research is evidence | Research notes and lessons inform; they are not decisions |
-| Commit / push ≠ approval | Persistence does not change Status or Authority Level |
-| Do not invent closure | Material gaps must be surfaced, not papered over |
-
-`OLY-GOV-005` uses the current Draft / Advisory ID working convention. This standard does **not** approve **GDR-001** or close **OLY-DB-017**.
-
----
+| Relevant does not mean authoritative | A matching passage is not binding without Status and Authority Level evaluation |
+| Status and Authority Level work together | Neither field alone is sufficient |
+| John is final Olympus authority | Explicit Founder direction has highest authority within the Founder’s authority; project or client authority remains local |
+| Agents do not approve | Agents discover, interpret, recommend, and escalate; they do not promote assets or close decisions |
+| Proposed is not Approved | Proposed sources guide review, not current authority |
+| Draft is not current guidance | Draft sources may provide context but remain unfinished |
+| ACRs are exploratory | Concept records inform reasoning but are not implementation authority |
+| Handoffs and logs are continuity aids | They explain recent work but do not override formal assets |
+| Research is evidence | Research notes and lessons inform decisions but are not decisions themselves |
+| Commit or push is not approval | Persistence does not change Status or Authority Level |
+| Do not invent closure | Material gaps and conflicts must be surfaced |
 
 ## 1. Discovery Intent
 
-Before deep retrieval, the agent must identify:
+Before deep retrieval, identify:
 
-1. **The user’s actual question or requested work** — not only the first phrasing.
-2. **Affected project or portfolio context** — Olympus-wide vs a named project, client, or engagement.
-3. **Applicable domain lenses** — Product, Governance, Architecture, Operations, Engineering, UX, Marketing, Knowledge Stewardship, or other named lenses as relevant. Research remains cross-cutting (working answer; see Decision Backlog), not a tenth Muse.
-4. **Task type** — facts, decision application, advice, synthesis, implementation guidance, work-product support, continuity, or conflict investigation.
-5. **Consequence of being wrong** — incomplete or low-authority knowledge may mislead recommendations or treat Exploratory content as binding.
+1. The user’s actual question or requested work.
+2. The affected project, portfolio, client, or business context.
+3. The relevant domain lenses.
+4. The task type: fact, decision application, recommendation, synthesis, implementation guidance, continuity, conflict investigation, or work-product creation.
+5. The consequence of being wrong.
 
-If intent is unclear, ask a clarifying question proportional to impact.
+If intent is unclear and the consequence is material, ask a proportional clarifying question. Low-impact ambiguity should not become procedural theater.
 
 ## 2. Source Discovery Order
 
-Use this practical search order when locating candidate sources. It is a discovery path, not an automatic ranking of truth.
+Use this practical search order to locate candidate sources. It is a discovery path, not an independent hierarchy of truth.
 
-| Order | Source class | Typical locations / examples |
+| Order | Source Class | Examples |
 |---|---|---|
-| 1 | Explicit current Founder direction | John’s current instruction for Olympus governance, Olympus-owned knowledge, or a task where John is the authorized decision-maker; durable Founder direction captured in approved Olympus decisions when available |
-| 2 | Governing and Canonical assets | Olympus assets with Authority Level **Governing** or **Canonical**, with Status that permits reliance |
-| 3 | Approved decision records and approved guidance | Approved ADR/PDR/GDR/ODR and Approved standards/guidance |
-| 4 | Relevant project-local authoritative assets | Approved project decisions, project governance, and other explicitly designated local authoritative sources |
-| 5 | Proposed and Draft governance, decision, and operating assets | Draft or Proposed OLY-GOV, OPM, decision records, and related operating guidance (including this standard) |
-| 6 | Operational continuity sources and current-state evidence | Session handoffs; daily logs; git or repository state; current evidence packets; other observable current-state evidence |
-| 7 | Exploratory concept records | ACR-001, ACR-002 and similar Exploratory / Informational assets |
-| 8 | Research notes and lessons learned | `RNO-*`, `docs/research/`, `docs/lessons/` |
+| 1 | Explicit current Founder direction | Current John direction for Olympus governance or Olympus-owned knowledge |
+| 2 | Governing and Canonical assets | Assets whose Status and Authority Level permit reliance |
+| 3 | Approved decisions and Approved guidance | ADR, PDR, GDR, ODR, OLY-GOV, OPM, and other accepted assets |
+| 4 | Relevant project-local authoritative assets | Approved project decisions, local governance, designated client or business sources |
+| 5 | Proposed and Draft assets | Review candidates and unfinished guidance |
+| 6 | Operational continuity and observable current state | Handoffs, logs, git state, evidence packets, current repository facts |
+| 7 | Exploratory concept records | ACRs and other Exploratory / Informational assets |
+| 8 | Research notes and lessons learned | Research evidence and preserved experience |
 | 9 | Conversation context | Current and prior chat turns |
 | 10 | Assistant inference or general knowledge | Model priors not grounded in Olympus sources |
 
-### Discovery order versus authority order
+### Discovery order versus authority
 
-**Discovery order is not always the same as authority order.**
+Discovery order helps locate candidate material. Authority is resolved under OLY-GOV-003 and OLY-GOV-002.
 
 - A lower-authority source may be highly relevant.
-- Relevance does **not** authorize silent override of a higher-authority source.
-- When a lower-authority source conflicts with a higher-authority source, **surface the conflict**.
-
-Formal governance and decision assets determine **authority**.
-
-Continuity artifacts explain **recent work**.
-
-Observable evidence verifies **current state**.
-
-None of these should be silently substituted for another. Continuity sources and repository state are **not** decision authority.
-
-Session resume priority for continuity sources is defined in **OLY-GOV-004**. That resume order complements this discovery order; it does not replace Founder authority over Olympus governance and Olympus-owned knowledge.
+- Relevance never authorizes silent override.
+- Continuity artifacts explain recent work.
+- Observable evidence verifies current state.
+- Formal assets establish authority.
+- None should be silently substituted for another.
 
 ## 3. Authority Resolution
 
-Agents must evaluate sources using **both**:
+For every material source, evaluate both:
 
-- **Status** (maturity / lifecycle)
-- **Authority Level** (binding weight)
+- **Status**, which describes maturity or lifecycle
+- **Authority Level**, which describes binding weight
 
-Neither field alone is sufficient. See Core Consumption Rules for Proposed ≠ Approved and ACR exploratory treatment.
+Apply the hierarchy and conflict rules defined by OLY-GOV-003. Do not reproduce or reinterpret the hierarchy inside this standard.
 
-### Working authority comparison (Draft / Advisory working discovery aid)
+Observable current-state evidence is not an Authority Level. It may confirm or contradict operational claims but does not override valid Governing, Canonical, or Approved direction.
 
-Highest to lowest for ordinary conflict resolution, subject to Status checks. This is a **Draft / Advisory working discovery aid**, not an approved final hierarchy.
+When authority remains unclear:
 
-1. Explicit current Founder (John) direction for Olympus governance, Olympus-owned knowledge, or tasks where John is the authorized decision-maker
-2. Governing assets (when Status permits reliance)
-3. Canonical assets (when Status permits reliance)
-4. Approved decision records and Approved guidance
-5. Proposed decisions and Proposed assets
-6. Draft / Advisory standards and operating models (including this standard)
-7. Exploratory / Informational concept records
-8. Continuity artifacts
-9. Conversation context
-10. Assistant inference / general knowledge
-
-Observable current-state evidence is not an authority level. It verifies operational facts and may confirm or contradict continuity claims, but it does not override governing, canonical, or approved direction.
-
-If existing Olympus assets express inconsistent authority hierarchies, the agent must **flag the inconsistency** and defer to the most specific applicable approved or higher-authority source. If no clear resolution exists, escalate to John.
+1. Identify the competing sources.
+2. State their Status, Authority Level, and Canonical Source value where relevant.
+3. Check supersession, specificity, and local-versus-portfolio scope.
+4. Surface the conflict.
+5. Escalate when a human authority decision is required.
 
 ## 4. Metadata Interpretation
 
-Before relying on an asset, read available metadata, especially:
+Read available metadata before relying on an asset.
 
-| Field | Discovery use |
+| Field | Discovery Use |
 |---|---|
-| Knowledge Asset ID | Stable citation; prefix signals asset class |
-| Classification | Standard, decision, concept, research, etc. |
-| Category | Domain placement for lens selection |
-| Status | Whether content is safe as current guidance |
+| Knowledge Asset ID | Stable citation and asset-class signal |
+| Classification | Standard, decision, concept, research, continuity, etc. |
+| Category | Domain placement and lens selection |
+| Status | Maturity and whether content is safe as current guidance |
 | Authority Level | Binding weight |
-| Canonical Source | Whether this claims source-of-truth for its subject |
+| Canonical Source | Whether the asset is the source of truth for its subject |
 | Owner | Accountable human owner |
 | Primary AI Owner | Stewardship role only; does not confer approval power |
 | Last Updated | Staleness signal |
-| Review Cadence | Overdue review may reduce confidence |
-| Related Assets | Navigate when material |
-| AI Consumption | Required / Recommended / Optional / Restricted — respect Restricted |
-| Change Impact | Higher impact → deeper discovery and stricter citation |
+| Review Cadence | Whether review may be overdue |
+| Related Assets | Dependencies, lineage, supersession, and context |
+| AI Consumption | Required, Recommended, Optional, or Restricted |
+| Change Impact | Required depth and scrutiny |
 
-| Condition | Agent behavior |
+### Metadata conditions
+
+| Condition | Required Behavior |
 |---|---|
-| Missing Status or Authority Level | Do not assume Approved or Canonical; flag gap |
-| Incomplete ID / owner / related assets | Cite what exists; note uncertainty |
-| Stale Last Updated on High Change Impact | Seek fresher related assets; flag possible outdated guidance |
-| Contradictory metadata | Flag; do not silently “fix” |
-| AI Consumption = Restricted | Do not rely on or surface without explicit Founder/owner permission |
+| Missing Status or Authority Level | Do not assume Approved or Canonical; flag the gap |
+| Incomplete ID, owner, or relationships | Cite what exists and note uncertainty |
+| Stale high-impact asset | Seek fresher related sources and flag risk |
+| Contradictory metadata | Flag; do not silently repair during consumption |
+| AI Consumption = Restricted | Do not rely on or surface without permission |
 | Partial seed metadata | Use cautiously for context; do not over-claim authority |
 
 ## 5. Project and Portfolio Context
@@ -207,245 +198,226 @@ Before relying on an asset, read available metadata, especially:
 | Context | Treatment |
 |---|---|
 | Olympus-wide knowledge | Portfolio foundation guidance |
-| Project-specific knowledge | Bound to that project, engagement, or business context unless explicitly generalized |
-| Local authoritative sources | Approved project decisions, project governance, and explicitly designated local sources — apply locally; do not auto-promote to portfolio guidance |
-| Project continuity artifacts | Handoffs and logs explain recent local work; they are not authoritative merely because they are local |
-| Cross-project lessons | May inform other work when framed as evidence with provenance |
-| Non-generalizable context | Client, personnel, pricing, or temporary constraints that must stay local |
+| Project-specific knowledge | Bound to that project, engagement, or business context unless explicitly promoted |
+| Local authoritative sources | Apply locally; do not auto-promote to portfolio guidance |
+| Project continuity artifacts | Useful for recent context; not authoritative merely because they are local |
+| Cross-project lessons | May inform other work when provenance and limits are preserved |
+| Non-generalizable context | Client, personnel, pricing, legal, or temporary constraints that must remain local |
 
-Knowledge created within a project, client engagement, program, or business context remains **local to that context** unless explicitly reviewed and promoted for broader use.
+Knowledge created within a project or client context remains local unless explicitly reviewed and promoted. A project-local decision must not automatically become Olympus-wide guidance.
 
-A project-local decision must **not** automatically become portfolio-wide guidance.
-
-Broader portfolio-versus-project scope rules remain open (**OLY-DB-014** — Deferred). Do not invent a closed rule set here.
+Broader participation and portfolio-scope rules remain open under existing backlog items. Do not invent a closed participation model here.
 
 ## 6. Relationship Navigation
 
-When metadata or content identifies relationships, inspect related assets where material.
+Inspect related assets when relationships are material.
 
-Relationship types recognized in OLY-GOV-002 / OLY-GOV-003 (link practice; graph implementation deferred):
-
-| Relationship | Discovery implication |
+| Relationship | Discovery Implication |
 |---|---|
 | `informs` | Upstream context; cite when it shapes the conclusion |
-| `references` | Supporting source; verify still current |
-| `depends_on` | Check the dependency before applying the dependent asset |
-| `supersedes` / `replaces` | Prefer the successor |
+| `references` | Supporting source; verify that it remains current |
+| `depends_on` | Review the dependency before applying the dependent asset |
+| `supersedes` / `replaces` | Prefer the successor when the relationship is explicit |
 | `contradicts` | Mandatory conflict handling |
-| `implements` | Realization of a decision/standard — not higher authority by itself |
+| `implements` | Realizes a decision or standard but does not gain higher authority by itself |
 | `related_to` | Adjacent context; use proportionally |
 
-A single retrieved document must **not** be treated as isolated when its metadata identifies dependencies, replacements, or contradictions.
+A retrieved document must not be treated as isolated when its metadata identifies dependencies, replacements, or contradictions.
 
 ## 7. Conflict Handling
+
+Common conflicts include:
 
 | Category | Example |
 |---|---|
 | Direct contradiction | Incompatible rules on the same subject |
-| Status conflict | Approved guidance vs Exploratory content treated as decisive |
-| Authority conflict | Advisory Draft vs claimed Canonical Source without matching Status |
+| Status conflict | Exploratory content treated as decisive against Approved guidance |
+| Authority conflict | Lower-authority guidance conflicts with Canonical or Governing direction |
 | Outdated source | Older asset retained without supersession after newer guidance |
-| Duplicate source-of-truth claim | Multiple Canonical Source Yes claims for one subject |
-| Project-local vs portfolio-wide | Local decision treated as ecosystem rule (or the reverse) |
-| Founder direction vs existing Olympus assets | Current John instruction for Olympus governance or Olympus-owned knowledge conflicts with repository documents |
-| Continuity vs observable state | Handoff or log claims conflict with git state, evidence packets, or other current evidence |
+| Duplicate source-of-truth claim | Multiple Canonical Source = Yes claims for one subject |
+| Project-local versus portfolio-wide | Local decision treated as ecosystem rule or vice versa |
+| Founder direction versus repository asset | Current direction conflicts with recorded guidance |
+| Continuity versus observable state | Handoff claim conflicts with git state or current evidence |
 
 Required behavior:
 
 1. Surface the conflict.
-2. Identify competing sources (IDs/paths).
-3. State each source’s Status and Authority Level (and Canonical Source if relevant).
-4. Do not silently choose a winner when authority is unclear.
-5. Escalate to John when an Olympus authority decision is required.
+2. Identify competing sources by ID or path.
+3. State Status and Authority Level.
+4. Check local scope, specificity, freshness, and supersession.
+5. Do not silently choose when authority remains unclear.
+6. Escalate to John for Olympus authority decisions.
 
-If current explicit John direction conflicts with existing Olympus assets, follow that direction for the Olympus task and route the conflict through capture / promotion workflows (OPM-002 / OPM-003). Do not silently rewrite assets to match conversation. Project- or client-specific authority remains subject to applicable local governance.
+If explicit Founder direction conflicts with repository assets, follow the current direction for the immediate Olympus task and route the durable conflict through OPM-002 and OPM-003. Do not pretend the repository already says what the conversation says.
 
 ## 8. Citation and Evidence Expectations
 
 Cite or reference sources when:
 
-- stating or applying an approved decision
-- claiming a rule or governance requirement
-- generating implementation guidance
-- resolving or reporting a conflict
-- producing a recommendation substantially grounded in Olympus knowledge
-- producing work that materially relies on Olympus sources
-- describing why a prior direction was chosen
+- Applying an approved decision
+- Claiming a governance rule
+- Generating implementation guidance
+- Reporting or resolving a conflict
+- Producing a recommendation materially grounded in Olympus knowledge
+- Creating a durable work product
+- Explaining prior rationale
 
-Prefer Knowledge Asset ID, path when helpful, and section location when practical.
+Prefer Knowledge Asset ID, path when useful, and section location when practical.
 
-Do **not** require citation clutter on every ordinary sentence. Prefer proportion: low-impact orientation may need light citation; high-impact claims should cite.
+Citation should be proportional. Ordinary orientation does not require citation confetti; high-impact claims require clear lineage.
 
 ## 9. Synthesis and Inference Boundaries
 
-Distinguish, as appropriate:
+Distinguish among:
 
 | Mode | Meaning |
 |---|---|
-| Directly grounded fact | Stated in a cited source with adequate Status/Authority for the claim |
-| Approved direction | Approved decisions/guidance or explicit Founder direction |
-| Advisory guidance | Draft/Advisory standards or Recommended operating models |
-| Exploratory concept | ACR or Exploratory content — context only |
-| Evidence-supported inference | Reasonable conclusion from cited evidence; labeled as inference |
+| Directly grounded fact | Stated in a source with adequate Status and Authority for the claim |
+| Approved direction | Approved decisions, approved guidance, or explicit Founder direction |
+| Advisory guidance | Approved / Advisory standards or operating models |
+| Proposed direction | Ready for review but not current guidance |
+| Draft content | Unfinished material; context only |
+| Exploratory concept | ACR or other Exploratory content; context only |
+| Evidence-supported inference | Reasonable conclusion from cited evidence, labeled as inference |
 | Assistant recommendation | Agent proposal not yet Founder-approved |
-| Unresolved gap | Missing or conflicted knowledge — surface it |
-| Unsupported invention | Fluent fill-in without grounding — avoid or label as speculation for human review |
+| Unresolved gap | Missing or conflicted knowledge that must be surfaced |
+| Unsupported invention | Fluent fill-in without grounding; avoid |
 
-Do not paper over material gaps merely because the output format expects completeness.
+Do not paper over material gaps because an output template expects completeness.
 
 ## 10. Use in Work Products
 
-When an answer, recommendation, plan, proposal, assessment, handoff, or other work product **materially relies** on Olympus-governed knowledge, the agent must preserve:
+When a recommendation, plan, proposal, assessment, handoff, SOW, or other work product materially relies on Olympus-governed knowledge, preserve:
 
-- applicable project or business context
+- Applicable project or business context
 - Status and Authority Level of material sources
-- source lineage
-- material assumptions
-- unresolved conflicts
-- known gaps
-- required human approval points
+- Source lineage
+- Material assumptions
+- Unresolved conflicts
+- Known gaps
+- Required human approval points
 
-These elements may be expressed explicitly or incorporated into the work product in a form appropriate to its audience and impact. Ordinary low-impact answers need not expose raw metadata; proportionality (Section 11) still applies.
+These may be explicit or incorporated in a form appropriate to the audience and impact.
 
-Illustrative work that may rely on Olympus knowledge includes SOWs, proposals, plans, risk assessments, recommendations, and handoffs. Examples are illustrative only.
-
-This standard governs the **integrity of knowledge use** within the work product. It does **not** define the product, service, workflow, template, or runtime mechanism used to generate that work product.
+This standard governs the integrity of knowledge use. It does not define the product, service, template, or runtime mechanism used to create the work product.
 
 ## 11. Proportionality
 
 Discovery must not become a bureaucratic scavenger hunt.
 
-| Impact class | Discovery depth |
+| Impact Class | Discovery Depth |
 |---|---|
-| Low-impact factual request | Obvious governing/approved sources; light citation |
-| Moderate-impact recommendation | Status/authority check on primary sources; cite basis |
-| High-impact decision or implementation guidance | Fuller discovery; relationship navigation; conflict scan; escalation points |
-| Durable work product | Preserve integrity elements in Section 10 |
+| Low-impact factual request | Check obvious authoritative sources; light citation |
+| Moderate-impact recommendation | Check Status and Authority on primary sources; cite the basis |
+| High-impact decision or implementation guidance | Fuller discovery, relationship navigation, conflict scan, and escalation points |
+| Durable work product | Preserve authority, lineage, assumptions, conflicts, and gaps |
 | Governance or authority-changing request | Stop for Founder approval |
 
-**Depth scales with the consequence of being wrong.**
+Depth scales with the consequence of being wrong.
 
 ## 12. Stop and Escalation Conditions
 
 **Stop** when proceeding would create false authority or unsupported certainty.
 
-**Continue with labeled limitations** when useful work remains possible despite gaps or uncertainty.
+**Continue with labeled limitations** when useful work remains possible despite gaps.
 
 **Escalate** when a human authority decision is required.
 
-Conditions that typically require stop and/or escalate:
+Typical conditions:
 
 - Required sources are unavailable or unreadable
 - Restricted assets appear necessary
 - Authority cannot be determined for a material claim
 - Competing Canonical or Governing sources exist without a clear supersession path
-- Founder approval would be required for Olympus governance or Olympus-owned knowledge
+- Founder approval is required
 - The request would resolve an open backlog item without authorization
-- The task crosses into unapproved product or architecture scope unless John explicitly scopes it
+- The task crosses into unapproved product or architecture scope
 - Evidence is too weak for the requested certainty
-- Continuity claims conflict with observable state and proceeding would bake in false context
+- Continuity claims conflict with observable state
 
-Escalate Olympus authority decisions to **John**. Coordination roles may recommend; they do not approve. See OPM-001. Local project or client authority remains subject to applicable local governance.
+Escalate Olympus authority decisions to John. Coordination roles may recommend but do not approve.
 
 ## 13. Output Expectations
 
-When appropriate and proportional, structure responses with some or all of:
+When appropriate and proportional, a response may include:
 
 ```text
 Conclusion or Work Product
 Authority Basis
 Sources Used
 Conflicts or Gaps
-Assumptions / Inference
+Assumptions or Inference
 Recommended Human Decision
 ```
 
-Do **not** mandate all headings for every response. Apply by impact class (Section 11).
-
----
+Do not require every heading for every response.
 
 ## AI Consumption Guidance
 
-Authorized agents **should**:
+Authorized agents should:
 
 1. Establish discovery intent.
 2. Discover proportionally.
 3. Evaluate Status and Authority Level together.
-4. Inspect relationships when material.
-5. Preserve project and portfolio boundaries.
-6. Cite material sources.
-7. Distinguish grounding from inference.
-8. Flag conflicts.
-9. Stop or escalate when authority is unclear.
+4. Apply OLY-GOV-003 for authority.
+5. Inspect relationships when material.
+6. Preserve project and portfolio boundaries.
+7. Cite material sources.
+8. Distinguish grounding from inference.
+9. Flag conflicts.
+10. Stop or escalate when authority is unclear.
 
-Authorized agents **must not**:
+Authorized agents must not:
 
 - Treat relevance as authority
 - Treat Draft, Proposed, Exploratory, logs, or conversation as Approved
-- Generalize project-local knowledge without explicit promotion
+- Generalize project-local knowledge without promotion
 - Hide material gaps
 - Resolve conflicts silently
 - Invent unsupported content
 - Treat this standard as product architecture or an agent operating model
+- Duplicate the authority hierarchy owned by OLY-GOV-003
 
 ## Relationship to Other Governance
-
-OLY-GOV-005 governs how Olympus-governed knowledge is **consumed**.
-
-OLY-GOV-001 through OLY-GOV-004 govern repository structure, Knowledge Assets, decisions, and session continuity.
-
-OPM-001 through OPM-003 govern agent roles, capture, promotion, and approval workflows.
-
-When discovery identifies a conflict, missing decision, or candidate asset, route the issue through those standards rather than resolving it inside OLY-GOV-005.
-
-## Relationship to Other Standards
 
 | Asset | Relationship |
 |---|---|
 | OLY-GOV-001 | Repository structure and source placement |
-| OLY-GOV-002 | Knowledge Asset metadata, status, authority, relationships, and AI Consumption |
-| OLY-GOV-003 | Decision records and decision authority |
+| OLY-GOV-002 | Knowledge Asset metadata, Status, Authority Level, relationships, and AI Consumption |
+| OLY-GOV-003 | Decision authority, hierarchy, approval, and conflict treatment |
 | OLY-GOV-004 | Continuity sources and session resume behavior |
 | OPM-001 | Agent roles and authority boundaries |
 | OPM-002 | Capture and routing of knowledge discovered during work |
 | OPM-003 | Promotion and approval routing |
-| ACR-001 / ACR-002 | Exploratory conceptual context for memory, judgment, Muses, and activation |
+| GDR-001 | Canonical identifier convention |
+| ACR-001 / ACR-002 | Exploratory conceptual context |
 
-## Prohibited Practices
+When discovery identifies a conflict, missing decision, or candidate asset, route it through the owning governance or operating artifact rather than resolving it inside OLY-GOV-005.
 
-- Claiming this Draft is Approved, Canonical, or Governing
-- Using this standard to define agent taxonomies, project adoption, or runtime architecture
-- Equating semantic similarity or retrieval relevance with authority
-- Treating Muse names as agent identities
-- Inferring Founder approval from commit, push, or silence
-- Closing backlog items by implication
-- Creating paperwork that does not improve safe knowledge use
-
-## Review / Maintenance
+## Review and Maintenance
 
 | Activity | Owner | Cadence |
 |---|---|---|
 | Standard review | John S. Villasenor | As Needed |
-| Practical validation during foundation work | Hermes coordination; Hephaestus implementation under John | As Needed |
-| Hierarchy-language alignment | Governance | When John decides to unify hierarchy wording |
-
-## Exceptions
-
-Exceptions require explicit Founder approval and should be recorded as a decision or noted in change history.
+| Practical validation | Hermes coordination; implementation agents under John direction | During real use |
+| Cross-reference alignment | Knowledge Stewardship / Governance | When owning sources change |
 
 ## Open Questions
 
-- Should authority hierarchy language across OLY-GOV-003, Governance Starter, and OPM-001 be formally unified?
+- What practical validation is required before OLY-DB-009 can be closed?
 - What citation density is appropriate for high-impact external work?
 - What minimum metadata is required before an asset may be used for high-impact work?
 - How should stale or conflicting sources affect stated confidence?
-- What practical validation is required before OLY-DB-009 moves beyond Partially Addressed?
+
+## Exceptions
+
+Exceptions require explicit Founder approval and should be recorded in an appropriate decision or change history.
 
 ## Change History
 
 | Date | Author | Summary |
 |---|---|---|
-| 2026-07-22 | Hephaestus (under John direction) | Initial Draft / Advisory standard for OLY-DB-009 working answer: agent discovery, authority resolution, citation, conflict handling, and knowledge activation boundaries. Not Approved. |
-| 2026-07-22 | Hephaestus (under John direction) | Clarified consumption vs build-time stewardship; introduced temporary agent-context and adoption language later removed. Not Approved. |
-| 2026-07-22 | Hephaestus (under John direction) | Reframed the standard around safe consumption of Olympus-governed knowledge. Removed premature agent-context, project-participation, and runtime-agent definitions; reduced duplication with existing governance and operating models; preserved the core discovery, authority, citation, conflict, and synthesis rules. No approval or promotion. |
-| 2026-07-22 | Hephaestus (under John direction) | Final Draft refinement: removed overlap in source discovery classes, clarified formal authority versus continuity and observable state, separated authorization from source authority, and tightened Olympus versus local governance boundaries. Discovery model preserved. No approval or promotion. |
+| 2026-07-22 | Hephaestus under John direction | Initial Draft / Advisory standard for OLY-DB-009 |
+| 2026-07-22 | Hephaestus under John direction | Clarified consumption versus build-time stewardship and removed premature runtime and participation models |
+| 2026-07-22 | Hephaestus under John direction | Refined discovery classes, authorization versus authority, project-local boundaries, conflict handling, and stop / escalate behavior |
+| 2026-07-25 | John S. Villasenor | Approved as current Advisory guidance; retained practical validation under OLY-DB-009; removed duplicate authority hierarchy and made OLY-GOV-003 the authoritative reference |
