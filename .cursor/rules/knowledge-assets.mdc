@@ -6,11 +6,11 @@ alwaysApply: false
 
 # Knowledge Assets
 
-Files in `docs/` are governed Knowledge Assets — containers for meaning, not casual notes. Use `templates/knowledge-assets/KNOWLEDGE_ASSET_TEMPLATE.md` as a starter structure; templates are draft, not governed assets.
+Files in `docs/` are governed Knowledge Assets: containers for meaning, not casual notes. Use `templates/knowledge-assets/KNOWLEDGE_ASSET_TEMPLATE.md` as a starter structure; templates are drafts, not governed assets.
 
-For capture routing and promotion discipline, see `docs/operations/OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW.md` (Draft / Advisory). Do not over-promote observations into formal assets.
+For capture routing and promotion discipline, see `docs/operations/OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW.md` (Approved / Advisory). Do not over-promote observations into formal assets.
 
-For decision promotion and approval, see `docs/operations/OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW.md` (Draft / Advisory).
+For decision promotion and approval, see `docs/operations/OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW.md` (Approved / Advisory).
 
 ## Placement
 
@@ -18,21 +18,22 @@ Place new assets in the appropriate `docs/` subfolder per `docs/README.md`.
 
 ## Required metadata
 
-Add or update YAML front matter when creating or substantially revising formal assets:
+Add or update metadata when creating or substantially revising formal assets. Use the current Knowledge Asset standard rather than copying stale examples.
 
-```yaml
----
-knowledge_asset_id: ACR-001
-title: Human-readable title
-classification: Concept Record  # Concept, Decision, Governance, Product, etc.
-status: Exploratory             # Exploratory | Draft | Proposed | Approved | Canonical | Superseded | Retired
-authority_level: Informational  # Informational | Advisory | Canonical | Governing
-owner: John S. Villasenor
-last_updated: 2026-07-05
----
-```
+Every formal asset should identify, as applicable:
 
-Seed assets may lack full metadata; add it on the next substantive edit.
+- stable Knowledge Asset ID;
+- title;
+- classification and category;
+- status and Authority Level;
+- Canonical Source designation;
+- human owner;
+- Primary AI Owner or stewardship role, if any;
+- creation and last-updated dates;
+- review cadence;
+- related assets;
+- AI Consumption;
+- Change Impact.
 
 ## Every asset must answer
 
@@ -45,11 +46,13 @@ Seed assets may lack full metadata; add it on the next substantive edit.
 
 ## Status and promotion
 
-- Do not set **Approved** or **Canonical** without explicit Founder approval
-- **Curator** may recommend; only **Founder** approves during foundation phase
-- Backlog questions are not decisions; lessons and research notes are evidence, not decisions
-- **Proposed is not Approved**; do not use **Exploratory** status on Decision Records
-- When superseding an asset, update its status and link the replacement
-- Keep exploratory content clearly labeled until promoted
+- Do not set Approved, Canonical, or Governing without explicit Founder approval.
+- Eunomia may assess, recommend, draft, initiate authorized low-risk maintenance, and route stewardship work under GDR-004, but may not approve.
+- Eunomia is a defined ecosystem role, not yet an active agent or application component.
+- Backlog questions are not decisions; lessons and research notes are evidence, not decisions.
+- Proposed is not Approved; do not use Exploratory status on Decision Records.
+- When superseding an asset, update its status and link the replacement.
+- Keep exploratory content clearly labeled until promoted.
+- Any maintenance performed under Eunomia stewardship must report what changed, why, the supporting evidence or authority, the impact, the next owner, and unresolved issues.
 
-For ID prefixes, status models, and authority hierarchy, see `asset-authority.mdc` and OLY-GOV-002.
+For ID prefixes, status models, authority hierarchy, and stewardship boundaries, see GDR-001, OLY-GOV-002, OLY-GOV-003, and GDR-004.
