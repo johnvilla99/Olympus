@@ -19,7 +19,7 @@
 | Decided On | 2026-07-25 |
 | Last Updated | 2026-07-25 |
 | Review Cadence | As Needed |
-| Related Assets | OLY-DB-002; GDR-002; ACR-001; ACR-002; OLY-GOV-002; OLY-GOV-003 |
+| Related Assets | OLY-DB-002; GDR-002; GDR-004; ACR-001; ACR-002; OLY-GOV-002; OLY-GOV-003 |
 | Supersedes | N/A |
 | Superseded By | N/A |
 | AI Consumption | Required |
@@ -91,6 +91,20 @@ For a domain-specific Knowledge Asset:
 - the named human Owner remains accountable;
 - approval authority remains with the authorized human decision-maker under Olympus governance.
 
+### Relationship to Eunomia
+
+Eunomia is the ecosystem librarian and collection-stewardship role defined by GDR-004.
+
+Eunomia does not replace Mnemosyne, Metis, or the Muses. Eunomia monitors and coordinates the health, relevance, coherence, discoverability, and governance readiness of the knowledge network:
+
+- Mnemosyne preserves memory;
+- Eunomia monitors whether that memory remains healthy and usable;
+- the Muses steward domain meaning and quality;
+- Metis interprets and applies knowledge;
+- humans remain accountable and retain approval authority.
+
+GDR-004 is the Canonical source for Eunomia's responsibilities, jurisdiction, reporting obligations, and authority boundaries.
+
 ## Governance Boundary
 
 This decision defines the Olympus conceptual model. It governs the meaning and relationships of these ecosystem concepts.
@@ -105,11 +119,14 @@ ACR-001 and ACR-002 introduced Olympus, Mnemosyne, Metis, and the Muses as explo
 
 Founder review established that Olympus is the ecosystem; Mnemosyne and Metis are cross-cutting ecosystem capabilities; and the Muses are durable domain lenses that also steward domain-specific knowledge.
 
+GDR-004 subsequently established Eunomia as the ecosystem librarian and collection-stewardship role without changing the conceptual boundaries defined here.
+
 ## Rationale
 
 This model creates clear conceptual boundaries:
 
-- memory is distinct from domain stewardship;
+- memory is distinct from collection stewardship;
+- collection stewardship is distinct from domain stewardship;
 - domain stewardship is distinct from judgment;
 - judgment is distinct from authority;
 - conceptual capabilities are distinct from future software components;
@@ -123,20 +140,21 @@ The model is durable enough to guide future product and architecture work while 
 - Product and architecture work may map these concepts to application capabilities, but must not assume a one-to-one software implementation without an explicit decision.
 - Muses may actively identify and recommend knowledge lifecycle actions but do not gain approval authority.
 - Knowledge Assets must continue to identify a human Owner where formal accountability is required.
+- Eunomia must be treated according to GDR-004 and must not be conflated with Mnemosyne, Metis, or a Muse.
 - OLY-DB-002 is resolved.
-- DB-005 may now define Curator without redefining Mnemosyne, Metis, or Muse authority.
+- OLY-DB-005 is resolved by GDR-004.
 
 ## Explicit Non-Decisions
 
 This decision does not determine:
 
-- whether Mnemosyne, Metis, or any Muse becomes a runtime agent;
+- whether Mnemosyne, Metis, any Muse, or Eunomia becomes a runtime agent;
 - whether these concepts become services, modules, databases, workflows, or user-facing features;
 - how many Muses exist or whether their catalog changes;
 - how assets are physically stored or indexed;
 - how participating projects integrate with Olympus;
 - how application permissions or runtime enforcement operate;
-- how Curator is defined.
+- how Eunomia is instantiated.
 
 ## Approval Record
 
@@ -150,3 +168,4 @@ This decision does not determine:
 | Date | Author | Summary |
 |---|---|---|
 | 2026-07-25 | John S. Villasenor | Approved the Olympus conceptual capability model and its governance boundaries. |
+| 2026-07-25 | John S. Villasenor | Aligned the model to GDR-004 and Eunomia without changing the established conceptual boundaries. |
