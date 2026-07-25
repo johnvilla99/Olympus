@@ -24,7 +24,8 @@ Mt. Olympus exists to reduce that loss by turning important knowledge into gover
 | Mt. Olympus | The overall knowledge ecosystem |
 | Mnemosyne | The memory layer: accumulated knowledge, experience, and historical context |
 | Metis | The judgment layer: reasoning over memory to support decisions and recommendations |
-| The Muses | Durable domains of expertise such as Architecture, Product, Governance, Research, UX, Engineering, Operations, Marketing, and Knowledge Stewardship |
+| The Muses | Durable domains of expertise: Architecture, Product, Governance, Knowledge Stewardship, Lessons Learned / Risk, User Experience, Engineering, Operations, and Marketing |
+| Research | A cross-cutting activity that may support any Muse domain; not a tenth Muse |
 | Agents | Temporary assistants that serve one or more Muses in specific sessions |
 | Projects | Consumers and contributors of Knowledge Assets |
 
@@ -47,7 +48,7 @@ Knowledge Assets should explain:
 
 This repository begins as a governed knowledge foundation, not a production software platform.
 
-In scope for the initial foundation:
+In scope for the foundation:
 
 - terminology
 - governance model
@@ -59,7 +60,7 @@ In scope for the initial foundation:
 - documentation standards
 - decision backlog
 
-Out of scope for the initial foundation:
+Out of scope unless explicitly authorized:
 
 - application UI
 - database design
@@ -75,12 +76,15 @@ Mt. Olympus should make knowledge trustworthy, discoverable, and usable without 
 
 Key rules:
 
-- Founder direction has highest authority.
-- Canonical and governing assets outrank exploratory records.
-- Exploratory ideas must remain clearly labeled until approved.
-- AI agents must check asset status before relying on content.
-- AI agents should distinguish approved decisions from inferred guidance.
-- Conflicts between assets should be flagged, not silently resolved.
+- Founder direction has highest authority within the Founder’s authority.
+- OLY-GOV-003 owns the decision authority hierarchy.
+- Canonical and Governing assets outrank lower-authority records.
+- Status and Authority Level are distinct and must be evaluated together.
+- Exploratory ideas must remain clearly labeled until promoted.
+- AI agents must check asset status and authority before relying on content.
+- AI agents must distinguish approved decisions from inferred guidance.
+- Conflicts between assets must be flagged, not silently resolved.
+- Supporting documents should reference authoritative sources rather than duplicate rules.
 
 ## Status Model
 
@@ -103,7 +107,7 @@ Key rules:
 | Canonical | Source of truth for a defined topic |
 | Governing | Controls process, standards, or authority |
 
-## Recommended Starting Structure
+## Repository Structure
 
 ```text
 Olympus/
@@ -126,11 +130,21 @@ Olympus/
     └── rules/
 ```
 
-Governance standards OLY-GOV-001 through OLY-GOV-004 live in `docs/governance/` (Draft / Advisory).
+## Current Governance Baseline
+
+| Asset | Status / Authority | Purpose |
+|---|---|---|
+| OLY-GOV-001 | Approved / Advisory | Repository organization and placement |
+| OLY-GOV-002 | Approved / Advisory | Knowledge Asset lifecycle and metadata |
+| OLY-GOV-003 | Approved / Advisory | Decision authority, hierarchy, approval, and decision records |
+| OLY-GOV-004 | Approved / Advisory | Session continuity |
+| OLY-GOV-005 | Approved / Advisory | Authority-aware discovery and safe knowledge consumption |
+| GDR-001 | Approved / Canonical | Olympus ID convention |
+| OPM-001 | Approved / Advisory | Agent operating model |
+| OPM-002 | Approved / Advisory | Knowledge capture workflow |
+| OPM-003 | Approved / Advisory | Decision promotion and approval workflow |
 
 ## Initial Seed Assets
-
-The first foundation documents:
 
 | Asset | Path |
 |---|---|
@@ -138,8 +152,7 @@ The first foundation documents:
 | Foundation Brief | `docs/foundation/MT_OLYMPUS_FOUNDATION_BRIEF.md` |
 | Knowledge Asset Model | `docs/foundation/KNOWLEDGE_ASSET_MODEL.md` |
 | Project Instructions | `docs/foundation/MT_OLYMPUS_PROJECT_INSTRUCTIONS.md` |
-| Governance Starter | `docs/governance/OLYMPUS_GOVERNANCE_STARTER.md` |
-| Muse Catalog Starter | `docs/muses/MUSE_CATALOG_STARTER.md` |
+| Muse Catalog | `docs/muses/MUSE_CATALOG_STARTER.md` |
 | Decision Backlog | `docs/decisions/MT_OLYMPUS_DECISION_BACKLOG.md` |
 
 ## Product Guardrail
@@ -150,6 +163,4 @@ The system wins only if it reduces confusion, preserves useful judgment, and hel
 
 ## Repository Status
 
-This repository is in foundation setup.
-
-Initial priority: establish the GitHub repository, preserve the seed knowledge assets, and create enough governance structure for future agents to consume the project safely.
+The governed foundation is active. Exploratory concept work and future product / architecture decisions remain clearly separated from approved operating guidance.
