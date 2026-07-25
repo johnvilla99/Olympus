@@ -16,6 +16,7 @@ The following guidance has been reviewed and accepted for current Olympus use. S
 |---|---|---|
 | Official ecosystem name | **Olympus** | **GDR-002 — Approved / Canonical** |
 | Olympus / Hobby Brain relationship | Olympus and Hobby Brain are separate projects; neither is a subproject of the other | **GDR-002 — Approved / Canonical** |
+| Olympus conceptual capability model | Olympus is the ecosystem; Mnemosyne preserves memory; Metis provides judgment; Muses are domain lenses and stewards; human owners remain accountable | **GDR-003 — Approved / Canonical** |
 | Formal Knowledge Asset ID convention | Prefix-based, three-digit stable identifiers | **GDR-001 — Approved / Canonical** |
 | ADR/PDR/GDR/ODR decision prefixes | Official decision-record prefixes | **GDR-001**; applied by OLY-GOV-003 |
 | Valid Decision Record statuses | Draft, Proposed, Approved, Superseded, Retired only | OLY-GOV-003 — Approved / Governing |
@@ -40,7 +41,6 @@ The following guidance has been reviewed and accepted for current Olympus use. S
 
 | ID | Question | Layer | Status | Notes |
 |---|---|---|---|---|
-| OLY-DB-002 | What is the official relationship between Olympus, Mnemosyne, Metis, and the Muses? | Conceptual Model | Open | Current model is promising but exploratory. |
 | OLY-DB-005 | What is Curator? | Operating Model | Open | Proposed AI owner; may recommend promotion but cannot approve during foundation phase. OPM-001 does not define Curator as an active agent role. |
 | OLY-DB-010 | How should institutional knowledge be audited? | Governance | Open | Future concern after initial foundation. |
 
@@ -62,6 +62,7 @@ The following guidance has been reviewed and accepted for current Olympus use. S
 | ID | Question | Resolution | Source |
 |---|---|---|---|
 | OLY-DB-001 | Is Mt. Olympus the official ecosystem name? | Resolved on 2026-07-25. The official ecosystem name is **Olympus**. | **GDR-002 — Approved / Canonical** |
+| OLY-DB-002 | What is the official relationship between Olympus, Mnemosyne, Metis, and the Muses? | Resolved on 2026-07-25. Olympus is the ecosystem; Mnemosyne and Metis are cross-cutting memory and judgment capabilities; Muses are durable domain lenses and stewards; human owners retain accountability and approval remains governed. | **GDR-003 — Approved / Canonical** |
 | OLY-DB-007 | Which project participates first? | Resolved on 2026-07-25. The premise is retired: Olympus and Hobby Brain are separate projects. Hobby Brain is not an Olympus subproject, and Olympus is not a Hobby Brain subproject. Any future participation or adoption relationship requires a separate explicit decision. | **GDR-002 — Approved / Canonical** |
 | OLY-DB-017 | Formal promotion of ID convention | Resolved on 2026-07-25. Prefix-based, three-digit stable IDs are official Olympus practice. | **GDR-001 — Approved / Canonical** |
 
