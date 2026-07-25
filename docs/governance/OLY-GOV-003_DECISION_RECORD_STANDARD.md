@@ -1,6 +1,6 @@
 # Decision Record Standard
 
-> **Status:** Approved / Advisory. Accepted for current Olympus use; not Canonical or Governing unless explicitly stated.
+> **Status:** Approved / Governing. This standard controls Olympus decision authority, hierarchy, lifecycle, approval, and backlog discipline.
 
 ## Metadata
 
@@ -9,7 +9,7 @@
 | Standard ID | OLY-GOV-003 |
 | Title | Decision Record Standard |
 | Status | Approved |
-| Authority Level | Advisory |
+| Authority Level | Governing |
 | Owner | John S. Villasenor |
 | Created On | 2026-07-05 |
 | Last Updated | 2026-07-25 |
@@ -208,7 +208,7 @@ Decision hierarchy for Olympus, highest first:
 - Conflicts must be surfaced rather than silently resolved.
 - Durable Founder direction should be captured in the appropriate formal asset.
 
-This standard is Approved / Advisory. It defines current decision-record and authority guidance but does not itself approve individual decisions.
+This standard is Approved / Governing. It defines the controlling Olympus rules for decision authority, hierarchy, approval, and lifecycle; it does not itself approve individual decisions.
 
 ## Decision Creation Rules
 
@@ -313,3 +313,4 @@ Exceptions require Founder approval and should be documented in the affected dec
 | 2026-07-05 | John S. Villasenor | Initial draft |
 | 2026-07-05 | John S. Villasenor | Added decision prefixes, decision-only status model, and Founder-only approval guidance |
 | 2026-07-25 | John S. Villasenor | Approved as current Advisory guidance; established OLY-GOV-003 as the authoritative source for decision authority and hierarchy; aligned identifiers to GDR-001 |
+| 2026-07-25 | John S. Villasenor | Promoted to Governing authority as the controlling decision authority, hierarchy, lifecycle, approval, and backlog standard |
