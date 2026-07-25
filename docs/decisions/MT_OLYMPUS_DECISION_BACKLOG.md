@@ -14,9 +14,11 @@ The following guidance has been reviewed and accepted for current Olympus use. S
 
 | Topic | Current Guidance | Authority Source |
 |---|---|---|
+| Official ecosystem name | **Olympus** | **GDR-002 — Approved / Canonical** |
+| Olympus / Hobby Brain relationship | Olympus and Hobby Brain are separate projects; neither is a subproject of the other | **GDR-002 — Approved / Canonical** |
 | Formal Knowledge Asset ID convention | Prefix-based, three-digit stable identifiers | **GDR-001 — Approved / Canonical** |
 | ADR/PDR/GDR/ODR decision prefixes | Official decision-record prefixes | **GDR-001**; applied by OLY-GOV-003 |
-| Valid Decision Record statuses | Draft, Proposed, Approved, Superseded, Retired only | OLY-GOV-003 — Approved / Advisory |
+| Valid Decision Record statuses | Draft, Proposed, Approved, Superseded, Retired only | OLY-GOV-003 — Approved / Governing |
 | Research as a Muse | **No. Research is a cross-cutting activity, not a tenth Muse.** | OLY-GOV-002; Muse Catalog; OPM-001 |
 | Promotion approval authority | Only Founder approves Approved / Canonical / Governing; agents may recommend only | OLY-GOV-002; OLY-GOV-003 |
 | Minimum metadata bar for Proposed | Defined in Knowledge Asset Standard | OLY-GOV-002 |
@@ -38,10 +40,8 @@ The following guidance has been reviewed and accepted for current Olympus use. S
 
 | ID | Question | Layer | Status | Notes |
 |---|---|---|---|---|
-| OLY-DB-001 | Is Mt. Olympus the official ecosystem name? | Vision | Open | ACR-001 lists Olympus/Mount Olympus as naming possibilities, not final decisions. |
 | OLY-DB-002 | What is the official relationship between Olympus, Mnemosyne, Metis, and the Muses? | Conceptual Model | Open | Current model is promising but exploratory. |
 | OLY-DB-005 | What is Curator? | Operating Model | Open | Proposed AI owner; may recommend promotion but cannot approve during foundation phase. OPM-001 does not define Curator as an active agent role. |
-| OLY-DB-007 | Which project participates first? | Strategy | Open | Hobby Brain is origin, but portfolio-wide intent is explicit. |
 | OLY-DB-010 | How should institutional knowledge be audited? | Governance | Open | Future concern after initial foundation. |
 
 ---
@@ -53,7 +53,7 @@ The following guidance has been reviewed and accepted for current Olympus use. S
 | OLY-DB-003 | What constitutes a Knowledge Asset? | Governance | Working answer captured | See Approved / Advisory OLY-GOV-002 and Knowledge Asset Model. Formal stronger-authority promotion remains optional. |
 | OLY-DB-004 | What statuses and Authority Levels should Knowledge Assets use? | Governance | Working answer captured | See Approved / Advisory OLY-GOV-002. |
 | OLY-DB-008 | What must every participating repository expose? | Governance | Open | Candidate: governance, decisions, architecture, handoff, source map. Handoff rules are partially covered by OLY-GOV-004. |
-| OLY-DB-009 | How should agents discover authoritative knowledge? | Operating Model | Partially Addressed | OLY-GOV-005 is Approved / Advisory and accepted for current use. The item remains open for practical validation and any future stronger-authority promotion. |
+| OLY-DB-009 | How should agents discover authoritative knowledge? | Operating Model | Partially Addressed | OLY-GOV-005 is Approved / Advisory and accepted for current use. Practical validation is deferred until an Olympus agent or knowledge-discovery implementation exists. |
 
 ---
 
@@ -61,6 +61,8 @@ The following guidance has been reviewed and accepted for current Olympus use. S
 
 | ID | Question | Resolution | Source |
 |---|---|---|---|
+| OLY-DB-001 | Is Mt. Olympus the official ecosystem name? | Resolved on 2026-07-25. The official ecosystem name is **Olympus**. | **GDR-002 — Approved / Canonical** |
+| OLY-DB-007 | Which project participates first? | Resolved on 2026-07-25. The premise is retired: Olympus and Hobby Brain are separate projects. Hobby Brain is not an Olympus subproject, and Olympus is not a Hobby Brain subproject. Any future participation or adoption relationship requires a separate explicit decision. | **GDR-002 — Approved / Canonical** |
 | OLY-DB-017 | Formal promotion of ID convention | Resolved on 2026-07-25. Prefix-based, three-digit stable IDs are official Olympus practice. | **GDR-001 — Approved / Canonical** |
 
 ---
