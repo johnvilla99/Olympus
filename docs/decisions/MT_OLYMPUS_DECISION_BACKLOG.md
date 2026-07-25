@@ -17,6 +17,7 @@ The following guidance has been reviewed and accepted for current Olympus use. S
 | Official ecosystem name | **Olympus** | **GDR-002 — Approved / Canonical** |
 | Olympus / Hobby Brain relationship | Olympus and Hobby Brain are separate projects; neither is a subproject of the other | **GDR-002 — Approved / Canonical** |
 | Olympus conceptual capability model | Olympus is the ecosystem; Mnemosyne preserves memory; Metis provides judgment; Muses are domain lenses and stewards; human owners remain accountable | **GDR-003 — Approved / Canonical** |
+| Eunomia ecosystem stewardship role | Eunomia is the Olympus ecosystem librarian and collection-stewardship role; it is defined but not yet instantiated as an active agent or application component | **GDR-004 — Approved / Canonical** |
 | Formal Knowledge Asset ID convention | Prefix-based, three-digit stable identifiers | **GDR-001 — Approved / Canonical** |
 | ADR/PDR/GDR/ODR decision prefixes | Official decision-record prefixes | **GDR-001**; applied by OLY-GOV-003 |
 | Valid Decision Record statuses | Draft, Proposed, Approved, Superseded, Retired only | OLY-GOV-003 — Approved / Governing |
@@ -28,7 +29,7 @@ The following guidance has been reviewed and accepted for current Olympus use. S
 | Daily log AI Consumption | Latest handoff Required when resuming; logs Recommended, Required if no handoff | OLY-GOV-004 |
 | Evidence packet | Section within handoff; no standalone template required yet | OLY-GOV-004 |
 | Filled handoff location | Olympus handoffs in `logs/daily/`; project handoffs in project repositories | OLY-GOV-001; OLY-GOV-004 |
-| Named agent roles | John, Hermes, Hephaestus | OPM-001 — Approved / Advisory |
+| Named active agent roles | John, Hermes, Hephaestus | OPM-001 — Approved / Advisory |
 | Olympus Agent Operating Model | Current operating guidance | OPM-001 — Approved / Advisory |
 | Knowledge Capture Workflow | Current capture and routing guidance | OPM-002 — Approved / Advisory |
 | Decision Promotion / Approval Workflow | Current promotion and approval workflow | OPM-003 — Approved / Advisory |
@@ -41,7 +42,6 @@ The following guidance has been reviewed and accepted for current Olympus use. S
 
 | ID | Question | Layer | Status | Notes |
 |---|---|---|---|---|
-| OLY-DB-005 | What is Curator? | Operating Model | Open | Proposed AI owner; may recommend promotion but cannot approve during foundation phase. OPM-001 does not define Curator as an active agent role. |
 | OLY-DB-010 | How should institutional knowledge be audited? | Governance | Open | Future concern after initial foundation. |
 
 ---
@@ -63,6 +63,7 @@ The following guidance has been reviewed and accepted for current Olympus use. S
 |---|---|---|---|
 | OLY-DB-001 | Is Mt. Olympus the official ecosystem name? | Resolved on 2026-07-25. The official ecosystem name is **Olympus**. | **GDR-002 — Approved / Canonical** |
 | OLY-DB-002 | What is the official relationship between Olympus, Mnemosyne, Metis, and the Muses? | Resolved on 2026-07-25. Olympus is the ecosystem; Mnemosyne and Metis are cross-cutting memory and judgment capabilities; Muses are durable domain lenses and stewards; human owners retain accountability and approval remains governed. | **GDR-003 — Approved / Canonical** |
+| OLY-DB-005 | What is Curator? | Resolved on 2026-07-25. The Curator working concept is renamed **Eunomia** and defined as the Olympus ecosystem librarian and collection-stewardship role. Eunomia is not yet an active agent or application component. | **GDR-004 — Approved / Canonical** |
 | OLY-DB-007 | Which project participates first? | Resolved on 2026-07-25. The premise is retired: Olympus and Hobby Brain are separate projects. Hobby Brain is not an Olympus subproject, and Olympus is not a Hobby Brain subproject. Any future participation or adoption relationship requires a separate explicit decision. | **GDR-002 — Approved / Canonical** |
 | OLY-DB-017 | Formal promotion of ID convention | Resolved on 2026-07-25. Prefix-based, three-digit stable IDs are official Olympus practice. | **GDR-001 — Approved / Canonical** |
 
