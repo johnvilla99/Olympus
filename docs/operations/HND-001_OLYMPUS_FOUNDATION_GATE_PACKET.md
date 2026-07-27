@@ -1,6 +1,6 @@
 # Olympus Foundation Gate Packet
 
-> **Status:** Draft / Advisory gate packet. Foundation decisions are approved, but the gate remains on hold until the alignment change set is applied and verified in the active repository.
+> **Status:** Proposed / Advisory gate packet. Phase 1 alignment is implemented and validated on the review branch; the Foundation Gate itself still requires John’s explicit decision.
 
 ## Metadata
 
@@ -10,7 +10,7 @@
 | Title | Olympus Foundation Gate Packet |
 | Classification | Handoff / Continuity Artifact |
 | Category | Governance / Product Sequencing |
-| Status | Draft |
+| Status | Proposed |
 | Authority Level | Advisory |
 | Canonical Source | No |
 | Owner | John S. Villasenor |
@@ -18,7 +18,7 @@
 | Created On | 2026-07-27 |
 | Last Updated | 2026-07-27 |
 | Review Cadence | Until Foundation Gate decision |
-| Related Assets | OPM-004; GDR-001 through GDR-008; OLY-GOV-001 through OLY-GOV-005; OPM-001 through OPM-003; RNO-002; Decision Backlog |
+| Related Assets | OPM-004; GDR-001 through GDR-008; OLY-GOV-001 through OLY-GOV-005; OPM-001 through OPM-003; RNO-002; Decision Backlog; PR #1 |
 | AI Consumption | Required |
 | Change Impact | High |
 
@@ -26,36 +26,139 @@
 
 ## Gate Purpose
 
-Provide John with the evidence and explicit decision point required by Phase 1 of OPM-004.
+Provide John with the evidence and explicit decision point required to close Phase 1 under OPM-004 and authorize or decline entry into Phase 2: Product Discovery and Definition.
 
-## Completed
+## Approved Foundation Decisions
 
-- Canonical consistency review of GDR-001 through GDR-004.
-- Founder approval captured for GDR-005 through GDR-008.
-- Backlog classification by roadmap phase.
-- OLY-GOV-005 practical validation recorded in RNO-002.
-- Reference-over-repetition alignment design prepared.
-- Historical artifacts excluded from modernization.
+- GDR-001 — Olympus ID Convention
+- GDR-002 — Olympus Ecosystem Identity and project boundary
+- GDR-003 — Olympus Conceptual Capability Model
+- GDR-004 — Eunomia Ecosystem Stewardship Role
+- GDR-005 — Knowledge Asset Authority Semantics
+- GDR-006 — Olympus Authority Hierarchy
+- GDR-007 — Canonical Repository Location
+- GDR-008 — Mt. Olympus Display Alias
 
-## Required Before Approval
+## Implementation Completed
 
-- Apply the active-file alignment changes in `e7-jvillasenor/Olympus`.
-- Verify the active repository `main` state and migration parity.
-- Re-scan active files for stale `Curator`, pre-approval GDR-001, duplicated hierarchy, and old repository references.
-- Confirm active prompts, indexes, and Cursor rules reference GDR-005 through GDR-008 and OPM-004.
+The Foundation Closure change set is published on:
 
-## Remaining Deferred Work
+```text
+Repository: e7-jvillasenor/Olympus
+Branch: agent/foundation-closure-alignment
+Pull request: #1 — Foundation Closure alignment
+Base: main at 62edf4133e852e1ee4e0eee31350044cec142e64
+```
 
-Architecture-sensitive and application-governance questions remain assigned to later OPM-004 phases. They are not Foundation Gate blockers.
+Completed alignment includes:
 
-## Current Recommendation
+- GDR-005 through GDR-008
+- RNO-002 practical validation
+- OLY-GOV-001 through OLY-GOV-005
+- OPM-001 through OPM-003
+- Knowledge Asset Model, Foundation Brief, and Project Instructions
+- Decision Backlog
+- Root and governed-directory indexes
+- Session-start and session-handoff prompts
+- Decision-record template
+- Cursor authority, Knowledge Asset, and continuity rules
+- HND-001 gate packet
 
-**HOLD the Foundation Gate** until repository application and post-change verification are complete.
+Historical handoffs, logs, and ACRs were deliberately preserved.
 
-When those checks pass, Hermes should update this packet to `Status: Proposed` and request John’s explicit approval to enter Phase 2: Product Discovery and Definition.
+## Merge Reconciliation
+
+The offline candidate package predated July 25 repository approvals. Publication preserved the live repository’s newer approvals:
+
+- OLY-GOV-001 and OLY-GOV-003 remain Approved / Governing.
+- OLY-GOV-002, OLY-GOV-004, and OLY-GOV-005 remain Approved / Advisory.
+- OPM-001 through OPM-003 remain Approved / Advisory.
+
+The July 27 alignment changed references, semantics, scope, and duplication without reverting those approvals.
+
+## Validation Evidence
+
+### Authority and metadata
+
+- GDR-005 is the controlling source for Status, Authority Level, and Canonical Source.
+- GDR-006 is the single Governing authority hierarchy.
+- GDR-001 remains the controlling identifier source.
+- Lower-authority active assets reference those decisions rather than maintaining competing definitions.
+
+### Repository identity
+
+- GDR-007 identifies `e7-jvillasenor/Olympus` and `main` as the active durable repository.
+- Active instructions and rules reference the current repository decision.
+- Remaining `johnvilla99/Olympus` references are confined to dated historical handoffs and migration context.
+
+### Terminology and historical integrity
+
+- Active operating guidance uses Eunomia under GDR-004.
+- RNO-001 retains `Curator` only as a retired-term decoder.
+- Historical handoffs and ACRs retain their dated language and are not treated as current authority.
+
+### Discovery validation
+
+RNO-002 records four passing Phase 1 cases:
+
+1. Canonical decision versus stale Draft wording.
+2. Conflicting authority-hierarchy copies.
+3. Project-local versus Olympus-wide authority.
+4. Historical continuity versus current repository state.
+
+OLY-DB-009 is therefore recorded as **Validated working answer; promotion decision pending**. This validation does not independently promote OLY-GOV-005.
+
+### Active-surface review
+
+The review branch was checked for:
+
+- stale active Curator terminology
+- pre-approval GDR-001 wording
+- unresolved OLY-DB-017 language
+- unintended active references to the historical repository
+- duplicated authority hierarchies
+- stale Draft labels in operating prompts and Cursor continuity rules
+- missing GDR-005, GDR-006, GDR-007, GDR-008, and OPM-004 references in active navigation and operating surfaces
+
+No remaining Foundation Gate blocker was identified on the review branch.
+
+## Deferred Work
+
+The following remain later-phase work and are not Phase 1 blockers:
+
+- Product definition and MVP scope
+- Participating-repository requirements and institutional-audit governance
+- Runtime-agent and application-governance design
+- Architecture alternatives and validation
+- Storage, graph, vector, API, vendor, and technical-stack choices
+- Eunomia instantiation
+- Any stronger-authority promotion of OLY-GOV-005
+
+## Remaining Operational Conditions
+
+Before Phase 2 work begins:
+
+1. John reviews and explicitly approves or rejects this Foundation Gate.
+2. PR #1 is merged into `main` if its repository changes are approved.
+3. The merged `main` branch is re-read to confirm the merge result and repository state.
+
+A merge alone does not approve the Foundation Gate, and gate approval alone does not imply that an unmerged branch is active repository authority.
+
+## Recommendation
+
+**PROPOSE APPROVAL of the Phase 1 Foundation Gate and authorization to enter Phase 2: Product Discovery and Definition, contingent on approval and merge of PR #1 followed by a post-merge re-read of `main`.**
+
+This recommendation is Advisory. John remains the explicit gate authority.
+
+## Founder Decision
+
+- [ ] Approve the Phase 1 Foundation Gate and authorize Phase 2 after PR #1 merge and verification.
+- [ ] Hold the gate and request changes.
+- [ ] Reject the gate and provide corrective direction.
 
 ## Change History
 
 | Date | Author | Summary |
 |---|---|---|
-| 2026-07-27 | Hermes | Prepared the Foundation Gate packet and recorded the remaining repository-verification condition. |
+| 2026-07-27 | Hermes | Prepared the initial Draft gate packet and recorded repository-verification conditions. |
+| 2026-07-27 | Hermes under explicit Founder direction | Published and validated the active-document alignment on PR #1; advanced HND-001 to Proposed and requested the Founder gate decision. |
