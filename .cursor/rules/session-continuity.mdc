@@ -1,60 +1,68 @@
 ---
-description: Session start, handoff, evidence packets, and continuity placement rules
+description: Session start, handoff, evidence, phase, and continuity placement rules
 alwaysApply: true
 ---
 
 # Session Continuity
 
-Align with **OLY-GOV-004** (`docs/governance/OLY-GOV-004_SESSION_CONTINUITY_STANDARD.md`).
+Apply OLY-GOV-004. Use GDR-005 for metadata semantics, GDR-006 for authority resolution, GDR-007 for repository identity, and OPM-004 for phase and gate sequencing.
 
-## Session start
+## Session Start
 
-Before editing, establish (or confirm):
+Before editing, establish:
 
-- Date, agent/role (default: **Hephaestus / Coder**), repository path, branch
-- Uncommitted work (`git status --short`)
-- Active workstream and scope boundaries
-- Required reading complete or explicitly waived by Founder
-- Whether work is exploratory, draft, proposed, or approved
-- Do-not-do items (no app architecture, no promotion, no Tier 3 resolution, no over-capture)
+- date and agent role
+- active repository, branch, and working-tree state
+- active OPM-004 phase and Founder gate
+- workstream, requested output, and scope boundaries
+- required reading completed or explicitly waived
+- governing sources and material conflicts
+- do-not-do items
+- readiness
 
-Do **not** begin editing until required reading is complete or John explicitly waives it.
+Do not begin editing before required reading or explicit authorized waiver.
 
-Prompt templates: `docs/operations/session_start_prompt.md`, `docs/operations/session_handoff_prompt.md`.
+Use `docs/operations/session_start_prompt.md`.
 
-Operating model: `docs/operations/OPM-001_OLYMPUS_AGENT_OPERATING_MODEL.md` (Draft / Advisory).
+## Current Operating Sources
 
-Capture workflow: `docs/operations/OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW.md` (Draft / Advisory).
+- OPM-001 — Approved / Advisory
+- OPM-002 — Approved / Advisory
+- OPM-003 — Approved / Advisory
+- OPM-004 — Approved / Advisory, phase sequencing
 
-Decision promotion: `docs/operations/OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW.md` (Draft / Advisory).
+Do not preserve stale Draft labels in active operating instructions.
 
-## Session handoff
+## Session Handoff
 
-At end of work, report:
+At the end of work, report:
 
-- Session date, repository state (branch, uncommitted work, commit/push status)
-- Work completed, files changed
-- **Decisions made** vs **observations** (handoffs are not formal decisions)
-- Commands run, validation/evidence
-- Open questions, risks/watch items, recommended next steps
-- **Capture Review** when session produced candidate decisions, lessons, research, or operating-model changes (see OPM-002; route decision candidates per OPM-003)
+- repository, branch, uncommitted work, commit, push, and PR state
+- active phase, gate, and workstream
+- work completed and files changed
+- Approved decisions applied versus candidate decisions and observations
+- actions performed and evidence actually obtained
+- limitations, failed attempts, open questions, and risks
+- recommended next steps and human approval points
+- Capture Review under OPM-002 and OPM-003
 
-Prompt template: `docs/operations/session_handoff_prompt.md`.
+Use `docs/operations/session_handoff_prompt.md`.
 
-## Evidence rules
+## Evidence Rules
 
-- State what validation was **actually performed**.
-- Do **not** claim tests passed unless run.
-- Do **not** claim screenshots or browser QA unless performed.
-- If validation cannot be performed, explain why and provide **human QA steps**.
-- Keep evidence **proportional** to the work.
-- If Cursor cannot perform screenshots/browser QA, provide exported files or QA instructions for John — do not require Cursor-created screenshots.
+- Report only validation actually performed.
+- Distinguish inspection, implementation, automated validation, and human QA.
+- Do not claim tests, screenshots, commit, push, PR, or merge unless verified.
+- Explain unavailable validation and provide human QA steps.
+- Keep evidence proportional.
 
 ## Placement
 
-- Olympus filled handoffs → `logs/daily/` unless promoted to `docs/`.
-- Project handoffs → relevant **project repository**.
-- Evidence packets → **section inside handoffs** (no standalone template yet).
-- Daily logs: **Recommended** AI Consumption when handoff exists; **Required** if no handoff.
+- Olympus handoffs and daily logs → `logs/daily/` unless promoted
+- Project-local handoffs → relevant project repository
+- Evidence → handoff or gate-packet section unless a future standard changes this
+- Formal durable assets → appropriate `docs/` directory
 
-Filled copies use `templates/sessions/` — copy before filling in.
+## Historical Integrity
+
+Historical handoffs and logs may retain former terminology, repository references, and then-current status. Treat them as dated continuity evidence and verify against current formal authority and repository state.
