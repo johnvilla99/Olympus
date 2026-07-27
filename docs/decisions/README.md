@@ -1,41 +1,22 @@
 # docs/decisions/
 
-Decision records and the decision backlog for Mt. Olympus.
+Decision records and the Decision Backlog for Olympus.
 
-## Purpose
+<!-- OLYMPUS-FOUNDATION-AUTHORITY-START -->
+## Governing Foundation References
 
-Preserve what was decided, why, by whom, and with what consequences — not merely outcomes.
+Use GDR-001 for identifiers, GDR-005 for metadata semantics, GDR-006 for authority resolution, GDR-007 for the active repository, GDR-008 for the display alias, and OPM-004 for phase sequencing. Lower-authority material should reference these assets rather than restate their definitions.
+<!-- OLYMPUS-FOUNDATION-AUTHORITY-END -->
 
-## What belongs here
+## Current Foundation Decisions
 
-- Formal decision records (ADR, PDR, GDR, ODR) — statuses: Draft, Proposed, Approved, Superseded, Retired only
-- Decision backlog (`MT_OLYMPUS_DECISION_BACKLOG.md`) — open questions, not decisions
-- Rationale, options considered, and follow-up actions
+- GDR-001 — Olympus ID Convention
+- GDR-002 — Olympus Ecosystem Identity
+- GDR-003 — Olympus Conceptual Capability Model
+- GDR-004 — Eunomia Ecosystem Stewardship Role
+- GDR-005 — Knowledge Asset Authority Semantics
+- GDR-006 — Olympus Authority Hierarchy
+- GDR-007 — Canonical Repository Location
+- GDR-008 — Mt. Olympus Display Alias
 
-## What does not belong here
-
-- Exploratory ideas without a decision frame (use `docs/concepts/`)
-- General governance standards (use `docs/governance/`)
-- Session handoffs or daily work logs (use `logs/daily/` for filled handoffs; templates in `templates/sessions/`)
-- Decisions recorded only in chat without a durable asset
-
-## Status
-
-Starter directory — proposed organization.
-
-## Current assets
-
-| Asset | File |
-|---|---|
-| Decision Backlog | `MT_OLYMPUS_DECISION_BACKLOG.md` |
-| GDR-001: Olympus ID Convention | `GDR-001_OLYMPUS_ID_CONVENTION.md` — **Proposed**, not Approved |
-
-## Decision promotion workflow
-
-Use **`docs/operations/OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW.md`** (Draft / Advisory) for promoting backlog questions, working answers, and candidate decisions into formal decision records.
-
-- **Proposed is not Approved.**
-- **Approved** requires explicit John approval.
-- Commit or push does not equal decision approval unless John explicitly says so.
-
-See also: OLY-GOV-003, OPM-002, `templates/decisions/DECISION_RECORD_TEMPLATE.md`.
+Use `MT_OLYMPUS_DECISION_BACKLOG.md` for unresolved, partially addressed, resolved, and roadmap-routed questions. Backlog items are not decisions.
