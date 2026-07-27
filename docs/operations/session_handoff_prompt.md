@@ -1,117 +1,99 @@
 # Session Handoff Prompt
 
-> **Status:** Draft / Advisory operating prompt — not an approved Knowledge Asset.
+> **Status:** Draft / Advisory operating prompt — not a governed Knowledge Asset.
 
 ## Purpose
 
-Reusable prompt for ending a Cursor session in the Olympus repository. Preserves continuity, honest evidence, and clear next steps.
+Reusable prompt for ending an Olympus repository session with honest evidence, governed capture routing, phase awareness, and clear next steps.
 
 ## Prompt
 
-Copy and paste the block below into Cursor at session end:
+Prepare an **Olympus session handoff** as **Hephaestus / Coder**.
 
----
+Apply OPM-001, OPM-002, OPM-003, OPM-004, and OLY-GOV-004. Use GDR-005 for metadata semantics, GDR-006 for authority resolution, and GDR-007 for repository identity.
 
-Prepare an **Olympus session handoff** as **Hephaestus (Coder)** for this work session.
+A handoff is a continuity artifact, not a formal decision record. Commit or push is not approval.
 
-Follow OPM-001, OPM-002, OPM-003, and OLY-GOV-004 for role boundaries, capture routing, decision promotion, and continuity expectations.
+Required checks:
 
-**Do not treat this handoff as a formal decision record.** Durable decisions belong in `docs/decisions/` with Founder approval.
+1. Verify active repository and branch.
+2. Report `git status --short` or the available equivalent.
+3. Report current commit or PR state when relevant.
+4. State the active OPM-004 phase and gate.
+5. Reconcile handoff claims with observable repository state.
 
-**Required checks — run or report:**
+The handoff must include:
 
-1. `git status --short`
-2. Current branch (`git branch --show-current`)
-3. Recent commit info if relevant (`git log -1 --oneline` when commits were made)
+1. Session date and agent role.
+2. Repository, branch, uncommitted-work, commit, push, and PR state.
+3. Active phase, gate, and workstream.
+4. Work completed.
+5. Files created, modified, or deleted.
+6. Approved decisions applied, candidate decisions, and observations — separated clearly.
+7. Candidate Knowledge Assets, lessons, research, operating changes, or conflicts.
+8. Actions or commands performed.
+9. Validation and evidence actually obtained.
+10. Limitations, failed attempts, open questions, and risks.
+11. Recommended next steps and required human approval points.
+12. Capture Review under OPM-002 and OPM-003; explicitly state when no durable candidate knowledge was produced.
 
-**Handoff must include:**
+Do not resolve roadmap-routed product, application-governance, architecture, or implementation questions before their OPM-004 phase and gate.
 
-1. **Session date** and agent/role (**Hephaestus / Coder**)
-2. **Repository state** — branch, uncommitted work, commit/push status
-3. **Work completed** — concise summary
-4. **Files changed** — list with created/modified/deleted
-5. **Decisions made** vs **observations** — separate clearly; Decision Records do not use Exploratory status
-6. **Candidate decisions** — for decision backlog if not yet formal
-7. **Candidate Knowledge Assets** — for promotion review if applicable
-8. **Commands run** — relevant shell commands
-9. **Validation / evidence** — honest account of what was verified
-10. **Open questions** and **risks / watch items**
-11. **Recommended next steps**
-12. **Commit status** — committed or not; do not commit unless John asked
-13. **Capture Review** — when the session produced candidate decisions, backlog questions, lessons, research, operating-model changes, or asset conflicts; route per OPM-002 and OPM-003 (see `templates/sessions/SESSION_HANDOFF_TEMPLATE.md`). If none, state explicitly.
+Save filled Olympus handoffs under `logs/daily/` unless formally promoted. Project-local handoffs belong in the relevant project repository.
 
-**Tier 3 items:** List any product/architecture questions encountered but **do not resolve** them — mark as deferred.
-
-**Follow-up needed?** Note if Knowledge Assets, decision records, backlog items, or templates need updates in a future session.
-
-Use structure from `templates/sessions/SESSION_HANDOFF_TEMPLATE.md`. File filled Olympus handoffs in `logs/daily/` when saving to the repo.
-
----
-
-## Required Checks
-
-- [ ] `git status --short`
-- [ ] Branch and uncommitted work reported
-- [ ] Files changed listed
-- [ ] Decisions vs observations separated
-- [ ] Validation reported honestly
-- [ ] Commit/push status stated
-
-## Required Output Format
+## Suggested Output
 
 ```markdown
 ## Session Handoff — YYYY-MM-DD
 
 ### Repository State
-(branch, git status summary, commit/push status)
+
+### Active Phase and Gate
 
 ### Work Completed
--
 
 ### Files Changed
-|
 
-### Decisions Made (session observations)
-|
+### Approved Decisions Applied
 
 ### Candidate Decisions / Backlog Items
-|
 
-### Candidate Knowledge Assets
-|
+### Candidate Knowledge Assets / Lessons / Research
 
-### Commands Run
+### Actions Performed
 
 ### Validation / Evidence
-(honest — what was actually verified)
 
-### Open Questions
--
+### Limitations / Failed Attempts
 
-### Risks / Watch Items
--
+### Open Questions and Risks
 
 ### Recommended Next Steps
-1.
 
-### Commit Status
-(committed / not committed)
+### Commit / Push / PR Status
+
+### Capture Review
 ```
 
 ## Evidence Rules
 
-- Do **not** claim tests or validation not performed.
-- Do **not** claim screenshots or browser QA unless actually performed.
-- If no tests applied, say so (e.g. documentation-only session).
-- If only document review was performed, state that explicitly.
-- If uncommitted work remains, state that clearly.
-- Provide human QA steps when Cursor could not validate.
+- State only validation actually performed.
+- Distinguish document review, repository inspection, automated checks, and human QA.
+- Do not claim tests, screenshots, browser QA, commit, push, or merge unless verified.
+- When validation is unavailable, explain why and give clear human steps.
+- Preserve evidence proportionally; do not create ceremonial detail.
 
 ## Do Not Do
 
-- Promote documents to Approved, Canonical, or Governing
-- Treat session observations as formal approved decisions
-- Close backlog items without explicit Founder direction
-- Delete historical context or hide failed attempts
-- Resolve Tier 3 product/architecture questions
-- Commit unless John explicitly requested it
+- Treat a handoff as an Approved decision.
+- Change Status or Authority without authorized approval.
+- Close backlog items without authority.
+- Hide failed attempts, limitations, or uncommitted work.
+- Rewrite historical continuity merely to modernize terminology.
+- Infer approval from conversation, silence, commit, or push.
+
+## Change History
+
+| Date | Author | Summary |
+|---|---|---|
+| 2026-07-27 | Hermes under explicit Founder direction | Aligned handoff evidence, authority, repository, and phase rules to the Foundation Closure decisions. |
