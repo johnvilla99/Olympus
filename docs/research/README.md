@@ -1,28 +1,16 @@
 # docs/research/
 
-Research notes, evidence, and analysis supporting future decisions.
+Research notes, evidence, and analysis supporting Olympus decisions and work products.
 
-## Purpose
+<!-- OLYMPUS-FOUNDATION-AUTHORITY-START -->
+## Governing Foundation References
 
-Preserve investigation work so conclusions remain traceable to sources and reasoning.
+Use GDR-005 for metadata semantics, GDR-006 for authority resolution, GDR-007 for the active repository, GDR-008 for the display alias, and OPM-004 for phase sequencing. Lower-authority material should reference these assets rather than restate their definitions.
+<!-- OLYMPUS-FOUNDATION-AUTHORITY-END -->
 
-## What belongs here
+## Current Research
 
-- Competitive and landscape research (`RNO-*`)
-- Tool and approach evaluations (informational, not final selection)
-- Evidence summaries with clear status and authority level
+- RNO-001 — Olympus Babble Fish terminology reference
+- RNO-002 — OLY-GOV-005 Practical Validation
 
-## Muse lens metadata
-
-Research is a **cross-cutting activity**, not a dedicated Muse. Research notes should identify **one or more relevant Muse lenses** when applicable (e.g. Architecture, Product, Governance). Multiple lenses are allowed. If no lens applies, use `General Research` or `TBD`. Keep capture lightweight — do not block quick research for metadata perfection.
-
-## What does not belong here
-
-- Approved vendor or tool decisions without a decision record
-- Implementation code or prototypes
-- Unlabeled exploratory notes that read as canonical guidance
-- Duplicate content better captured as a lesson learned
-
-## Status
-
-Starter directory — proposed organization.
+Research is evidence, not a decision. Research remains cross-cutting and may identify relevant Muse lenses. Any authority or lifecycle change requires the applicable decision and approval workflow.

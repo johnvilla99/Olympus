@@ -16,9 +16,9 @@
 | Owner | John S. Villasenor |
 | Primary AI Owner | Hermes |
 | Created On | 2026-07-05 |
-| Last Updated | 2026-07-25 |
+| Last Updated | 2026-07-27 |
 | Review Cadence | As Needed |
-| Related Assets | OLY-GOV-002; OLY-GOV-003; OPM-001; OPM-002; OPM-003; GDR-003; GDR-004; Muse Catalog; Decision Backlog |
+| Related Assets | GDR-005; GDR-006; OLY-GOV-002; OLY-GOV-003; OPM-001; OPM-002; OPM-003; GDR-003; GDR-004; Muse Catalog; Decision Backlog |
 | Muse Lenses | Knowledge Stewardship; Governance; Operations |
 | AI Consumption | Recommended |
 | Change Impact | Low |
@@ -56,18 +56,40 @@ It is a reference glossary, not a decision record or governing standard.
 
 ## Governance and Status Terms
 
+Use **GDR-005** for authoritative Status, Authority Level, and Canonical Source semantics. This glossary decodes common wording; it does not redefine those dimensions.
+
+**Banner shorthand note:** Human-readable banners such as `Approved / Canonical` or `Approved / Governing` combine a lifecycle Status with an Authority Level for scannability. The metadata table remains authoritative. Do not treat the banner as a single combined Status value. Canonical is not a lifecycle Status.
+
+### Lifecycle Status (GDR-005)
+
 | Term | Meaning |
 |---|---|
+| Exploratory | Emerging idea; not binding; not valid for Decision Records |
 | Draft | Being shaped; not approved |
 | Proposed | Ready for review; not approved |
 | Approved | Accepted as current guidance; requires explicit John approval |
-| Canonical | Source of truth for a defined subject; requires explicit John approval |
-| Governing | Controls process or authority; requires explicit John approval |
-| Exploratory | Emerging idea; not binding; not valid for Decision Records |
 | Superseded | Replaced but preserved |
 | Retired | No longer active but preserved |
-| Advisory | Recommended guidance, not binding |
+
+### Authority Level (GDR-005)
+
+| Term | Meaning |
+|---|---|
 | Informational | Context only |
+| Advisory | Recommended guidance, not binding |
+| Canonical | Binding source of truth for a defined subject; requires explicit John approval |
+| Governing | Controls process or authority resolution; requires explicit John approval |
+
+### Canonical Source (GDR-005)
+
+| Term | Meaning |
+|---|---|
+| Canonical Source | Separate `Yes` / `No` designation identifying whether the asset is the source of truth for its defined subject — independent of Status and Authority Level |
+
+### Other governance terms
+
+| Term | Meaning |
+|---|---|
 | AI Consumption | How agents should use an asset: Required, Recommended, Optional, Restricted |
 | Change Impact | Expected scrutiny or risk of changing an asset: Low, Medium, High |
 
@@ -158,3 +180,4 @@ Additional notes:
 | 2026-07-05 | John S. Villasenor | Initial Draft / Advisory abbreviation and terminology reference |
 | 2026-07-05 | John S. Villasenor | Approved Babble Fish as the living Olympus abbreviation and terminology reference; renamed file with `RNO-001` prefix |
 | 2026-07-25 | John S. Villasenor | Replaced the retired Curator terminology with Eunomia and added GDR-003/GDR-004 concept boundaries |
+| 2026-07-27 | Hermes under explicit Founder direction | Separated Status, Authority Level, and Canonical Source per GDR-005; clarified banner shorthand; retained Curator as retired term only |

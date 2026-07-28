@@ -1,107 +1,118 @@
-# Mt. Olympus — Foundation Brief
+# Olympus — Foundation Brief
+
+> “Mt. Olympus” is a permitted display alias under GDR-008. **Olympus** remains the official ecosystem name under GDR-002.
 
 ## Purpose
 
-Mt. Olympus is a proposed portfolio-wide knowledge ecosystem designed to preserve memory, context, decisions, experience, and judgment across John S. Villasenor's projects and professional history.
+Olympus is a portfolio-wide knowledge ecosystem for preserving memory, context, decisions, experience, and judgment across projects and professional history.
 
-The goal is not to create another document library. The goal is to create a system that helps future humans and AI agents understand what was decided, why it was decided, what was learned, and how prior experience should inform future work.
+The goal is not another document library. The goal is to help future humans and AI agents understand what was decided, why it mattered, what was learned, who owns the knowledge, whether it is authoritative, and how prior experience should guide future work.
 
 ## Origin
 
-Mt. Olympus emerged from the need to improve continuity across AI-assisted engineering and product sessions. The initial problem was documentation quality. The deeper problem was knowledge loss.
+Olympus emerged from continuity problems in AI-assisted engineering and product work. The initial problem appeared to be documentation quality; the deeper problem was knowledge loss.
 
-Traditional repositories can preserve artifacts. They usually fail to preserve judgment, context, lessons learned, failed experiments, engineering intuition, and institutional memory.
+Traditional repositories preserve artifacts but often lose rationale, judgment, lessons, failed experiments, intuition, and institutional memory.
 
 ## Strategic Problem
 
-AI-assisted work repeatedly suffers from context loss:
+AI-assisted work repeatedly suffers when:
 
 - new sessions lack prior reasoning
 - agents rediscover old decisions
-- implementation work reopens strategy
-- lessons learned disappear into chat history
-- documentation explains outcomes but not rationale
+- implementation reopens strategy
+- lessons disappear into chat history
+- outcomes are preserved without rationale
 - knowledge is scattered across projects and tools
-
-Mt. Olympus exists to solve that continuity problem at the ecosystem level.
 
 ## Strategic Outcome
 
-A future AI or human contributor should be able to answer:
+A future contributor should be able to answer:
 
 - What do we know?
 - Why do we believe it?
-- Who decided it?
+- Who owns or approved it?
 - What is authoritative?
 - What is exploratory?
-- What lessons have we already learned?
-- Which domain of expertise governs this question?
-- Which project-specific constraints apply?
-- What should we do next?
+- What lessons already exist?
+- Which domain lens applies?
+- Which project constraints are local?
+- What should happen next?
 
 ## Conceptual Model
 
-| Concept | Meaning | Responsibility |
-|---|---|---|
-| Mt. Olympus | The ecosystem | Organizes memory, judgment, expertise, agents, and projects |
-| Mnemosyne | Memory | Preserves accumulated knowledge and experience |
-| Metis | Judgment | Reasons over memory and helps form recommendations |
-| The Muses | Domains of expertise | Provide durable disciplinary structure |
-| Agents | Temporary assistants | Serve one or more Muses in specific sessions |
-| Projects | Consumers and contributors | Use and generate knowledge assets |
+GDR-003 is the Canonical source for the conceptual capability model. In summary:
+
+| Concept | Responsibility |
+|---|---|
+| Olympus | The governed knowledge ecosystem |
+| Mnemosyne | Memory and preserved experience |
+| Metis | Judgment and synthesis over memory |
+| Muses | Durable domain lenses and stewardship capabilities |
+| Agents | Temporary operators serving one or more domains |
+| Projects | Consumers and contributors of governed knowledge |
+
+GDR-004 defines Eunomia as the ecosystem librarian and collection-stewardship role; it does not instantiate Eunomia.
+
+## Governance Foundation
+
+- GDR-001 controls identifiers.
+- GDR-002 controls official ecosystem identity.
+- GDR-003 controls the conceptual capability model.
+- GDR-004 controls Eunomia’s definition and boundaries.
+- GDR-005 controls metadata semantics.
+- GDR-006 controls authority resolution.
+- GDR-007 controls the active repository location.
+- GDR-008 controls the “Mt. Olympus” display alias.
+- OPM-004 controls phase and gate sequencing.
+
+Lower-authority assets should reference these sources rather than repeat their definitions.
 
 ## Product Positioning
 
-Mt. Olympus is a knowledge continuity system for AI-assisted builders.
+Olympus is a knowledge-continuity system for AI-assisted builders. It should eventually activate governed memory into useful judgment and work products without collapsing into a generic document chatbot.
 
-It is for people and teams who need their AI collaborators to understand not just the latest document, but the accumulated story behind the work.
+## Current Scope
 
-## Initial Scope
-
-The initial scope is a governed knowledge foundation, not a production platform.
+The current phase is Foundation Closure under OPM-004.
 
 In scope:
 
-- terminology
-- governance model
-- knowledge asset definitions
-- authority model
-- maturity lifecycle
-- project/source-library guidance
-- agent instruction patterns
-- initial documentation standards
+- terminology and identity
+- governance and authority
+- Knowledge Asset definitions
+- lifecycle and promotion procedure
+- repository and source guidance
+- agent discovery and continuity patterns
+- decision backlog and phase gates
 
-Out of scope for now:
+Out of scope until later phases permit them:
 
-- database design
-- application UI
-- graph implementation
+- production application UI
+- database and graph design
 - automation pipelines
 - API contracts
-- vector storage choices
-- vendor/tool selection
+- vector-storage or vendor selection
+- architecture implementation
+- instantiated runtime agents
 
 ## Success Criteria
 
 The foundation is strong enough when:
 
-- a new ChatGPT Project can be created with clear instructions
-- source documents explain the mission without tribal context
-- exploratory ideas are clearly separated from approved decisions
-- future agents know how to consume and respect project knowledge
-- Mt. Olympus can guide TripnetX, CraftHaus, Hobby Brain, and Bank of Villasenor without becoming project-specific soup
+- new sessions can orient from governed sources
+- exploratory ideas remain distinct from Approved direction
+- agents can resolve authority safely
+- decision rationale and lessons remain discoverable
+- project-local knowledge is not silently generalized
+- product work can begin without premature architecture
 
-## Near-Term Deliverables
+## Guardrail
 
-1. Project instructions
-2. Foundation brief
-3. Knowledge asset model
-4. Governance starter
-5. Muse/domain catalog
-6. Open questions and decision backlog
+Do not let Olympus become a cathedral of paperwork. It succeeds only when it reduces confusion, preserves useful judgment, and helps future work proceed faster with greater confidence.
 
-## Product Guardrail
+## Change History
 
-Do not let Mt. Olympus become a cathedral of paperwork.
-
-The product wins only if it reduces confusion, preserves useful judgment, and helps future work move faster with greater confidence.
+| Date | Author | Summary |
+|---|---|---|
+| 2026-07-27 | Hermes under explicit Founder direction | Aligned identity, conceptual model, authority, repository, and phase references to approved foundation decisions. |

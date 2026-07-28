@@ -1,45 +1,19 @@
 # docs/governance/
 
-Authority, maturity, and process standards for the Mt. Olympus ecosystem.
+Governance standards for Olympus.
 
-## Purpose
+<!-- OLYMPUS-FOUNDATION-AUTHORITY-START -->
+## Governing Foundation References
 
-Define how knowledge becomes trustworthy, how assets mature, and who has authority over what.
+Use GDR-005 for metadata semantics, GDR-006 for authority resolution, GDR-007 for the active repository, GDR-008 for the display alias, and OPM-004 for phase sequencing. Lower-authority material should reference these assets rather than restate their definitions.
+<!-- OLYMPUS-FOUNDATION-AUTHORITY-END -->
 
-## What belongs here
+## Standards
 
-- Governance charters and standards
-- Authority and maturity models
-- Documentation and asset lifecycle rules
-- Review cadence and stewardship definitions
+- OLY-GOV-001 — Repository structure and placement
+- OLY-GOV-002 — Knowledge Asset procedure
+- OLY-GOV-003 — Decision-record procedure
+- OLY-GOV-004 — Session continuity
+- OLY-GOV-005 — Authority-aware knowledge discovery
 
-## What does not belong here
-
-- Individual decisions, which belong in `docs/decisions/`
-- Exploratory concepts, which belong in `docs/concepts/`
-- Application or infrastructure standards for other repositories
-- Binding policy without the appropriate Status and Authority Level
-
-## Current Status
-
-The core OLY-GOV suite is Approved.
-
-- **OLY-GOV-001** and **OLY-GOV-003** are **Approved / Governing**.
-- **OLY-GOV-002**, **OLY-GOV-004**, and **OLY-GOV-005** are **Approved / Advisory**.
-
-OLY-GOV-003 owns decision authority, hierarchy, approval, and conflict treatment. Supporting artifacts should reference it rather than restating its hierarchy.
-
-## Current Assets
-
-| Asset | File | Status / Authority | Purpose |
-|---|---|---|---|
-| Governance Starter | `OLYMPUS_GOVERNANCE_STARTER.md` | Seed reference | Early authority and maturity framing; defer to approved standards where they differ |
-| Repository Standard | `OLY-GOV-001_REPOSITORY_STANDARD.md` | Approved / Governing | Repository layout, placement, and maintenance rules |
-| Knowledge Asset Standard | `OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD.md` | Approved / Advisory | Metadata, categories, lifecycle, promotion, and AI Consumption |
-| Decision Record Standard | `OLY-GOV-003_DECISION_RECORD_STANDARD.md` | Approved / Governing | Decision authority, hierarchy, lifecycle, approval, and backlog discipline |
-| Session Continuity Standard | `OLY-GOV-004_SESSION_CONTINUITY_STANDARD.md` | Approved / Advisory | Session starts, handoffs, logs, evidence, and resume behavior |
-| Agent Knowledge Discovery Standard | `OLY-GOV-005_AGENT_KNOWLEDGE_DISCOVERY_STANDARD.md` | Approved / Advisory | Authority-aware discovery, citation, synthesis, conflict handling, and safe consumption |
-
-## Related Canonical Decision
-
-**GDR-001** is the Approved / Canonical source for Olympus identifier prefixes and numbering. Governance standards reference it rather than maintaining separate provisional ID rules.
+Check each standard's Status, Authority Level, Canonical Source, and Related Assets. Approved / Advisory guidance remains active but does not become Canonical or Governing by implication.

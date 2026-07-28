@@ -24,11 +24,11 @@ Governance should prevent three failures:
 | Agents | Instantiated helpers that operate under project instructions and source documents |
 | Projects | Consumers and contributors of Knowledge Assets only where participation is explicitly established |
 
-**Authority note:** GDR-004 is the Canonical source for Eunomia. OLY-GOV-003 is the Governing source for decision authority, approval, hierarchy, and conflict treatment.
+**Authority note:** GDR-004 is the Canonical source for Eunomia. **GDR-006** is the Governing source for Olympus authority resolution. **OLY-GOV-003** is the Governing source for decision-record lifecycle and procedure only — it does not own the ecosystem authority hierarchy.
 
 ## Decision Hierarchy
 
-Use OLY-GOV-003 as the authoritative source for decision hierarchy. This starter does not restate or redefine that hierarchy.
+Use **GDR-006** as the authoritative source for Olympus authority resolution. This starter does not restate or redefine that hierarchy. Use **OLY-GOV-003** for decision-record procedure, not for hierarchy definitions.
 
 ## Maturity Control
 

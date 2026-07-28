@@ -1,66 +1,23 @@
 # docs/
 
-Knowledge Assets and governed documentation for Mt. Olympus.
+Governed Knowledge Assets and supporting documentation for **Olympus**. “Mt. Olympus” is a permitted display alias under GDR-008.
 
-## Purpose
+<!-- OLYMPUS-FOUNDATION-AUTHORITY-START -->
+## Governing Foundation References
 
-This directory is the primary home for durable, Markdown-based Knowledge Assets — governed containers for memory, context, decisions, and judgment.
+Use GDR-005 for metadata semantics, GDR-006 for authority resolution, GDR-007 for the active repository, GDR-008 for the display alias, and OPM-004 for phase sequencing. Lower-authority material should reference these assets rather than restate their definitions.
+<!-- OLYMPUS-FOUNDATION-AUTHORITY-END -->
 
-## What belongs here
+## Directory Map
 
-- Foundation briefs and ecosystem definitions
-- Governance standards and authority models
-- Concept records, decision records, and research notes
-- Muse domain definitions and operating guidance
-- Project participation records and cross-project knowledge
-- Lessons learned and session continuity references (when promoted to assets)
+- `foundation/` — ecosystem purpose, scope, and working models
+- `governance/` — standards and governance procedure
+- `concepts/` — exploratory ACRs
+- `decisions/` — ADR/PDR/GDR/ODR records and backlog
+- `muses/` — durable domain-lens definitions
+- `operations/` — operating models, workflows, and durable gate/handoff artifacts
+- `research/` — research notes and evidence
+- `lessons/` — lessons learned
+- `projects/` — cross-project participation and context
 
-## What does not belong here
-
-- Application source code, build configs, or package manifests
-- Secrets, credentials, or environment files
-- Raw chat transcripts or unprocessed notes without governance metadata
-- Duplicate copies of assets that belong in a participating project repository
-
-## Organization
-
-| Subdirectory | Role |
-|---|---|
-| `foundation/` | Ecosystem purpose, scope, and core definitions |
-| `governance/` | Authority, maturity, and process standards |
-| `concepts/` | Exploratory and emerging concept records |
-| `decisions/` | Approved and proposed decision records |
-| `muses/` | Durable domain-of-expertise definitions |
-| `operations/` | Operating models, workflows, and stewardship |
-| `research/` | Evidence, analysis, and investigation notes |
-| `lessons/` | Lessons learned and retrospective knowledge |
-| `projects/` | Project participation and cross-project context |
-
-## Seed assets
-
-Starter assets organized by subdirectory:
-
-| Asset | Path |
-|---|---|
-| ACR-001: Mnemosyne, Metis, and The Muses | `docs/concepts/ACR-001_MNEMOSYNE_METIS_AND_THE_MUSES.md` |
-| Knowledge Asset Model | `docs/foundation/KNOWLEDGE_ASSET_MODEL.md` |
-| RNO-001 Olympus Babble Fish | `docs/foundation/RNO-001_OLYMPUS_BABBLE_FISH.md` |
-| Foundation Brief | `docs/foundation/MT_OLYMPUS_FOUNDATION_BRIEF.md` |
-| Project Instructions | `docs/foundation/MT_OLYMPUS_PROJECT_INSTRUCTIONS.md` |
-| Governance Starter | `docs/governance/OLYMPUS_GOVERNANCE_STARTER.md` |
-| Muse Catalog Starter | `docs/muses/MUSE_CATALOG_STARTER.md` |
-| Decision Backlog | `docs/decisions/MT_OLYMPUS_DECISION_BACKLOG.md` |
-
-## Governance standards (Draft / Advisory)
-
-| Standard | File |
-|---|---|
-| OLY-GOV-001 Repository Standard | `docs/governance/OLY-GOV-001_REPOSITORY_STANDARD.md` |
-| OLY-GOV-002 Knowledge Asset Standard | `docs/governance/OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD.md` |
-| OLY-GOV-003 Decision Record Standard | `docs/governance/OLY-GOV-003_DECISION_RECORD_STANDARD.md` |
-| OLY-GOV-004 Session Continuity Standard | `docs/governance/OLY-GOV-004_SESSION_CONTINUITY_STANDARD.md` |
-| OLY-GOV-005 Agent Knowledge Discovery Standard | `docs/governance/OLY-GOV-005_AGENT_KNOWLEDGE_DISCOVERY_STANDARD.md` |
-
-## Status
-
-Starter scaffolding — draft organization, not yet canonical.
+Check Status, Authority Level, Canonical Source, scope, and Related Assets before relying on any document.

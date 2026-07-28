@@ -1,58 +1,81 @@
 ---
-description: Knowledge Asset metadata, status model, and drafting rules for docs/
+description: Knowledge Asset metadata, drafting, placement, and promotion rules for docs/
 globs: docs/**/*.md
 alwaysApply: false
 ---
 
 # Knowledge Assets
 
-Files in `docs/` are governed Knowledge Assets: containers for meaning, not casual notes. Use `templates/knowledge-assets/KNOWLEDGE_ASSET_TEMPLATE.md` as a starter structure; templates are drafts, not governed assets.
+Files in `docs/` are governed Knowledge Assets or navigation indexes, not casual notes.
 
-For capture routing and promotion discipline, see `docs/operations/OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW.md` (Approved / Advisory). Do not over-promote observations into formal assets.
+## Governing References
 
-For decision promotion and approval, see `docs/operations/OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW.md` (Approved / Advisory).
+- GDR-001 — identifiers
+- GDR-005 — Status, Authority Level, and Canonical Source semantics
+- GDR-006 — authority resolution
+- OLY-GOV-001 — placement and repository procedure
+- OLY-GOV-002 — Knowledge Asset procedure
+- OLY-GOV-003 — decision-record procedure
+- OPM-002 — capture and routing
+- OPM-003 — promotion and approval
+- OPM-004 — phase and gate sequencing
+
+Use references rather than copying definitions from these sources.
 
 ## Placement
 
-Place new assets in the appropriate `docs/` subfolder per `docs/README.md`.
+Place formal assets in the appropriate `docs/` subdirectory. Templates remain starters under `templates/`; logs and ordinary handoffs remain under `logs/` until promoted.
 
-## Required metadata
+## Required Metadata
 
-Add or update metadata when creating or substantially revising formal assets. Use the current Knowledge Asset standard rather than copying stale examples.
+When creating or materially revising a formal asset, identify as applicable:
 
-Every formal asset should identify, as applicable:
+- stable ID
+- title
+- classification and category
+- Status
+- Authority Level
+- Canonical Source
+- human owner
+- active AI steward, if any
+- creation and last-updated dates
+- review cadence
+- related assets
+- AI Consumption
+- Change Impact
 
-- stable Knowledge Asset ID;
-- title;
-- classification and category;
-- status and Authority Level;
-- Canonical Source designation;
-- human owner;
-- Primary AI Owner or stewardship role, if any;
-- creation and last-updated dates;
-- review cadence;
-- related assets;
-- AI Consumption;
-- Change Impact.
+Do not backfill unknown facts speculatively.
 
-## Every asset must answer
+## Every Asset Should Answer
 
-- Why it matters
-- Who owns it
-- Whether it is authoritative
-- What decisions it informs
-- What context would be lost without it
-- How future agents should use it
+- Why does it matter?
+- Who owns it?
+- Is it authoritative, and for what scope?
+- What decisions does it inform?
+- What context would be lost without it?
+- How should future agents use it?
 
-## Status and promotion
+## Promotion and Maintenance
 
-- Do not set Approved, Canonical, or Governing without explicit Founder approval.
-- Eunomia may assess, recommend, draft, initiate authorized low-risk maintenance, and route stewardship work under GDR-004, but may not approve.
-- Eunomia is a defined ecosystem role, not yet an active agent or application component.
-- Backlog questions are not decisions; lessons and research notes are evidence, not decisions.
-- Proposed is not Approved; do not use Exploratory status on Decision Records.
-- When superseding an asset, update its status and link the replacement.
-- Keep exploratory content clearly labeled until promoted.
-- Any maintenance performed under Eunomia stewardship must report what changed, why, the supporting evidence or authority, the impact, the next owner, and unresolved issues.
+- Proposed is not Approved.
+- Commit or push is not approval.
+- Decision Records do not use Exploratory Status.
+- Backlog questions are not decisions.
+- Research and lessons are evidence unless separately promoted.
+- Preserve superseded and retired assets with rationale and links.
+- Keep exploratory material clearly labeled.
+- Remain inside the current OPM-004 phase.
+- Update indexes, Related Assets, backlog entries, and Change History when promotion occurs.
 
-For ID prefixes, status models, authority hierarchy, and stewardship boundaries, see GDR-001, OLY-GOV-002, OLY-GOV-003, and GDR-004.
+## Stewardship
+
+GDR-004 defines Eunomia as the ecosystem librarian and collection-stewardship role. Eunomia is not yet instantiated and cannot approve. Any authorized maintenance must report what changed, why, the authority or evidence, expected impact, next accountable owner, and unresolved issues.
+
+## Prohibited Practices
+
+- Duplicating authoritative definitions instead of referencing them
+- Treating an asset type as proof of authority
+- Generalizing project-local knowledge without promotion
+- Silently resolving conflicts
+- Creating paperwork without future value
+- Rewriting historical records merely to modernize terminology
