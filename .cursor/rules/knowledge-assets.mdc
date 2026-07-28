@@ -22,6 +22,17 @@ Files in `docs/` are governed Knowledge Assets or navigation indexes, not casual
 
 Use references rather than copying definitions from these sources.
 
+## Obsidian Relationship Links
+
+- Formal references to known Olympus assets should use Obsidian internal links shaped like `` [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] ``.
+- Stable asset IDs remain the visible labels; the actual note filename is the link target.
+- Links improve discoverability and Graph View edges but do not alter Status, Authority Level, Canonical Source, ownership, or approval.
+- A graph edge does not by itself define relationship type or authority.
+- Relationship semantics remain expressed through metadata, prose, and recognized terms such as `informs`, `references`, `depends_on`, `supersedes`, `replaces`, `contradicts`, `implements`, and `related_to`.
+- Obsidian links are a discoverability and navigation mechanism. They do not determine authority, lifecycle, canonical status, or formal relationship semantics.
+- Do not invent graph databases, ontologies, Dataview requirements, or Phase 2 architecture from this linking practice.
+- Historical handoffs, logs, and exploratory ACRs need not be modernized solely to add links.
+
 ## Placement
 
 Place formal assets in the appropriate `docs/` subdirectory. Templates remain starters under `templates/`; logs and ordinary handoffs remain under `logs/` until promoted.

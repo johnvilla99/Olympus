@@ -79,8 +79,8 @@ This backlog captures unresolved questions that should become formal decisions o
 ## Decision Discipline
 
 - Do not answer open or roadmap-routed questions prematurely.
-- Use OPM-004 for sequencing and gate ownership.
-- Use GDR-005 for metadata semantics and GDR-006 for authority resolution.
+- Use [[OPM-004_OLYMPUS_PRODUCT_TO_ARCHITECTURE_ROADMAP|OPM-004]] for sequencing and gate ownership.
+- Use [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] for metadata semantics and GDR-006 for authority resolution.
 - Promote only when a decision unblocks meaningful work and consequences are understood.
 - Commit or push is not approval.
 - Completion of a phase artifact does not authorize progression without explicit Founder gate approval.

@@ -18,7 +18,7 @@
 | Created On | 2026-07-05 |
 | Last Updated | 2026-07-27 |
 | Review Cadence | As Needed |
-| Related Assets | GDR-001; GDR-004; GDR-005; GDR-006; OLY-GOV-002; OLY-GOV-003; OPM-001; OPM-002; OPM-004; Decision Backlog |
+| Related Assets | [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]]; [[GDR-004_EUNOMIA_ECOSYSTEM_STEWARDSHIP_ROLE|GDR-004]]; [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]; [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]; [[OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD|OLY-GOV-002]]; [[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]]; [[OPM-001_OLYMPUS_AGENT_OPERATING_MODEL|OPM-001]]; [[OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW|OPM-002]]; [[OPM-004_OLYMPUS_PRODUCT_TO_ARCHITECTURE_ROADMAP|OPM-004]]; [[MT_OLYMPUS_DECISION_BACKLOG|Decision Backlog]] |
 | AI Consumption | Recommended |
 | Change Impact | Medium |
 
@@ -61,12 +61,12 @@ Backlog items are questions. Working answers are guidance. Decision records pres
 
 ## Governing References
 
-- **GDR-001** controls identifiers.
-- **GDR-005** controls Status, Authority Level, and Canonical Source semantics.
-- **GDR-006** controls authority resolution.
-- **OLY-GOV-003** controls decision-record procedure.
-- **GDR-004** defines Eunomia but does not instantiate it or grant approval authority.
-- **OPM-004** controls phase and gate sequencing.
+- **[[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]]** controls identifiers.
+- **[[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]** controls Status, Authority Level, and Canonical Source semantics.
+- **[[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]** controls authority resolution.
+- **[[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]]** controls decision-record procedure.
+- **[[GDR-004_EUNOMIA_ECOSYSTEM_STEWARDSHIP_ROLE|GDR-004]]** defines Eunomia but does not instantiate it or grant approval authority.
+- **[[OPM-004_OLYMPUS_PRODUCT_TO_ARCHITECTURE_ROADMAP|OPM-004]]** controls phase and gate sequencing.
 
 This workflow does not reproduce those definitions.
 
@@ -139,7 +139,7 @@ Use targeted alignment, not broad unrelated rewrites.
 
 ## Agent Responsibilities
 
-Hermes identifies candidates, separates guidance from approval, checks authority boundaries, and reviews implementation. Hephaestus implements scoped changes and reports evidence. Eunomia may later support stewardship under GDR-004 but cannot approve and is not yet instantiated.
+Hermes identifies candidates, separates guidance from approval, checks authority boundaries, and reviews implementation. Hephaestus implements scoped changes and reports evidence. Eunomia may later support stewardship under [[GDR-004_EUNOMIA_ECOSYSTEM_STEWARDSHIP_ROLE|GDR-004]] but cannot approve and is not yet instantiated.
 
 ## Prohibited Practices
 
@@ -152,7 +152,7 @@ Hermes identifies candidates, separates guidance from approval, checks authority
 - Closing backlog items silently
 - Using Exploratory Status on a Decision Record
 - Resolving later-phase questions prematurely
-- Reproducing the authority hierarchy owned by GDR-006
+- Reproducing the authority hierarchy owned by [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]
 
 ## Open Questions
 

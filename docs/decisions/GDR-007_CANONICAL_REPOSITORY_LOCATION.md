@@ -19,7 +19,7 @@
 | Decided On | 2026-07-27 |
 | Last Updated | 2026-07-27 |
 | Review Cadence | When repository ownership or hosting changes |
-| Related Assets | GDR-006; OLY-GOV-001; OLY-GOV-004; OPM-004 |
+| Related Assets | [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]; [[OLY-GOV-001_REPOSITORY_STANDARD|OLY-GOV-001]]; [[OLY-GOV-004_SESSION_CONTINUITY_STANDARD|OLY-GOV-004]]; [[OPM-004_OLYMPUS_PRODUCT_TO_ARCHITECTURE_ROADMAP|OPM-004]] |
 | Supersedes | N/A |
 | Superseded By | N/A |
 | AI Consumption | Required |

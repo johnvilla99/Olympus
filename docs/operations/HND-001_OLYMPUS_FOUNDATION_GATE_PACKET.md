@@ -18,7 +18,7 @@
 | Created On | 2026-07-27 |
 | Last Updated | 2026-07-27 |
 | Review Cadence | Until Foundation Gate decision |
-| Related Assets | OPM-004; GDR-001 through GDR-008; OLY-GOV-001 through OLY-GOV-005; OPM-001 through OPM-003; RNO-002; Decision Backlog; PR #1 |
+| Related Assets | [[OPM-004_OLYMPUS_PRODUCT_TO_ARCHITECTURE_ROADMAP|OPM-004]]; [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]]; [[GDR-002_OLYMPUS_ECOSYSTEM_IDENTITY_AND_PROJECT_BOUNDARY|GDR-002]]; [[GDR-003_OLYMPUS_CONCEPTUAL_CAPABILITY_MODEL|GDR-003]]; [[GDR-004_EUNOMIA_ECOSYSTEM_STEWARDSHIP_ROLE|GDR-004]]; [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]; [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]; [[GDR-007_CANONICAL_REPOSITORY_LOCATION|GDR-007]]; [[GDR-008_MT_OLYMPUS_DISPLAY_ALIAS|GDR-008]]; [[OLY-GOV-001_REPOSITORY_STANDARD|OLY-GOV-001]]; [[OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD|OLY-GOV-002]]; [[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]]; [[OLY-GOV-004_SESSION_CONTINUITY_STANDARD|OLY-GOV-004]]; [[OLY-GOV-005_AGENT_KNOWLEDGE_DISCOVERY_STANDARD|OLY-GOV-005]]; [[OPM-001_OLYMPUS_AGENT_OPERATING_MODEL|OPM-001]]; [[OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW|OPM-002]]; [[OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW|OPM-003]]; [[RNO-002_OLY_GOV_005_PRACTICAL_VALIDATION|RNO-002]]; [[MT_OLYMPUS_DECISION_BACKLOG|Decision Backlog]]; PR #1 |
 | AI Consumption | Required |
 | Change Impact | High |
 
@@ -26,7 +26,7 @@
 
 ## Gate Purpose
 
-Provide John with the evidence and explicit decision point required to close Phase 1 under OPM-004 and authorize or decline entry into Phase 2: Product Discovery and Definition.
+Provide John with the evidence and explicit decision point required to close Phase 1 under [[OPM-004_OLYMPUS_PRODUCT_TO_ARCHITECTURE_ROADMAP|OPM-004]] and authorize or decline entry into Phase 2: Product Discovery and Definition.
 
 ## Approved Foundation Decisions
 
@@ -52,10 +52,10 @@ Base: main at 62edf4133e852e1ee4e0eee31350044cec142e64
 
 Completed alignment includes:
 
-- GDR-005 through GDR-008
+- GDR-005 through [[GDR-008_MT_OLYMPUS_DISPLAY_ALIAS|GDR-008]]
 - RNO-002 practical validation
-- OLY-GOV-001 through OLY-GOV-005
-- OPM-001 through OPM-003
+- OLY-GOV-001 through [[OLY-GOV-005_AGENT_KNOWLEDGE_DISCOVERY_STANDARD|OLY-GOV-005]]
+- OPM-001 through [[OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW|OPM-003]]
 - Knowledge Asset Model, Foundation Brief, and Project Instructions
 - Decision Backlog
 - Root and governed-directory indexes
@@ -72,7 +72,7 @@ The offline candidate package predated July 25 repository approvals. Publication
 
 - OLY-GOV-001 and OLY-GOV-003 remain Approved / Governing.
 - OLY-GOV-002, OLY-GOV-004, and OLY-GOV-005 remain Approved / Advisory.
-- OPM-001 through OPM-003 remain Approved / Advisory.
+- OPM-001 through [[OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW|OPM-003]] remain Approved / Advisory.
 
 The July 27 alignment changed references, semantics, scope, and duplication without reverting those approvals.
 
@@ -93,7 +93,7 @@ The July 27 alignment changed references, semantics, scope, and duplication with
 
 ### Terminology and historical integrity
 
-- Active operating guidance uses Eunomia under GDR-004.
+- Active operating guidance uses Eunomia under [[GDR-004_EUNOMIA_ECOSYSTEM_STEWARDSHIP_ROLE|GDR-004]].
 - RNO-001 retains `Curator` only as a retired-term decoder.
 - Historical handoffs and ACRs retain their dated language and are not treated as current authority.
 

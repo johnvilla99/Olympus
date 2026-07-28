@@ -4,11 +4,11 @@
 
 ## Purpose
 
-Quick reference for Olympus agent role names and boundaries. For the full operating model, see **OPM-001**.
+Quick reference for Olympus agent role names and boundaries. For the full operating model, see **[[OPM-001_OLYMPUS_AGENT_OPERATING_MODEL|OPM-001]]**.
 
 ## Canonical operating model
 
-**OPM-001** (`OPM-001_OLYMPUS_AGENT_OPERATING_MODEL.md`) is the Draft / Advisory operating model for agent roles, coordination, and authority boundaries.
+**[[OPM-001_OLYMPUS_AGENT_OPERATING_MODEL|OPM-001]]** (`OPM-001_OLYMPUS_AGENT_OPERATING_MODEL.md`) is the Draft / Advisory operating model for agent roles, coordination, and authority boundaries.
 
 This document is a **short reference** — not a substitute for OPM-001.
 
@@ -22,13 +22,13 @@ This document is a **short reference** — not a substitute for OPM-001.
 
 **John S. Villasenor** is the human Founder. Hermes and Hephaestus are AI agent roles in the Olympus operating model.
 
-**Naming note:** Early work briefly used mythological names for the Founder (e.g. Zeus). Use **John** in operational guidance. See OPM-001 for context.
+**Naming note:** Early work briefly used mythological names for the Founder (e.g. Zeus). Use **John** in operational guidance. See [[OPM-001_OLYMPUS_AGENT_OPERATING_MODEL|OPM-001]] for context.
 
 ## Hephaestus (Coder)
 
 - Default persona for **Cursor** sessions in the Olympus repository
 - Implements under **John and Hermes** direction
-- Reads governance sources before editing (OLY-GOV-001 through OLY-GOV-004)
+- Reads governance sources before editing (OLY-GOV-001 through [[OLY-GOV-004_SESSION_CONTINUITY_STANDARD|OLY-GOV-004]])
 - Does **not** approve, decide, or promote assets without explicit John approval
 
 ## Hermes (Director)

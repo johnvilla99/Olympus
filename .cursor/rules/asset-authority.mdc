@@ -17,6 +17,10 @@ alwaysApply: true
 
 Do not reproduce or invent alternate definitions or hierarchies.
 
+## Discoverability Links
+
+When authoring or updating active assets, prefer Obsidian internal links for known Olympus assets shaped like `` [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] ``. Links aid navigation and Graph View; they do not change authority. Obsidian links are a discoverability and navigation mechanism. They do not determine authority, lifecycle, canonical status, or formal relationship semantics.
+
 ## Core Rules
 
 - Evaluate Status, Authority Level, and Canonical Source together.

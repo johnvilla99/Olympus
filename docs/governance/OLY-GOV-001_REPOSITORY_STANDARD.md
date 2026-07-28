@@ -15,7 +15,7 @@
 | Created On | 2026-07-05 |
 | Last Updated | 2026-07-27 |
 | Review Cadence | As Needed |
-| Related Assets | GDR-001; GDR-005; GDR-006; GDR-007; GDR-008; OLY-GOV-002; OPM-004 |
+| Related Assets | [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]]; [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]; [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]; [[GDR-007_CANONICAL_REPOSITORY_LOCATION|GDR-007]]; [[GDR-008_MT_OLYMPUS_DISPLAY_ALIAS|GDR-008]]; [[OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD|OLY-GOV-002]]; [[OPM-004_OLYMPUS_PRODUCT_TO_ARCHITECTURE_ROADMAP|OPM-004]] |
 | AI Consumption | Required |
 | Change Impact | High |
 
@@ -25,13 +25,13 @@
 
 Define how the Olympus repository is organized, maintained, and consumed so humans and AI agents can locate authoritative knowledge safely.
 
-The active durable repository is governed by **GDR-007**. The official ecosystem name is governed by GDR-002; GDR-008 permits “Mt. Olympus” as a display alias.
+The active durable repository is governed by **[[GDR-007_CANONICAL_REPOSITORY_LOCATION|GDR-007]]**. The official ecosystem name is governed by [[GDR-002_OLYMPUS_ECOSYSTEM_IDENTITY_AND_PROJECT_BOUNDARY|GDR-002]]; GDR-008 permits “Mt. Olympus” as a display alias.
 
 ## Scope
 
 **In scope:** directory layout, file placement, naming, templates, logs, indexes, and Cursor rules.
 
-**Out of scope:** application implementation, databases, APIs, UI design, participating-project adoption, and authority definitions owned by GDR-005 and GDR-006.
+**Out of scope:** application implementation, databases, APIs, UI design, participating-project adoption, and authority definitions owned by [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] and GDR-006.
 
 ## Repository Structure
 
@@ -76,7 +76,7 @@ Each governed directory should maintain an index describing what belongs and wha
 ## Naming and Identifiers
 
 - Use UPPER_SNAKE_CASE for formal Knowledge Asset filenames.
-- Use identifiers and numbering defined by **GDR-001**; do not reproduce the prefix catalog here.
+- Use identifiers and numbering defined by **[[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]]**; do not reproduce the prefix catalog here.
 - Do not reuse retired or superseded IDs.
 - Do not rename formal assets casually; use supersession where appropriate.
 - Reserve `README.md` for navigation and orientation.
@@ -91,9 +91,9 @@ Each governed directory should maintain an index describing what belongs and wha
 
 ## Source and Authority Rules
 
-- Use **GDR-007** for the active repository location.
-- Use **GDR-005** for metadata semantics.
-- Use **GDR-006** for authority resolution.
+- Use **[[GDR-007_CANONICAL_REPOSITORY_LOCATION|GDR-007]]** for the active repository location.
+- Use **[[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]** for metadata semantics.
+- Use **[[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]** for authority resolution.
 - Root README is the repository front door, not the source of truth for every topic.
 - Prefer references to controlling assets over synchronized copies.
 - `LICENSE` remains the repository-usage authority.
@@ -134,4 +134,4 @@ Exception authority and approval follow GDR-006 and OPM-003. Record approved exc
 |---|---|---|
 | 2026-07-05 | John S. Villasenor | Initial repository standard. |
 | 2026-07-25 | John S. Villasenor | Approved as Governing repository guidance. |
-| 2026-07-27 | Hermes under explicit Founder direction | Aligned repository identity, active location, metadata, and authority references to GDR-005 through GDR-008. |
+| 2026-07-27 | Hermes under explicit Founder direction | Aligned repository identity, active location, metadata, and authority references to GDR-005 through [[GDR-008_MT_OLYMPUS_DISPLAY_ALIAS|GDR-008]]. |

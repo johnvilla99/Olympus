@@ -19,7 +19,7 @@
 | Decided On | 2026-07-25 |
 | Last Updated | 2026-07-25 |
 | Review Cadence | As Needed |
-| Related Assets | OLY-DB-002; GDR-002; GDR-004; ACR-001; ACR-002; OLY-GOV-002; OLY-GOV-003 |
+| Related Assets | OLY-DB-002; [[GDR-002_OLYMPUS_ECOSYSTEM_IDENTITY_AND_PROJECT_BOUNDARY|GDR-002]]; [[GDR-004_EUNOMIA_ECOSYSTEM_STEWARDSHIP_ROLE|GDR-004]]; [[ACR-001_MNEMOSYNE_METIS_AND_THE_MUSES|ACR-001]]; [[ACR-002_FROM_MYTH_TO_PLUMBING|ACR-002]]; [[OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD|OLY-GOV-002]]; [[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]] |
 | Supersedes | N/A |
 | Superseded By | N/A |
 | AI Consumption | Required |
@@ -93,7 +93,7 @@ For a domain-specific Knowledge Asset:
 
 ### Relationship to Eunomia
 
-Eunomia is the ecosystem librarian and collection-stewardship role defined by GDR-004.
+Eunomia is the ecosystem librarian and collection-stewardship role defined by [[GDR-004_EUNOMIA_ECOSYSTEM_STEWARDSHIP_ROLE|GDR-004]].
 
 Eunomia does not replace Mnemosyne, Metis, or the Muses. Eunomia monitors and coordinates the health, relevance, coherence, discoverability, and governance readiness of the knowledge network:
 
@@ -142,7 +142,7 @@ The model is durable enough to guide future product and architecture work while 
 - Knowledge Assets must continue to identify a human Owner where formal accountability is required.
 - Eunomia must be treated according to GDR-004 and must not be conflated with Mnemosyne, Metis, or a Muse.
 - OLY-DB-002 is resolved.
-- OLY-DB-005 is resolved by GDR-004.
+- OLY-DB-005 is resolved by [[GDR-004_EUNOMIA_ECOSYSTEM_STEWARDSHIP_ROLE|GDR-004]].
 
 ## Explicit Non-Decisions
 

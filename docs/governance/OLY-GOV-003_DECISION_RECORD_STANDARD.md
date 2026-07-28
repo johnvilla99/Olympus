@@ -15,7 +15,7 @@
 | Created On | 2026-07-05 |
 | Last Updated | 2026-07-27 |
 | Review Cadence | As Needed |
-| Related Assets | GDR-001; GDR-004; GDR-005; GDR-006; OLY-GOV-002; OPM-003; Decision Backlog |
+| Related Assets | [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]]; [[GDR-004_EUNOMIA_ECOSYSTEM_STEWARDSHIP_ROLE|GDR-004]]; [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]; [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]; [[OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD|OLY-GOV-002]]; [[OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW|OPM-003]]; [[MT_OLYMPUS_DECISION_BACKLOG|Decision Backlog]] |
 | AI Consumption | Required |
 | Change Impact | High |
 
@@ -66,11 +66,11 @@ Examples include governance standards, official identifier conventions, product 
 | GDR | Governance Decision Record | Governance, standards, authority, policy, or stewardship | `docs/decisions/` |
 | ODR | Operating Decision Record | Operating process, roles, workflow, or participation | `docs/decisions/` |
 
-ACR means Architectural Concept Record and is not a decision record. **GDR-001** is the Canonical source for ADR/PDR/GDR/ODR identifiers.
+ACR means Architectural Concept Record and is not a decision record. **[[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]]** is the Canonical source for ADR/PDR/GDR/ODR identifiers.
 
 ## Decision ID Rules
 
-Use **GDR-001** for stable identifiers, numbering, non-reuse, and filename alignment. This standard does not reproduce those rules.
+Use **[[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]]** for stable identifiers, numbering, non-reuse, and filename alignment. This standard does not reproduce those rules.
 
 Decision records retain their ID through supersession or retirement.
 
@@ -78,13 +78,13 @@ Decision records retain their ID through supersession or retirement.
 
 | Field | Meaning |
 |---|---|
-| Decision ID | Stable identifier governed by GDR-001 |
+| Decision ID | Stable identifier governed by [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]] |
 | Title | Human-readable decision title |
 | Classification | Decision Record |
 | Decision Category | Architecture, Product, Governance, or Operating |
-| Status | Lifecycle value governed by GDR-005 |
-| Authority Level | Binding weight governed by GDR-005 |
-| Canonical Source | Source-of-truth designation governed by GDR-005 |
+| Status | Lifecycle value governed by [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] |
+| Authority Level | Binding weight governed by [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] |
+| Canonical Source | Source-of-truth designation governed by [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] |
 | Owner | Accountable human owner |
 | Decider / Approver | Person or authority who approved the decision |
 | Created On | Creation date |
@@ -101,27 +101,27 @@ Required content normally includes Decision, Context, Options Considered, Ration
 
 ## Decision Status Model
 
-Use **GDR-005** for lifecycle Status, Authority Level, and Canonical Source semantics.
+Use **[[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]** for lifecycle Status, Authority Level, and Canonical Source semantics.
 
 Decision records may use `Draft`, `Proposed`, `Approved`, `Superseded`, or `Retired`. They do not use `Exploratory`; unresolved exploration belongs in concept records or the Decision Backlog.
 
 ## Decision Authority Rules
 
-Use **GDR-006** as the Governing Olympus authority hierarchy. This standard does not reproduce that hierarchy.
+Use **[[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]** as the Governing Olympus authority hierarchy. This standard does not reproduce that hierarchy.
 
 Decision-specific rules:
 
 - A backlog item is a question, not a decision.
 - `Proposed` is ready for review, not approval.
-- An Approved decision may carry Advisory, Canonical, or Governing authority under GDR-005.
-- Conflicts must be surfaced and routed through OPM-003.
+- An Approved decision may carry Advisory, Canonical, or Governing authority under [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]].
+- Conflicts must be surfaced and routed through [[OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW|OPM-003]].
 
 ## Decision Creation Rules
 
 Create a decision record when the decision affects future work, multiple options existed, and rationale has future value.
 
 - Start from the decision template when useful.
-- Assign an ID under GDR-001.
+- Assign an ID under [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]].
 - Set an honest initial Status, normally Draft or Proposed.
 - Capture the decision, context, options, rationale, consequences, risks, affected assets, follow-up actions, and history.
 - Avoid decision bureaucracy for trivial tactical choices.
@@ -135,7 +135,7 @@ Draft → Proposed → Approved
 ```
 
 - Approval and authority assignment follow GDR-005, GDR-006, and OPM-003.
-- **Eunomia** is defined by GDR-004; it may recommend stewardship action but cannot approve and is not yet instantiated.
+- **Eunomia** is defined by [[GDR-004_EUNOMIA_ECOSYSTEM_STEWARDSHIP_ROLE|GDR-004]]; it may recommend stewardship action but cannot approve and is not yet instantiated.
 - AI agents may recommend or draft but cannot approve.
 - Approval must be explicit and must capture date, context, and approver.
 - Approved does not automatically mean Canonical or Governing.
@@ -176,7 +176,7 @@ Agents must:
 
 ## Founder Direction Capture
 
-Authority follows **GDR-006**. Durable Founder direction that affects future work should be captured proportionally in a decision record or explicitly related governed asset. Conflicts with existing records must be surfaced and routed through OPM-003.
+Authority follows **[[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]**. Durable Founder direction that affects future work should be captured proportionally in a decision record or explicitly related governed asset. Conflicts with existing records must be surfaced and routed through [[OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW|OPM-003]].
 
 ## Prohibited Practices
 
@@ -188,7 +188,7 @@ Authority follows **GDR-006**. Durable Founder direction that affects future wor
 - Deleting superseded decisions
 - Promoting decisions without authorized approval
 - Assigning Exploratory Status to a Decision Record
-- Reproducing authority hierarchy or identifier definitions owned by GDR-006 or GDR-001
+- Reproducing authority hierarchy or identifier definitions owned by [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]] or GDR-001
 
 ## Exceptions
 
@@ -201,4 +201,4 @@ Exception authority and approval follow GDR-006 and OPM-003. Document an approve
 | 2026-07-05 | John S. Villasenor | Initial draft |
 | 2026-07-05 | John S. Villasenor | Added decision categories, lifecycle, and Founder-only approval working guidance |
 | 2026-07-25 | John S. Villasenor | Approved as Governing decision-record procedure |
-| 2026-07-27 | Hermes under explicit Founder direction | Referenced GDR-001 and GDR-004 through GDR-006; removed duplicated identifier, metadata, and authority-hierarchy definitions. |
+| 2026-07-27 | Hermes under explicit Founder direction | Referenced GDR-001 and GDR-004 through [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]; removed duplicated identifier, metadata, and authority-hierarchy definitions. |

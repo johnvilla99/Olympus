@@ -1,6 +1,6 @@
 # Olympus — Foundation Brief
 
-> “Mt. Olympus” is a permitted display alias under GDR-008. **Olympus** remains the official ecosystem name under GDR-002.
+> “Mt. Olympus” is a permitted display alias under [[GDR-008_MT_OLYMPUS_DISPLAY_ALIAS|GDR-008]]. **Olympus** remains the official ecosystem name under [[GDR-002_OLYMPUS_ECOSYSTEM_IDENTITY_AND_PROJECT_BOUNDARY|GDR-002]].
 
 ## Purpose
 
@@ -74,7 +74,7 @@ Olympus is a knowledge-continuity system for AI-assisted builders. It should eve
 
 ## Current Scope
 
-The current phase is Foundation Closure under OPM-004.
+The current phase is Foundation Closure under [[OPM-004_OLYMPUS_PRODUCT_TO_ARCHITECTURE_ROADMAP|OPM-004]].
 
 In scope:
 

@@ -2,7 +2,9 @@
 
 > **Status:** Starter template — copy and customize. Do not treat this file as an approved decision.
 
-**Authority note:** Use GDR-001 for identifiers, GDR-005 for Status / Authority Level / Canonical Source semantics, GDR-006 for authority resolution, OLY-GOV-003 for decision-record procedure, and OPM-003 for approval workflow. Proposed is not Approved. Commit or push is not approval.
+**Authority note:** Use [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]] for identifiers, [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] for Status / Authority Level / Canonical Source semantics, [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]] for authority resolution, [[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]] for decision-record procedure, and [[OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW|OPM-003]] for approval workflow. Proposed is not Approved. Commit or push is not approval.
+
+Obsidian links are a discoverability and navigation mechanism. They do not determine authority, lifecycle, canonical status, or formal relationship semantics.
 
 ## Metadata
 
@@ -21,9 +23,9 @@
 | Decided On | _YYYY-MM-DD, if approved_ |
 | Last Updated | _YYYY-MM-DD_ |
 | Review Cadence | _As Needed, Quarterly, etc._ |
-| Related Assets | _Concepts, research, standards, backlog items, or prior decisions_ |
-| Supersedes | _Decision ID or N/A_ |
-| Superseded By | _Decision ID or N/A_ |
+| Related Assets | _Use Obsidian links such as `` [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] ``; preserve relationship meaning in prose or typed relationship sections_ |
+| Supersedes | _Obsidian link to prior decision ID, or N/A_ |
+| Superseded By | _Obsidian link to successor decision ID, or N/A_ |
 | AI Consumption | _Required \| Recommended \| Optional \| Restricted_ |
 | Change Impact | _Low \| Medium \| High_ |
 
