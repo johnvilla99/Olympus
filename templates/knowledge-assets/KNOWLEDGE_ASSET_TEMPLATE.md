@@ -2,15 +2,17 @@
 
 > **Status:** Starter template — copy and customize. Do not treat this file as a governed asset.
 
+**Authority note:** Use **GDR-005** for Status, Authority Level, and Canonical Source semantics. Do not treat those three fields as interchangeable. Canonical is an Authority Level, not a lifecycle Status. See `docs/decisions/GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS.md` rather than duplicating definitions here.
+
 ## Metadata
 
 | Field | Value |
 |---|---|
-| Knowledge Asset ID | _e.g. ACR-002, OLY-GOV-002, RNO-001, LLR-001 — see OLY-GOV-002 ID convention_ |
+| Knowledge Asset ID | _e.g. ACR-002, OLY-GOV-002, RNO-001, LLR-001 — see GDR-001 / OLY-GOV-002_ |
 | Title | _Human-readable title_ |
 | Classification | _Concept Record, Decision Record, Governance Standard, Product Definition, Architecture Definition, Lesson Learned, Research Note, Operating Model, Handoff / Continuity Artifact_ |
 | Category | _Knowledge domain — e.g. Foundation, Governance, Architecture_ |
-| Status | _Exploratory \| Draft \| Proposed \| Approved \| Canonical \| Superseded \| Retired_ |
+| Status | _Exploratory \| Draft \| Proposed \| Approved \| Superseded \| Retired_ |
 | Authority Level | _Informational \| Advisory \| Canonical \| Governing_ |
 | Canonical Source | _Yes \| No_ |
 | Owner | _Accountable human owner_ |
