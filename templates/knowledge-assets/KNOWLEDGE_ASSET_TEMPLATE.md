@@ -2,7 +2,7 @@
 
 > **Status:** Starter template — copy and customize. Do not treat this file as a governed asset.
 
-**Authority note:** Use **GDR-005** for Status, Authority Level, and Canonical Source semantics. Do not treat those three fields as interchangeable. Canonical is an Authority Level, not a lifecycle Status. See `docs/decisions/GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS.md` rather than duplicating definitions here.
+**Authority note:** Use **[[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]** for Status, Authority Level, and Canonical Source semantics. Do not treat those three fields as interchangeable. Canonical is an Authority Level, not a lifecycle Status. See [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] rather than duplicating definitions here.
 
 ## Metadata
 
@@ -20,7 +20,7 @@
 | Created On | _YYYY-MM-DD_ |
 | Last Updated | _YYYY-MM-DD_ |
 | Review Cadence | _e.g. As needed, Quarterly, Annually_ |
-| Related Assets | _Links or IDs — e.g. ACR-001, MT_OLYMPUS_FOUNDATION_BRIEF_ |
+| Related Assets | _Use Obsidian links such as `` [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] ``; preserve relationship meaning in prose or typed relationship sections_ |
 | Muse Lenses | _For Research Notes (RNO): one or more Muse domains, or General Research / TBD_ |
 | AI Consumption | _Required \| Recommended \| Optional \| Restricted_ |
 | Change Impact | _Low \| Medium \| High_ |
@@ -31,7 +31,9 @@
 
 _Why this asset exists and what future decision or continuity gap it addresses._
 
-Before creating a formal asset, triage per `docs/operations/OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW.md` — most observations belong in logs, handoffs, or backlog first.
+Before creating a formal asset, triage per [[OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW|OPM-002]] — most observations belong in logs, handoffs, or backlog first.
+
+Obsidian links are a discoverability and navigation mechanism. They do not determine authority, lifecycle, canonical status, or formal relationship semantics.
 
 ## Context
 

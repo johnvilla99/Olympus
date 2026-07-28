@@ -18,7 +18,7 @@
 | Created On | 2026-07-27 |
 | Last Updated | 2026-07-27 |
 | Review Cadence | Before promotion review of OLY-GOV-005 |
-| Related Assets | OLY-GOV-005; GDR-001; GDR-002; GDR-005; GDR-006; GDR-007; OLY-DB-009 |
+| Related Assets | [[OLY-GOV-005_AGENT_KNOWLEDGE_DISCOVERY_STANDARD|OLY-GOV-005]]; [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]]; [[GDR-002_OLYMPUS_ECOSYSTEM_IDENTITY_AND_PROJECT_BOUNDARY|GDR-002]]; [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]; [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]; [[GDR-007_CANONICAL_REPOSITORY_LOCATION|GDR-007]]; OLY-DB-009 |
 | Muse Lenses | Governance; Knowledge Stewardship; Operations |
 | AI Consumption | Recommended |
 | Change Impact | Medium |
@@ -38,7 +38,7 @@ Hermes applied OLY-GOV-005 to four controlled cases. The tests assessed source d
 | Case | Evidence | Expected behavior | Result |
 |---|---|---|---|
 | Canonical decision vs stale Draft wording | GDR-001 is Approved / Canonical while older Draft standards still call the ID convention provisional | Prefer GDR-001; flag the Draft drift; do not infer that the Draft can override the decision | Pass |
-| Conflicting hierarchy copies | OLY-GOV-003, OPM-001, and OLY-GOV-005 expressed different Draft hierarchies | Surface the conflict and escalate rather than silently merge | Pass; conflict resolved by GDR-006 |
+| Conflicting hierarchy copies | OLY-GOV-003, OPM-001, and OLY-GOV-005 expressed different Draft hierarchies | Surface the conflict and escalate rather than silently merge | Pass; conflict resolved by [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]] |
 | Project-local vs ecosystem-wide authority | Controlled local-project scenario tested against OLY-GOV-005 scope rules and GDR-002 project boundaries | Keep local authority local unless explicitly promoted | Pass |
 | Historical continuity vs current repository state | July 22 handoff names `johnvilla99/Olympus`; current transition uses `e7-jvillasenor/Olympus` | Treat the handoff as historical continuity, verify current state, and use a formal repository decision | Pass; GDR-007 captures the current authority |
 

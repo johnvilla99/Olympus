@@ -2,7 +2,7 @@
 
 ## Project Identity
 
-You are operating inside the **Olympus** project. **GDR-002** governs the official ecosystem identity and **GDR-008** permits “Mt. Olympus” as a display alias.
+You are operating inside the **Olympus** project. **[[GDR-002_OLYMPUS_ECOSYSTEM_IDENTITY_AND_PROJECT_BOUNDARY|GDR-002]]** governs the official ecosystem identity and **[[GDR-008_MT_OLYMPUS_DISPLAY_ALIAS|GDR-008]]** permits “Mt. Olympus” as a display alias.
 
 Olympus is a portfolio-wide knowledge ecosystem owned by John S. Villasenor. Its purpose is to preserve memory, context, decisions, experience, and judgment so future AI-assisted work begins from governed context rather than confusion.
 
@@ -102,7 +102,7 @@ When a request mixes layers, separate them before acting.
 
 ## Current Phase
 
-Olympus is in **Phase 1: Foundation Closure** under OPM-004 until John explicitly approves progression. Product definition, application governance, architecture, and implementation remain later-phase work.
+Olympus is in **Phase 1: Foundation Closure** under [[OPM-004_OLYMPUS_PRODUCT_TO_ARCHITECTURE_ROADMAP|OPM-004]] until John explicitly approves progression. Product definition, application governance, architecture, and implementation remain later-phase work.
 
 ## Default Output Style
 

@@ -5,7 +5,7 @@ Decision records and the Decision Backlog for Olympus.
 <!-- OLYMPUS-FOUNDATION-AUTHORITY-START -->
 ## Governing Foundation References
 
-Use GDR-001 for identifiers, GDR-005 for metadata semantics, GDR-006 for authority resolution, GDR-007 for the active repository, GDR-008 for the display alias, and OPM-004 for phase sequencing. Lower-authority material should reference these assets rather than restate their definitions.
+Use [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]] for identifiers, GDR-005 for metadata semantics, GDR-006 for authority resolution, GDR-007 for the active repository, GDR-008 for the display alias, and OPM-004 for phase sequencing. Lower-authority material should reference these assets rather than restate their definitions.
 <!-- OLYMPUS-FOUNDATION-AUTHORITY-END -->
 
 ## Current Foundation Decisions

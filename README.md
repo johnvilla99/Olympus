@@ -1,8 +1,8 @@
 # Olympus
 
-> **Display alias:** “Mt. Olympus” may be used for presentation under GDR-008. **Olympus** is the official ecosystem name under GDR-002.
+> **Display alias:** “Mt. Olympus” may be used for presentation under [[GDR-008_MT_OLYMPUS_DISPLAY_ALIAS|GDR-008]]. **Olympus** is the official ecosystem name under [[GDR-002_OLYMPUS_ECOSYSTEM_IDENTITY_AND_PROJECT_BOUNDARY|GDR-002]].
 
-Olympus is a governed knowledge ecosystem. This repository is its active durable source under GDR-007.
+Olympus is a governed knowledge ecosystem. This repository is its active durable source under [[GDR-007_CANONICAL_REPOSITORY_LOCATION|GDR-007]].
 
 ## Authoritative Orientation
 

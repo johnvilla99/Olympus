@@ -15,7 +15,7 @@
 | Created On | 2026-07-05 |
 | Last Updated | 2026-07-27 |
 | Review Cadence | As Needed |
-| Related Assets | GDR-001; GDR-004; GDR-005; GDR-006; OLY-GOV-001; OLY-GOV-003; OLY-GOV-005; OPM-003 |
+| Related Assets | [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]]; [[GDR-004_EUNOMIA_ECOSYSTEM_STEWARDSHIP_ROLE|GDR-004]]; [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]; [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]; [[OLY-GOV-001_REPOSITORY_STANDARD|OLY-GOV-001]]; [[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]]; [[OLY-GOV-005_AGENT_KNOWLEDGE_DISCOVERY_STANDARD|OLY-GOV-005]]; [[OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW|OPM-003]] |
 | AI Consumption | Required |
 | Change Impact | High |
 
@@ -76,7 +76,7 @@ Research remains cross-cutting and is not a tenth Muse.
 
 ## Identifier Convention
 
-**GDR-001** is the Canonical source for identifiers, prefixes, numbering, stability, and non-reuse. This standard applies those rules without reproducing the catalog.
+**[[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]]** is the Canonical source for identifiers, prefixes, numbering, stability, and non-reuse. This standard applies those rules without reproducing the catalog.
 
 ## Required Metadata
 
@@ -84,19 +84,19 @@ Every formal Knowledge Asset should include:
 
 | Field | Meaning |
 |---|---|
-| Knowledge Asset ID | Stable identifier under GDR-001 |
+| Knowledge Asset ID | Stable identifier under [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]] |
 | Title | Human-readable name |
 | Classification | Asset type |
 | Category | Knowledge domain |
-| Status | Lifecycle maturity under GDR-005 |
-| Authority Level | Binding weight under GDR-005 |
-| Canonical Source | Source-of-truth designation under GDR-005 |
+| Status | Lifecycle maturity under [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] |
+| Authority Level | Binding weight under [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] |
+| Canonical Source | Source-of-truth designation under [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] |
 | Owner | Accountable human owner |
 | Primary AI Owner | Active stewardship role, if any; GDR-004 does not instantiate Eunomia |
 | Created On | Creation date |
 | Last Updated | Latest material update |
 | Review Cadence | Expected review rhythm |
-| Related Assets | Dependencies, lineage, and related records |
+| Related Assets | Dependencies, lineage, and related records; for known Olympus assets prefer Obsidian links shaped like `` [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] `` |
 | AI Consumption | Required, Recommended, Optional, or Restricted |
 | Change Impact | Low, Medium, or High |
 
@@ -104,9 +104,17 @@ Seed assets may be completed on their next substantive edit. Do not backfill unk
 
 ## Status, Authority, and Canonical Source
 
-Use **GDR-005** for lifecycle Status, Authority Level, and Canonical Source semantics. Canonical is an Authority Level, not a lifecycle Status.
+Use **[[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]** for lifecycle Status, Authority Level, and Canonical Source semantics. Canonical is an Authority Level, not a lifecycle Status.
 
-Use **GDR-006** for authority resolution and conflicts. This standard does not duplicate either decision.
+Use **[[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]** for authority resolution and conflicts. This standard does not duplicate either decision.
+
+## Discoverability Links (Obsidian)
+
+Formal references to known Olympus assets should use Obsidian internal links shaped like `` [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] ``. Stable IDs remain the visible labels.
+
+Obsidian links are a discoverability and navigation mechanism. They do not determine authority, lifecycle, canonical status, or formal relationship semantics. A graph edge does not by itself define relationship type or approval. Relationship meaning remains in metadata, prose, and terms such as informs, references, depends_on, supersedes, replaces, contradicts, implements, and related_to.
+
+Do not treat Graph View, Dataview, or plugin behavior as Olympus architecture. Historical records need not be rewritten solely to add links.
 
 New assets normally begin at `Exploratory` or `Draft` unless a higher status is explicitly approved.
 
@@ -114,7 +122,7 @@ New assets normally begin at `Exploratory` or `Draft` unless a higher status is 
 
 - Prefer one Canonical source per defined subject.
 - Duplicate content must identify and defer to its authoritative source.
-- Canonical or Governing authority and `Canonical Source: Yes` require explicit approval under GDR-005, GDR-006, and OPM-003.
+- Canonical or Governing authority and `Canonical Source: Yes` require explicit approval under [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]], GDR-006, and OPM-003.
 - Exploratory ACRs are not Canonical.
 - Root README is a front door, not the source of truth for every topic.
 - `LICENSE` controls repository usage rights.
@@ -133,7 +141,7 @@ Agents must:
 ## Asset Creation Rules
 
 - Start from the appropriate template when useful.
-- Assign an ID under GDR-001.
+- Assign an ID under [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]].
 - Complete required metadata.
 - Set honest initial lifecycle and authority values.
 - Include purpose, context, authority notes, AI guidance, related assets, open questions, and history as appropriate.
@@ -203,4 +211,4 @@ Exception authority and approval follow GDR-006 and OPM-003. Record approved exc
 |---|---|---|
 | 2026-07-05 | John S. Villasenor | Initial draft and foundation working guidance. |
 | 2026-07-25 | John S. Villasenor | Approved as current Advisory guidance and aligned identifiers to GDR-001. |
-| 2026-07-27 | Hermes under explicit Founder direction | Aligned metadata, identifiers, stewardship, and authority references to GDR-001 and GDR-004 through GDR-006; removed duplicated semantics. |
+| 2026-07-27 | Hermes under explicit Founder direction | Aligned metadata, identifiers, stewardship, and authority references to GDR-001 and GDR-004 through [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]; removed duplicated semantics. |

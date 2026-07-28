@@ -15,7 +15,7 @@
 | Created On | 2026-07-05 |
 | Last Updated | 2026-07-27 |
 | Review Cadence | As Needed |
-| Related Assets | GDR-005; GDR-006; GDR-007; OLY-GOV-001; OLY-GOV-002; OLY-GOV-003; OLY-GOV-005; OPM-004 |
+| Related Assets | [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]; [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]; [[GDR-007_CANONICAL_REPOSITORY_LOCATION|GDR-007]]; [[OLY-GOV-001_REPOSITORY_STANDARD|OLY-GOV-001]]; [[OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD|OLY-GOV-002]]; [[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]]; [[OLY-GOV-005_AGENT_KNOWLEDGE_DISCOVERY_STANDARD|OLY-GOV-005]]; [[OPM-004_OLYMPUS_PRODUCT_TO_ARCHITECTURE_ROADMAP|OPM-004]] |
 | AI Consumption | Required |
 | Change Impact | Medium |
 
@@ -44,9 +44,9 @@ A session start identifies date, agent role, workstream, required reading, repos
 
 Agents must:
 
-- Verify the active repository under GDR-007 and current branch state.
+- Verify the active repository under [[GDR-007_CANONICAL_REPOSITORY_LOCATION|GDR-007]] and current branch state.
 - Read required sources before editing.
-- Evaluate metadata under GDR-005 and authority under GDR-006.
+- Evaluate metadata under [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] and authority under [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]].
 - Respect the current OPM-004 phase and Founder gate.
 - State uncertainty and conflicts.
 
@@ -70,7 +70,7 @@ Do not invent evidence. When a capability is unavailable, state the limitation a
 
 - Session observations are not automatically decisions.
 - Unresolved consequential questions belong in the Decision Backlog.
-- Durable decisions belong in formal records under OLY-GOV-003.
+- Durable decisions belong in formal records under [[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]].
 - Approval and authority changes follow GDR-005, GDR-006, and OPM-003.
 - Eunomia and agents may recommend but may not approve.
 
@@ -84,7 +84,7 @@ Not every experience becomes a formal asset.
 
 Resume from:
 
-1. Applicable Governing, Canonical, and Approved sources under GDR-006.
+1. Applicable Governing, Canonical, and Approved sources under [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]].
 2. Latest handoff for the workstream.
 3. Relevant daily logs.
 4. Observable repository and operational state.
@@ -127,4 +127,4 @@ Exception authority and approval follow GDR-006 and OPM-003. Record approved exc
 |---|---|---|
 | 2026-07-05 | John S. Villasenor | Initial continuity standard. |
 | 2026-07-25 | John S. Villasenor | Approved as current Advisory guidance. |
-| 2026-07-27 | Hermes under explicit Founder direction | Aligned continuity authority and repository references to GDR-005 through GDR-007 while preserving historical artifacts. |
+| 2026-07-27 | Hermes under explicit Founder direction | Aligned continuity authority and repository references to GDR-005 through [[GDR-007_CANONICAL_REPOSITORY_LOCATION|GDR-007]] while preserving historical artifacts. |

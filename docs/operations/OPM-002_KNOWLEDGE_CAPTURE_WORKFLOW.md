@@ -18,7 +18,7 @@
 | Created On | 2026-07-05 |
 | Last Updated | 2026-07-27 |
 | Review Cadence | As Needed |
-| Related Assets | GDR-004; GDR-005; GDR-006; OLY-GOV-001 through OLY-GOV-005; OPM-001; OPM-003; OPM-004; Decision Backlog |
+| Related Assets | [[GDR-004_EUNOMIA_ECOSYSTEM_STEWARDSHIP_ROLE|GDR-004]]; [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]; [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]; [[OLY-GOV-001_REPOSITORY_STANDARD|OLY-GOV-001]]; [[OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD|OLY-GOV-002]]; [[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]]; [[OLY-GOV-004_SESSION_CONTINUITY_STANDARD|OLY-GOV-004]]; [[OLY-GOV-005_AGENT_KNOWLEDGE_DISCOVERY_STANDARD|OLY-GOV-005]]; [[OPM-001_OLYMPUS_AGENT_OPERATING_MODEL|OPM-001]]; [[OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW|OPM-003]]; [[OPM-004_OLYMPUS_PRODUCT_TO_ARCHITECTURE_ROADMAP|OPM-004]]; [[MT_OLYMPUS_DECISION_BACKLOG|Decision Backlog]] |
 | AI Consumption | Recommended |
 | Change Impact | Medium |
 
@@ -69,11 +69,11 @@ The default outcome for most raw observations is not a formal Knowledge Asset. C
 
 ## Authority and Metadata
 
-- Use GDR-005 for Status, Authority Level, and Canonical Source semantics.
-- Use GDR-006 for authority resolution.
-- Use OLY-GOV-002 for Knowledge Asset metadata and maintenance procedure.
-- Use OLY-GOV-003 and OPM-003 for decision creation, promotion, and approval.
-- Use GDR-004 for Eunomia’s defined stewardship role; Eunomia is not yet instantiated and cannot approve.
+- Use [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] for Status, Authority Level, and Canonical Source semantics.
+- Use [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]] for authority resolution.
+- Use [[OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD|OLY-GOV-002]] for Knowledge Asset metadata and maintenance procedure.
+- Use [[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]] and OPM-003 for decision creation, promotion, and approval.
+- Use [[GDR-004_EUNOMIA_ECOSYSTEM_STEWARDSHIP_ROLE|GDR-004]] for Eunomia’s defined stewardship role; Eunomia is not yet instantiated and cannot approve.
 
 ## Decision Capture
 
@@ -113,7 +113,7 @@ Hermes identifies and routes candidate knowledge. Hephaestus implements scoped e
 - Closing questions silently
 - Creating later-phase application, schema, or architecture design in this workflow
 - Generalizing project-local knowledge without promotion
-- Reproducing metadata or authority definitions owned by GDR-005 and GDR-006
+- Reproducing metadata or authority definitions owned by [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] and GDR-006
 
 ## Open Questions
 

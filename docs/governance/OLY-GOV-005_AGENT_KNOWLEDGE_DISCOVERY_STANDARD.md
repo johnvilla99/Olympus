@@ -18,7 +18,7 @@
 | Created On | 2026-07-22 |
 | Last Updated | 2026-07-27 |
 | Review Cadence | As Needed |
-| Related Assets | GDR-001; GDR-005; GDR-006; GDR-007; OLY-GOV-001 through OLY-GOV-004; OPM-001 through OPM-004; RNO-002; Decision Backlog (OLY-DB-009) |
+| Related Assets | [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]]; [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]; [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]; [[GDR-007_CANONICAL_REPOSITORY_LOCATION|GDR-007]]; [[OLY-GOV-001_REPOSITORY_STANDARD|OLY-GOV-001]]; [[OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD|OLY-GOV-002]]; [[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]]; [[OLY-GOV-004_SESSION_CONTINUITY_STANDARD|OLY-GOV-004]]; [[OPM-001_OLYMPUS_AGENT_OPERATING_MODEL|OPM-001]]; [[OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW|OPM-002]]; [[OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW|OPM-003]]; [[OPM-004_OLYMPUS_PRODUCT_TO_ARCHITECTURE_ROADMAP|OPM-004]]; [[RNO-002_OLY_GOV_005_PRACTICAL_VALIDATION|RNO-002]]; [[MT_OLYMPUS_DECISION_BACKLOG|Decision Backlog]] (OLY-DB-009) |
 | AI Consumption | Recommended |
 | Change Impact | High |
 
@@ -39,8 +39,8 @@ OLY-GOV-005 defines the minimum rules an AI agent follows when relying on Olympu
 | Rule | Meaning |
 |---|---|
 | Relevant is not authoritative | Matching content is not binding without metadata and scope evaluation |
-| Metadata dimensions together | Evaluate Status, Authority Level, and Canonical Source under GDR-005 |
-| Authority basis | Resolve authority through GDR-006 and preserve applicable local governance |
+| Metadata dimensions together | Evaluate Status, Authority Level, and Canonical Source under [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] |
+| Authority basis | Resolve authority through [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]] and preserve applicable local governance |
 | Agents do not approve | Agents discover, synthesize, and recommend |
 | Proposed is not Approved | Draft and Proposed sources support review, not binding direction |
 | ACRs are exploratory | Concepts inform context but are not implementation authority |
@@ -49,7 +49,7 @@ OLY-GOV-005 defines the minimum rules an AI agent follows when relying on Olympu
 | Commit or push is not approval | Persistence does not change authority |
 | Do not invent closure | Material gaps and conflicts must be surfaced |
 
-Identifiers are governed by GDR-001. This standard does not alter Approved decisions or close OLY-DB-009.
+Identifiers are governed by [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]]. This standard does not alter Approved decisions or close OLY-DB-009.
 
 ## 1. Discovery Intent
 
@@ -82,7 +82,7 @@ A lower-authority source may be relevant but cannot silently override higher app
 
 ## 3. Authority Resolution
 
-Use **GDR-006** as the Governing Olympus authority hierarchy and **GDR-005** for metadata semantics. OLY-GOV-005 applies those decisions and does not restate their definitions.
+Use **[[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]** as the Governing Olympus authority hierarchy and **[[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]** for metadata semantics. OLY-GOV-005 applies those decisions and does not restate their definitions.
 
 When authority remains unclear, surface the competing sources and escalate to John or the applicable local authority.
 
@@ -121,7 +121,7 @@ Required behavior:
 4. Do not silently choose a winner when authority is unclear.
 5. Escalate when a human authority decision is required.
 
-Current explicit authorized direction may control the immediate task under GDR-006, but durable conflicts must be routed through OPM-002 and OPM-003 rather than silently rewriting history.
+Current explicit authorized direction may control the immediate task under [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]], but durable conflicts must be routed through [[OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW|OPM-002]] and OPM-003 rather than silently rewriting history.
 
 ## 8. Citation and Evidence
 

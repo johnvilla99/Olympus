@@ -19,7 +19,7 @@
 | Decided On | 2026-07-27 |
 | Last Updated | 2026-07-27 |
 | Review Cadence | As Needed |
-| Related Assets | GDR-003; GDR-004; GDR-005; GDR-007; OLY-GOV-003; OLY-GOV-005; OPM-001 |
+| Related Assets | [[GDR-003_OLYMPUS_CONCEPTUAL_CAPABILITY_MODEL|GDR-003]]; [[GDR-004_EUNOMIA_ECOSYSTEM_STEWARDSHIP_ROLE|GDR-004]]; [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]; [[GDR-007_CANONICAL_REPOSITORY_LOCATION|GDR-007]]; [[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]]; [[OLY-GOV-005_AGENT_KNOWLEDGE_DISCOVERY_STANDARD|OLY-GOV-005]]; [[OPM-001_OLYMPUS_AGENT_OPERATING_MODEL|OPM-001]] |
 | Supersedes | N/A |
 | Superseded By | N/A |
 | AI Consumption | Required |
@@ -42,7 +42,7 @@ For Olympus governance and Olympus-owned knowledge, authority resolves in this o
 9. **Conversation context**.
 10. **Assistant inference or general knowledge**.
 
-Apply the metadata semantics in **GDR-005**. Apply safe discovery and conflict handling through **OLY-GOV-005**.
+Apply the metadata semantics in **[[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]**. Apply safe discovery and conflict handling through **[[OLY-GOV-005_AGENT_KNOWLEDGE_DISCOVERY_STANDARD|OLY-GOV-005]]**.
 
 ## Governing Rules
 
@@ -62,7 +62,7 @@ OLY-GOV-003, OPM-001, OLY-GOV-005, Governance Starter, and Cursor rules expresse
 | Option | Outcome |
 |---|---|
 | One Governing decision referenced by derivative assets | **Selected** — reduces drift and preserves one authority source |
-| Keep hierarchy in OLY-GOV-003 only | Rejected — OLY-GOV-003 is a Draft standard and decision-record procedure is narrower than ecosystem authority |
+| Keep hierarchy in [[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]] only | Rejected — OLY-GOV-003 is a Draft standard and decision-record procedure is narrower than ecosystem authority |
 | Continue synchronized copies in multiple files | Rejected — duplication already produced drift |
 
 ## Consequences
@@ -78,7 +78,7 @@ Approved through explicit Founder direction in the E7CORE Hermes session on 2026
 ## Follow-up Actions
 
 - Replace duplicate active hierarchy sections with references to GDR-006.
-- Use GDR-006 in Phase 2 product work and later application-governance work.
+- Use [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]] in Phase 2 product work and later application-governance work.
 
 ## Change History
 

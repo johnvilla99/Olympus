@@ -19,7 +19,7 @@
 | Decided On | 2026-07-25 |
 | Last Updated | 2026-07-25 |
 | Review Cadence | As Needed |
-| Related Assets | OLY-DB-001; OLY-DB-007; ACR-001; ACR-002; GDR-001 |
+| Related Assets | OLY-DB-001; OLY-DB-007; [[ACR-001_MNEMOSYNE_METIS_AND_THE_MUSES|ACR-001]]; [[ACR-002_FROM_MYTH_TO_PLUMBING|ACR-002]]; [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]] |
 | Supersedes | N/A |
 | Superseded By | N/A |
 | AI Consumption | Required |

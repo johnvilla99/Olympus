@@ -10,7 +10,7 @@ Reusable prompt for ending an Olympus repository session with honest evidence, g
 
 Prepare an **Olympus session handoff** as **Hephaestus / Coder**.
 
-Apply OPM-001, OPM-002, OPM-003, OPM-004, and OLY-GOV-004. Use GDR-005 for metadata semantics, GDR-006 for authority resolution, and GDR-007 for repository identity.
+Apply OPM-001, OPM-002, OPM-003, OPM-004, and OLY-GOV-004. Use [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] for metadata semantics, GDR-006 for authority resolution, and GDR-007 for repository identity.
 
 A handoff is a continuity artifact, not a formal decision record. Commit or push is not approval.
 
@@ -35,7 +35,7 @@ The handoff must include:
 9. Validation and evidence actually obtained.
 10. Limitations, failed attempts, open questions, and risks.
 11. Recommended next steps and required human approval points.
-12. Capture Review under OPM-002 and OPM-003; explicitly state when no durable candidate knowledge was produced.
+12. Capture Review under [[OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW|OPM-002]] and OPM-003; explicitly state when no durable candidate knowledge was produced.
 
 Do not resolve roadmap-routed product, application-governance, architecture, or implementation questions before their OPM-004 phase and gate.
 

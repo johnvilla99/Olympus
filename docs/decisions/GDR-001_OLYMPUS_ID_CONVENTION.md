@@ -19,7 +19,7 @@
 | Decided On | 2026-07-25 |
 | Last Updated | 2026-07-25 |
 | Review Cadence | As Needed |
-| Related Assets | OLY-GOV-001; OLY-GOV-002; OLY-GOV-003; OPM-003; OLY-DB-017; Decision Backlog; RNO-001 Olympus Babble Fish |
+| Related Assets | [[OLY-GOV-001_REPOSITORY_STANDARD|OLY-GOV-001]]; [[OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD|OLY-GOV-002]]; [[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]]; [[OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW|OPM-003]]; OLY-DB-017; [[MT_OLYMPUS_DECISION_BACKLOG|Decision Backlog]]; [[RNO-001_OLYMPUS_BABBLE_FISH|RNO-001]] |
 | Supersedes | N/A |
 | Superseded By | N/A |
 | AI Consumption | Required |
@@ -57,7 +57,7 @@ Olympus uses stable, prefix-based, three-digit identifiers for formal Knowledge 
 
 ## Context
 
-The ID convention was initially captured as Draft / Advisory working guidance in OLY-GOV-002 and related standards. It has since been used consistently across Olympus governance standards, operating models, decisions, concepts, research, continuity practices, templates, and repository navigation.
+The ID convention was initially captured as Draft / Advisory working guidance in [[OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD|OLY-GOV-002]] and related standards. It has since been used consistently across Olympus governance standards, operating models, decisions, concepts, research, continuity practices, templates, and repository navigation.
 
 **OLY-DB-017** tracked formal promotion of the convention. John explicitly approved the convention as official and Canonical on 2026-07-25. This decision resolves OLY-DB-017.
 
@@ -111,7 +111,7 @@ A formal **GDR** is required because identifiers affect citation, supersession, 
 
 | Action | Owner | Status |
 |---|---|---|
-| Update OLY-DB-017 as resolved through GDR-001 | Hermes / repository steward | Required |
+| Update OLY-DB-017 as resolved through [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]] | Hermes / repository steward | Required |
 | Replace provisional ID-convention language in related standards with references to GDR-001 | Hermes / repository steward | Required |
 | Keep templates, indexes, and Cursor rules aligned | Repository steward | Ongoing |
 | Consider whether Babble Fish needs a future `REF-*` prefix | Hermes / John | Deferred |

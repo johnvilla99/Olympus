@@ -19,7 +19,7 @@
 | Decided On | 2026-07-27 |
 | Last Updated | 2026-07-27 |
 | Review Cadence | As Needed |
-| Related Assets | GDR-001; GDR-006; OLY-GOV-002; OLY-GOV-003; OLY-GOV-005; OLY-DB-004 |
+| Related Assets | [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]]; [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]; [[OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD|OLY-GOV-002]]; [[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]]; [[OLY-GOV-005_AGENT_KNOWLEDGE_DISCOVERY_STANDARD|OLY-GOV-005]]; OLY-DB-004 |
 | Supersedes | N/A |
 | Superseded By | N/A |
 | AI Consumption | Required |
@@ -37,7 +37,7 @@ Olympus uses three independent metadata dimensions:
 
 **Canonical is not a lifecycle Status.** An active source-of-truth asset normally uses `Status: Approved`, `Authority Level: Canonical` or `Governing`, and `Canonical Source: Yes`.
 
-Operational metadata requirements remain in **OLY-GOV-002**. Decision-record metadata remains in **OLY-GOV-003**. Those standards must reference this decision rather than redefine these semantics.
+Operational metadata requirements remain in **[[OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD|OLY-GOV-002]]**. Decision-record metadata remains in **[[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]]**. Those standards must reference this decision rather than redefine these semantics.
 
 ## Context
 
@@ -55,7 +55,7 @@ The foundation used “Canonical” both as a status and as an authority concept
 
 - Active standards, templates, glossaries, and examples must align to this decision.
 - Historical records remain unchanged when they accurately preserve prior usage.
-- Assignment of `Approved`, `Canonical`, `Governing`, or `Canonical Source: Yes` continues to require explicit Founder approval under GDR-006 and the applicable workflow.
+- Assignment of `Approved`, `Canonical`, `Governing`, or `Canonical Source: Yes` continues to require explicit Founder approval under [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]] and the applicable workflow.
 
 ## Approval Context
 
@@ -64,7 +64,7 @@ Approved through explicit Founder direction in the E7CORE Hermes session on 2026
 ## Follow-up Actions
 
 - Align OLY-GOV-002, OLY-GOV-003, OLY-GOV-005, templates, and RNO-001 by reference.
-- Mark OLY-DB-004 resolved by GDR-005.
+- Mark OLY-DB-004 resolved by [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]].
 
 ## Change History
 

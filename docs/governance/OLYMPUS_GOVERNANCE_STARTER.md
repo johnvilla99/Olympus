@@ -24,11 +24,11 @@ Governance should prevent three failures:
 | Agents | Instantiated helpers that operate under project instructions and source documents |
 | Projects | Consumers and contributors of Knowledge Assets only where participation is explicitly established |
 
-**Authority note:** GDR-004 is the Canonical source for Eunomia. **GDR-006** is the Governing source for Olympus authority resolution. **OLY-GOV-003** is the Governing source for decision-record lifecycle and procedure only — it does not own the ecosystem authority hierarchy.
+**Authority note:** GDR-004 is the Canonical source for Eunomia. **[[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]** is the Governing source for Olympus authority resolution. **[[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]]** is the Governing source for decision-record lifecycle and procedure only — it does not own the ecosystem authority hierarchy.
 
 ## Decision Hierarchy
 
-Use **GDR-006** as the authoritative source for Olympus authority resolution. This starter does not restate or redefine that hierarchy. Use **OLY-GOV-003** for decision-record procedure, not for hierarchy definitions.
+Use **[[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]** as the authoritative source for Olympus authority resolution. This starter does not restate or redefine that hierarchy. Use **[[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]]** for decision-record procedure, not for hierarchy definitions.
 
 ## Maturity Control
 
@@ -50,7 +50,7 @@ Only John S. Villasenor / Founder may approve:
 - Canonical authority;
 - Governing authority.
 
-Eunomia may assess, recommend, draft, initiate authorized low-risk maintenance, and route stewardship work under GDR-004. Eunomia may not approve promotion, status, authority, ownership, supersession, retirement, or governance changes.
+Eunomia may assess, recommend, draft, initiate authorized low-risk maintenance, and route stewardship work under [[GDR-004_EUNOMIA_ECOSYSTEM_STEWARDSHIP_ROLE|GDR-004]]. Eunomia may not approve promotion, status, authority, ownership, supersession, retirement, or governance changes.
 
 AI agents may recommend or draft but cannot approve. Founder approval must be explicit.
 
@@ -90,9 +90,9 @@ Once approved, governing artifacts should have a defined review cadence and owne
 ## Resolved Foundation Decisions
 
 - Olympus is the official ecosystem name: GDR-002.
-- Olympus, Mnemosyne, Metis, and the Muses have the conceptual relationship defined in GDR-003.
+- Olympus, Mnemosyne, Metis, and the Muses have the conceptual relationship defined in [[GDR-003_OLYMPUS_CONCEPTUAL_CAPABILITY_MODEL|GDR-003]].
 - Eunomia is the ecosystem librarian and collection-stewardship role: GDR-004.
-- The Olympus ID convention is defined in GDR-001.
+- The Olympus ID convention is defined in [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]].
 - Olympus and Hobby Brain are separate projects: GDR-002.
 
 ## Remaining Questions

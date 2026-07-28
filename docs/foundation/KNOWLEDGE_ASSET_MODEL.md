@@ -35,15 +35,15 @@ Knowledge Assets should preserve:
 
 Formal assets should include ID, Title, Classification, Category, Status, Authority Level, Canonical Source, Owner, Primary AI Owner when active, Created On, Last Updated, Review Cadence, Related Assets, AI Consumption, and Change Impact.
 
-Identifiers are governed by **GDR-001**. Metadata semantics are governed by **GDR-005**. Authority resolution is governed by **GDR-006**. Operational procedure remains in OLY-GOV-002.
+Identifiers are governed by **[[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]]**. Metadata semantics are governed by **[[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]**. Authority resolution is governed by **[[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]**. Operational procedure remains in [[OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD|OLY-GOV-002]].
 
 ## Status Model
 
-The authoritative lifecycle model is **GDR-005**. This foundation model does not duplicate the status definitions.
+The authoritative lifecycle model is **[[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]**. This foundation model does not duplicate the status definitions.
 
 ## Authority Levels
 
-The authoritative metadata semantics are **GDR-005** and the authority-resolution order is **GDR-006**. This foundation model does not duplicate those definitions.
+The authoritative metadata semantics are **[[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]** and the authority-resolution order is **[[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]**. This foundation model does not duplicate those definitions.
 
 ## Promotion Path
 
@@ -67,7 +67,7 @@ Agents should:
 
 ## Open Questions
 
-- The ID convention is governed by GDR-001.
+- The ID convention is governed by [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]].
 - Asset relationship implementation remains deferred under OLY-DB-006.
 - Promotion and authority changes follow GDR-005, GDR-006, OLY-GOV-002, and OPM-003.
 - Portfolio-wide versus project-specific scope remains open under OLY-DB-014.

@@ -14,7 +14,7 @@
 | Created On | _YYYY-MM-DD_ |
 | Last Updated | _YYYY-MM-DD_ |
 | Review Cadence | _e.g. Quarterly, Annually, As needed_ |
-| Related Assets | _Linked governance, concept, or decision records_ |
+| Related Assets | _Use Obsidian links such as `` [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] ``; preserve relationship meaning in prose_ |
 | AI Consumption | _Required \| Recommended \| Optional \| Restricted_ |
 | Change Impact | _Low \| Medium \| High_ |
 

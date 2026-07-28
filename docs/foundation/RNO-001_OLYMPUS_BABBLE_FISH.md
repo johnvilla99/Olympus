@@ -18,7 +18,7 @@
 | Created On | 2026-07-05 |
 | Last Updated | 2026-07-27 |
 | Review Cadence | As Needed |
-| Related Assets | GDR-005; GDR-006; OLY-GOV-002; OLY-GOV-003; OPM-001; OPM-002; OPM-003; GDR-003; GDR-004; Muse Catalog; Decision Backlog |
+| Related Assets | [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]; [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]; [[OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD|OLY-GOV-002]]; [[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]]; [[OPM-001_OLYMPUS_AGENT_OPERATING_MODEL|OPM-001]]; [[OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW|OPM-002]]; [[OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW|OPM-003]]; [[GDR-003_OLYMPUS_CONCEPTUAL_CAPABILITY_MODEL|GDR-003]]; [[GDR-004_EUNOMIA_ECOSYSTEM_STEWARDSHIP_ROLE|GDR-004]]; [[MUSE_CATALOG_STARTER|Muse Catalog]]; [[MT_OLYMPUS_DECISION_BACKLOG|Decision Backlog]] |
 | Muse Lenses | Knowledge Stewardship; Governance; Operations |
 | AI Consumption | Recommended |
 | Change Impact | Low |
@@ -56,7 +56,7 @@ It is a reference glossary, not a decision record or governing standard.
 
 ## Governance and Status Terms
 
-Use **GDR-005** for authoritative Status, Authority Level, and Canonical Source semantics. This glossary decodes common wording; it does not redefine those dimensions.
+Use **[[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]** for authoritative Status, Authority Level, and Canonical Source semantics. This glossary decodes common wording; it does not redefine those dimensions.
 
 **Banner shorthand note:** Human-readable banners such as `Approved / Canonical` or `Approved / Governing` combine a lifecycle Status with an Authority Level for scannability. The metadata table remains authoritative. Do not treat the banner as a single combined Status value. Canonical is not a lifecycle Status.
 
@@ -100,7 +100,7 @@ Use **GDR-005** for authoritative Status, Authority Level, and Canonical Source 
 | John | Founder and final approval authority |
 | Hermes | Director agent role: coordination, continuity, prompts, review, and routing |
 | Hephaestus | Coder agent role: Cursor implementation assistant |
-| Eunomia | Olympus ecosystem librarian and collection-stewardship role defined by GDR-004; not yet instantiated as an active agent or application component |
+| Eunomia | Olympus ecosystem librarian and collection-stewardship role defined by [[GDR-004_EUNOMIA_ECOSYSTEM_STEWARDSHIP_ROLE|GDR-004]]; not yet instantiated as an active agent or application component |
 | Curator | Retired working name for the role now defined as Eunomia; preserve only in historical context |
 | Founder approval | Explicit John approval, not inferred from silence, commit, or push |
 | Commit / push | Repository action; not approval unless John explicitly says so |
@@ -180,4 +180,4 @@ Additional notes:
 | 2026-07-05 | John S. Villasenor | Initial Draft / Advisory abbreviation and terminology reference |
 | 2026-07-05 | John S. Villasenor | Approved Babble Fish as the living Olympus abbreviation and terminology reference; renamed file with `RNO-001` prefix |
 | 2026-07-25 | John S. Villasenor | Replaced the retired Curator terminology with Eunomia and added GDR-003/GDR-004 concept boundaries |
-| 2026-07-27 | Hermes under explicit Founder direction | Separated Status, Authority Level, and Canonical Source per GDR-005; clarified banner shorthand; retained Curator as retired term only |
+| 2026-07-27 | Hermes under explicit Founder direction | Separated Status, Authority Level, and Canonical Source per [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]; clarified banner shorthand; retained Curator as retired term only |

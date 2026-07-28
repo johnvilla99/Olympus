@@ -19,7 +19,7 @@
 | Decided On | 2026-07-27 |
 | Last Updated | 2026-07-27 |
 | Review Cadence | As Needed |
-| Related Assets | GDR-002; RNO-001; README.md; MT_OLYMPUS_PROJECT_INSTRUCTIONS.md |
+| Related Assets | [[GDR-002_OLYMPUS_ECOSYSTEM_IDENTITY_AND_PROJECT_BOUNDARY|GDR-002]]; [[RNO-001_OLYMPUS_BABBLE_FISH|RNO-001]]; [[README|README]]; [[MT_OLYMPUS_PROJECT_INSTRUCTIONS|MT_OLYMPUS_PROJECT_INSTRUCTIONS]] |
 | Supersedes | N/A |
 | Superseded By | N/A |
 | AI Consumption | Required |
@@ -29,7 +29,7 @@
 
 ## Decision
 
-**Olympus** remains the official ecosystem name under **GDR-002**.
+**Olympus** remains the official ecosystem name under **[[GDR-002_OLYMPUS_ECOSYSTEM_IDENTITY_AND_PROJECT_BOUNDARY|GDR-002]]**.
 
 **Mt. Olympus** may be used as a display, narrative, or project-space alias when it clearly refers to the same Olympus ecosystem. It does not name a separate ecosystem, product, application, project, or authority domain.
 
