@@ -22,9 +22,9 @@ Do not reproduce the governing definitions here. Use the source assets:
 
 ## Current Phase
 
-Phase 1: Foundation Closure. The gate packet is `docs/operations/HND-001_OLYMPUS_FOUNDATION_GATE_PACKET.md`.
+Phase 2: Product Discovery and Definition. Phase 1 closure and authorization are recorded in `docs/operations/HND-001_OLYMPUS_FOUNDATION_GATE_PACKET.md`. The active Phase 2 working record is `docs/product/OLYMPUS_PHASE_2_PRODUCT_DEFINITION_BRIEF.md`.
 
-Do not begin Product Definition, application-governance design, Architect-agent definition, architecture, technical-stack selection, or implementation before the applicable OPM-004 Founder gate.
+Do not begin Application Governance, Architect-agent definition, architecture, technical-stack selection, or implementation before the applicable OPM-004 Founder gate.
 
 ## Repository Areas
 
