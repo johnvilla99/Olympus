@@ -14,6 +14,7 @@ Use [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] for metadata semanti
 - `governance/` — standards and governance procedure
 - `concepts/` — exploratory ACRs
 - `decisions/` — ADR/PDR/GDR/ODR records and backlog
+- `product/` — product discovery, definition, MVP boundaries, requirements, and Product Gate working artifacts
 - `muses/` — durable domain-lens definitions
 - `operations/` — operating models, workflows, and durable gate/handoff artifacts
 - `research/` — research notes and evidence
