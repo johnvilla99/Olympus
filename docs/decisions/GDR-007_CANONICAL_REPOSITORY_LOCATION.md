@@ -1,6 +1,6 @@
 # Canonical Repository Location
 
-> **Status:** Approved / Canonical. This decision identifies the active durable repository for Olympus.
+> **Status:** Superseded / Canonical historical decision. GDR-009 is the current Canonical source for the active Olympus repository.
 
 ## Metadata
 
@@ -10,65 +10,68 @@
 | Title | Canonical Repository Location |
 | Classification | Decision Record |
 | Decision Category | Governance |
-| Status | Approved |
+| Status | Superseded |
 | Authority Level | Canonical |
-| Canonical Source | Yes |
+| Canonical Source | No |
 | Owner | John S. Villasenor |
 | Decider / Approver | John S. Villasenor |
 | Created On | 2026-07-27 |
 | Decided On | 2026-07-27 |
-| Last Updated | 2026-07-27 |
-| Review Cadence | When repository ownership or hosting changes |
-| Related Assets | [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]; [[OLY-GOV-001_REPOSITORY_STANDARD|OLY-GOV-001]]; [[OLY-GOV-004_SESSION_CONTINUITY_STANDARD|OLY-GOV-004]]; [[OPM-004_OLYMPUS_PRODUCT_TO_ARCHITECTURE_ROADMAP|OPM-004]] |
+| Last Updated | 2026-08-15 |
+| Review Cadence | Historical; review only if migration history requires clarification |
+| Related Assets | [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]; [[GDR-009_CANONICAL_REPOSITORY_LOCATION|GDR-009]]; [[OLY-GOV-001_REPOSITORY_STANDARD|OLY-GOV-001]]; [[OLY-GOV-004_SESSION_CONTINUITY_STANDARD|OLY-GOV-004]]; [[OPM-004_OLYMPUS_PRODUCT_TO_ARCHITECTURE_ROADMAP|OPM-004]] |
 | Supersedes | N/A |
-| Superseded By | N/A |
-| AI Consumption | Required |
+| Superseded By | GDR-009 |
+| AI Consumption | Recommended for historical context |
 | Change Impact | High |
 
 ---
 
-## Decision
+## Historical Decision
 
-The active durable repository for Olympus is:
+At the time of this decision, the active durable repository for Olympus was designated as:
 
 ```text
 e7-jvillasenor/Olympus
 ```
 
-The default active branch is `main`.
+The default active branch was `main`.
 
-`johnvilla99/Olympus` is the historical source repository used for migration. It is not the location for new Olympus work after this decision. Historical handoffs and records must not be rewritten solely to change the repository name; active instructions, indexes, prompts, and rules must reference GDR-007 or the active repository.
+`johnvilla99/Olympus` was treated as the historical source repository used for migration.
+
+This decision is no longer current. [[GDR-009_CANONICAL_REPOSITORY_LOCATION|GDR-009]] supersedes it and designates `johnvilla99/Olympus` as the active durable repository.
 
 ## Context
 
-Olympus was cloned from John’s prior GitHub account into the E7CORE-aligned account so connected agents and future work use the correct organizational context.
+Olympus was cloned from John’s prior GitHub account into the E7CORE-aligned account so connected agents and future work could use the intended organizational context at that time.
 
 ## Options Considered
 
-| Option | Outcome |
+| Option | Outcome at the time |
 |---|---|
-| Designate `e7-jvillasenor/Olympus` | **Selected** — aligns active stewardship with the E7CORE environment |
-| Continue dual-active repositories | Rejected — creates split-brain source-of-truth risk |
-| Keep `johnvilla99/Olympus` active | Rejected — conflicts with the approved transition objective |
+| Designate `e7-jvillasenor/Olympus` | **Selected** — aligned active stewardship with the E7CORE environment at that time |
+| Continue dual-active repositories | Rejected — created split-brain source-of-truth risk |
+| Keep `johnvilla99/Olympus` active | Rejected at the time — conflicted with the migration objective then in force |
 
-## Consequences
+## Historical Consequences
 
-- New changes must target `e7-jvillasenor/Olympus`.
-- The historical repository should be frozen or archived after branch, tag, and commit parity are verified.
-- Search and connector configurations must prefer the active repository and avoid mixing results from both repositories.
-- Commit history records migration provenance but does not determine governance approval.
+- New changes were directed to `e7-jvillasenor/Olympus` while this decision remained current.
+- Search and connector configurations were expected to prefer that repository.
+- Commit history recorded migration provenance but did not determine governance approval.
+
+Those consequences are superseded by GDR-009 for current work.
 
 ## Approval Context
 
 Approved through explicit Founder direction in the E7CORE Hermes session on 2026-07-27.
 
-## Follow-up Actions
+## Supersession
 
-- Verify `main`, required branches, tags, and the expected migration commit history.
-- Update active repository locators without rewriting historical handoffs.
+GDR-009 superseded this decision on 2026-08-15 after explicit Founder direction re-established `johnvilla99/Olympus` as the active durable repository. This record remains preserved to retain migration rationale and prevent historical ambiguity.
 
 ## Change History
 
 | Date | Author | Summary |
 |---|---|---|
 | 2026-07-27 | John S. Villasenor | Designated `e7-jvillasenor/Olympus` as the active durable repository. |
+| 2026-08-15 | Hermes under explicit Founder direction | Marked GDR-007 Superseded by GDR-009 and preserved the prior repository decision as historical context. |
