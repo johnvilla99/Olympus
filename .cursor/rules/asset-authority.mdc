@@ -10,7 +10,7 @@ alwaysApply: true
 - GDR-001 controls identifiers.
 - GDR-005 controls Status, Authority Level, and Canonical Source semantics.
 - GDR-006 controls authority resolution and conflicts.
-- GDR-007 controls the active repository location.
+- GDR-009 controls the active repository location. GDR-007 is superseded historical guidance.
 - OLY-GOV-002 controls Knowledge Asset procedure.
 - OLY-GOV-003 controls decision-record procedure.
 - OLY-GOV-005 controls authority-aware discovery.
@@ -31,6 +31,7 @@ When authoring or updating active assets, prefer Obsidian internal links for kno
 - Conflicts must be surfaced and routed, not silently resolved.
 - Historical records remain historical; do not modernize them solely for terminology.
 - Project-local authority remains local unless explicitly promoted.
+- A superseded Canonical asset remains historical evidence but is not the current source of truth for its superseded subject.
 
 ## Roles
 
@@ -40,7 +41,7 @@ GDR-004 defines Eunomia as the ecosystem librarian and collection-stewardship ro
 
 Before relying on content:
 
-1. Verify the active repository and branch.
+1. Verify the active repository and branch under GDR-009.
 2. Check metadata and scope.
 3. Apply GDR-006.
 4. Inspect material relationships and supersession.
@@ -48,10 +49,18 @@ Before relying on content:
 6. Distinguish grounded facts, Approved direction, Advisory guidance, exploratory context, inference, and gaps.
 7. Stop or escalate when proceeding would create false authority.
 
+## Phase 2 Research Handling
+
+- ACR-003 is Exploratory / Informational concept work.
+- RNO-003 is Exploratory / Informational research.
+- They may inform Product Discovery and Definition, but neither establishes approved Product Vision, market positioning, MVP scope, architecture, or commercialization.
+- When their findings conflict with stronger authority, surface the conflict rather than silently reinterpret the governing source.
+
 ## Defaults
 
 - GDR-003 is Canonical for the Olympus conceptual capability model.
 - GDR-004 is Canonical for Eunomia’s definition and boundaries.
+- GDR-009 is Canonical for the active repository location.
 - RNO-001 is an Approved / Advisory terminology reference.
 - Research is cross-cutting, not a tenth Muse.
 - OPM-004 controls phase and gate sequencing.
