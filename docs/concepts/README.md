@@ -22,7 +22,7 @@ Capture exploratory thinking with clear non-binding status so future agents dist
 
 ## Status
 
-Starter directory — proposed organization.
+Active concept directory. Assets remain individually governed by their own metadata and authority.
 
 ## Current assets
 
@@ -30,3 +30,6 @@ Starter directory — proposed organization.
 |---|---|---|
 | ACR-001 | Mnemosyne, Metis, and The Muses | Exploratory architectural concept for Mnemosyne, Metis, and The Muses (`ACR-001_MNEMOSYNE_METIS_AND_THE_MUSES.md`). |
 | ACR-002 | From Myth to Plumbing | Exploratory backend and product architecture model translating Mnemosyne, Metis, the Muses, agents, and projects into tangible system concepts. |
+| ACR-003 | Olympus as Project Intelligence | Exploratory product and conceptual-architecture thesis for Olympus as a deployable intelligence layer over governed project knowledge. It is not approved positioning, MVP scope, or implementation authority. |
+
+ACR-003 should be read with `docs/research/RNO-003_PROJECT_INTELLIGENCE_PRODUCT_HYPOTHESES.md`, which tests its market assumptions and narrows the strongest current differentiation hypothesis.
