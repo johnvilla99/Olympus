@@ -16,9 +16,9 @@
 | Owner | John S. Villasenor |
 | Primary AI Owner | Hermes |
 | Created On | 2026-07-22 |
-| Last Updated | 2026-07-27 |
+| Last Updated | 2026-08-15 |
 | Review Cadence | As Needed |
-| Related Assets | [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]]; [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]; [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]; [[GDR-007_CANONICAL_REPOSITORY_LOCATION|GDR-007]]; [[OLY-GOV-001_REPOSITORY_STANDARD|OLY-GOV-001]]; [[OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD|OLY-GOV-002]]; [[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]]; [[OLY-GOV-004_SESSION_CONTINUITY_STANDARD|OLY-GOV-004]]; [[OPM-001_OLYMPUS_AGENT_OPERATING_MODEL|OPM-001]]; [[OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW|OPM-002]]; [[OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW|OPM-003]]; [[OPM-004_OLYMPUS_PRODUCT_TO_ARCHITECTURE_ROADMAP|OPM-004]]; [[RNO-002_OLY_GOV_005_PRACTICAL_VALIDATION|RNO-002]]; [[MT_OLYMPUS_DECISION_BACKLOG|Decision Backlog]] (OLY-DB-009) |
+| Related Assets | [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]]; [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]; [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]]; [[GDR-009_CANONICAL_REPOSITORY_LOCATION|GDR-009]]; [[OLY-GOV-001_REPOSITORY_STANDARD|OLY-GOV-001]]; [[OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD|OLY-GOV-002]]; [[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]]; [[OLY-GOV-004_SESSION_CONTINUITY_STANDARD|OLY-GOV-004]]; [[OPM-001_OLYMPUS_AGENT_OPERATING_MODEL|OPM-001]]; [[OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW|OPM-002]]; [[OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW|OPM-003]]; [[OPM-004_OLYMPUS_PRODUCT_TO_ARCHITECTURE_ROADMAP|OPM-004]]; [[RNO-002_OLY_GOV_005_PRACTICAL_VALIDATION|RNO-002]]; [[MT_OLYMPUS_DECISION_BACKLOG|Decision Backlog]] (OLY-DB-009) |
 | AI Consumption | Recommended |
 | Change Impact | High |
 
@@ -41,6 +41,7 @@ OLY-GOV-005 defines the minimum rules an AI agent follows when relying on Olympu
 | Relevant is not authoritative | Matching content is not binding without metadata and scope evaluation |
 | Metadata dimensions together | Evaluate Status, Authority Level, and Canonical Source under [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] |
 | Authority basis | Resolve authority through [[GDR-006_OLYMPUS_AUTHORITY_HIERARCHY|GDR-006]] and preserve applicable local governance |
+| Repository basis | Use [[GDR-009_CANONICAL_REPOSITORY_LOCATION|GDR-009]] for the active durable repository; GDR-007 is superseded historical context |
 | Agents do not approve | Agents discover, synthesize, and recommend |
 | Proposed is not Approved | Draft and Proposed sources support review, not binding direction |
 | ACRs are exploratory | Concepts inform context but are not implementation authority |
@@ -201,6 +202,7 @@ They must not treat relevance as authority, generalize local knowledge without p
 | Standard review | John S. Villasenor | As Needed |
 | Practical validation | RNO-002 records Phase 1 validation; repeat when material behavior changes |
 | Authority alignment | GDR-005 and GDR-006 control |
+| Repository alignment | GDR-009 controls active repository selection |
 
 ## Open Questions
 
@@ -216,3 +218,4 @@ They must not treat relevance as authority, generalize local knowledge without p
 | 2026-07-22 | Hephaestus under John direction | Created and refined the discovery and safe-consumption standard. |
 | 2026-07-25 | John S. Villasenor | Approved as current Advisory guidance. |
 | 2026-07-27 | Hermes under explicit Founder direction | Applied GDR-005 and GDR-006 by reference, recorded RNO-002 validation, and removed pre-GDR-001 language. |
+| 2026-08-15 | Hermes under explicit Founder direction | Replaced the active repository relationship from GDR-007 with GDR-009; no discovery-policy change. |
