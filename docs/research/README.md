@@ -8,7 +8,7 @@ Research notes, evidence, and analysis supporting Olympus decisions and work pro
 Use [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] for metadata semantics, GDR-006 for authority resolution, [[GDR-009_CANONICAL_REPOSITORY_LOCATION|GDR-009]] for the active repository, GDR-008 for the display alias, and OPM-004 for phase sequencing. Lower-authority material should reference these assets rather than restate their definitions.
 <!-- OLYMPUS-FOUNDATION-AUTHORITY-END -->
 
-## Current Research
+## Current RNO Assets
 
 - RNO-001 — Olympus Babble Fish terminology reference
 - RNO-002 — OLY-GOV-005 Practical Validation
