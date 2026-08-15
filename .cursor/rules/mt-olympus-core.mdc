@@ -83,6 +83,6 @@ The strongest current differentiation hypothesis is narrower: **governed memory 
 - Do not promote exploratory ideas prematurely.
 - Do not design implementation before product and governance are clear.
 - Do not assume documentation stewardship, graphs, dashboards, or integrations are the product.
-- Treat Product Intelligence language as a hypothesis until evidence and Founder approval justify promotion.
+- Treat Project Intelligence language as a hypothesis until evidence and Founder approval justify promotion.
 
 Reference: `README.md`, `LICENSE`, `docs/README.md`, `docs/decisions/GDR-006_OLYMPUS_AUTHORITY_HIERARCHY.md`, `docs/decisions/GDR-009_CANONICAL_REPOSITORY_LOCATION.md`, `docs/operations/OPM-004_OLYMPUS_PRODUCT_TO_ARCHITECTURE_ROADMAP.md`, `docs/product/OLYMPUS_PHASE_2_PRODUCT_DEFINITION_BRIEF.md`, `docs/concepts/ACR-003_OLYMPUS_AS_PROJECT_INTELLIGENCE.md`, `docs/research/RNO-003_PROJECT_INTELLIGENCE_PRODUCT_HYPOTHESES.md`
