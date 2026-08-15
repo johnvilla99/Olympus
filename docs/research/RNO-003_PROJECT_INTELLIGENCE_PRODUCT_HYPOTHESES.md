@@ -342,7 +342,7 @@ Engineering Intelligence generally emphasizes metrics and delivery behavior. Oly
 | Cross-project portfolio judgment | Limited | Application-centric | Potentially broad | Enterprise-wide | No | Yes for metrics | **Potential differentiator** |
 | Authority-aware AI judgment | Not established as core | Not established as core | Permissions/context | Permissions/context | No | Metrics/analytics | **Core candidate differentiator** |
 
-**Important:** This matrix reflects public positioning and available documentation, not exhaustive product testing. Blank or weakly marked areas should not be interpreted as proof that a competitor lacks the feature.
+**Important:** This matrix is analyst synthesis from public vendor positioning and documentation, not a verified feature test or hands-on product evaluation. Blank or weakly marked areas should not be interpreted as proof that a competitor lacks the feature. Revalidate material claims before using the matrix for product, investment, or positioning decisions.
 
 ---
 
@@ -672,7 +672,7 @@ That hypothesis is sufficiently distinct to justify customer discovery and a nar
 
 1. **Preserve ACR-003 as Exploratory.** Do not promote it yet.
 2. **Do not create a Product Decision Record yet.** Commercialization remains unresolved.
-3. Add a backlog question: **Should Olympus evolve into a commercial Project Intelligence product?**
+3. **Completed:** OLY-DB-018 now tracks whether Olympus should pursue Project Intelligence as an external or commercial product positioning.
 4. Conduct 5–10 problem interviews before committing to an MVP architecture.
 5. Include Rob as an early external validation subject, but do not treat one friendly user as market proof.
 6. Define the first experiment around **governed change impact**, not generic doc generation.
@@ -708,6 +708,26 @@ Reviewed on 2026-08-15:
 
 These sources establish market adjacency and feature overlap. They do **not** substitute for hands-on product evaluation or customer research.
 
+## External Source Register
+
+The register below preserves durable locators for the public evidence used in this note. Vendor pages may change; material claims should be revalidated before consequential use.
+
+| Source | Page / evidence area | Durable locator | Reviewed |
+|---|---|---|---|
+| Falconer | Guides index including Falconer MCP; engineering knowledge and coding-agent context | https://mkt.falconer.ai/guides | 2026-08-15 |
+| Falconer | Docs-as-code and AI-powered stale-document detection | https://mkt.falconer.ai/guides/docs-as-code/ | 2026-08-15 |
+| Unblocked | Configuring Data Sources; GitHub, Slack, Confluence, Jira and other integrations | https://docs.getunblocked.com/configuring-data-sources | 2026-08-15 |
+| Unblocked | Context engine for agents and cross-source engineering context | https://getunblocked.com/blog/unblocked-context-engine-for-agents/ | 2026-08-15 |
+| Atlassian | Connect GitHub to Teamwork Graph | https://support.atlassian.com/organization-administration/docs/connect-github-to-teamwork-graph/ | 2026-08-15 |
+| Atlassian | Teamwork Graph connector reference and Rovo/agent accessibility | https://developer.atlassian.com/platform/teamwork-graph/connector-reference/overview/ | 2026-08-15 |
+| Glean | Enterprise Graph | https://www.glean.com/enterprise-context/enterprise-graph | 2026-08-15 |
+| Glean | Enterprise agent actions across systems including GitHub, Jira, and Confluence | https://www.glean.com/blog/85-new-actions-in-agents | 2026-08-15 |
+| Swimm | Continuous Documentation manifesto | https://swimm.io/blog/what-is-continuous-documentation-manifesto-part-1 | 2026-08-15 |
+| Red Hat Developer | AI-powered documentation updates: From code diff to docs PR in one comment | https://developers.redhat.com/articles/2026/04/21/ai-powered-documentation-updates-code-diff-docs-pr-one-comment | 2026-08-15 |
+| GitHub Blog | Automating cross-repo documentation with GitHub Agentic Workflows | https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/ | 2026-08-15 |
+| LinearB | 2026 Software Engineering Benchmarks Report | https://linearb.io/resources/software-engineering-benchmarks-report | 2026-08-15 |
+| Jellyfish | Engineering & Business Alignment | https://jellyfish.co/solutions/business-alignment/ | 2026-08-15 |
+
 ---
 
 # Open Questions
@@ -730,3 +750,4 @@ These sources establish market adjacency and feature overlap. They do **not** su
 | Date | Author | Summary |
 |---|---|---|
 | 2026-08-15 | John S. Villasenor / Hermes | Initial exploratory research note testing the Project Intelligence and category hypotheses raised in ACR-003 and the Brainstorms session. |
+| 2026-08-15 | Hermes under explicit Founder direction | Added durable external-source locators, strengthened the capability-matrix provenance warning, and marked the completed backlog action. |
