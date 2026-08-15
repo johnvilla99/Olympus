@@ -17,7 +17,7 @@ This backlog captures unresolved questions that should become formal decisions o
 | Formal identifiers | Stable prefix-based, three-digit identifiers | GDR-001 — Approved / Canonical |
 | Metadata semantics | Status, Authority Level, and Canonical Source are independent dimensions | GDR-005 — Approved / Governing |
 | Authority resolution | One governing Olympus authority hierarchy; lower-authority assets reference it | GDR-006 — Approved / Governing |
-| Active durable repository | `johnvilla99/Olympus`; current active Phase 2 work is on `agent/phase-2-product-definition` | GDR-009 — Approved / Canonical |
+| Active durable repository | `johnvilla99/Olympus` | GDR-009 — Approved / Canonical |
 | Knowledge Asset procedure | Current lifecycle, metadata, placement, and promotion guidance | OLY-GOV-002 — Approved / Advisory |
 | Decision-record procedure | Decision lifecycle, approval capture, and backlog discipline | OLY-GOV-003 — Approved / Governing |
 | Agent discovery | Authority-aware discovery and safe consumption; Phase 1 validation recorded | OLY-GOV-005 — Approved / Advisory; RNO-002 |
@@ -105,3 +105,4 @@ The strongest current product hypothesis is that Olympus may differentiate throu
 | 2026-07-25 | John S. Villasenor | Aligned backlog with approved foundation decisions and OPM-004 roadmap. |
 | 2026-07-27 | Hermes under explicit Founder direction | Resolved OLY-DB-004, authority hierarchy, repository location, and display alias; recorded OLY-DB-009 validation status and routed remaining governance questions. |
 | 2026-08-15 | Hermes under explicit Founder direction | Replaced superseded GDR-007 repository guidance with GDR-009; added OLY-DB-018 through OLY-DB-020 from ACR-003/RNO-003 product discovery. |
+| 2026-08-15 | Hermes under explicit Founder direction | Removed transient feature-branch state from Established Foundation Guidance. |
