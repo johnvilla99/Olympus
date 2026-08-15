@@ -5,7 +5,7 @@ Governance standards for Olympus.
 <!-- OLYMPUS-FOUNDATION-AUTHORITY-START -->
 ## Governing Foundation References
 
-Use [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] for metadata semantics, GDR-006 for authority resolution, GDR-007 for the active repository, GDR-008 for the display alias, and OPM-004 for phase sequencing. Lower-authority material should reference these assets rather than restate their definitions.
+Use [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] for metadata semantics, GDR-006 for authority resolution, [[GDR-009_CANONICAL_REPOSITORY_LOCATION|GDR-009]] for the active repository, GDR-008 for the display alias, and OPM-004 for phase sequencing. Lower-authority material should reference these assets rather than restate their definitions.
 <!-- OLYMPUS-FOUNDATION-AUTHORITY-END -->
 
 ## Standards
