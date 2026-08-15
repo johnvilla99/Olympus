@@ -35,13 +35,13 @@ The active durable repository for Olympus is:
 johnvilla99/Olympus
 ```
 
-The active product-definition workstream is currently on `agent/phase-2-product-definition`. Repository default-branch configuration is an operational setting and does not override this decision.
+Repository branch selection and default-branch configuration are operational state and do not alter this Canonical repository-location decision.
 
 The `e7-jvillasenor/Olympus` repository may remain available as migration or historical context, but it is not the active durable repository for new Olympus work unless a future approved decision changes this designation.
 
 ## Context
 
-GDR-007 designated `e7-jvillasenor/Olympus` as the active repository during an earlier migration effort. Subsequent working practice and explicit Founder direction established that active Olympus development and product-definition work should remain in `johnvilla99/Olympus`, with Cursor's `origin` remote and current Phase 2 branch tracking that repository.
+GDR-007 designated `e7-jvillasenor/Olympus` as the active repository during an earlier migration effort. Subsequent working practice and explicit Founder direction established that active Olympus development and product-definition work should remain in `johnvilla99/Olympus`, with Cursor's `origin` remote tracking that repository.
 
 Continuing to treat the E7 repository as authoritative created split-brain behavior across agents and tooling. This decision removes that ambiguity.
 
@@ -90,3 +90,4 @@ Olympus requires one unambiguous durable repository. The active repository must 
 | Date | Author | Summary |
 |---|---|---|
 | 2026-08-15 | John S. Villasenor / Hermes | Superseded GDR-007 and designated `johnvilla99/Olympus` as the active durable repository. |
+| 2026-08-15 | Hermes under explicit Founder direction | Removed transient branch state from the Canonical decision and clarified that branch selection is operational state. |
