@@ -62,7 +62,7 @@ GDR-004 defines Eunomia as the ecosystem librarian and collection-stewardship ro
 - GDR-004 controls Eunomia’s definition and boundaries.
 - GDR-005 controls metadata semantics.
 - GDR-006 controls authority resolution.
-- GDR-007 controls the active repository location.
+- [[GDR-009_CANONICAL_REPOSITORY_LOCATION|GDR-009]] controls the active repository location and supersedes GDR-007.
 - GDR-008 controls the “Mt. Olympus” display alias.
 - OPM-004 controls phase and gate sequencing.
 
@@ -70,27 +70,36 @@ Lower-authority assets should reference these sources rather than repeat their d
 
 ## Product Positioning
 
-Olympus is a knowledge-continuity system for AI-assisted builders. It should eventually activate governed memory into useful judgment and work products without collapsing into a generic document chatbot.
+Olympus is a knowledge-continuity and judgment system for AI-assisted builders. It should activate governed memory into useful judgment and trustworthy work products without collapsing into a generic document chatbot, engineering dashboard, or document-maintenance tool.
 
-## Current Scope
+ACR-003 explores **Project Intelligence** as a possible market-facing model, and RNO-003 tests that hypothesis against the competitive landscape. Those assets remain Exploratory / Informational. They do not establish approved positioning or commercialization direction.
 
-The current phase is Foundation Closure under [[OPM-004_OLYMPUS_PRODUCT_TO_ARCHITECTURE_ROADMAP|OPM-004]].
+The strongest current Phase 2 differentiation hypothesis is narrower:
 
-In scope:
+> Olympus may create value by combining governed memory with authority-aware judgment: determining what should be trusted, what conflicts, what changed, what prior experience applies, and what human decision is required.
 
-- terminology and identity
-- governance and authority
-- Knowledge Asset definitions
-- lifecycle and promotion procedure
-- repository and source guidance
-- agent discovery and continuity patterns
-- decision backlog and phase gates
+That hypothesis must be validated through the Product Discovery and Definition phase before it becomes product authority.
 
-Out of scope until later phases permit them:
+## Current Phase
+
+Olympus is in **Phase 2: Product Discovery and Definition** under [[OPM-004_OLYMPUS_PRODUCT_TO_ARCHITECTURE_ROADMAP|OPM-004]]. Phase 1 closure and authorization are preserved in `docs/operations/HND-001_OLYMPUS_FOUNDATION_GATE_PACKET.md`.
+
+In current scope:
+
+- product vision and principles
+- stakeholder and user definition
+- priority problems and user journeys
+- product differentiation hypotheses
+- capability prioritization
+- MVP boundary and non-goals
+- success measures and evaluation criteria
+- product requirements sufficient to constrain later architecture
+
+Still out of scope until later phases permit them:
 
 - production application UI
 - database and graph design
-- automation pipelines
+- automation pipelines as implementation
 - API contracts
 - vector-storage or vendor selection
 - architecture implementation
@@ -98,14 +107,16 @@ Out of scope until later phases permit them:
 
 ## Success Criteria
 
-The foundation is strong enough when:
+The foundation remains strong enough when:
 
 - new sessions can orient from governed sources
 - exploratory ideas remain distinct from Approved direction
 - agents can resolve authority safely
 - decision rationale and lessons remain discoverable
 - project-local knowledge is not silently generalized
-- product work can begin without premature architecture
+- product work can proceed without premature architecture
+
+Phase 2 succeeds only when the Product Gate criteria in OPM-004 are satisfied and explicitly approved by John.
 
 ## Guardrail
 
@@ -116,3 +127,4 @@ Do not let Olympus become a cathedral of paperwork. It succeeds only when it red
 | Date | Author | Summary |
 |---|---|---|
 | 2026-07-27 | Hermes under explicit Founder direction | Aligned identity, conceptual model, authority, repository, and phase references to approved foundation decisions. |
+| 2026-08-15 | Hermes under explicit Founder direction | Advanced current-scope language to Phase 2, replaced GDR-007 with GDR-009, and incorporated ACR-003/RNO-003 as exploratory product-positioning evidence without promoting them. |
