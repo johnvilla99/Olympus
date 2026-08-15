@@ -17,9 +17,9 @@
 | Decider / Approver | John S. Villasenor |
 | Created On | 2026-07-27 |
 | Decided On | 2026-07-27 |
-| Last Updated | 2026-07-27 |
+| Last Updated | 2026-08-15 |
 | Review Cadence | As Needed |
-| Related Assets | [[GDR-003_OLYMPUS_CONCEPTUAL_CAPABILITY_MODEL|GDR-003]]; [[GDR-004_EUNOMIA_ECOSYSTEM_STEWARDSHIP_ROLE|GDR-004]]; [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]; [[GDR-007_CANONICAL_REPOSITORY_LOCATION|GDR-007]]; [[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]]; [[OLY-GOV-005_AGENT_KNOWLEDGE_DISCOVERY_STANDARD|OLY-GOV-005]]; [[OPM-001_OLYMPUS_AGENT_OPERATING_MODEL|OPM-001]] |
+| Related Assets | [[GDR-003_OLYMPUS_CONCEPTUAL_CAPABILITY_MODEL|GDR-003]]; [[GDR-004_EUNOMIA_ECOSYSTEM_STEWARDSHIP_ROLE|GDR-004]]; [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]]; [[GDR-009_CANONICAL_REPOSITORY_LOCATION|GDR-009]]; [[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]]; [[OLY-GOV-005_AGENT_KNOWLEDGE_DISCOVERY_STANDARD|OLY-GOV-005]]; [[OPM-001_OLYMPUS_AGENT_OPERATING_MODEL|OPM-001]] |
 | Supersedes | N/A |
 | Superseded By | N/A |
 | AI Consumption | Required |
@@ -85,3 +85,4 @@ Approved through explicit Founder direction in the E7CORE Hermes session on 2026
 | Date | Author | Summary |
 |---|---|---|
 | 2026-07-27 | John S. Villasenor | Approved one Governing Olympus authority hierarchy and the reference-over-repetition rule. |
+| 2026-08-15 | Hermes under explicit Founder direction | Updated the active repository relationship from superseded GDR-007 to GDR-009 without changing the authority hierarchy. |
