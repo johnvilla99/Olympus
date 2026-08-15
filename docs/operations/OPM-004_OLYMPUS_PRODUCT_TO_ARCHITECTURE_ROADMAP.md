@@ -16,9 +16,9 @@
 | Owner | John S. Villasenor |
 | Primary AI Owner | Hermes |
 | Created On | 2026-07-25 |
-| Last Updated | 2026-07-25 |
+| Last Updated | 2026-08-15 |
 | Review Cadence | At each phase gate and whenever scope materially changes |
-| Related Assets | [[GDR-002_OLYMPUS_ECOSYSTEM_IDENTITY_AND_PROJECT_BOUNDARY|GDR-002]]; [[GDR-003_OLYMPUS_CONCEPTUAL_CAPABILITY_MODEL|GDR-003]]; [[GDR-004_EUNOMIA_ECOSYSTEM_STEWARDSHIP_ROLE|GDR-004]]; [[OLY-GOV-001_REPOSITORY_STANDARD|OLY-GOV-001]]; [[OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD|OLY-GOV-002]]; [[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]]; [[OLY-GOV-004_SESSION_CONTINUITY_STANDARD|OLY-GOV-004]]; [[OLY-GOV-005_AGENT_KNOWLEDGE_DISCOVERY_STANDARD|OLY-GOV-005]]; [[OPM-001_OLYMPUS_AGENT_OPERATING_MODEL|OPM-001]]; [[OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW|OPM-002]]; [[OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW|OPM-003]]; [[MT_OLYMPUS_DECISION_BACKLOG|Decision Backlog]] |
+| Related Assets | [[GDR-002_OLYMPUS_ECOSYSTEM_IDENTITY_AND_PROJECT_BOUNDARY|GDR-002]]; [[GDR-003_OLYMPUS_CONCEPTUAL_CAPABILITY_MODEL|GDR-003]]; [[GDR-004_EUNOMIA_ECOSYSTEM_STEWARDSHIP_ROLE|GDR-004]]; [[GDR-009_CANONICAL_REPOSITORY_LOCATION|GDR-009]]; [[OLY-GOV-001_REPOSITORY_STANDARD|OLY-GOV-001]]; [[OLY-GOV-002_KNOWLEDGE_ASSET_STANDARD|OLY-GOV-002]]; [[OLY-GOV-003_DECISION_RECORD_STANDARD|OLY-GOV-003]]; [[OLY-GOV-004_SESSION_CONTINUITY_STANDARD|OLY-GOV-004]]; [[OLY-GOV-005_AGENT_KNOWLEDGE_DISCOVERY_STANDARD|OLY-GOV-005]]; [[OPM-001_OLYMPUS_AGENT_OPERATING_MODEL|OPM-001]]; [[OPM-002_KNOWLEDGE_CAPTURE_WORKFLOW|OPM-002]]; [[OPM-003_DECISION_PROMOTION_APPROVAL_WORKFLOW|OPM-003]]; [[MT_OLYMPUS_DECISION_BACKLOG|Decision Backlog]]; [[ACR-003_OLYMPUS_AS_PROJECT_INTELLIGENCE|ACR-003]]; [[RNO-003_PROJECT_INTELLIGENCE_PRODUCT_HYPOTHESES|RNO-003]]; [[OLYMPUS_PHASE_2_PRODUCT_DEFINITION_BRIEF|Phase 2 Product Definition Brief]] |
 | AI Consumption | Required |
 | Change Impact | High |
 
@@ -129,6 +129,7 @@ Define what the future Olympus application should accomplish, for whom, and with
 - Who are the primary and secondary users?
 - What problems do they experience today?
 - What value must the application create that repositories and chat tools do not provide alone?
+- What differentiated value must Olympus create beyond existing search, documentation, engineering-intelligence, and agent-context products?
 - What is the smallest viable product that proves Olympus application value?
 - What is explicitly outside the MVP?
 - Which workflows remain human-led, become AI-assisted, or may eventually be automated?
@@ -144,12 +145,15 @@ These are discovery subjects, not approved requirements:
 - provenance and relationship visibility;
 - collection-health assessment;
 - conflict, contradiction, and staleness warnings;
+- governed change-impact reasoning;
 - Eunomia stewardship workflows;
 - cross-project knowledge navigation;
 - Metis-supported synthesis and decision support;
 - human approval and escalation;
 - audit history;
 - participating-project onboarding and sovereignty controls.
+
+ACR-003 and RNO-003 may inform Phase 2 discovery, especially around Project Intelligence, Continuous Knowledge Integrity, and governed change-impact reasoning, but they remain Exploratory / Informational and do not create approved product positioning, MVP scope, or architecture.
 
 ## Required Outputs
 
@@ -173,7 +177,8 @@ During Phase 2, participants must not:
 - design databases or APIs;
 - assume each Olympus concept maps to a software service;
 - let architecture convenience redefine product purpose;
-- treat candidate capabilities as approved scope without Founder approval.
+- treat candidate capabilities as approved scope without Founder approval;
+- promote exploratory market or category language into approved product positioning without evidence and Founder approval.
 
 ## Exit Criteria
 
@@ -580,13 +585,17 @@ This roadmap does not:
 - authorize production implementation;
 - instantiate Eunomia, Mnemosyne, Metis, or any Muse as runtime agents or components;
 - decide whether relationships will be graph-based;
-- replace formal Product, Governance, or Architecture Decision Records.
+- replace formal Product, Governance, or Architecture Decision Records;
+- approve Project Intelligence as final market positioning;
+- approve commercialization or a category-creation strategy.
 
 ## Current Position
 
-At approval of this roadmap, Olympus remains in **Phase 1: Foundation Closure**.
+Olympus is now in **Phase 2: Product Discovery and Definition**. Phase 1 Foundation Closure was completed and Founder authorization to enter Phase 2 is preserved in `docs/operations/HND-001_OLYMPUS_FOUNDATION_GATE_PACKET.md`.
 
-The immediate next action is to conduct and document the Foundation Closure Assessment. Product discovery begins only after John approves the Foundation Gate.
+The active Phase 2 working record is `docs/product/OLYMPUS_PHASE_2_PRODUCT_DEFINITION_BRIEF.md`. ACR-003 and RNO-003 are current exploratory inputs that refine differentiation and validation questions without changing the roadmap's phase order or gate authority.
+
+The immediate objective is to produce enough evidence and product definition to support a Product Gate review. Application Governance remains blocked until John explicitly approves progression to Phase 3.
 
 ## Approval Record
 
@@ -600,3 +609,4 @@ The immediate next action is to conduct and document the Foundation Closure Asse
 | Date | Author | Summary |
 |---|---|---|
 | 2026-07-25 | John S. Villasenor | Approved the product-to-architecture roadmap and its phased gate discipline through the proposed technical stack. |
+| 2026-08-15 | Hermes under explicit Founder direction | Updated current position to Phase 2, added GDR-009 and ACR-003/RNO-003 relationships, and clarified governed change-impact and market-evidence discovery without changing phase order or gate discipline. |
