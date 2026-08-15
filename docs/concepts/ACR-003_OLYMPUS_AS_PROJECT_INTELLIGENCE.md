@@ -13,7 +13,7 @@
 | **Status** | Exploratory |
 | **Authority Level** | Informational |
 | **Canonical Source** | No |
-| **Version** | 0.1.0 |
+| **Version** | 0.1.1 |
 | **Owner** | John S. Villasenor |
 | **Primary AI Owner** | Hermes |
 | **Created On** | 2026-08-15 |
@@ -21,7 +21,7 @@
 | **Review Cadence** | As Needed |
 | **AI Consumption** | Recommended |
 | **Change Impact** | High |
-| **Related Assets** | ACR-001; ACR-002; MT_OLYMPUS_FOUNDATION_BRIEF; OLY-GOV-002; OPM-001; OPM-002; OPM-003; RNO-003 |
+| **Related Assets** | ACR-001; ACR-002; GDR-002; GDR-003; MT_OLYMPUS_FOUNDATION_BRIEF; OLY-GOV-002; OPM-001; OPM-002; OPM-003; OPM-004; OLYMPUS_PHASE_2_PRODUCT_DEFINITION_BRIEF; RNO-003 |
 | **Tags** | olympus, project-intelligence, institutional-memory, knowledge-continuity, governance, product-thesis, change-impact, agents |
 
 ---
@@ -178,7 +178,7 @@ A participating project may supply:
 - implementation constraints
 - local lessons and experience
 
-Conceptually:
+Conceptually, and without implying that any named external project currently participates:
 
 ```text
                  Olympus Core
@@ -186,7 +186,7 @@ Conceptually:
                       │
        ┌──────────────┼──────────────┐
        ▼              ▼              ▼
-   CraftHaus       TripNetX      Hobby Brain
+   Project A       Project B      Project C
     Instance        Instance       Instance
        │              │              │
  code / docs /     code / docs /   code / docs /
@@ -194,11 +194,11 @@ Conceptually:
  history           history         history
 ```
 
-This raises a new architectural question that ACR-001 and ACR-002 did not fully resolve:
+This raises a product and later architectural question that ACR-001 and ACR-002 did not fully resolve:
 
 > **What belongs to Olympus itself, and what is configuration or knowledge supplied by an individual project?**
 
-That question should remain open until product and architecture work formally begins.
+That product boundary may be explored during Phase 2 under OLY-DB-020. Mapping that boundary into implementation components remains deferred to the applicable architecture phases under OPM-004.
 
 ---
 
@@ -508,3 +508,4 @@ See **RNO-003 — Project Intelligence Product Hypotheses and Competitive Landsc
 | Version | Date | Change |
 |---|---|---|
 | 0.1.0 | 2026-08-15 | Initial exploratory concept record created from the Brainstorms session and comparison against ACR-001, ACR-002, and current Olympus governance/operating assets. |
+| 0.1.1 | 2026-08-15 | Aligned the exploratory Core/Instance example with GDR-002, updated Phase 2 timing language, and added current controlling related assets. |
