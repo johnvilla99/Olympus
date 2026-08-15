@@ -13,7 +13,10 @@ Use [[GDR-005_KNOWLEDGE_ASSET_AUTHORITY_SEMANTICS|GDR-005]] for metadata semanti
 - RNO-001 — Olympus Babble Fish terminology reference
 - RNO-002 — OLY-GOV-005 Practical Validation
 - RNO-003 — Project Intelligence Product Hypotheses and Competitive Landscape
+- RNO-004 — Olympus Authority-Aware Judgment Validation Protocol
 
 RNO-003 is a Phase 2 exploratory research input. It weakens a broad "new category" claim and identifies governed memory, explicit authority, decision/lesson lifecycle, change impact, and judgment across project history as the strongest current differentiation hypothesis. It does not approve positioning, commercialization, MVP scope, or architecture.
+
+RNO-004 is the Draft / Informational reusable validation protocol for testing whether authority-aware governed reasoning materially outperforms generic AI and retrieval baselines over the same bounded evidence. It defines experiment integrity, scoring, critical failures, and the planned 01A through 01C validation sequence. It does not approve product requirements, MVP scope, architecture, or Product Gate progression.
 
 Research is evidence, not a decision. Research remains cross-cutting and may identify relevant Muse lenses. Any authority or lifecycle change requires the applicable decision and approval workflow.
