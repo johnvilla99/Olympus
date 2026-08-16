@@ -176,6 +176,8 @@ A decision brief should help a collaborator understand:
 - the human decision or approval required;
 - source lineage and citations.
 
+The brief should use progressive disclosure rather than attempt to exhaust every possible question in the initial response. Its first three sentences should communicate the decision state, the most material governing fact, conflict, risk, or evidence consideration, and the human decision or next action required. The remaining brief should provide enough decision-relevant evidence and explanation to support deeper or clarifying follow-up without becoming a long-form report by default.
+
 ### 7.2 Supporting work products
 
 1. **Instant Project Orientation Brief** — Rapidly establishes project purpose, phase, decisions, constraints, ownership, unresolved questions, risks, recent changes, and next actions.
@@ -215,16 +217,20 @@ These capabilities are discovery candidates, not approved requirements.
 - Source citation and provenance visibility
 - Status and Authority Level interpretation
 - Scope and project-boundary awareness
+- Multi-layer authority reasoning across Olympus, organizational, project-governance, and project-knowledge scopes
 - Conflict, contradiction, and staleness detection
 - Explanation of authority preference and source applicability
+- Evidence-bounded reasoning with confidence proportional to available evidence quality and authority
 - Assumption and evidence-gap labeling
 - Human approval and escalation identification
 
 ### 9.3 Supporting knowledge capabilities
 
 - Knowledge Asset discovery
-- Relationship navigation
+- Artifact Graph construction and use within authorized scope
+- Relationship navigation, including governance, dependency, supersession, conflict, applicability, and related-context relationships
 - Limited intake or registration necessary to support the flagship workflow
+- Progressive enrichment as additional authorized evidence becomes available
 - Collection-health signals necessary to warn about unreliable outputs
 - Identification of possibly affected governed knowledge after material change
 
@@ -237,7 +243,7 @@ These capabilities are discovery candidates, not approved requirements.
 - Broad participating-project onboarding
 - Broad integration marketplace or universal tool coverage
 - Dashboard-first product experience
-- Graph technology as a product requirement
+- Any specific graph storage, database, or visualization technology as a product requirement
 - Application governance implementation
 - Technical architecture or stack choices
 
@@ -245,16 +251,20 @@ These capabilities are discovery candidates, not approved requirements.
 
 ### 10.1 Candidate MVP outcome
 
-The smallest useful proof should demonstrate that Olympus can take a bounded, governed source set and produce a trustworthy decision-ready work product that applies authority correctly, cites its evidence, surfaces conflicts and gaps, preserves human approval boundaries, and provides more useful governed judgment than generic retrieval or ungoverned AI context alone.
+The smallest useful proof should demonstrate that Olympus can use the authorized evidence available for a project scope, including a usable Artifact Graph of governed relationships, and produce a concise, trustworthy decision-ready work product that applies authority correctly, cites its evidence, surfaces visible conflicts and gaps, preserves human approval boundaries, and provides more useful governed judgment than generic retrieval or ungoverned AI context alone.
 
 ### 10.2 Candidate MVP scope
 
 - A small group of trusted E7CORE collaborators
 - One or more explicitly authorized project knowledge scopes
+- A usable Artifact Graph representing governed relationships within the authorized scope
 - Authority-Aware Decision Brief as the flagship work product
+- Progressive-disclosure output with the decision state understandable within the first three sentences
 - Project Orientation Brief and Cross-Project Lessons Review as supporting outputs or sections
 - A bounded Governed Change Impact Review experiment using real project changes
+- Multi-layer authority reasoning across Olympus, customer or organizational, project-governance, and project-specific knowledge scopes
 - Authority-aware source interpretation
+- Evidence-bounded reasoning using only available authorized evidence, with inference and uncertainty made explicit
 - Citations and provenance
 - Explicit conflict, assumption, and evidence-gap reporting
 - Explanation of authority preference and applicability
@@ -274,7 +284,7 @@ The smallest useful proof should demonstrate that Olympus can take a bounded, go
 - Autonomous contradiction resolution
 - Autonomous Authority Level or Status changes
 - Full stewardship automation
-- Production architecture, database, API, or technical-stack design
+- Production architecture, database, API, graph-storage, or technical-stack design
 - Rebuilding or refactoring TripnetX as part of the Olympus product-definition phase
 - Treating every Olympus conceptual role as a software service or AI agent
 - Claiming a new market category before customer evidence supports it
@@ -339,6 +349,10 @@ The following requirements are provisional and must be refined into testable pro
 | CPR-13 | Olympus should explain why a source governs, applies, conflicts, or should be treated as lower-authority context rather than only returning the source. | Candidate |
 | CPR-14 | Given a bounded material project change, Olympus should identify potentially affected governed knowledge and provide source-grounded impact rationale without automatically modifying governed assets. | Candidate |
 | CPR-15 | Olympus should distinguish an observed change from the meaning or consequence inferred from that change and label uncertainty accordingly. | Candidate |
+| CPR-16 | Olympus should maintain and use an Artifact Graph within each authorized scope that represents governed relationships among Knowledge Assets and enables discovery of applicable product definitions, decisions, standards, constraints, current-state knowledge, supersession, conflicts, dependencies, and related context. The Artifact Graph is a product capability, not a commitment to any specific graph technology or storage architecture. | Candidate |
+| CPR-17 | Olympus should reason across multiple authority scopes, including Olympus governance, customer or organizational governance, project governance, and project-specific knowledge. It should determine applicability, inheritance, approved exceptions, and scope without treating Olympus operating governance as authority over customer or project decisions. | Candidate |
+| CPR-18 | The Authority-Aware Decision Brief should use progressive disclosure. Its first three sentences should communicate the decision state, the most material governing fact, conflict, risk, or evidence consideration, and the human decision or next action required. Additional detail should remain concise and support deeper follow-up rather than attempt to answer every possible question in the initial brief. | Candidate |
+| CPR-19 | Olympus should reason only from the authorized evidence available to it, make confidence proportional to the quality and authority of that evidence, distinguish source-derived evidence from inference, surface visible conflicts, gaps, and uncertainty, and avoid implying knowledge beyond the evidence scope available to it. | Candidate |
 
 The `CPR-*` labels are local table identifiers only. They are not Knowledge Asset IDs and do not amend [[GDR-001_OLYMPUS_ID_CONVENTION|GDR-001]].
 
@@ -370,11 +384,11 @@ Targets, baselines, evaluation methods, and acceptance thresholds remain open.
 | Stakeholder and user definitions | Initial primary user defined | Secondary users, stakeholders, responsibilities, and boundaries |
 | Problem statements | Initial priority problems defined | Refined problem statements with evidence and scope |
 | User journeys | Initial journey hypothesis drafted | Validated priority journeys and exception paths |
-| Capability map | Candidate map refined around governed judgment | Prioritization and approval of MVP-relevant capabilities |
+| Capability map | Candidate map refined around governed judgment, Artifact Graph use, multi-layer authority, and evidence-bounded reasoning | Prioritization and approval of MVP-relevant capabilities |
 | MVP definition | Preliminary boundary narrowed around decision value and governed judgment | Explicit Founder approval |
 | Non-goals | Preliminary non-goals expanded to protect against category/integration drift | Explicit Founder approval |
 | Success measures | Candidate measures expanded with authority explanation and change-impact quality | Definitions, targets, test method, and prioritization |
-| Product requirements | Candidate requirements expanded through CPR-15 | Refinement into sufficient, testable requirements that constrain architecture |
+| Product requirements | Candidate requirements expanded through CPR-19 | Refinement into sufficient, testable requirements that constrain architecture |
 | Market/differentiation evidence | RNO-003 completed initial landscape review | Customer/problem validation and stronger evidence before positioning decisions |
 | PDRs as needed | None created for Phase 2 yet | Create only where durable product decisions require formal records |
 
@@ -393,7 +407,7 @@ Targets, baselines, evaluation methods, and acceptance thresholds remain open.
 
 1. Who are the secondary users and non-user stakeholders?
 2. Which two or three user journeys must the MVP support end to end?
-3. What minimum authorized source set is required for a trustworthy decision brief?
+3. What authorized evidence sources and Artifact Graph relationships must the first MVP be able to use?
 4. What makes an Authority-Aware Decision Brief acceptable, excellent, or unsafe?
 5. Which capabilities are mandatory for the MVP versus deferred?
 6. What explicit non-goals are necessary to protect scope?
@@ -405,6 +419,7 @@ Targets, baselines, evaluation methods, and acceptance thresholds remain open.
 12. What evidence is required before the Product Gate can be approved?
 13. What customer evidence is required before OLY-DB-018 or OLY-DB-019 can be promoted into a product decision?
 14. What belongs in Olympus Core versus a project-specific instance under OLY-DB-020?
+15. How should Olympus seed and progressively maintain a trustworthy Artifact Graph when participating repositories and evidence sources are incomplete, inconsistent, or largely unstructured?
 
 ## 17. Explicitly Deferred Product Claims
 
@@ -443,3 +458,4 @@ Repository persistence, commit, merge, or publication of this Draft does not con
 |---|---|---|
 | 2026-07-29 | Hermes / Hephaestus workflow | Created the Phase 2 working brief from Founder-confirmed discovery and OPM-004 requirements; retained Draft / Advisory status. |
 | 2026-08-15 | Hermes under explicit Founder direction | Incorporated ACR-003 and RNO-003, narrowed the differentiation hypothesis toward governed memory plus authority-aware judgment, added governed change-impact validation, expanded non-goals and candidate requirements, and preserved all product/market claims as unapproved until Product Gate evidence supports them. |
+| 2026-08-15 | Hermes under explicit Founder direction | Added CPR-16 through CPR-19 for Artifact Graph use, multi-layer authority reasoning, progressive-disclosure decision briefs, and evidence-bounded reasoning; aligned the capability map, MVP boundary, open questions, and output tracker while preserving Draft / Advisory status and deferring implementation architecture. |
