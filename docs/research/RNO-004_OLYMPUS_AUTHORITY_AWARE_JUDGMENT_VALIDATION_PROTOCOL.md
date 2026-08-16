@@ -325,24 +325,43 @@ This protocol does not prescribe a database or application implementation for ev
 
 ## 15. Initial Validation Sequence
 
+The sequence below describes the intended validation progression. It does not require the full evaluation set to be constructed during early Product Definition.
+
 ### Experiment 01A: Authority Interpretation
 
-Begin with a compact evaluation set of approximately 8 to 12 questions designed to isolate authority-aware reasoning.
+When Olympus has a sufficiently bounded authority-aware product behavior to evaluate, construct a compact evaluation set of approximately 8 to 12 questions designed to isolate authority-aware reasoning.
 
-Candidate Olympus-native cases include:
+The full case set, source manifests, prompts, and answer keys should be frozen only immediately before execution under the experiment-integrity rules in this protocol.
 
-- GDR-007 versus GDR-009 repository authority;
-- ACR-003 versus approved product authority;
-- GDR-006 authority hierarchy versus lower-authority discovery guidance;
-- Olympus versus Hobby Brain boundary;
-- the false proposition that commit or push equals approval;
-- Approved / Advisory versus Canonical authority;
-- a Draft Product Definition Brief containing Founder-confirmed direction;
-- project-local knowledge versus portfolio-wide authority;
-- a superseded decision that remains highly relevant historically;
-- a research note whose evidence is useful but non-binding.
+### Illustrative Validation Candidates, Not Frozen Test Cases
 
-The goal is to test authority correctness and explanation before introducing broader product ambiguity.
+The following examples are preserved now only as candidate seeds. They are not finalized prompts, do not have frozen source manifests, and do not constitute pre-registered answer keys.
+
+#### Candidate A: Supersession and Current Authority
+
+**Illustrative question:** Which repository is the active durable Olympus repository, and what role does GDR-007 still play?
+
+**Behavior this may later test:** Recognize GDR-009 as the current Canonical repository-location authority while preserving GDR-007 as superseded historical context. Do not confuse continued relevance with current authority.
+
+**Why preserve it:** It isolates lifecycle, supersession, historical relevance, and current-authority selection.
+
+#### Candidate B: Exploratory Product Language Versus Approved Direction
+
+**Illustrative question:** Is "Project Intelligence" the approved Olympus product positioning?
+
+**Behavior this may later test:** Treat ACR-003 and RNO-003 as relevant Exploratory / Informational evidence, not approved positioning; distinguish them from Founder-confirmed Phase 2 direction and any future approved Product Decision.
+
+**Why preserve it:** It tests a central Olympus risk: persuasive exploratory language silently becoming authority through repetition.
+
+#### Candidate C: Persistence Versus Approval
+
+**Illustrative question:** If an Olympus artifact was committed and pushed to GitHub, is its content therefore approved?
+
+**Behavior this may later test:** Answer no; distinguish repository persistence from lifecycle or authority approval; inspect the asset's actual Status, Authority Level, Canonical Source posture, and required human approval.
+
+**Why preserve it:** It is a simple, high-value test of whether an AI confuses technical persistence with governance authority.
+
+These candidates are intentionally incomplete. Do not finalize their wording, source bundles, scoring keys, or expected-answer details until the first bounded Olympus product behavior has been defined and the evaluation is ready to be designed.
 
 ### Experiment 01B: Decision-Ready Brief
 
@@ -455,9 +474,11 @@ RNO-004 does not decide:
 
 ## 20. Next Action
 
-Prepare the Experiment 01A authority-evaluation set and its pre-registered answer key before executing any model condition.
+Continue Phase 2 Product Definition to establish the first bounded Olympus behavior worth validating.
 
-Do not run Condition A, B, or C until the cases, source manifests, prompts, and answer key are frozen.
+Preserve the illustrative candidate cases in Section 15 as future evaluation seeds. Do not construct or freeze the full Experiment 01A evaluation set until the first bounded product behavior is sufficiently defined.
+
+Once that behavior is defined, construct and freeze the applicable cases, source manifests, prompts, and answer key before running Condition A, B, or C.
 
 ---
 
@@ -466,3 +487,4 @@ Do not run Condition A, B, or C until the cases, source manifests, prompts, and 
 | Date | Author | Summary |
 |---|---|---|
 | 2026-08-15 | Hermes under explicit Founder direction | Created the Draft / Informational authority-aware judgment validation protocol for Phase 2. |
+| 2026-08-15 | Hermes under explicit Founder direction | Preserved three illustrative validation candidates, clarified that they are not frozen test cases, and deferred full Experiment 01A construction until a bounded product behavior is defined. |
